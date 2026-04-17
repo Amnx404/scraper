@@ -4,8 +4,6 @@ base_urls:
   - https://github.com/xyz/
 
 output_dir: output
-format: jsonlines   # jsonlines | json | csv
 max_pages: 500
 delay: 0.5          # seconds between requests
-obey_robots: true
 user_agent: python-domain-scraper/1.0
