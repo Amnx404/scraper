@@ -84,11 +84,11 @@ def main() -> None:
 
     cfg = load_config(config_path)
 
-    if not cfg.get("urls"):
-        print("No URLs specified in config.")
+    if not cfg.get("base_urls"):
+        print("No base_urls specified in config.")
         sys.exit(1)
 
-    prefixes = [make_prefix(u) for u in cfg["urls"]]
+    prefixes = [make_prefix(u) for u in cfg["base_urls"]]
     ext = {"jsonlines": "jsonl", "json": "json", "csv": "csv"}[cfg["format"]]
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 

@@ -1,4 +1,5 @@
-urls:
+# Only pages whose URL starts with a base_url will be scraped
+base_urls:
   - https://example.com/docs/
   - https://github.com/xyz/
 
