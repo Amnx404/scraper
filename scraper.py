@@ -1,142 +1,134 @@
 """
 Domain scraper: crawls all pages reachable under a given URL prefix.
+Uses Scrapy for the crawl engine. Results are saved to output/<domain>/
 
 Usage:
     python scraper.py <url> [<url> ...] [options]
 
-Example:
-    python scraper.py https://example.com/docs/ --max-pages 100 --output results.json
+Examples:
+    python scraper.py https://example.com/docs/
+    python scraper.py https://github.com/xyz/ --max-pages 200 --delay 1.0
+    python scraper.py https://a.com/x/ https://b.com/y/ --output-dir my_results
 """
 
 import argparse
-import json
-import logging
-import sys
-import time
-from collections import deque
-from urllib.parse import urljoin, urlparse, urldefrag
+import os
+import re
+from datetime import datetime
+from urllib.parse import urldefrag, urlparse, urljoin
 
-import requests
-from bs4 import BeautifulSoup
-
-logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-log = logging.getLogger(__name__)
+import scrapy
+from scrapy.crawler import CrawlerProcess
 
 
 def normalize(url: str) -> str:
-    """Strip fragment, trailing slash-normalise, lowercase scheme+host."""
     url, _ = urldefrag(url)
-    parsed = urlparse(url)
-    # Lowercase scheme and host, keep path as-is
-    return parsed._replace(scheme=parsed.scheme.lower(), netloc=parsed.netloc.lower()).geturl()
+    p = urlparse(url)
+    return p._replace(scheme=p.scheme.lower(), netloc=p.netloc.lower()).geturl()
 
 
-def is_within_prefix(url: str, prefix: str) -> bool:
-    """Return True if url starts with the given prefix (scheme+host+path)."""
-    return normalize(url).startswith(prefix)
+def make_prefix(url: str) -> str:
+    """Return a prefix that ends with '/' so path boundaries are respected."""
+    norm = normalize(url)
+    p = urlparse(norm)
+    last_segment = p.path.rstrip("/").split("/")[-1]
+    # If last segment has no extension it's likely a directory; add trailing slash
+    if "." not in last_segment:
+        norm = norm.rstrip("/") + "/"
+    return norm
 
 
-def scrape(
-    base_urls: list[str],
-    max_pages: int = 500,
-    delay: float = 0.5,
-    timeout: int = 10,
-    user_agent: str = "python-domain-scraper/1.0",
-) -> dict[str, dict]:
-    """
-    Crawl each base URL and every reachable link that shares its prefix.
+def slug(url: str) -> str:
+    """Turn a URL into a safe directory name."""
+    p = urlparse(url)
+    base = p.netloc + p.path.rstrip("/")
+    return re.sub(r"[^\w\-]", "_", base).strip("_")
 
-    Returns a dict keyed by URL with keys:
-        status_code, title, links_found, error
-    """
-    session = requests.Session()
-    session.headers["User-Agent"] = user_agent
 
-    results: dict[str, dict] = {}
+class PrefixSpider(scrapy.Spider):
+    name = "prefix_spider"
 
-    for base_url in base_urls:
-        if not base_url.startswith(("http://", "https://")):
-            base_url = "https://" + base_url
+    custom_settings = {
+        "ROBOTSTXT_OBEY": True,
+        "USER_AGENT": "python-domain-scraper/1.0",
+        "HTTPCACHE_ENABLED": False,
+        "LOG_LEVEL": "INFO",
+        "AUTOTHROTTLE_ENABLED": True,
+    }
 
-        prefix = normalize(base_url)
-        # Ensure prefix ends with / so startswith works for path boundaries
-        if not urlparse(prefix).path.endswith("/") and "." not in urlparse(prefix).path.split("/")[-1]:
-            prefix = prefix.rstrip("/") + "/"
+    def __init__(self, start_urls, prefixes, feeds, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+        self.start_urls = start_urls
+        self.prefixes = prefixes
+        self.custom_settings = {**self.custom_settings, "FEEDS": feeds}
 
-        log.info("Starting crawl of prefix: %s", prefix)
-        queue: deque[str] = deque([prefix])
-        visited: set[str] = set()
+    def parse(self, response):
+        url = normalize(response.url)
 
-        while queue and len(results) < max_pages:
-            url = queue.popleft()
-            norm = normalize(url)
+        # Only emit items for pages that are within a watched prefix
+        if not any(url.startswith(p) for p in self.prefixes):
+            return
 
-            if norm in visited:
-                continue
-            if not is_within_prefix(norm, prefix):
-                continue
+        yield {
+            "url": url,
+            "status": response.status,
+            "title": (response.css("title::text").get() or "").strip(),
+            "h1": [h.strip() for h in response.css("h1::text").getall() if h.strip()],
+            "links": [
+                normalize(urljoin(url, href))
+                for href in response.css("a::attr(href)").getall()
+            ],
+            "scraped_at": datetime.utcnow().isoformat(),
+        }
 
-            visited.add(norm)
-            log.info("[%d] Fetching %s", len(results) + 1, norm)
-
-            entry: dict = {"status_code": None, "title": None, "links_found": [], "error": None}
-
-            try:
-                resp = session.get(norm, timeout=timeout, allow_redirects=True)
-                entry["status_code"] = resp.status_code
-
-                if resp.status_code == 200 and "text/html" in resp.headers.get("Content-Type", ""):
-                    soup = BeautifulSoup(resp.text, "html.parser")
-
-                    title_tag = soup.find("title")
-                    entry["title"] = title_tag.get_text(strip=True) if title_tag else None
-
-                    for tag in soup.find_all("a", href=True):
-                        href = tag["href"].strip()
-                        absolute = normalize(urljoin(norm, href))
-                        if is_within_prefix(absolute, prefix) and absolute not in visited:
-                            entry["links_found"].append(absolute)
-                            queue.append(absolute)
-
-                    # Deduplicate links_found list
-                    entry["links_found"] = list(dict.fromkeys(entry["links_found"]))
-
-            except requests.RequestException as exc:
-                entry["error"] = str(exc)
-                log.warning("Error fetching %s: %s", norm, exc)
-
-            results[norm] = entry
-            time.sleep(delay)
-
-    log.info("Crawl complete. %d pages scraped.", len(results))
-    return results
+        for href in response.css("a::attr(href)").getall():
+            abs_url = normalize(urljoin(url, href))
+            if any(abs_url.startswith(p) for p in self.prefixes):
+                yield response.follow(abs_url, callback=self.parse)
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Scrape all pages under one or more URL prefixes.")
-    parser.add_argument("urls", nargs="+", help="Base URL(s) to scrape, e.g. https://example.com/docs/")
-    parser.add_argument("--max-pages", type=int, default=500, help="Maximum total pages to scrape (default: 500)")
-    parser.add_argument("--delay", type=float, default=0.5, help="Seconds to wait between requests (default: 0.5)")
-    parser.add_argument("--timeout", type=int, default=10, help="Request timeout in seconds (default: 10)")
-    parser.add_argument("--output", default="-", help="Output file path (default: stdout)")
-    parser.add_argument("--user-agent", default="python-domain-scraper/1.0", help="User-Agent header")
+    parser = argparse.ArgumentParser(
+        description="Scrape all pages under one or more URL prefixes.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=__doc__,
+    )
+    parser.add_argument("urls", nargs="+", help="Base URL(s) to scrape")
+    parser.add_argument("--max-pages", type=int, default=500, help="Max pages total (default: 500)")
+    parser.add_argument("--delay", type=float, default=0.5, help="Download delay in seconds (default: 0.5)")
+    parser.add_argument("--output-dir", default="output", help="Directory to write results (default: output/)")
+    parser.add_argument("--format", choices=["jsonlines", "json", "csv"], default="jsonlines",
+                        help="Output format (default: jsonlines)")
     args = parser.parse_args()
 
-    results = scrape(
-        base_urls=args.urls,
-        max_pages=args.max_pages,
-        delay=args.delay,
-        timeout=args.timeout,
-        user_agent=args.user_agent,
-    )
+    start_urls = []
+    prefixes = []
+    for url in args.urls:
+        if not url.startswith(("http://", "https://")):
+            url = "https://" + url
+        prefix = make_prefix(url)
+        start_urls.append(prefix)
+        prefixes.append(prefix)
 
-    output = json.dumps(results, indent=2)
-    if args.output == "-":
-        print(output)
-    else:
-        with open(args.output, "w") as fh:
-            fh.write(output)
-        log.info("Results written to %s", args.output)
+    # Build a FEEDS dict: one file per input URL, inside output/<slug>/
+    ext = {"jsonlines": "jsonl", "json": "json", "csv": "csv"}[args.format]
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    feeds = {}
+    for prefix in prefixes:
+        folder = os.path.join(args.output_dir, slug(prefix))
+        os.makedirs(folder, exist_ok=True)
+        path = os.path.join(folder, f"{timestamp}.{ext}")
+        feeds[path] = {"format": args.format}
+        print(f"  Output -> {path}")
+
+    process = CrawlerProcess(settings={
+        "CLOSESPIDER_PAGECOUNT": args.max_pages,
+        "DOWNLOAD_DELAY": args.delay,
+        "AUTOTHROTTLE_ENABLED": True,
+    })
+
+    process.crawl(PrefixSpider, start_urls=start_urls, prefixes=prefixes, feeds=feeds)
+    process.start()
 
 
 if __name__ == "__main__":
