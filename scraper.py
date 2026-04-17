@@ -1,12 +1,14 @@
+import json
 import os
 import re
 import sys
+import time
+from collections import deque
 from datetime import datetime
 from urllib.parse import urldefrag, urljoin, urlparse
 
-import scrapy
 import yaml
-from scrapy.crawler import CrawlerProcess
+from firecrawl import Firecrawl
 
 
 def normalize(url: str) -> str:
@@ -31,48 +33,15 @@ def slug(url: str) -> str:
     return re.sub(r"[^\w\-]", "_", base).strip("_")
 
 
-class PrefixSpider(scrapy.Spider):
-    name = "prefix_spider"
-
-    def __init__(self, start_urls, prefixes, feeds, settings_override, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.start_urls = start_urls
-        self.prefixes = prefixes
-        self.custom_settings = {**settings_override, "FEEDS": feeds}
-
-    def parse(self, response):
-        url = normalize(response.url)
-        if not any(url.startswith(p) for p in self.prefixes):
-            return
-
-        yield {
-            "url": url,
-            "status": response.status,
-            "title": (response.css("title::text").get() or "").strip(),
-            "h1": [h.strip() for h in response.css("h1::text").getall() if h.strip()],
-            "links": [normalize(urljoin(url, h)) for h in response.css("a::attr(href)").getall()],
-            "scraped_at": datetime.utcnow().isoformat(),
-        }
-
-        for href in response.css("a::attr(href)").getall():
-            abs_url = normalize(urljoin(url, href))
-            if any(abs_url.startswith(p) for p in self.prefixes):
-                yield response.follow(abs_url, callback=self.parse)
-
-
 def load_config(path: str) -> dict:
     with open(path) as f:
         cfg = yaml.safe_load(f)
-
-    defaults = {
+    return {
         "output_dir": "output",
-        "format": "jsonlines",
         "max_pages": 500,
         "delay": 0.5,
-        "obey_robots": True,
-        "user_agent": "python-domain-scraper/1.0",
+        **cfg,
     }
-    return {**defaults, **cfg}
 
 
 def main() -> None:
@@ -88,36 +57,62 @@ def main() -> None:
         print("No base_urls specified in config.")
         sys.exit(1)
 
-    prefixes = [make_prefix(u) for u in cfg["base_urls"]]
-    ext = {"jsonlines": "jsonl", "json": "json", "csv": "csv"}[cfg["format"]]
+    if not cfg.get("api_key"):
+        print("No api_key specified in config.")
+        sys.exit(1)
+
+    app = Firecrawl(api_key=cfg["api_key"])
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
-    feeds = {}
-    for prefix in prefixes:
+    for base_url in cfg["base_urls"]:
+        prefix = make_prefix(base_url)
         folder = os.path.join(cfg["output_dir"], slug(prefix))
         os.makedirs(folder, exist_ok=True)
-        path = os.path.join(folder, f"{timestamp}.{ext}")
-        feeds[path] = {"format": cfg["format"]}
-        print(f"Output -> {path}")
+        out_path = os.path.join(folder, f"{timestamp}.jsonl")
 
-    scrapy_settings = {
-        "ROBOTSTXT_OBEY": cfg["obey_robots"],
-        "USER_AGENT": cfg["user_agent"],
-        "DOWNLOAD_DELAY": cfg["delay"],
-        "CLOSESPIDER_PAGECOUNT": cfg["max_pages"],
-        "AUTOTHROTTLE_ENABLED": True,
-        "LOG_LEVEL": "INFO",
-    }
+        print(f"\nCrawling: {prefix}")
+        print(f"Output:   {out_path}")
 
-    process = CrawlerProcess()
-    process.crawl(
-        PrefixSpider,
-        start_urls=prefixes,
-        prefixes=prefixes,
-        feeds=feeds,
-        settings_override=scrapy_settings,
-    )
-    process.start()
+        queue: deque[str] = deque([prefix])
+        visited: set[str] = set()
+
+        with open(out_path, "w") as fh:
+            while queue and len(visited) < cfg["max_pages"]:
+                url = queue.popleft()
+                norm = normalize(url)
+
+                if norm in visited or not norm.startswith(prefix):
+                    continue
+                visited.add(norm)
+
+                print(f"  [{len(visited)}] {norm}")
+                try:
+                    data = app.scrape(
+                        norm,
+                        only_main_content=False,
+                        formats=["markdown", "links"],
+                    )
+
+                    for link in data.get("links", []):
+                        abs_link = normalize(link if link.startswith("http") else urljoin(norm, link))
+                        if abs_link.startswith(prefix) and abs_link not in visited:
+                            queue.append(abs_link)
+
+                    fh.write(json.dumps({
+                        "url": norm,
+                        "markdown": data.get("markdown"),
+                        "metadata": data.get("metadata", {}),
+                        "links": data.get("links", []),
+                        "scraped_at": datetime.utcnow().isoformat(),
+                    }) + "\n")
+                    fh.flush()
+
+                except Exception as e:
+                    print(f"  Error: {e}")
+
+                time.sleep(cfg["delay"])
+
+        print(f"Done. {len(visited)} pages scraped.")
 
 
 if __name__ == "__main__":

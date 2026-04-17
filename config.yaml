@@ -1,11 +1,10 @@
+api_key: fc-ea688d92f861449689d7a5bcc8e85727
+
 # Only pages whose URL starts with a base_url will be scraped
 base_urls:
   - https://example.com/docs/
   - https://github.com/xyz/
 
 output_dir: output
-format: jsonlines   # jsonlines | json | csv
 max_pages: 500
 delay: 0.5          # seconds between requests
-obey_robots: true
-user_agent: python-domain-scraper/1.0
