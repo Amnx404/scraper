@@ -3,7 +3,7 @@
 Simple chat interface that:
 
 - stacks chat messages in-session,
-- persists chat history locally in `demo/chat_history.json`,
+- keeps chat history per browser session,
 - retrieves context from Pinecone,
 - sends the conversation + retrieved context to OpenRouter for answers,
 - only answers questions related to RoboRacer / F1TENTH,

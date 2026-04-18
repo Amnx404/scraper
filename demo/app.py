@@ -15,7 +15,6 @@ OPENROUTER_MODEL = os.getenv("OPENROUTER_MODEL", "openai/gpt-4o-mini")
 PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
 PINECONE_INDEX_HOST = os.getenv("PINECONE_INDEX_HOST")
 PINECONE_NAMESPACE = os.getenv("PINECONE_NAMESPACE", "__default__")
-HISTORY_FILE = os.path.join(os.path.dirname(__file__), "chat_history.json")
 SEARCH_QUERY_LIMIT = max(1, int(os.getenv("SEARCH_QUERY_LIMIT", "2")))
 RETRIEVE_TOP_K_PER_QUERY = max(1, int(os.getenv("RETRIEVE_TOP_K_PER_QUERY", "10")))
 
@@ -42,30 +41,6 @@ def validate_env() -> None:
     if missing:
         st.error(f"Missing environment variables in demo/.env: {', '.join(missing)}")
         st.stop()
-
-
-def load_local_history() -> list[dict[str, str]]:
-    if not os.path.exists(HISTORY_FILE):
-        return []
-    try:
-        with open(HISTORY_FILE) as f:
-            data = json.load(f)
-        if isinstance(data, list):
-            cleaned = []
-            for item in data:
-                role = item.get("role")
-                content = item.get("content")
-                if role in {"user", "assistant"} and isinstance(content, str):
-                    cleaned.append({"role": role, "content": content})
-            return cleaned
-    except Exception:
-        return []
-    return []
-
-
-def save_local_history(messages: list[dict[str, str]]) -> None:
-    with open(HISTORY_FILE, "w") as f:
-        json.dump(messages, f, indent=2)
 
 
 @st.cache_resource(show_spinner=False)
@@ -292,20 +267,16 @@ def main() -> None:
     validate_env()
     col1, col2 = st.columns([1, 1])
     with col1:
-        if st.button("Clear local history"):
-            if os.path.exists(HISTORY_FILE):
-                os.remove(HISTORY_FILE)
+        if st.button("Clear chat"):
             st.session_state.messages = [
-                {"role": "assistant", "content": "History cleared. Ask about RoboRacer/F1TENTH."}
+                {"role": "assistant", "content": "Chat cleared. Ask about RoboRacer/F1TENTH."}
             ]
-            save_local_history(st.session_state.messages)
             st.rerun()
     with col2:
-        st.caption(f"History file: `{os.path.basename(HISTORY_FILE)}`")
+        st.caption("History scope: current browser session")
 
     if "messages" not in st.session_state:
-        history = load_local_history()
-        st.session_state.messages = history if history else [
+        st.session_state.messages = [
             {"role": "assistant", "content": "Ask me anything about the RoboRacer and F1TENTH stack."}
         ]
 
@@ -318,7 +289,6 @@ def main() -> None:
         return
 
     st.session_state.messages.append({"role": "user", "content": question})
-    save_local_history(st.session_state.messages)
     with st.chat_message("user"):
         st.markdown(question)
 
@@ -375,7 +345,6 @@ def main() -> None:
             placeholder.markdown(answer)
 
         st.session_state.messages.append({"role": "assistant", "content": answer})
-        save_local_history(st.session_state.messages)
 
 
 if __name__ == "__main__":
