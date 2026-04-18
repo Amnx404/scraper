@@ -1,0 +1,32 @@
+{
+  "url": "https://ahmadamine998.github.io/ESE6150-Website/assignments/06_RRT",
+  "source": "https://ahmadamine998.github.io/ESE6150-Website/schedule/",
+  "markdown": "![](/ESE6150-Website/images/logo.png) | [University of Pennsylvania](https://www.ese.upenn.edu/)   \n[**ESE6150: RoboRacer Autonomous Racing Cars**](/ESE6150-Website/ \"ESE6150: RoboRacer Autonomous Racing Cars / Spring 2024 - University of Pennsylvania\")   \nSpring 2024  \n---|---  \n  \n# Lab 6: Motion Planning\n\nReleased on Monday 03/11/2024\n\nDue Date: 23:59\n\nDownload [[github](https://github.com)] \n\n### Late Policy\n\n  * TBA\n\n\n\n  \n\n\nUse local maps to implement RRT and run on the car.",
+  "metadata": {
+    "title": "Lab 6: Motion Planning - ESE6150: RoboRacer Autonomous Racing Cars / Spring 2024",
+    "description": "Use local maps to implement RRT and run on the car.",
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://www.ese.upenn.edu/",
+    "https://ahmadamine998.github.io/ESE6150-Website/",
+    "https://ahmadamine998.github.io/ESE6150-Website/assignments/06_RRT",
+    "https://ahmadamine998.github.io/ESE6150-Website/schedule/",
+    "https://ahmadamine998.github.io/ESE6150-Website/lectures/",
+    "https://ahmadamine998.github.io/ESE6150-Website/assignments/",
+    "https://ahmadamine998.github.io/ESE6150-Website/project/",
+    "https://ahmadamine998.github.io/ESE6150-Website/materials/",
+    "https://github.com",
+    "https://twitter.com/xlab_upenn",
+    "https://ahmadamine998.github.io/ESE6150-Website/css/main.css",
+    "https://ahmadamine998.github.io/ESE6150-Website/feed.xml",
+    "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&ver=4.2.4",
+    "https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic",
+    "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  ],
+  "scraped_at": "2026-04-18T02:12:06.529258+00:00"
+}

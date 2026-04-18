@@ -1,0 +1,39 @@
+{
+  "url": "https://roboracer.ai/news",
+  "source": "https://roboracer.ai/news",
+  "markdown": "# News\n\n[![F1Tenth Korea Delegation Visited UPenn CoE](https://autoware.org/wp-content/uploads/2024/02/IMG_4340.webp)F1Tenth Korea Delegation Visited UPenn CoEThe Autoware Foundation - Feb 15, 2024The F1Tenth Global Camp is a government-funded university support project involving 76 universities in South Korea. Eight of these universities participated in the F1Tenth autonomous driving education and competition program.](https://autoware.org/f1tenth-korea-delegation-at-upenn/)[![AutoDRIVE-F1TENTH-Autoware Integration](https://img.youtube.com/vi/FsbARE8vwXI/hqdefault.jpg)AutoDRIVE-F1TENTH-Autoware IntegrationAutoDRIVE - Feb 10, 2024This work focuses on developing autonomy-oriented digital twins of vehicles across different scales and configurations to help support the streamlined development and deployment of Autoware Core/Universe stack.](https://autodrive-ecosystem.github.io)[![Digital Twin of F1TENTH in AutoDRIVE Simulator - A First Look](https://img.youtube.com/vi/Rq7Wwcwn1uk/hqdefault.jpg)Digital Twin of F1TENTH in AutoDRIVE Simulator - A First LookAutoDRIVE - Oct 13, 2023AutoDRIVE is envisioned to be a comprehensive, flexible, and integrated ecosystem for autonomous driving research and education.](https://autodrive-ecosystem.github.io)[![Model- and Acceleration-based Pursuit Controller for High-Performance Autonomous Racing](https://img.youtube.com/vi/lE_Dk1iJHHg/hqdefault.jpg)Model- and Acceleration-based Pursuit Controller for High-Performance Autonomous RacingD-ITET Center for Project-Based Learning - July 2023The video describes the MAP controller, highlighting how it differs from the standard Pure Pursuit algorithm.](https://github.com/ETH-PBL/MAP-Controller)[![The Fast and the Autonomous](https://img.youtube.com/vi/FiC58K9zAwc/hqdefault.jpg)The Fast and the AutonomousUNC Research - May 15, 2020A fleet of pint-size cars that can see and navigate independently, winning races for the team of UNC computer science students that created them.](https://endeavors.unc.edu/the-fast-and-the-autonomous/)[![Adventures in Autonomous Vehicles](https://miro.medium.com/max/1400/1*MU35Lr-u7cj8yOry5LnYWA.jpeg)Adventures in Autonomous VehiclesMedium - April 21, 2020A chronicle of the work Penn Engineering\u2019s mLAB is doing in autonomous vehicles.](https://medium.com/adventures-in-autonomous-vehicles)[![Engineering Out Loud: The Age of Autonomous Vehicles](https://static.libsyn.com/p/assets/e/e/f/d/eefd0fe31b3fede0/iTunes_Graphic.jpg)Engineering Out Loud: The Age of Autonomous VehiclesStitcher - February 12, 2020The F1TENTH talk starts at around 08:00 and ends at 14:00.](https://app.stitcher.com/splayer/f/125922/67297121)",
+  "metadata": {
+    "title": "RoboRacer",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": "en",
+    "status_code": 404,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://roboracer.ai/",
+    "https://roboracer.ai/about",
+    "https://roboracer.ai/build",
+    "https://roboracer.ai/learn",
+    "https://roboracer.ai/race",
+    "https://roboracer.ai/course",
+    "https://roboracer.ai/research",
+    "https://roboracer.ai/news",
+    "https://autodrive-ecosystem.github.io/",
+    "https://join.slack.com/t/robo-racer/shared_invite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg",
+    "https://autoware.org/f1tenth-korea-delegation-at-upenn/",
+    "https://autodrive-ecosystem.github.io",
+    "https://github.com/ETH-PBL/MAP-Controller",
+    "https://endeavors.unc.edu/the-fast-and-the-autonomous/",
+    "https://medium.com/adventures-in-autonomous-vehicles",
+    "https://app.stitcher.com/splayer/f/125922/67297121",
+    "mailto:contact@roboracer.ai",
+    "https://roboracer.ai/logo-square.svg",
+    "https://fonts.googleapis.com",
+    "https://fonts.gstatic.com",
+    "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap",
+    "https://roboracer.ai/assets/index-BzLbbvZ2.css"
+  ],
+  "scraped_at": "2026-04-18T02:04:32.079630+00:00"
+}

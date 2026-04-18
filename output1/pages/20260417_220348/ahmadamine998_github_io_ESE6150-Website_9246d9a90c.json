@@ -1,0 +1,37 @@
+{
+  "url": "https://ahmadamine998.github.io/ESE6150-Website/",
+  "source": "https://ahmadamine998.github.io/ESE6150-Website/",
+  "markdown": "![](/ESE6150-Website/images/logo.png) | [University of Pennsylvania](https://www.ese.upenn.edu/)   \n[**ESE6150: RoboRacer Autonomous Racing Cars**](/ESE6150-Website/ \"ESE6150: RoboRacer Autonomous Racing Cars / Spring 2024 - University of Pennsylvania\")   \nSpring 2024  \n---|---  \n  \n# ESE6150: RoboRacer Autonomous Racing Cars / Spring 2024 \n\n## Updates\n\n  * New Lecture is up: AV4EV Autonomous Electric Go-Kart Project in Pennovation [[slides](\n    \n      https://tinyurl.com/av4ev-ese3500 \n     \"Download slides\")] \n  * New Lecture is up: TBA [[slides](\n    \n      https://slides.google.com \n     \"Download slides\")] \n  * New Lecture is up: Race 3 Preparation \n  * New Lecture is up: Race 1 Preparation \n  * New Lecture is up: Reinforcement Learning and Imitation Learning [[slides](\n    \n      https://docs.google.com/presentation/d/1EY7mx_0tRcIJ_3Vi2W47yywxG7EBwmHvBHnJNfHLMOs \n     \"Download slides\")] \n  * New Lecture is up: TBA [[slides](\n    \n      https://slides.google.com \n     \"Download slides\")] \n  * New Lecture is up: Raceline Optimization [[slides](\n    \n      https://docs.google.com/presentation/d/1rudShBR5f63UaBfhXmK2RvD5Za5fkx4i5Pv8px9o-2E \n     \"Download slides\")] \n\n\n\n  \n\n\n## Course Description\n\nThis hands-on course is for graduate students interested in the fields of robot perception, motion planning, control theory, and autonomous systems. It is also for students interested in the burgeoning field of autonomous driving. This course introduces the students to the hardware, software and algorithms involved in building and racing an autonomous race car. Every week, students participate in two lectures and complete an extensive hands-on lab. By week 6, the students will have built, programmed and driven a 1/10th scale autonomous race car, and learned fundamental principles in reactive planning. By week 10, they will learn simultaneous localization and mapping and efficient planning using pure pursuit. By week 16, students will develop and implement advanced racing strategies that will give their team the edge in the race that concludes the course. Topics include: selfdriving hardware, Robot Operating System, Electronic Speed Control, localization, scan matching, PID control, mapping, SLAM, racing lines, neural networks-based autonomous cars, visual feature extraction, autonomous transportation systems, learning based visual navigation, model-predictive control and ethical/moral decision making\n\nThe goal of this course is to give students an up-to-date foundation in the technologies being deployed and tested on self-driving cars, and more general autonomous mobile systems.\n\n## Topics Covered\n\nTopics include: self-driving hardware, Robot Operating System, Electronic Speed Control, localization, scan matching, PID control, mapping, SLAM, racing lines, local and global path planning, neural networks-based autonomous cars, visual feature extraction, visual localization, autonomous transportation systems, and moral decision making.\n\n## Grading Policy\n\n  * 8 Directed Labs (50% in total)\n  * 3 Races and Public Communication (30% in total)\n  * Final Race Documentation (5%)\n  * Peer Review (5%)\n  * Participation and TA Evaluation (10%)\n\n\n\n## Pre-requisites\n\nThe most important technical pre-requisite is good programming skills in C++ and Python. You will be coding or reading code in both languages. You will also need knowledge of frequency transform concepts (e.g., Fourier or Laplace), basic matrix algebra and differential equations.\n\n## Previous Offerings\n\n  * [Spring 2023]()\n  * [Fall 2023]()\n\n  \n\n\n## Instructors\n\n![](/ESE6150-Website/images/pp/rahulm.jpeg)\n\n[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)\n\n## Teaching Assistants\n\n![](/ESE6150-Website/images/pp/Ahmad.jpg)\n\n[Ahmad Amine](https://ahmadamine998.github.io/)\n\n![](/ESE6150-Website/images/pp/Zhijun.jpg)\n\n[Zhijun Zhuang](https://zzjun725.github.io/cv/)\n\n![](/ESE6150-Website/images/pp/Derek.png)\n\nDerek Zhou",
+  "metadata": {
+    "title": "ESE6150: RoboRacer Autonomous Racing Cars / Spring 2024 - University of Pennsylvania",
+    "description": "- ESE6150: RoboRacer Autonomous Racing Cars / Spring 2024",
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://www.ese.upenn.edu/",
+    "https://ahmadamine998.github.io/ESE6150-Website/",
+    "https://ahmadamine998.github.io/ESE6150-Website/schedule/",
+    "https://ahmadamine998.github.io/ESE6150-Website/lectures/",
+    "https://ahmadamine998.github.io/ESE6150-Website/assignments/",
+    "https://ahmadamine998.github.io/ESE6150-Website/project/",
+    "https://ahmadamine998.github.io/ESE6150-Website/materials/",
+    "https://tinyurl.com/av4ev-ese3500",
+    "https://slides.google.com",
+    "https://docs.google.com/presentation/d/1EY7mx_0tRcIJ_3Vi2W47yywxG7EBwmHvBHnJNfHLMOs",
+    "https://docs.google.com/presentation/d/1rudShBR5f63UaBfhXmK2RvD5Za5fkx4i5Pv8px9o-2E",
+    "https://www.seas.upenn.edu/~rahulm/",
+    "https://ahmadamine998.github.io/",
+    "https://zzjun725.github.io/cv/",
+    "https://twitter.com/xlab_upenn",
+    "https://ahmadamine998.github.io/ESE6150-Website/css/main.css",
+    "https://ahmadamine998.github.io/ESE6150-Website/feed.xml",
+    "https://fonts.googleapis.com/css?family=Open+Sans%3A300italic%2C400italic%2C600italic%2C300%2C400%2C600&subset=latin%2Clatin-ext&ver=4.2.4",
+    "https://fonts.googleapis.com/css?family=Titillium+Web:600italic,600,400,400italic",
+    "https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  ],
+  "scraped_at": "2026-04-18T02:06:48.209779+00:00"
+}

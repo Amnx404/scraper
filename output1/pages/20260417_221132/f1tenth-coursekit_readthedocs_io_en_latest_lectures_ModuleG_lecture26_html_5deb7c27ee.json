@@ -1,0 +1,19 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleG/lecture26.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest/",
+  "markdown": "# f1tenth-coursekit.readthedocs.io\n\n## Performing security verification\n\nThis website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.\n\n## Verification successful. Waiting for f1tenth-coursekit.readthedocs.io to respond\n\nEnable JavaScript and cookies to continue\n\nRay ID: `9ee0244cdcca58c1`\n\nPerformance and Security by [Cloudflare](https://www.cloudflare.com?utm_source=challenge&utm_campaign=m)[Privacy](https://www.cloudflare.com/privacypolicy/)",
+  "metadata": {
+    "title": "Just a moment...",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": "en-US",
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://www.cloudflare.com?utm_source=challenge&utm_campaign=m",
+    "https://www.cloudflare.com/privacypolicy/"
+  ],
+  "scraped_at": "2026-04-18T02:11:59.783337+00:00"
+}
