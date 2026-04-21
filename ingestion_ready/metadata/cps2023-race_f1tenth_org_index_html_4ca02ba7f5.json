@@ -1,0 +1,15 @@
+{
+  "url": "https://cps2023-race.f1tenth.org/index.html",
+  "source": "https://cps2023-race.f1tenth.org/",
+  "title": "F1TENTH CPS-IoT 2023",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:16.150207+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cps2023-race_f1tenth_org_index_html_4ca02ba7f5.json",
+  "markdown_file": "markdown/cps2023-race_f1tenth_org_index_html_4ca02ba7f5.md",
+  "char_count": 3701,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cps2023-race_f1tenth_org_index_html_4ca02ba7f5.md",
+  "fine_char_count": 2903,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

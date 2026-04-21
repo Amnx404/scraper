@@ -1,0 +1,15 @@
+{
+  "url": "https://sm2024-race.f1tenth.org/faq-physical.html",
+  "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH SM 2024 | FAQ",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:30.112124+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/sm2024-race_f1tenth_org_faq-physical_html_7b4542e0c4.json",
+  "markdown_file": "markdown/sm2024-race_f1tenth_org_faq-physical_html_7b4542e0c4.md",
+  "char_count": 2933,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/sm2024-race_f1tenth_org_faq-physical_html_7b4542e0c4.md",
+  "fine_char_count": 2664,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

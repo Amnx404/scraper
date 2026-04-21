@@ -1,0 +1,15 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/stream.html",
+  "source": "https://icra2022-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH IROS 2021 | Live Stream",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:57:16.194928+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/icra2022-race_f1tenth_org_stream_html_fff52734e2.json",
+  "markdown_file": "markdown/icra2022-race_f1tenth_org_stream_html_fff52734e2.md",
+  "char_count": 221,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/icra2022-race_f1tenth_org_stream_html_fff52734e2.md",
+  "fine_char_count": 93,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

@@ -1,0 +1,36 @@
+{
+  "url": "https://korea-race.f1tenth.org/ko/program.html",
+  "source": "https://korea-race.f1tenth.org/program.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[프로그램](../index.html)\n\n## 프로그램\n\n### Day 1 (12/12):\n\n시간 | 주제 | 발표자  \n---|---|---  \n09:00~09:30 | 등록 |   \n09:45~10:00 | F1TENTH Korea 환영 및 격려사 | 장동영 명예교수(서울과학기술대학교)  \nSession 1 | F1TENTH 교육 및 경주 프로그램 소개(한국어) | 김진현 교수(경상국립대학교)  \n10:00~11:00 | Local Path Planning for autonomous vehicle : reactive path planning | 배동성 교수(상명대학교)  \n11:00~12:00 | Our journey to F1TENTH : not all fun and games | 권철현 교수(UNIST)  \n12:00~14:00 | 점심 |   \nSession 2 | 최신 자율 주행 기술 소개 (영어) | 김경훈 교수(경북대학교)  \n14:00~15:00 | [Towards Bridging the Sim-to-Real Gap - F1TENTH Gym Environment for Learning-based Control Policies in Autonomous Racing](../agenda.html#towards-bridging-the-sim-to-real-gap---f1tenth-gym-environment-for-learning-based-control-policies-in-autonomous-racing) | Dr.Kukjin Jang (펜실베니아 대학교)  \n15:30~16:30 | Motion Planning and Control in High Dynamic Multi-Vehicle Environments | Professor.Johannes Betz (펜실베니아 대학교)  \n20:00~ | 레이스 트랙 공개 및 각 맵 맵핑 |   \n  \n### Day 2 (12/13):\n\n시간 | 주제 | 09:00~09:15 | 각 팀 경기 준비  \n---|---  \n09:15~09:30 | 팀 개별 소개  \n09:30~12:00 | 타임 랩 경기  \n12:00~13:00 | 점심  \n13:00~14:00 | 테스트 드라이빙  \n14:00~14:15 | 휴식  \n14:15~16:30 | 1:1 경주 경기  \n16:30~18:00 | 시상식 & 인터뷰  \n  \n### Award:\n\n|  |   \n---|---|---  \n1st | 한국자동차연구원 원장상 수여 | 해외 F1TENTH 경기 대회 지원 (200만원 상당)  \n2nd | sonnet.ai 대표상 수여 | 자율주행 부품 지원   \n(Hokuyo UST-10LX, Traxxas Slash,   \nDXF Li-Po 배터리, Intel® RealSense™ Depth Camera D435i)  \n3rd | 한국전자기계융합기술원상 수여 | 자율주행 부품 지원   \n(Hokuyo UST-10LX)  \nSpecial Award | General Motors 상 수여 (2팀) | 1.GM 다이내믹 드라이빙 시상 1팀 (캐딜락 굿즈)   \n2\\. 펀 드라이빙 시상 1팀 (GMC/쉐보레 굿즈)  \n  \n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "The 1st F1TENTH Korea Championship | 프로그램",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race.f1tenth.org/index.html",
+    "https://korea-race.f1tenth.org/ko/index.html",
+    "https://korea-race.f1tenth.org/ko/timeline.html",
+    "https://korea-race.f1tenth.org/ko/program.html",
+    "https://korea-race.f1tenth.org/ko/race_resources.html",
+    "https://korea-race.f1tenth.org/ko/getting_started.html",
+    "https://korea-race.f1tenth.org/ko/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race.f1tenth.org/program.html",
+    "https://korea-race.f1tenth.org/agenda.html",
+    "https://html5up.net/",
+    "https://korea-race.f1tenth.org/assets/css/main.css",
+    "https://korea-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:57:14.123521+00:00"
+}

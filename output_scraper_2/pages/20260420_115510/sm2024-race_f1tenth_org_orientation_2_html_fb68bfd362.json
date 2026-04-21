@@ -1,0 +1,35 @@
+{
+  "url": "https://sm2024-race.f1tenth.org/orientation_2.html",
+  "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Race Resources](index.html)\n\n##  F1TENTH ICRA 2023 Orientation 2 Material\n\n###  Orientation 2 Slides \n\n###  Orientation 2 Video Recording\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "F1TENTH SM 2024 | Race Resources",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://sm2024-race.f1tenth.org/index.html",
+    "https://html5up.net/",
+    "https://sm2024-race.f1tenth.org/orientation_2.html",
+    "https://sm2024-race.f1tenth.org/timeline.html",
+    "https://sm2024-race.f1tenth.org/race_ressources.html",
+    "https://sm2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://sm2024-race.f1tenth.org/registration.html",
+    "https://sm2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://docs.google.com/presentation/d/e/2PACX-1vQRpSt6WxT0T_6n9QwF9gSi7_P6BvbPYfWOjgSGQOqXfOUY49MmXc0NIK5VbyKmfxBj-JTmQ-klB1SZ/embed?delayms=60000&loop=false&start=false",
+    "https://drive.google.com/file/d/1Y6KbZ3N90g01nmeNLReqwHslqFY6E-QG/preview",
+    "https://sm2024-race.f1tenth.org/assets/css/main.css",
+    "https://sm2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:32.452151+00:00"
+}

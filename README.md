@@ -103,18 +103,37 @@ uv run python3 scraper.py my_config.yaml
 
 ## Upsert To Pinecone
 
+Each run:
+
+1. **Lists** all index namespaces and finds the highest **`{prefix}{N}`** (default prefix `live-v-`, e.g. `live-v-2`). That namespace is remembered as **previous live** (for optional deletion later). The **new** live namespace is **`live-v-{N+1}`** (first run with no matches → `live-v-1`).
+2. **`delete_all`** on the **staging** scratch namespace (e.g. `chunk-staging`), then embeds all chunks and upserts into staging until complete.
+3. Upserts the **same** vectors again into the new **`live-v-N`** namespace (no re-embed). Point your app at **that** name (e.g. `PINECONE_NAMESPACE=live-v-3`).
+4. Optionally **`--delete-previous-live`**: `delete_all` on the **previous** `live-v-*` recorded at step 1. Use only after traffic reads the **new** namespace.
+
 Set environment variables (for example in `.env`):
 
 ```bash
 PINECONE_API_KEY=...
 PINECONE_INDEX_HOST=...
+
+PINECONE_STAGING_NAMESPACE=chunk-staging
+# Namespaces like live-v-1, live-v-2 (optional — default is live-v-):
+PINECONE_LIVE_PREFIX=live-v-
 ```
 
-Then upsert crawled pages:
+Upsert crawled pages:
 
 ```bash
 uv run python3 upsert_pinecone.py --vector-dim 1024 --output-dir output1 --timestamp-dir latest
 ```
+
+Or upsert from **`prepare_ingestion` output** (directory with `manifest.jsonl`):
+
+```bash
+uv run python3 upsert_pinecone.py --vector-dim 1024 --ingestion-dir ingestion_ready --text-source fine
+```
+
+Use `--text-source markdown` for deterministic cleaned markdown, or `--text-source fine` for LLM-refined `fine_markdown/`. Manifest fields (`url`, `title`, paths, char counts) are stored in vector metadata; sidecar `metadata/*.json` is merged unless you pass `--no-sidecar-metadata`.
 
 Useful flags:
 
@@ -122,15 +141,16 @@ Useful flags:
 - `--batch-size 200` controls upsert batch size.
 - `--embed-batch-size 64` controls chunks per embedding request.
 - `--pool-threads 30` controls parallel async upsert requests.
-- `--embed-workers 4` controls parallel embedding requests.
-- `--namespace your_namespace` writes to a Pinecone namespace.
+- `--embed-workers 1` controls parallel embedding requests (default **1** to avoid Pinecone Inference **tokens-per-minute** limits; increase only if your plan allows).
+- On HTTP **429** from embeddings, the script **retries with exponential backoff** (`--embed-max-retries`, `--embed-retry-base-sec`).
+- `--staging-namespace` / `--namespace` (alias): scratch namespace cleared at the start of each run (default `PINECONE_STAGING_NAMESPACE` or `chunk-staging`).
+- `--live-prefix`: pattern for versioned live namespaces (default `PINECONE_LIVE_PREFIX` or `live-v-`).
+- **`--delete-previous-live` / `--no-delete-previous-live`**: after publishing the new `live-v-N`, delete the previous `live-v-*` seen at the start of the run. Unsafe if anything still queries that old namespace.
 - `--max-records 100` is useful for testing.
 - `--embed-model llama-text-embed-v2` chooses the Pinecone embedding model.
 - `--chunk-size-words 250` and `--chunk-overlap-words 40` control text chunking.
-- `--replace-existing-by-url` (default true) deletes old vectors for each URL before upsert to prevent duplicates.
 
 Chunk IDs are deterministic and hashed from `url + chunk_index + chunk_text`, which makes updates stable.
-Also, with replace-by-url enabled, stale chunks are removed first and only fresh chunks remain for that URL.
 
 The script now embeds chunk text via Pinecone Inference (`pc.inference.embed`) before upsert.
 

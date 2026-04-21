@@ -1,0 +1,15 @@
+{
+  "url": "https://cps2023-race.f1tenth.org/rules.html",
+  "source": "https://cps2023-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH IROS 2021 | F1TENTH Rules",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:57:13.406538+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cps2023-race_f1tenth_org_rules_html_8c8680f759.json",
+  "markdown_file": "markdown/cps2023-race_f1tenth_org_rules_html_8c8680f759.md",
+  "char_count": 13060,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cps2023-race_f1tenth_org_rules_html_8c8680f759.md",
+  "fine_char_count": 12960,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

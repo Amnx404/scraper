@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/introduction/overview.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Introduction — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:27.120168+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_introduction_overview_html_b79c557a7b.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_introduction_overview_html_b79c557a7b.md",
+  "char_count": 1222,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_introduction_overview_html_b79c557a7b.md",
+  "fine_char_count": 1065,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

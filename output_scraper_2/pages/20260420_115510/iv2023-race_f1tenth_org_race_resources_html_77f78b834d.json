@@ -1,0 +1,34 @@
+{
+  "url": "https://iv2023-race.f1tenth.org/race_resources.html",
+  "source": "https://iv2023-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# F1Tenth IV2023 Championship \n\nThe IEEE INTELLIGENT VEHICLES SYMPOSIUM (IV 2023)   \nCalender June 04 - June 07 2023   \nLocation Anchorage Alaska, USA\n\n  * Continue\n\n\n\n[F1TENTH IV 2023](index.html)\n\n## RACE RESOURCES\n\nAll necessary information about the race e.g. rules and scoring system will be displayed here.\n\n  * [F1Tenth Documentation ](https://f1tenth.readthedocs.io/en/foxy_test/index.html)\n  * [F1Tenth Simulator](https://github.com/f1tenth/f1tenth_gym_ros)\n  * [Rules](https://f1tenth.org/misc-docs/rules.pdf)\n\n\n\n  * © 2023 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net/)",
+  "metadata": {
+    "title": "F1TENTH IV 2023 | RACE RESOURCES",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iv2023-race.f1tenth.org/race_resources.html",
+    "https://iv2023-race.f1tenth.org/index.html",
+    "https://iv2023-race.f1tenth.org/participants.html",
+    "https://iv2023-race.f1tenth.org/timeline.html",
+    "https://iv2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iv2023-race.f1tenth.org/registration.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://github.com/f1tenth",
+    "https://f1tenth.readthedocs.io/en/foxy_test/index.html",
+    "https://github.com/f1tenth/f1tenth_gym_ros",
+    "https://f1tenth.org/misc-docs/rules.pdf",
+    "https://html5up.net/",
+    "https://iv2023-race.f1tenth.org/assets/css/main.css",
+    "https://iv2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:19.315301+00:00"
+}

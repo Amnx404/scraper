@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/index.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Module A: Introduction to ROS, RoboRacer & the Simulator — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:29.538385+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_index_html_86938b10e7.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_index_html_86938b10e7.md",
+  "char_count": 408,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_index_html_86938b10e7.md",
+  "fine_char_count": 392,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

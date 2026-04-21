@@ -1,0 +1,15 @@
+{
+  "url": "https://korea-race.f1tenth.org/rules.html",
+  "source": "https://korea-race.f1tenth.org/race_resources.html",
+  "title": "The 1st F1TENTH Korea Championship | F1TENTH Rules",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:57:15.423011+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/korea-race_f1tenth_org_rules_html_b30d3696a2.json",
+  "markdown_file": "markdown/korea-race_f1tenth_org_rules_html_b30d3696a2.md",
+  "char_count": 13574,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/korea-race_f1tenth_org_rules_html_b30d3696a2.md",
+  "fine_char_count": 13437,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

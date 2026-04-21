@@ -1,0 +1,28 @@
+{
+  "url": "https://icra2024-madgames.f1tenth.org/cfp.html",
+  "source": "https://icra2024-madgames.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Call for Papers](index.html)\n\n## \n\n## Call for Contribution:\n\nThis workshop is intented to investigate learning and decision-making in complex high-dimensional cooperative-competitive multi-agent systems, where games may not be zero-sum, environments may be dynamic and only partially known, and objective functions may be non-stationary and non-convex. Identify meaningful solution approaches for such settings, and conditions under which solutions exist. In addition, develop approaches for the design of tractable algorithms for provable convergence to near optimal solutions with guarantees. We invite papers for submission to the workshop related to the topics listed below. Position papers, work in progress and novel but not necessarily thoroughly worked out ideas are encouraged. The submissions will be reviewed by the workshop's program committee and will undergo a thorough review process and receive 2-3 high quality reviews. \n\n### Topics of Interest\n\n  * Game-theoretic approaches\n  * Multi-agent reinforcement learning\n  * Multi-agent coordination\n  * Multi-agent simulation and modeling\n  * Scaling multi-agent systems\n  * Decentralized learning and control\n  * Sim-to-real transfer in multi-agent systems\n  * Multi-agent systems that adapt to safety constraints\n  * High-performance, agile robots in cooperative and competitive settings\n  * Tools in addressing multi-agent challenges on real-world robots\n\n\n\n### Submission Format\n\n4-6 pages, including references. The paper should be in PDF format and use the standard [IEEE ICRA Conference template](http://ras.papercept.net/conferences/support/support.php). Accepted paper will be made available on the website and the authors are invited to make an additionl oral (live) presentations, or a video highlight.  [Submission Site](https://cmt3.research.microsoft.com/MADGames2024/)\n\n### Important Dates\n\n  * Submission site opens: Jan 31st, 2024\n  * Submission deadline: ~~April 1st, 2024~~ April 8th, 2024 (AoE)\n  * Notice of Acceptance: April 22nd, 2024 (AoE)",
+  "metadata": {
+    "title": "MADGames-ICRA 2024 | Call for Paper",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2024-madgames.f1tenth.org/index.html",
+    "https://icra2024-madgames.f1tenth.org/speakers.html",
+    "https://icra2024-madgames.f1tenth.org/program.html",
+    "https://icra2024-madgames.f1tenth.org/cfp.html",
+    "https://icra2024-madgames.f1tenth.org/proceedings.html",
+    "http://ras.papercept.net/conferences/support/support.php",
+    "https://cmt3.research.microsoft.com/MADGames2024",
+    "https://icra2024-madgames.f1tenth.org/assets/css/main.css",
+    "https://icra2024-madgames.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:02.009986+00:00"
+}

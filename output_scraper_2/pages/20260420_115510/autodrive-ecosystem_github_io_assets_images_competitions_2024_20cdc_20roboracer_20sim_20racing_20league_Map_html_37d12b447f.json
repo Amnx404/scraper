@@ -1,0 +1,20 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/assets/images/competitions/2024%20cdc%20roboracer%20sim%20racing%20league/Map.html",
+  "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-cdc-2024",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "2468Teams🌍 Global Participation Map171 Participants | 51 Teams | 35 Organizations | 22 Countries\n\n[ plotly-logomark ](https://plotly.com/)",
+  "metadata": {
+    "title": "plotly-logomark",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://plotly.com/"
+  ],
+  "scraped_at": "2026-04-20T15:56:28.066385+00:00"
+}

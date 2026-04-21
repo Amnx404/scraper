@@ -1,0 +1,15 @@
+{
+  "url": "https://iros2023-race.f1tenth.org/orientation_1.html",
+  "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH ICRA 2023 | Race Resources",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:34.710131+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iros2023-race_f1tenth_org_orientation_1_html_888006ed68.json",
+  "markdown_file": "markdown/iros2023-race_f1tenth_org_orientation_1_html_888006ed68.md",
+  "char_count": 238,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iros2023-race_f1tenth_org_orientation_1_html_888006ed68.md",
+  "fine_char_count": 134,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

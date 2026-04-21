@@ -1,0 +1,15 @@
+{
+  "url": "https://iv2024-race.f1tenth.org/index.html",
+  "source": "https://iv2024-race.f1tenth.org/",
+  "title": "RoboRacer Autonomous Racing Competition IV 2024",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:58.415794+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iv2024-race_f1tenth_org_index_html_d3ab1dfea3.json",
+  "markdown_file": "markdown/iv2024-race_f1tenth_org_index_html_d3ab1dfea3.md",
+  "char_count": 3394,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iv2024-race_f1tenth_org_index_html_d3ab1dfea3.md",
+  "fine_char_count": 2888,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

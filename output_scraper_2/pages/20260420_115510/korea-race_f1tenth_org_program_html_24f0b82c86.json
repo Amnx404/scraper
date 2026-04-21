@@ -1,0 +1,35 @@
+{
+  "url": "https://korea-race.f1tenth.org/program.html",
+  "source": "https://korea-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Program](../index.html)\n\n## Program\n\n### Day 1 (12/12):\n\nTime | Programs | Speakers  \n---|---|---  \n09:00~09:30 | Registration |   \n09:45~10:00 | Opening Ceremony of F1Tenth Korea | Prof. Jang, Dong Young (Seoul National University of Science and Technology)  \nSession 1 | Session 1- Introduction to F1Tenth Education and Championship Program (in Korean) | Prof. Kim, Jin Hyun (Gyeongsang National University)  \n10:00~11:00 | Local Path Planning for autonomous vehicle : reactive path planning | Prof. Pae, Dong Sung (Sangmyung University)  \n11:00~12:00 | Our journey to F1TENTH : not all fun and games | Prof. Kwon, Cheolhyeon (UNIST)  \n12:00~14:00 | Lunch |   \nSession 2 | Introduction to State-of-Art Automated Racing Technologies (in English) | Prof. Kim, Kyong Hoon (Kyungpook National University)  \n14:00~15:00 | [Towards Bridging the Sim-to-Real Gap - F1TENTH Gym Environment for Learning-based Control Policies in Autonomous Racing](../agenda.html#towards-bridging-the-sim-to-real-gap---f1tenth-gym-environment-for-learning-based-control-policies-in-autonomous-racing) | Dr. Kukjin Jang (University of Pennsylvania)  \n15:30~16:30 | Motion Planning and Control in High Dynamic Multi-Vehicle Environments | Professor.Johannes Betz (Technical University of Munich)  \n20:00~ | Open the race course and mapping |   \n  \n### Day 2 (12/13):\n\nTime | Programs | 09:00~09:15 | Final Check for Race  \n---|---  \n09:15~09:30 | Introduction to Individual Teams  \n09:30~12:00 | Time Trial Race  \n12:00~13:00 | Lunch  \n13:00~14:00 | Test Racing  \n14:00~14:15 | Coffee Break  \n14:15~16:30 | Head to Head Race  \n16:30~18:00 | Award Ceremony  \n  \n### Award:\n\n|  |   \n---|---|---  \n1st | Korea Automotive Technology Institute Director Award | Overseas F1TENTH Competition Support (prize of about $1,400)  \n2nd | Sonnet.ai Proprietor Award | Autonomous Car parts Support   \n(Hokuyo UST-10LX, Traxxas Slash   \nDXF Li-Po battery, Intel® RealSense™ Depth Camera D435i)  \n3rd | Korea Electromechanical Convergence Technology Institute Director Award | Autonomous Car parts Support   \n(Hokuyo UST-10LX)  \nSpecial Award | General Motors Award (2 teams) | 1.GM Dynamic driving awads 1 team (Cadillac goods)   \n2\\. Fun driving awads 1 team ( GMC/Chevrolet goods)  \n  \n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "The 1st F1TENTH Korea Championship | Program",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race.f1tenth.org/index.html",
+    "https://korea-race.f1tenth.org/timeline.html",
+    "https://korea-race.f1tenth.org/program.html",
+    "https://korea-race.f1tenth.org/race_resources.html",
+    "https://korea-race.f1tenth.org/getting_started.html",
+    "https://korea-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race.f1tenth.org/ko/program.html",
+    "https://korea-race.f1tenth.org/agenda.html",
+    "https://html5up.net/",
+    "https://korea-race.f1tenth.org/assets/css/main.css",
+    "https://korea-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:19.197941+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "url": "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F2594",
+  "source": "https://2025.iccas.org/?page_id=2594",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "{\"id\":2594,\"date\":\"2022-10-14T14:43:36\",\"date_gmt\":\"2022-10-14T05:43:36\",\"guid\":{\"rendered\":\"http:\\/\\/2022.iccas.org\\/?page_id=2594\"},\"modified\":\"2025-10-23T03:58:02\",\"modified_gmt\":\"2025-10-23T03:58:02\",\"slug\":\"social-events\",\"status\":\"publish\",\"type\":\"page\",\"link\":\"https:\\/\\/2025.iccas.org\\/?page_id=2594\",\"title\":{\"rendered\":\"Social Events\"},\"content\":{\"rendered\":\"\n\nSocial Events<\\/div>\\n\n\n<\\/div>\\n\n\n<\\/div>\\n\n\n\\n\n\n**\\u25c8 Welcome Reception <\\/strong><\\/span>  \n\\n– Date & Time: November 4(Tue), 18:00~19:20  \n\\n– Place: Songdo ConvensiA 2F Premier Ballroom  \n\\n– Fee: Free (included in both full and student registration)<\\/p>\\n\n\n**\\u25c8 Opening Ceremony <\\/strong><\\/span>  \n\\n– Date & Time: November 5(Wed), 10:40~10:50  \n\\n– Place: Songdo ConvensiA 2F Premier Ballroom<\\/p>\\n\n\n**\\u25c8 Banquet <\\/strong><\\/span>  \n\\n– Date & Time: November 6(Thu), 18:10~20:00  \n\\n– Place: Songdo ConvensiA 2F Premier Ballroom  \n\\n– Fee: Free (included in regular registration only)<\\/p>\\n\n\n**\\u25c8 Farewell Ceremony <\\/strong><\\/span>  \n\\n– Date & Time: November 7(Fri), 17:20~17:30  \n\\n– Place: Songdo ConvensiA 2F Premier Ballroom  \n\\n– Fee: Free<\\/p>\\n<\\/div>\\n\",\"protected\":false},\"excerpt\":{\"rendered\":\"\n\nSocial Events \\u25c8 Welcome Reception – Date & Time: November 4(Tue), 18:00~19:20 – Place: Songdo ConvensiA 2F Premier Ballroom – Fee: Free (included in both full and student registration) \\u25c8 Opening Ceremony – Date & Time: November 5(Wed), 10:40~10:50 – Place: Songdo ConvensiA 2F Premier Ballroom \\u25c8 Banquet – Date & Time: November 6(Thu), 18:10~20:00 … [Read more<\\/a><\\/p>\\n\",\"protected\":false},\"author\":2,\"featured_media\":0,\"parent\":0,\"menu_order\":0,\"comment_status\":\"closed\",\"ping_status\":\"closed\",\"template\":\"\",\"meta\":{\"footnotes\":\"\"},\"class_list\":[\"post-2594\",\"page\",\"type-page\",\"status-publish\"],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\\/2594\",\"targetHints\":{\"allow\":[\"GET\"]}}],\"collection\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\"}],\"about\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/types\\/page\"}],\"author\":[{\"embeddable\":true,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/users\\/2\"}],\"replies\":[{\"embeddable\":true,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=%2Fwp%2Fv2%2Fcomments&post=2594\"}],\"version-history\":[{\"count\":7,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\\/2594\\/revisions\"}],\"predecessor-version\":[{\"id\":5241,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\\/2594\\/revisions\\/5241\"}],\"wp:attachment\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=%2Fwp%2Fv2%2Fmedia&parent=2594\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}}](\\\\\"https:\\\\/\\\\/2025.iccas.org\\\\/?page_id=2594\\\\\" \"\\\\\"Social\")\n\n**\n\n**\n\n**\n\n**",
+  "metadata": {
+    "title": null,
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "application/json; charset=UTF-8"
+  },
+  "links": [],
+  "scraped_at": "2026-04-20T15:56:52.429715+00:00"
+}

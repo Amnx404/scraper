@@ -1,0 +1,15 @@
+{
+  "url": "https://sm2024-race.f1tenth.org/results.html",
+  "source": "https://sm2024-race.f1tenth.org/",
+  "title": "F1TENTH SM 2024| Results",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:02.725865+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/sm2024-race_f1tenth_org_results_html_e7bca5a3ba.json",
+  "markdown_file": "markdown/sm2024-race_f1tenth_org_results_html_e7bca5a3ba.md",
+  "char_count": 164,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/sm2024-race_f1tenth_org_results_html_e7bca5a3ba.md",
+  "fine_char_count": 39,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

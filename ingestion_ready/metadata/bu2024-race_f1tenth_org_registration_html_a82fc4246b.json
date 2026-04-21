@@ -1,0 +1,15 @@
+{
+  "url": "https://bu2024-race.f1tenth.org/registration.html",
+  "source": "https://bu2024-race.f1tenth.org/",
+  "title": "F1TENTH BU 2024 | Registration",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:57.419631+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/bu2024-race_f1tenth_org_registration_html_a82fc4246b.json",
+  "markdown_file": "markdown/bu2024-race_f1tenth_org_registration_html_a82fc4246b.md",
+  "char_count": 890,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/bu2024-race_f1tenth_org_registration_html_a82fc4246b.md",
+  "fine_char_count": 664,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

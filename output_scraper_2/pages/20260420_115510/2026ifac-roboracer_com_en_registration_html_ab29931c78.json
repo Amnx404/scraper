@@ -1,0 +1,36 @@
+{
+  "url": "https://2026ifac-roboracer.com/en/registration.html",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Registration](../index.html)\n\n## Registration\n\n1\n\nConference Registration\n\nRegister for IFAC 2026.  \nSee the fee table for registration costs.\n\n[Register for IFAC](https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG)\n\n2\n\nSubmit Google Form\n\nEnroll your team information.  \nWe manage the competition based on this.\n\n[Submit Form](https://forms.gle/RvSRwHdDqSfyQyvF6)\n\n3\n\nConfirm Registration\n\nCheck the participant list below  \nto verify your team is registered.\n\nView Participants\n\nIf you completed steps 1 & 2 but your team is not listed, please contact [ryujs@unist.ac.kr](mailto:ryujs@unist.ac.kr).\n\n  \n\n\n  * Both IFAC registration and Google Form submission are required.\n  * IFAC competition registration costs €100 per person. You may also register with other options besides competition-only to participate.\n  * If you are presenting a paper at the conference and also participating in the competition, duplicate registration is not required.\n  * After completing all steps, you must verify that your team appears in the participant list.\n  * This competition is part of the IFAC conference. Only those who have registered for IFAC in any form are allowed entry. (e.g., supervisors/chaperones without IFAC registration will NOT be granted access)\n\n\n\nOn-Line Registration  \n(Feb. 1 - Aug. 9, 2026) | On-Site Registration  \n(Aug. 22 - 28, 2026)  \n---|---  \n€ 100 | € 140  \n  \n  \n\n\n[QnA through slack](https://join.slack.com/t/robo-racer/shared_invite/zt-2sfu4qr7p-3oe27mCnH98muwRR9uEAbg)\n\n  \nClick the button above to join the official ROBORACER Slack, then add the **2026ifac-competition** channel.\n\nFor more information about the competition, attend the online [orientation]() to be held soon. Also join us through Slack and leave questions if any.\n\n* * *\n\n### Participants\n\nIf you have registered for participation but the list below is not updated, please contact us at ryujs@unist.ac.kr.\n\nTEAM NAME | AFFILIATION | TEAM MEMBERS  \n---|---|---  \n. | . | .  \n  \n  \n  \n\n\n![](../images/ifac_roboracer_poster.png)\n\n  * © 2026 RoboRacer Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "29th Roboracer Autonomous Racing Competition | Registration",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://2026ifac-roboracer.com/index.html",
+    "https://2026ifac-roboracer.com/en/index.html",
+    "https://2026ifac-roboracer.com/en/timeline.html",
+    "https://2026ifac-roboracer.com/en/race_resources.html",
+    "https://2026ifac-roboracer.com/en/getting_started.html",
+    "https://2026ifac-roboracer.com/en/registration.html",
+    "https://2026ifac-roboracer.com/en/results.html",
+    "https://f1tenth.org/",
+    "https://robo-racer.slack.com/join/shared_invite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg",
+    "https://github.com/f1tenth",
+    "https://2026ifac-roboracer.com/kr/registration.html",
+    "https://www.ifac2026.org/fairContents.do?FAIRMENU_IDX=21697&hl=ENG",
+    "https://forms.gle/RvSRwHdDqSfyQyvF6",
+    "https://join.slack.com/t/robo-racer/shared_invite/zt-2sfu4qr7p-3oe27mCnH98muwRR9uEAbg",
+    "https://html5up.net/",
+    "https://2026ifac-roboracer.com/assets/css/main.css",
+    "https://2026ifac-roboracer.com/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:18.287320+00:00"
+}

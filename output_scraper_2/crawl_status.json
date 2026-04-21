@@ -1,0 +1,3941 @@
+{
+  "schema_version": 1,
+  "run_id": "20260420_115510",
+  "pages_subdir": "pages/20260420_115510",
+  "urls": {
+    "https://roboracer.ai/": {
+      "status": "ok",
+      "source": "seed",
+      "retries": 0,
+      "depth": 0,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_eb41d3d3fd.json",
+      "scraped_at": "2026-04-20T15:55:15.418701+00:00"
+    },
+    "https://roboracer.ai/about": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_about_e7e77c7181.json",
+      "scraped_at": "2026-04-20T15:55:17.434613+00:00"
+    },
+    "https://roboracer.ai/build": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_build_97dc055940.json",
+      "scraped_at": "2026-04-20T15:55:17.211124+00:00"
+    },
+    "https://roboracer.ai/learn": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_learn_42fdfc82b4.json",
+      "scraped_at": "2026-04-20T15:55:17.211902+00:00"
+    },
+    "https://roboracer.ai/race": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_race_30e7eb5386.json",
+      "scraped_at": "2026-04-20T15:55:17.455397+00:00"
+    },
+    "https://roboracer.ai/course": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_course_2ca6ca2e7e.json",
+      "scraped_at": "2026-04-20T15:55:17.193595+00:00"
+    },
+    "https://roboracer.ai/research": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_research_ef956f43aa.json",
+      "scraped_at": "2026-04-20T15:55:19.151594+00:00"
+    },
+    "https://roboracer.ai/news": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_news_e85a2b5c99.json",
+      "scraped_at": "2026-04-20T15:55:19.073789+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/",
+      "retries": 0,
+      "depth": 1,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_942285b2c4.json",
+      "scraped_at": "2026-04-20T15:55:18.065472+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest": {
+      "status": "ok",
+      "source": "https://roboracer.ai/learn",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_07cff1b8d4.json",
+      "scraped_at": "2026-04-20T15:55:18.360804+00:00"
+    },
+    "https://icra2026-race.roboracer.ai/registration.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2026-race_roboracer_ai_registration_html_75e0424c3c.json",
+      "scraped_at": "2026-04-20T15:55:18.051736+00:00"
+    },
+    "https://iv2026-race.roboracer.ai/registration.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2026-race_roboracer_ai_registration_html_eb6b97002f.json",
+      "scraped_at": "2026-04-20T15:55:18.243567+00:00"
+    },
+    "https://2026ifac-roboracer.com/en/registration.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/2026ifac-roboracer_com_en_registration_html_ab29931c78.json",
+      "scraped_at": "2026-04-20T15:55:18.288043+00:00"
+    },
+    "https://2025.iccas.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_252ace2a3d.json",
+      "scraped_at": "2026-04-20T15:55:21.329368+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_d2681baf9b.json",
+      "scraped_at": "2026-04-20T15:55:18.958175+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_0215d9c8bf.json",
+      "scraped_at": "2026-04-20T15:55:19.086217+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_3c9c8bb04b.json",
+      "scraped_at": "2026-04-20T15:55:19.117444+00:00"
+    },
+    "https://korea-race24f1tenth.org/": {
+      "status": "error",
+      "source": "https://roboracer.ai/race",
+      "retries": 2,
+      "depth": 2,
+      "error": "HTTPSConnectionPool(host='korea-race24f1tenth.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)')))",
+      "output_file": "pages/20260420_115510/korea-race24f1tenth_org_56a50f7bdf.json",
+      "scraped_at": "2026-04-20T15:56:25.495680+00:00"
+    },
+    "https://iros2024-race.f1tenth.org/": {
+      "status": "error",
+      "source": "https://roboracer.ai/race",
+      "retries": 2,
+      "depth": 2,
+      "error": "HTTPSConnectionPool(host='iros2024-race.f1tenth.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='iros2024-race.f1tenth.org', port=443): Failed to resolve 'iros2024-race.f1tenth.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "output_file": "pages/20260420_115510/iros2024-race_f1tenth_org_6db9df58ed.json",
+      "scraped_at": "2026-04-20T15:56:28.049030+00:00"
+    },
+    "https://roboracer.ai/rules": {
+      "status": "ok",
+      "source": "https://roboracer.ai/about",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_rules_73dc8db162.json",
+      "scraped_at": "2026-04-20T15:55:21.099417+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_772d2ae327.json",
+      "scraped_at": "2026-04-20T15:55:20.077281+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_83fc9ddaa9.json",
+      "scraped_at": "2026-04-20T15:55:20.075936+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_fb11aaaae3.json",
+      "scraped_at": "2026-04-20T15:55:20.079174+00:00"
+    },
+    "https://cpsweek2024-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/cpsweek2024-race_f1tenth_org_index_html_ad36a4ade5.json",
+      "scraped_at": "2026-04-20T15:55:20.038345+00:00"
+    },
+    "https://icra2024-race.f1tenth.org/": {
+      "status": "error",
+      "source": "https://roboracer.ai/race",
+      "retries": 2,
+      "depth": 2,
+      "error": "HTTPSConnectionPool(host='icra2024-race.f1tenth.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='icra2024-race.f1tenth.org', port=443): Failed to resolve 'icra2024-race.f1tenth.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "output_file": "pages/20260420_115510/icra2024-race_f1tenth_org_151932775b.json",
+      "scraped_at": "2026-04-20T15:56:30.738679+00:00"
+    },
+    "https://icra2024-madgames.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2024-madgames_f1tenth_org_845dbc9bf5.json",
+      "scraped_at": "2026-04-20T15:55:20.960473+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_96b15c0278.json",
+      "scraped_at": "2026-04-20T15:55:21.128103+00:00"
+    },
+    "https://iros2023-madgames.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-madgames_f1tenth_org_a4fca50c18.json",
+      "scraped_at": "2026-04-20T15:55:21.124369+00:00"
+    },
+    "https://korea-race23.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_a55632f5fa.json",
+      "scraped_at": "2026-04-20T15:55:21.137122+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_b16a86e718.json",
+      "scraped_at": "2026-04-20T15:55:21.169498+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_c648f3f3b9.json",
+      "scraped_at": "2026-04-20T15:55:21.783580+00:00"
+    },
+    "https://iv2023-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2023-race_f1tenth_org_550d845bbb.json",
+      "scraped_at": "2026-04-20T15:55:22.180444+00:00"
+    },
+    "https://korea-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_fb250ddddf.json",
+      "scraped_at": "2026-04-20T15:55:22.196776+00:00"
+    },
+    "https://germany-race2022.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/germany-race2022_f1tenth_org_af7249cfc7.json",
+      "scraped_at": "2026-04-20T15:55:23.553876+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_f1efdebecf.json",
+      "scraped_at": "2026-04-20T15:55:22.183374+00:00"
+    },
+    "https://www.iros2021.org/": {
+      "status": "error",
+      "source": "https://roboracer.ai/race",
+      "retries": 2,
+      "depth": 2,
+      "error": "HTTPSConnectionPool(host='www.iros2021.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.iros2021.org'. (_ssl.c:1028)\")))",
+      "output_file": "pages/20260420_115510/www_iros2021_org_c4d1eb3c69.json",
+      "scraped_at": "2026-04-20T15:57:15.102841+00:00"
+    },
+    "https://roboracer.ai/iros2020.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_iros2020_html_ecae299a58.json",
+      "scraped_at": "2026-04-20T15:55:22.972662+00:00"
+    },
+    "https://roboracer.ai/ifac2020.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_ifac2020_html_0cfaef8167.json",
+      "scraped_at": "2026-04-20T15:55:23.564290+00:00"
+    },
+    "https://roboracer.ai/columbia2019.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_columbia2019_html_2a53db71cc.json",
+      "scraped_at": "2026-04-20T15:55:23.798392+00:00"
+    },
+    "https://roboracer.ai/montreal2019.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_montreal2019_html_a0d91042eb.json",
+      "scraped_at": "2026-04-20T15:55:23.842130+00:00"
+    },
+    "https://roboracer.ai/torino2018.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_torino2018_html_2a2d9c490f.json",
+      "scraped_at": "2026-04-20T15:55:23.813717+00:00"
+    },
+    "https://roboracer.ai/porto2018.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_porto2018_html_a531182d9f.json",
+      "scraped_at": "2026-04-20T15:55:23.967352+00:00"
+    },
+    "https://roboracer.ai/pittsburgh2016.html": {
+      "status": "ok",
+      "source": "https://roboracer.ai/race",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_pittsburgh2016_html_59354e0f91.json",
+      "scraped_at": "2026-04-20T15:55:24.658224+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/about": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_about_bc13c4c909.json",
+      "scraped_at": "2026-04-20T15:55:24.337627+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2026": {
+      "status": "ok",
+      "source": "https://icra2026-race.roboracer.ai/registration.html",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-icra-2026_7c2d53ca86.json",
+      "scraped_at": "2026-04-20T15:55:24.409987+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/research": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_research_32f0c1f663.json",
+      "scraped_at": "2026-04-20T15:55:24.831433+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/education": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_education_5a462dcac7.json",
+      "scraped_at": "2026-04-20T15:55:24.878216+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_c2109025a4.json",
+      "scraped_at": "2026-04-20T15:55:28.944711+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-iros-2024_693ea98986.json",
+      "scraped_at": "2026-04-20T15:55:24.902192+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-cdc-2024": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-cdc-2024_b4453c49af.json",
+      "scraped_at": "2026-04-20T15:55:25.437518+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-icra-2025_aa1d22eebd.json",
+      "scraped_at": "2026-04-20T15:55:25.449337+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-cdc-tf-2025": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-cdc-tf-2025_754f84501f.json",
+      "scraped_at": "2026-04-20T15:55:26.002356+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/feed_rss_created.xml": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_feed_rss_created_xml_9aeeab4a76.json",
+      "scraped_at": "2026-04-20T15:55:29.480285+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/feed_rss_updated.xml": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/",
+      "retries": 0,
+      "depth": 2,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_feed_rss_updated_xml_a9cea29663.json",
+      "scraped_at": "2026-04-20T15:55:28.705996+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/getting_started/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_getting_started_index_html_53547c3e86.json",
+      "scraped_at": "2026-04-20T15:55:26.127338+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/introduction/overview.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_introduction_overview_html_b79c557a7b.json",
+      "scraped_at": "2026-04-20T15:55:27.120665+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/introduction/syllabus.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_introduction_syllabus_html_c238016f04.json",
+      "scraped_at": "2026-04-20T15:55:26.908315+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_index_html_86938b10e7.json",
+      "scraped_at": "2026-04-20T15:55:29.538817+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/lecture01.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_lecture01_html_11e2d0c49b.json",
+      "scraped_at": "2026-04-20T15:55:26.752246+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/tutorial1.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_tutorial1_html_88909fb59c.json",
+      "scraped_at": "2026-04-20T15:55:32.415463+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/lecture02.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_lecture02_html_8f6e7b1b59.json",
+      "scraped_at": "2026-04-20T15:55:27.660700+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/tutorial2.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_tutorial2_html_b8f2ea69e0.json",
+      "scraped_at": "2026-04-20T15:55:31.416400+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iv-2026": {
+      "status": "ok",
+      "source": "https://iv2026-race.roboracer.ai/registration.html",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-iv-2026_444e28b529.json",
+      "scraped_at": "2026-04-20T15:55:30.963637+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/lecture03.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_lecture03_html_b019e4d3ec.json",
+      "scraped_at": "2026-04-20T15:55:29.399656+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/tutorial3.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_tutorial3_html_b2d6e431c6.json",
+      "scraped_at": "2026-04-20T15:55:34.745360+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleB/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleB_index_html_0beedf3840.json",
+      "scraped_at": "2026-04-20T15:55:32.948623+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleB/lecture04.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleB_lecture04_html_8a4eca8434.json",
+      "scraped_at": "2026-04-20T15:55:30.481459+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleB/tutorial4.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleB_tutorial4_html_a2ff3a2018.json",
+      "scraped_at": "2026-04-20T15:55:35.463747+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleB/lecture05.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleB_lecture05_html_3549eb5d51.json",
+      "scraped_at": "2026-04-20T15:55:31.200061+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleB/lecture06.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleB_lecture06_html_b4674a3d84.json",
+      "scraped_at": "2026-04-20T15:55:31.703076+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_index_html_04423fb595.json",
+      "scraped_at": "2026-04-20T15:55:34.999820+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/lecture07.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_lecture07_html_aea0eaae1f.json",
+      "scraped_at": "2026-04-20T15:55:32.238792+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/lecture08.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_lecture08_html_18a416cca1.json",
+      "scraped_at": "2026-04-20T15:55:32.456013+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/lecture09.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_lecture09_html_022e75e2ae.json",
+      "scraped_at": "2026-04-20T15:55:38.201863+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/tutorial5.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_tutorial5_html_8e3a05bc4b.json",
+      "scraped_at": "2026-04-20T15:55:38.209103+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/lecture09optional.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_lecture09optional_html_1cc9c6d628.json",
+      "scraped_at": "2026-04-20T15:55:33.265535+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleD/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleD_index_html_012015756a.json",
+      "scraped_at": "2026-04-20T15:55:35.389346+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleD/lecture10.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleD_lecture10_html_711f9b9250.json",
+      "scraped_at": "2026-04-20T15:55:39.297107+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleD/lecture11.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleD_lecture11_html_1b4966bd40.json",
+      "scraped_at": "2026-04-20T15:55:40.570478+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleE/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleE_index_html_5ce67e77fc.json",
+      "scraped_at": "2026-04-20T15:55:37.866362+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleE/lecture12.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleE_lecture12_html_d8ecfc8470.json",
+      "scraped_at": "2026-04-20T15:55:41.284571+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleE/lecture13.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleE_lecture13_html_0643370d4e.json",
+      "scraped_at": "2026-04-20T15:55:36.306155+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_index_html_e074a15065.json",
+      "scraped_at": "2026-04-20T15:55:37.082708+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture17.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture17_html_1ac6cd321f.json",
+      "scraped_at": "2026-04-20T15:55:37.970949+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture18.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture18_html_c5446697de.json",
+      "scraped_at": "2026-04-20T15:55:38.741447+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture19.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture19_html_99d34a536f.json",
+      "scraped_at": "2026-04-20T15:55:38.705001+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture20.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture20_html_a085e4f7a7.json",
+      "scraped_at": "2026-04-20T15:55:39.069467+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture21.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture21_html_9c3db24b09.json",
+      "scraped_at": "2026-04-20T15:55:39.021809+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture22.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture22_html_7e92e3a843.json",
+      "scraped_at": "2026-04-20T15:55:47.096967+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture23.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture23_html_85fc7a717c.json",
+      "scraped_at": "2026-04-20T15:55:47.062530+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleG/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleG_index_html_ea682f45ef.json",
+      "scraped_at": "2026-04-20T15:55:47.254832+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleG/lecture26.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleG_lecture26_html_5deb7c27ee.json",
+      "scraped_at": "2026-04-20T15:55:49.045701+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleG/lecture27.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleG_lecture27_html_7f03d31f6e.json",
+      "scraped_at": "2026-04-20T15:55:49.045274+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleG/lecture28.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleG_lecture28_html_7e83385202.json",
+      "scraped_at": "2026-04-20T15:55:49.080998+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_index_html_d30c629d8a.json",
+      "scraped_at": "2026-04-20T15:55:42.079893+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_index_html_979786f72b.json",
+      "scraped_at": "2026-04-20T15:55:42.935554+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab1.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab1_html_a7f32581b0.json",
+      "scraped_at": "2026-04-20T15:55:49.336165+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab2.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab2_html_d049f5b539.json",
+      "scraped_at": "2026-04-20T15:55:50.510270+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab3.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab3_html_3d10267353.json",
+      "scraped_at": "2026-04-20T15:55:49.061333+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab4.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab4_html_b9ff94f720.json",
+      "scraped_at": "2026-04-20T15:55:48.999669+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab5.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab5_html_fe9b52bb6f.json",
+      "scraped_at": "2026-04-20T15:55:51.725073+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab6.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab6_html_8ea5eb23e3.json",
+      "scraped_at": "2026-04-20T15:55:51.462295+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab7.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab7_html_cdffb898ba.json",
+      "scraped_at": "2026-04-20T15:55:51.582589+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab8.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab8_html_ad85f6f574.json",
+      "scraped_at": "2026-04-20T15:55:49.866770+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab9.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab9_html_173573e2f7.json",
+      "scraped_at": "2026-04-20T15:55:50.028861+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/optional_lab05.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_optional_lab05_html_fa993e2d54.json",
+      "scraped_at": "2026-04-20T15:55:50.238517+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/solutions.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_solutions_html_d3c226d7eb.json",
+      "scraped_at": "2026-04-20T15:55:52.931562+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/races/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_races_index_html_bb51dd5bdb.json",
+      "scraped_at": "2026-04-20T15:55:51.280926+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/races/race1.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_races_race1_html_ee16fa559b.json",
+      "scraped_at": "2026-04-20T15:55:51.285653+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/races/race2.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_races_race2_html_cca7dd7e73.json",
+      "scraped_at": "2026-04-20T15:55:51.485908+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/races/race3.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_races_race3_html_89a1f4cdac.json",
+      "scraped_at": "2026-04-20T15:55:52.052110+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/final_project.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_final_project_html_2140293920.json",
+      "scraped_at": "2026-04-20T15:55:52.061782+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/grading.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_grading_html_b2914ff19f.json",
+      "scraped_at": "2026-04-20T15:55:52.840614+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/press/logos.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_press_logos_html_3f55b29de1.json",
+      "scraped_at": "2026-04-20T15:55:54.399499+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/support/contact.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_support_contact_html_7b59ada220.json",
+      "scraped_at": "2026-04-20T15:55:52.747386+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/support/acknowledgment.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_support_acknowledgment_html_94f068c24e.json",
+      "scraped_at": "2026-04-20T15:55:54.806440+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/genindex.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_genindex_html_f5550a8f1b.json",
+      "scraped_at": "2026-04-20T15:55:55.465471+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/search.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_search_html_30b1d5c279.json",
+      "scraped_at": "2026-04-20T15:55:54.770224+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/index.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_index_html_f01a7069a1.json",
+      "scraped_at": "2026-04-20T15:55:53.989111+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/timeline.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_timeline_html_d88a95c8b9.json",
+      "scraped_at": "2026-04-20T15:55:53.941073+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/race_resources.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_race_resources_html_5bd5dbd477.json",
+      "scraped_at": "2026-04-20T15:55:56.138194+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/roboracer_resources.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_roboracer_resources_html_01adf9e15c.json",
+      "scraped_at": "2026-04-20T15:55:54.683009+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/registration.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_registration_html_79536eef50.json",
+      "scraped_at": "2026-04-20T15:55:54.676010+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/results.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_results_html_3095bd786a.json",
+      "scraped_at": "2026-04-20T15:55:57.499243+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_index_html_f0c1c2cff2.json",
+      "scraped_at": "2026-04-20T15:55:55.539712+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_timeline_html_c202e3d014.json",
+      "scraped_at": "2026-04-20T15:55:55.731724+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_race_ressources_html_e8b5d45dbe.json",
+      "scraped_at": "2026-04-20T15:55:58.180041+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_f1tenth_ressources_html_06293ac44e.json",
+      "scraped_at": "2026-04-20T15:55:56.239899+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_registration_html_2cbedadf58.json",
+      "scraped_at": "2026-04-20T15:55:56.123804+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_results_html_ea3913e0c8.json",
+      "scraped_at": "2026-04-20T15:56:00.755422+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-cdc-2024": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_f1tenth-sim-racing-cdc-2024_23a80244e9.json",
+      "scraped_at": "2026-04-20T15:55:58.429593+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_index_html_d2bf2ced2c.json",
+      "scraped_at": "2026-04-20T15:55:56.846566+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_timeline_html_7e88c25557.json",
+      "scraped_at": "2026-04-20T15:55:56.732438+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_race_ressources_html_f1649dd0e6.json",
+      "scraped_at": "2026-04-20T15:55:57.094279+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_f1tenth_ressources_html_7be0f4ca15.json",
+      "scraped_at": "2026-04-20T15:55:57.319272+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_registration_html_a82fc4246b.json",
+      "scraped_at": "2026-04-20T15:55:57.419923+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_results_html_acea9836c2.json",
+      "scraped_at": "2026-04-20T15:55:59.734586+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_index_html_f2c7cb7cba.json",
+      "scraped_at": "2026-04-20T15:55:58.039515+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_index_html_44bfa0463d.json",
+      "scraped_at": "2026-04-20T15:55:58.087000+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_index_html_d3ab1dfea3.json",
+      "scraped_at": "2026-04-20T15:55:58.429259+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_timeline_html_6be09e2ddc.json",
+      "scraped_at": "2026-04-20T15:55:58.617662+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_timeline_html_37cc7bca50.json",
+      "scraped_at": "2026-04-20T15:55:58.664469+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_timeline_html_2a5a6568d4.json",
+      "scraped_at": "2026-04-20T15:55:58.865256+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_race_ressources_html_654e4872e2.json",
+      "scraped_at": "2026-04-20T15:55:59.194243+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_race_ressources_html_f21586ee42.json",
+      "scraped_at": "2026-04-20T15:56:01.244234+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_race_ressources_html_ae1951b99f.json",
+      "scraped_at": "2026-04-20T15:56:01.352816+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_f1tenth_ressources_html_26ca7177b2.json",
+      "scraped_at": "2026-04-20T15:55:59.362122+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_f1tenth_ressources_html_6b81f81862.json",
+      "scraped_at": "2026-04-20T15:55:59.605996+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_f1tenth_ressources_html_dd8f83d3b7.json",
+      "scraped_at": "2026-04-20T15:55:59.749274+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_registration_html_02e71a7056.json",
+      "scraped_at": "2026-04-20T15:56:02.467306+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_registration_html_a5f74eb96e.json",
+      "scraped_at": "2026-04-20T15:56:00.224120+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_registration_html_d78d9fa628.json",
+      "scraped_at": "2026-04-20T15:56:00.430559+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_results_html_e7bca5a3ba.json",
+      "scraped_at": "2026-04-20T15:56:02.726269+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_results_html_4874b8401b.json",
+      "scraped_at": "2026-04-20T15:56:02.853649+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_results_html_fe5c4487cb.json",
+      "scraped_at": "2026-04-20T15:56:01.000157+00:00"
+    },
+    "https://icra2024-madgames.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://icra2024-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2024-madgames_f1tenth_org_index_html_e574e0b95f.json",
+      "scraped_at": "2026-04-20T15:56:01.839555+00:00"
+    },
+    "https://icra2024-madgames.f1tenth.org/speakers.html": {
+      "status": "ok",
+      "source": "https://icra2024-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2024-madgames_f1tenth_org_speakers_html_bc0bcc08ef.json",
+      "scraped_at": "2026-04-20T15:56:01.949647+00:00"
+    },
+    "https://icra2024-madgames.f1tenth.org/program.html": {
+      "status": "ok",
+      "source": "https://icra2024-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2024-madgames_f1tenth_org_program_html_ab3542788a.json",
+      "scraped_at": "2026-04-20T15:56:01.853283+00:00"
+    },
+    "https://icra2024-madgames.f1tenth.org/cfp.html": {
+      "status": "ok",
+      "source": "https://icra2024-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2024-madgames_f1tenth_org_cfp_html_82297ce808.json",
+      "scraped_at": "2026-04-20T15:56:02.010380+00:00"
+    },
+    "https://icra2024-madgames.f1tenth.org/proceedings.html": {
+      "status": "ok",
+      "source": "https://icra2024-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2024-madgames_f1tenth_org_proceedings_html_ac90754f0a.json",
+      "scraped_at": "2026-04-20T15:56:02.404534+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_index_html_b24108bba0.json",
+      "scraped_at": "2026-04-20T15:56:02.527322+00:00"
+    },
+    "https://iros2023-madgames.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://iros2023-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-madgames_f1tenth_org_index_html_e3658303b9.json",
+      "scraped_at": "2026-04-20T15:56:02.608905+00:00"
+    },
+    "https://korea-race23.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_index_html_c4979d7d5e.json",
+      "scraped_at": "2026-04-20T15:56:02.765475+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_timeline_html_ccfe25010a.json",
+      "scraped_at": "2026-04-20T15:56:03.059598+00:00"
+    },
+    "https://iros2023-madgames.f1tenth.org/speakers.html": {
+      "status": "ok",
+      "source": "https://iros2023-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-madgames_f1tenth_org_speakers_html_34e48dc460.json",
+      "scraped_at": "2026-04-20T15:56:03.027781+00:00"
+    },
+    "https://korea-race23.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_timeline_html_a2021ed9f6.json",
+      "scraped_at": "2026-04-20T15:56:03.295394+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_race_ressources_html_9dd131d6a0.json",
+      "scraped_at": "2026-04-20T15:56:03.348525+00:00"
+    },
+    "https://iros2023-madgames.f1tenth.org/program.html": {
+      "status": "ok",
+      "source": "https://iros2023-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-madgames_f1tenth_org_program_html_71bbb988cc.json",
+      "scraped_at": "2026-04-20T15:56:03.420379+00:00"
+    },
+    "https://korea-race23.f1tenth.org/race_resources.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_race_resources_html_fc5fa93ac0.json",
+      "scraped_at": "2026-04-20T15:56:04.927087+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_f1tenth_ressources_html_b85b748e5a.json",
+      "scraped_at": "2026-04-20T15:56:03.477386+00:00"
+    },
+    "https://iros2023-madgames.f1tenth.org/cfp.html": {
+      "status": "ok",
+      "source": "https://iros2023-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-madgames_f1tenth_org_cfp_html_f361a9ef6a.json",
+      "scraped_at": "2026-04-20T15:56:03.578678+00:00"
+    },
+    "https://korea-race23.f1tenth.org/getting_started.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_getting_started_html_48eb4ce783.json",
+      "scraped_at": "2026-04-20T15:56:03.709150+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_registration_html_6d9dbdf5e6.json",
+      "scraped_at": "2026-04-20T15:56:05.541656+00:00"
+    },
+    "https://iros2023-madgames.f1tenth.org/proceedings.html": {
+      "status": "ok",
+      "source": "https://iros2023-madgames.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-madgames_f1tenth_org_proceedings_html_8684372d90.json",
+      "scraped_at": "2026-04-20T15:56:03.928608+00:00"
+    },
+    "https://korea-race23.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_registration_html_2bd812a9e8.json",
+      "scraped_at": "2026-04-20T15:56:04.089943+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_results_html_d0997d6e42.json",
+      "scraped_at": "2026-04-20T15:56:04.037672+00:00"
+    },
+    "https://korea-race23.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_results_html_af55b57a3c.json",
+      "scraped_at": "2026-04-20T15:56:04.231235+00:00"
+    },
+    "https://korea-race23.f1tenth.org/bootcamp.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_bootcamp_html_263a356421.json",
+      "scraped_at": "2026-04-20T15:56:06.381829+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/index.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_index_html_7df8fafeb9.json",
+      "scraped_at": "2026-04-20T15:56:04.611475+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_index_html_1153923317.json",
+      "scraped_at": "2026-04-20T15:56:04.686336+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_timeline_html_325d13d498.json",
+      "scraped_at": "2026-04-20T15:56:04.751581+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_race_ressources_html_dd0e8fc8f3.json",
+      "scraped_at": "2026-04-20T15:56:05.166434+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_f1tenth_ressources_html_897ab85375.json",
+      "scraped_at": "2026-04-20T15:56:05.442557+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_registration_html_ff73db3813.json",
+      "scraped_at": "2026-04-20T15:56:05.350704+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_results_html_dd6046f2f0.json",
+      "scraped_at": "2026-04-20T15:56:07.056338+00:00"
+    },
+    "https://2025.iccas.org/?page_id=949": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_ede2e41411.json",
+      "scraped_at": "2026-04-20T15:56:08.436472+00:00"
+    },
+    "https://2025.iccas.org/?page_id=956": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_f37ee97f60.json",
+      "scraped_at": "2026-04-20T15:56:08.891394+00:00"
+    },
+    "https://2025.iccas.org/?page_id=958": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_848c4adc49.json",
+      "scraped_at": "2026-04-20T15:56:08.362938+00:00"
+    },
+    "https://2025.iccas.org/?page_id=960": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_f45c83c5e3.json",
+      "scraped_at": "2026-04-20T15:56:08.568623+00:00"
+    },
+    "https://2025.iccas.org/?page_id=962": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_5251dfb9af.json",
+      "scraped_at": "2026-04-20T15:56:08.867127+00:00"
+    },
+    "https://2025.iccas.org/?page_id=964": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_99f9bee4a2.json",
+      "scraped_at": "2026-04-20T15:56:08.803258+00:00"
+    },
+    "https://2025.iccas.org/?page_id=968": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_7c91ca53f0.json",
+      "scraped_at": "2026-04-20T15:56:08.962747+00:00"
+    },
+    "https://2025.iccas.org/?page_id=972": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_f3ccf0bbc3.json",
+      "scraped_at": "2026-04-20T15:56:09.595039+00:00"
+    },
+    "https://2025.iccas.org/?page_id=974": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_22e137c463.json",
+      "scraped_at": "2026-04-20T15:56:09.952667+00:00"
+    },
+    "https://2025.iccas.org/?page_id=980": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_b6c60b5473.json",
+      "scraped_at": "2026-04-20T15:56:10.131900+00:00"
+    },
+    "https://2025.iccas.org/?page_id=4569": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_eac39325bd.json",
+      "scraped_at": "2026-04-20T15:56:10.445641+00:00"
+    },
+    "https://2025.iccas.org/?page_id=5104": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_1651df7570.json",
+      "scraped_at": "2026-04-20T15:56:10.439683+00:00"
+    },
+    "https://2025.iccas.org/?page_id=4431": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_9c873fdeb0.json",
+      "scraped_at": "2026-04-20T15:56:10.451770+00:00"
+    },
+    "https://2025.iccas.org/?page_id=2594": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_d9235df3d1.json",
+      "scraped_at": "2026-04-20T15:56:10.302903+00:00"
+    },
+    "https://2025.iccas.org/?page_id=984": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_02e3c15a8a.json",
+      "scraped_at": "2026-04-20T15:56:11.006102+00:00"
+    },
+    "https://2025.iccas.org/?page_id=988": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_444afe6544.json",
+      "scraped_at": "2026-04-20T15:56:11.457803+00:00"
+    },
+    "https://2025.iccas.org/?page_id=992": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_fe8d8aa197.json",
+      "scraped_at": "2026-04-20T15:56:11.454931+00:00"
+    },
+    "https://2025.iccas.org/?page_id=994": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_3da335518d.json",
+      "scraped_at": "2026-04-20T15:56:11.693265+00:00"
+    },
+    "https://2025.iccas.org/?page_id=997": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_63a5b0f87e.json",
+      "scraped_at": "2026-04-20T15:56:11.765969+00:00"
+    },
+    "https://2025.iccas.org/?page_id=1001": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_3fd14d3182.json",
+      "scraped_at": "2026-04-20T15:56:11.762876+00:00"
+    },
+    "https://2025.iccas.org/?page_id=1003": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_43e55e63b5.json",
+      "scraped_at": "2026-04-20T15:56:11.994688+00:00"
+    },
+    "https://2025.iccas.org/?page_id=1005": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_2a6abea6ed.json",
+      "scraped_at": "2026-04-20T15:56:12.428975+00:00"
+    },
+    "https://2025.iccas.org/?page_id=1007": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_5bf7c31354.json",
+      "scraped_at": "2026-04-20T15:56:12.960587+00:00"
+    },
+    "https://2025.iccas.org/?page_id=1406": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_e329157fbc.json",
+      "scraped_at": "2026-04-20T15:56:12.744249+00:00"
+    },
+    "https://2025.iccas.org/?page_id=2027": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_d1c581618a.json",
+      "scraped_at": "2026-04-20T15:56:13.291981+00:00"
+    },
+    "https://2025.iccas.org/?mod=document&page_id=962&uid=4": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_96a237b0ea.json",
+      "scraped_at": "2026-04-20T15:56:13.520675+00:00"
+    },
+    "https://2025.iccas.org/?mod=document&page_id=962&uid=3": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_c174511642.json",
+      "scraped_at": "2026-04-20T15:56:13.512949+00:00"
+    },
+    "https://2025.iccas.org/?mod=document&page_id=962&uid=2": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_79ea3c1579.json",
+      "scraped_at": "2026-04-20T15:56:13.517005+00:00"
+    },
+    "https://2025.iccas.org/?mod=document&page_id=962&uid=1": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_b8b6491916.json",
+      "scraped_at": "2026-04-20T15:56:13.798220+00:00"
+    },
+    "https://2025.iccas.org/wp-content/plugins/kboard/rss.php": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_plugins_kboard_rss_php_f579b5ce0c.json",
+      "scraped_at": "2026-04-20T15:56:18.285281+00:00"
+    },
+    "https://2025.iccas.org/?feed=rss2": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_8970ab87eb.json",
+      "scraped_at": "2026-04-20T15:56:17.406182+00:00"
+    },
+    "https://2025.iccas.org/?feed=comments-rss2": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_90cb1a3f08.json",
+      "scraped_at": "2026-04-20T15:56:17.120597+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_b34b8b0ec5.json",
+      "scraped_at": "2026-04-20T15:56:17.000364+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_d104c3dd9d.json",
+      "scraped_at": "2026-04-20T15:56:17.012152+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2F": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_eb05b022b8.json",
+      "scraped_at": "2026-04-20T15:56:15.349614+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F16": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_99fbce35be.json",
+      "scraped_at": "2026-04-20T15:56:15.176961+00:00"
+    },
+    "https://2025.iccas.org/xmlrpc.php?rsd=": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_xmlrpc_php_2481c87793.json",
+      "scraped_at": "2026-04-20T15:56:17.931451+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_index_html_4ca02ba7f5.json",
+      "scraped_at": "2026-04-20T15:56:16.150811+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_timeline_html_666b380b38.json",
+      "scraped_at": "2026-04-20T15:56:16.725026+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_race_ressources_html_4e3503f64a.json",
+      "scraped_at": "2026-04-20T15:56:17.295436+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_f1tenth_ressources_html_72358c0476.json",
+      "scraped_at": "2026-04-20T15:56:17.759499+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_registration_html_a02c2be039.json",
+      "scraped_at": "2026-04-20T15:56:19.364744+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_results_html_0d5f014f9f.json",
+      "scraped_at": "2026-04-20T15:56:19.709416+00:00"
+    },
+    "https://iv2023-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://iv2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2023-race_f1tenth_org_index_html_521b69126f.json",
+      "scraped_at": "2026-04-20T15:56:18.039318+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_index_html_2bb6d6e3fa.json",
+      "scraped_at": "2026-04-20T15:56:18.102786+00:00"
+    },
+    "https://korea-race.f1tenth.org/index.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_index_html_d9831ae8b1.json",
+      "scraped_at": "2026-04-20T15:56:18.600898+00:00"
+    },
+    "https://iv2023-race.f1tenth.org/participants.html": {
+      "status": "ok",
+      "source": "https://iv2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2023-race_f1tenth_org_participants_html_077c8f680c.json",
+      "scraped_at": "2026-04-20T15:56:18.565373+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_timeline_html_c99b338bfd.json",
+      "scraped_at": "2026-04-20T15:56:18.739945+00:00"
+    },
+    "https://korea-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_timeline_html_613e0a8afc.json",
+      "scraped_at": "2026-04-20T15:56:18.788780+00:00"
+    },
+    "https://iv2023-race.f1tenth.org/timeline.html": {
+      "status": "ok",
+      "source": "https://iv2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2023-race_f1tenth_org_timeline_html_0771ac6a42.json",
+      "scraped_at": "2026-04-20T15:56:19.004766+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/race_ressources.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_race_ressources_html_4e20a71ccb.json",
+      "scraped_at": "2026-04-20T15:56:19.211967+00:00"
+    },
+    "https://korea-race.f1tenth.org/program.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_program_html_24f0b82c86.json",
+      "scraped_at": "2026-04-20T15:56:19.198315+00:00"
+    },
+    "https://iv2023-race.f1tenth.org/race_resources.html": {
+      "status": "ok",
+      "source": "https://iv2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2023-race_f1tenth_org_race_resources_html_77f78b834d.json",
+      "scraped_at": "2026-04-20T15:56:19.315572+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_f1tenth_ressources_html_ae4030457a.json",
+      "scraped_at": "2026-04-20T15:56:19.385031+00:00"
+    },
+    "https://korea-race.f1tenth.org/race_resources.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_race_resources_html_928f0e0dc9.json",
+      "scraped_at": "2026-04-20T15:56:21.490386+00:00"
+    },
+    "https://iv2023-race.f1tenth.org/f1tenth_ressources.html": {
+      "status": "ok",
+      "source": "https://iv2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2023-race_f1tenth_org_f1tenth_ressources_html_18eca103fb.json",
+      "scraped_at": "2026-04-20T15:56:19.885632+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_registration_html_c4b764c60c.json",
+      "scraped_at": "2026-04-20T15:56:19.808371+00:00"
+    },
+    "https://korea-race.f1tenth.org/getting_started.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_getting_started_html_68cff7c3f1.json",
+      "scraped_at": "2026-04-20T15:56:20.058414+00:00"
+    },
+    "https://iv2023-race.f1tenth.org/registration.html": {
+      "status": "ok",
+      "source": "https://iv2023-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2023-race_f1tenth_org_registration_html_340ddb3c97.json",
+      "scraped_at": "2026-04-20T15:56:22.640567+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_results_html_56b0f4f7d4.json",
+      "scraped_at": "2026-04-20T15:56:22.427665+00:00"
+    },
+    "https://korea-race.f1tenth.org/results.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_results_html_388fe1a3f2.json",
+      "scraped_at": "2026-04-20T15:56:22.362114+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/index.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_index_html_c9a819637e.json",
+      "scraped_at": "2026-04-20T15:56:21.043632+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2026": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2026",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-rules-2026_f7658eff6b.json",
+      "scraped_at": "2026-04-20T15:56:21.147650+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2026": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2026",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2026_655104fc19.json",
+      "scraped_at": "2026-04-20T15:56:21.944154+00:00"
+    },
+    "https://roboracer.ai/about.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_about_html_23ecb19ac9.json",
+      "scraped_at": "2026-04-20T15:56:23.099656+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/education/aalto-university-course": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/education",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_education_aalto-university-course_613b6b15cf.json",
+      "scraped_at": "2026-04-20T15:56:21.943328+00:00"
+    },
+    "https://roboracer.ai/build.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_build_html_03e85085af.json",
+      "scraped_at": "2026-04-20T15:56:23.451346+00:00"
+    },
+    "https://roboracer.ai/learn.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_learn_html_495c9c046a.json",
+      "scraped_at": "2026-04-20T15:56:24.083903+00:00"
+    },
+    "https://roboracer.ai/research.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_research_html_57c58ef8fe.json",
+      "scraped_at": "2026-04-20T15:56:24.079490+00:00"
+    },
+    "https://roboracer.ai/race.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/roboracer_ai_race_html_6ea5812204.json",
+      "scraped_at": "2026-04-20T15:56:24.322256+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2024": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-rules-2024_13106be71a.json",
+      "scraped_at": "2026-04-20T15:56:23.099393+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2024": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2024_7e2de866c9.json",
+      "scraped_at": "2026-04-20T15:56:23.605530+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/assets/images/competitions/2024%20iros%20roboracer%20sim%20racing%20league/Map.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_assets_images_competitions_2024_20iros_20roboracer_20sim_20racing_20league_Map_html_c0ee6e57e6.json",
+      "scraped_at": "2026-04-20T15:56:28.339616+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/assets/images/competitions/2024%20cdc%20roboracer%20sim%20racing%20league/Map.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-cdc-2024",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_assets_images_competitions_2024_20cdc_20roboracer_20sim_20racing_20league_Map_html_37d12b447f.json",
+      "scraped_at": "2026-04-20T15:56:28.106742+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-rules-2025": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-rules-2025_503033f36c.json",
+      "scraped_at": "2026-04-20T15:56:24.758474+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2025": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2025_01c83baf09.json",
+      "scraped_at": "2026-04-20T15:56:24.835762+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/assets/images/competitions/2025%20icra%20roboracer%20sim%20racing%20league/Map.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_assets_images_competitions_2025_20icra_20roboracer_20sim_20racing_20league_Map_html_935a3805a3.json",
+      "scraped_at": "2026-04-20T15:56:28.407385+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/assets/images/competitions/2025%20cdc-tf%20roboracer%20sim%20racing%20league/Map.html": {
+      "status": "ok",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-cdc-tf-2025",
+      "retries": 0,
+      "depth": 3,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_assets_images_competitions_2025_20cdc-tf_20roboracer_20sim_20racing_20league_Map_html_682916d338.json",
+      "scraped_at": "2026-04-20T15:56:28.688709+00:00"
+    },
+    "https://f1tenth-coursekit.readthedocs.io/en/latest/index.html": {
+      "status": "ok",
+      "source": "https://f1tenth-coursekit.readthedocs.io/en/latest/getting_started/index.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_index_html_daffcf18ee.json",
+      "scraped_at": "2026-04-20T15:56:25.191958+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/rules.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/race_resources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_rules_html_84fa0ee5be.json",
+      "scraped_at": "2026-04-20T15:56:25.471462+00:00"
+    },
+    "https://cdc2025-race.roboracer.ai/stream.html": {
+      "status": "ok",
+      "source": "https://cdc2025-race.roboracer.ai/race_resources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2025-race_roboracer_ai_stream_html_074e346f8f.json",
+      "scraped_at": "2026-04-20T15:56:27.323103+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_stream_html_2fb65e29a7.json",
+      "scraped_at": "2026-04-20T15:56:28.992296+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_rules_html_5fd530eba6.json",
+      "scraped_at": "2026-04-20T15:56:26.240647+00:00"
+    },
+    "https://bu2024-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/bu2024-race_f1tenth_org_faq-physical_html_30ca50ef03.json",
+      "scraped_at": "2026-04-20T15:56:27.024267+00:00"
+    },
+    "https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-iros-2024": {
+      "status": "ok",
+      "source": "https://bu2024-race.f1tenth.org/f1tenth_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/autodrive-ecosystem_github_io_competitions_f1tenth-sim-racing-iros-2024_acd6d45d7e.json",
+      "scraped_at": "2026-04-20T15:56:29.974737+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_rules_html_8677f3a8bc.json",
+      "scraped_at": "2026-04-20T15:56:29.137919+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_faq-physical_html_104410777c.json",
+      "scraped_at": "2026-04-20T15:56:29.224946+00:00"
+    },
+    "https://cdc2024-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://cdc2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cdc2024-race_f1tenth_org_stream_html_8e358f7bf3.json",
+      "scraped_at": "2026-04-20T15:56:31.699221+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_stream_html_e4cac36497.json",
+      "scraped_at": "2026-04-20T15:56:31.699120+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_rules_html_5c336b9b58.json",
+      "scraped_at": "2026-04-20T15:56:29.384340+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/orientation_1.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_orientation_1_html_ef2d71ab1b.json",
+      "scraped_at": "2026-04-20T15:56:31.708711+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/orientation_2.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_orientation_2_html_fb68bfd362.json",
+      "scraped_at": "2026-04-20T15:56:32.452541+00:00"
+    },
+    "https://sm2024-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/sm2024-race_f1tenth_org_faq-physical_html_7b4542e0c4.json",
+      "scraped_at": "2026-04-20T15:56:30.113298+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_rules_html_28d4f0b76e.json",
+      "scraped_at": "2026-04-20T15:56:30.225994+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_faq-physical_html_a13d35ccdd.json",
+      "scraped_at": "2026-04-20T15:56:30.686092+00:00"
+    },
+    "https://itsc2024-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://itsc2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/itsc2024-race_f1tenth_org_stream_html_770c3aef1a.json",
+      "scraped_at": "2026-04-20T15:56:33.127471+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_rules_html_9b90025af1.json",
+      "scraped_at": "2026-04-20T15:56:31.402909+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_faq-physical_html_58ddaec933.json",
+      "scraped_at": "2026-04-20T15:56:31.403692+00:00"
+    },
+    "https://iv2024-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://iv2024-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iv2024-race_f1tenth_org_stream_html_a042405050.json",
+      "scraped_at": "2026-04-20T15:56:34.034449+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/timeline.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/timeline.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_timeline_html_a9c1ec05ac.json",
+      "scraped_at": "2026-04-20T15:56:32.116960+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_stream_html_b150862620.json",
+      "scraped_at": "2026-04-20T15:56:33.843044+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_rules_html_2a6d502c60.json",
+      "scraped_at": "2026-04-20T15:56:32.322320+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/orientation_1.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_orientation_1_html_888006ed68.json",
+      "scraped_at": "2026-04-20T15:56:34.710581+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/orientation_2.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_orientation_2_html_3401233dc4.json",
+      "scraped_at": "2026-04-20T15:56:35.825674+00:00"
+    },
+    "https://iros2023-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/iros2023-race_f1tenth_org_faq-physical_html_608a315e91.json",
+      "scraped_at": "2026-04-20T15:56:32.890918+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/getting_started.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/getting_started.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_getting_started_html_fa9d01a395.json",
+      "scraped_at": "2026-04-20T15:56:33.179615+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/registration.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/registration.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_registration_html_cd0ce4cf20.json",
+      "scraped_at": "2026-04-20T15:56:33.701930+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/results.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/results.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_results_html_12e672ff71.json",
+      "scraped_at": "2026-04-20T15:56:33.732741+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/race_resources.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/ko/index.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_race_resources_html_0b772b89e0.json",
+      "scraped_at": "2026-04-20T15:56:35.463123+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/bootcamp.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/ko/index.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_bootcamp_html_2f6987057b.json",
+      "scraped_at": "2026-04-20T15:56:37.067979+00:00"
+    },
+    "https://korea-race23.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/race_resources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_rules_html_3f7ad25e2d.json",
+      "scraped_at": "2026-04-20T15:56:34.314190+00:00"
+    },
+    "https://korea-race23.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/race_resources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_faq-physical_html_77d4f523a5.json",
+      "scraped_at": "2026-04-20T15:56:34.477118+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_stream_html_7f43f3407f.json",
+      "scraped_at": "2026-04-20T15:56:36.195322+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_rules_html_49ce0b7ba5.json",
+      "scraped_at": "2026-04-20T15:56:34.955546+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/orientation_1.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_orientation_1_html_3ada9773f4.json",
+      "scraped_at": "2026-04-20T15:56:37.897075+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/orientation_2.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_orientation_2_html_df53bd7ddd.json",
+      "scraped_at": "2026-04-20T15:56:38.190172+00:00"
+    },
+    "https://icra2023-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://icra2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2023-race_f1tenth_org_faq-physical_html_66abb84a26.json",
+      "scraped_at": "2026-04-20T15:56:35.638634+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D958": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=958",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_a9846c483a.json",
+      "scraped_at": "2026-04-20T15:56:40.274355+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D958": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=958",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_4fb24ceea9.json",
+      "scraped_at": "2026-04-20T15:56:40.552755+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F958": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=958",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_4fbb44e9f2.json",
+      "scraped_at": "2026-04-20T15:56:42.127058+00:00"
+    },
+    "https://2025.iccas.org/?p=958": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=958",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_608fcec293.json",
+      "scraped_at": "2026-04-20T15:56:39.054788+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D949": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=949",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_ec9a865f7a.json",
+      "scraped_at": "2026-04-20T15:56:40.540863+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D949": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=949",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_33310aeec0.json",
+      "scraped_at": "2026-04-20T15:56:41.849422+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F949": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=949",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_295a5012f7.json",
+      "scraped_at": "2026-04-20T15:56:40.053634+00:00"
+    },
+    "https://2025.iccas.org/?p=949": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=949",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_cd20bee1cf.json",
+      "scraped_at": "2026-04-20T15:56:41.045720+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D960": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=960",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_5538140f56.json",
+      "scraped_at": "2026-04-20T15:56:43.236096+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D960": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=960",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_59b2d144a3.json",
+      "scraped_at": "2026-04-20T15:56:43.109990+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F960": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=960",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_9ec005c8a5.json",
+      "scraped_at": "2026-04-20T15:56:43.709784+00:00"
+    },
+    "https://2025.iccas.org/?p=960": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=960",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_3012710230.json",
+      "scraped_at": "2026-04-20T15:56:42.623877+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/05/Organized-Session-Proposal_ICCAS2025.docx": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=964",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_05_Organized-Session-Proposal_ICCAS2025_docx_88ebdc372f.json",
+      "scraped_at": "2026-04-20T15:56:41.985425+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D964": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=964",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_4cbeefe39d.json",
+      "scraped_at": "2026-04-20T15:56:44.554692+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D964": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=964",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_7563ff371a.json",
+      "scraped_at": "2026-04-20T15:56:43.117625+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F964": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=964",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_956402e22b.json",
+      "scraped_at": "2026-04-20T15:56:43.228778+00:00"
+    },
+    "https://2025.iccas.org/?p=964": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=964",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_11fdd5312b.json",
+      "scraped_at": "2026-04-20T15:56:45.070259+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D962": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=962",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_924e82bcf8.json",
+      "scraped_at": "2026-04-20T15:56:46.236871+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D962": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=962",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_a8636caf38.json",
+      "scraped_at": "2026-04-20T15:56:46.469385+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F962": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=962",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_bda37bb0fe.json",
+      "scraped_at": "2026-04-20T15:56:44.766336+00:00"
+    },
+    "https://2025.iccas.org/?p=962": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=962",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_34dbe8aa51.json",
+      "scraped_at": "2026-04-20T15:56:45.772159+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D956": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=956",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_e4b5161202.json",
+      "scraped_at": "2026-04-20T15:56:46.781847+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D956": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=956",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_bb4b4e351f.json",
+      "scraped_at": "2026-04-20T15:56:47.399599+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F956": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=956",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_1495763be6.json",
+      "scraped_at": "2026-04-20T15:56:46.190540+00:00"
+    },
+    "https://2025.iccas.org/?p=956": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=956",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_8018f33fe9.json",
+      "scraped_at": "2026-04-20T15:56:47.164485+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D968": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=968",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_7ba9b32ef4.json",
+      "scraped_at": "2026-04-20T15:56:48.499058+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D968": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=968",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_622c7c5624.json",
+      "scraped_at": "2026-04-20T15:56:49.000548+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F968": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=968",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_9515f8982e.json",
+      "scraped_at": "2026-04-20T15:56:47.428879+00:00"
+    },
+    "https://2025.iccas.org/?p=968": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=968",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_faf1a61a66.json",
+      "scraped_at": "2026-04-20T15:56:48.394831+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D972": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=972",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_0df0a366ce.json",
+      "scraped_at": "2026-04-20T15:56:49.647074+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D972": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=972",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_79e61c0e74.json",
+      "scraped_at": "2026-04-20T15:56:50.001851+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F972": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=972",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_fadbd0ca2b.json",
+      "scraped_at": "2026-04-20T15:56:50.191653+00:00"
+    },
+    "https://2025.iccas.org/?p=972": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=972",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_70d4997095.json",
+      "scraped_at": "2026-04-20T15:56:49.191262+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D974": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=974",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_5e4bf93973.json",
+      "scraped_at": "2026-04-20T15:56:51.113726+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D974": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=974",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_9ae70ebe0e.json",
+      "scraped_at": "2026-04-20T15:56:51.264456+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F974": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=974",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_191ecaf9b2.json",
+      "scraped_at": "2026-04-20T15:56:50.324530+00:00"
+    },
+    "https://2025.iccas.org/?p=974": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=974",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_904e6380bb.json",
+      "scraped_at": "2026-04-20T15:56:51.228833+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D980": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=980",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_99d71e9f23.json",
+      "scraped_at": "2026-04-20T15:56:52.366337+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D980": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=980",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_3652ae5df0.json",
+      "scraped_at": "2026-04-20T15:56:52.739100+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F980": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=980",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_27953cdbad.json",
+      "scraped_at": "2026-04-20T15:56:51.311734+00:00"
+    },
+    "https://2025.iccas.org/?p=980": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=980",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_50fcf99ae0.json",
+      "scraped_at": "2026-04-20T15:56:52.360645+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D2594": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2594",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_4bd49f8904.json",
+      "scraped_at": "2026-04-20T15:56:53.850141+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D2594": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2594",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_a299dc25f8.json",
+      "scraped_at": "2026-04-20T15:56:54.000125+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F2594": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2594",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_c70435fa9b.json",
+      "scraped_at": "2026-04-20T15:56:52.430082+00:00"
+    },
+    "https://2025.iccas.org/?p=2594": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2594",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_bac634637d.json",
+      "scraped_at": "2026-04-20T15:56:53.187507+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D5104": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=5104",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_a29892b372.json",
+      "scraped_at": "2026-04-20T15:56:55.047245+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/07/3rd-Koh-Young-AI-Competition_Entry_Form.docx": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4431",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_07_3rd-Koh-Young-AI-Competition_Entry_Form_docx_60f5e2eac9.json",
+      "scraped_at": "2026-04-20T15:56:53.296725+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D4569": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4569",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_acd0cda1ba.json",
+      "scraped_at": "2026-04-20T15:56:55.224889+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D5104": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=5104",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_0afedb2cf7.json",
+      "scraped_at": "2026-04-20T15:56:53.824994+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D4431": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4431",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_7b529533d0.json",
+      "scraped_at": "2026-04-20T15:56:55.940585+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D4569": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4569",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_212150bd58.json",
+      "scraped_at": "2026-04-20T15:56:56.025053+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F5104": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=5104",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_c3d22bada8.json",
+      "scraped_at": "2026-04-20T15:56:54.973890+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D4431": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4431",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_9f8c39236a.json",
+      "scraped_at": "2026-04-20T15:56:55.012206+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F4569": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4569",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_6095fce575.json",
+      "scraped_at": "2026-04-20T15:56:55.400456+00:00"
+    },
+    "https://2025.iccas.org/?p=5104": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=5104",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_b53081db5a.json",
+      "scraped_at": "2026-04-20T15:56:56.771412+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F4431": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4431",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_22bae96f4d.json",
+      "scraped_at": "2026-04-20T15:56:56.112799+00:00"
+    },
+    "https://2025.iccas.org/?p=4569": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4569",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_d54ef87128.json",
+      "scraped_at": "2026-04-20T15:56:56.992673+00:00"
+    },
+    "https://2025.iccas.org/?p=4431": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=4431",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_072afe160a.json",
+      "scraped_at": "2026-04-20T15:56:57.323862+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D984": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=984",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_ba3b6691d0.json",
+      "scraped_at": "2026-04-20T15:56:58.357131+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D984": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=984",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_bb2ccdb6aa.json",
+      "scraped_at": "2026-04-20T15:56:58.961708+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F984": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=984",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_9207e01293.json",
+      "scraped_at": "2026-04-20T15:56:59.362250+00:00"
+    },
+    "https://2025.iccas.org/?p=984": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=984",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_ec04a9266f.json",
+      "scraped_at": "2026-04-20T15:56:58.357190+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D992": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=992",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_63feff8e8d.json",
+      "scraped_at": "2026-04-20T15:56:59.498026+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D988": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=988",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_e84a820461.json",
+      "scraped_at": "2026-04-20T15:56:59.739309+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D992": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=992",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_fa58149576.json",
+      "scraped_at": "2026-04-20T15:57:00.033808+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D988": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=988",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_ad966e16da.json",
+      "scraped_at": "2026-04-20T15:57:01.062596+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F992": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=992",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_275ee484a5.json",
+      "scraped_at": "2026-04-20T15:56:59.450879+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F988": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=988",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_db6adb6639.json",
+      "scraped_at": "2026-04-20T15:57:00.286777+00:00"
+    },
+    "https://2025.iccas.org/?p=992": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=992",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_0b2bc73cab.json",
+      "scraped_at": "2026-04-20T15:57:01.087303+00:00"
+    },
+    "https://2025.iccas.org/?p=988": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=988",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_0d38b65c7c.json",
+      "scraped_at": "2026-04-20T15:57:01.421418+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/01/ICCAS2025_Poster-Sample.pptx": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=994",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_01_ICCAS2025_Poster-Sample_pptx_3b7f09d364.json",
+      "scraped_at": "2026-04-20T15:57:00.447702+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D994": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=994",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_55c44b6801.json",
+      "scraped_at": "2026-04-20T15:57:02.596949+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D994": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=994",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_07c56b1227.json",
+      "scraped_at": "2026-04-20T15:57:02.810127+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F994": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=994",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_060e3250c3.json",
+      "scraped_at": "2026-04-20T15:57:01.466879+00:00"
+    },
+    "https://2025.iccas.org/?p=994": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=994",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_621d7470a2.json",
+      "scraped_at": "2026-04-20T15:57:02.545423+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1001": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1001",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_8c8936d079.json",
+      "scraped_at": "2026-04-20T15:57:04.298002+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D997": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=997",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_021cd27073.json",
+      "scraped_at": "2026-04-20T15:57:04.256989+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1001": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1001",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_756f76c44d.json",
+      "scraped_at": "2026-04-20T15:57:04.778438+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D997": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=997",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_a60a8e1038.json",
+      "scraped_at": "2026-04-20T15:57:04.590352+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F1001": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1001",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_e5207c1c3a.json",
+      "scraped_at": "2026-04-20T15:57:05.338109+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F997": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=997",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_5df8064d59.json",
+      "scraped_at": "2026-04-20T15:57:05.506374+00:00"
+    },
+    "https://2025.iccas.org/?p=1001": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1001",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_c2a211e0b9.json",
+      "scraped_at": "2026-04-20T15:57:04.666882+00:00"
+    },
+    "https://2025.iccas.org/?p=997": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=997",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_16adca59e4.json",
+      "scraped_at": "2026-04-20T15:57:05.946787+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/07/Oakwood.doc": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_07_Oakwood_doc_e16f54b65c.json",
+      "scraped_at": "2026-04-20T15:57:05.686528+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/07/Orakai-Songdo-Park-Hotel.docx": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_07_Orakai-Songdo-Park-Hotel_docx_01ca4ff285.json",
+      "scraped_at": "2026-04-20T15:57:05.565078+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/07/Bridge.xlsx": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_07_Bridge_xlsx_ffdaed65a8.json",
+      "scraped_at": "2026-04-20T15:57:05.397149+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/07/ICCAS-2025-Reservation-Form.docx": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_07_ICCAS-2025-Reservation-Form_docx_83ec2cdbdd.json",
+      "scraped_at": "2026-04-20T15:57:06.235987+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1003": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_6d83c394cf.json",
+      "scraped_at": "2026-04-20T15:57:08.081546+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1003": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_950af5e09d.json",
+      "scraped_at": "2026-04-20T15:57:08.284741+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F1003": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_a56e4e27a0.json",
+      "scraped_at": "2026-04-20T15:57:06.727110+00:00"
+    },
+    "https://2025.iccas.org/?p=1003": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1003",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_defcd2c5e4.json",
+      "scraped_at": "2026-04-20T15:57:07.631658+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1005": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1005",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_c8da0ae1b6.json",
+      "scraped_at": "2026-04-20T15:57:08.505648+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1005": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1005",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_5db8026be2.json",
+      "scraped_at": "2026-04-20T15:57:08.843293+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F1005": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1005",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_2b5fd8acd9.json",
+      "scraped_at": "2026-04-20T15:57:07.412676+00:00"
+    },
+    "https://2025.iccas.org/?p=1005": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1005",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_60aa7fc4d2.json",
+      "scraped_at": "2026-04-20T15:57:08.641994+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1406": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1406",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_c58ee2f566.json",
+      "scraped_at": "2026-04-20T15:57:10.120265+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1406": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1406",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_00bcc7d3aa.json",
+      "scraped_at": "2026-04-20T15:57:10.428982+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F1406": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1406",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_d0ead1526b.json",
+      "scraped_at": "2026-04-20T15:57:09.192505+00:00"
+    },
+    "https://2025.iccas.org/?p=1406": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1406",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_2dd4b15d55.json",
+      "scraped_at": "2026-04-20T15:57:10.041800+00:00"
+    },
+    "https://2025.iccas.org/wp-content/uploads/2025/01/Form_for_Visa_ICCAS2025.docx": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1007",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_wp-content_uploads_2025_01_Form_for_Visa_ICCAS2025_docx_adce88ed1a.json",
+      "scraped_at": "2026-04-20T15:57:09.456165+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1007": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1007",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_34e9456ee4.json",
+      "scraped_at": "2026-04-20T15:57:11.403482+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D1007": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1007",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_cc510aafd9.json",
+      "scraped_at": "2026-04-20T15:57:11.587000+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F1007": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1007",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_58997bbb44.json",
+      "scraped_at": "2026-04-20T15:57:10.589290+00:00"
+    },
+    "https://2025.iccas.org/?p=1007": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=1007",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_b3d484df20.json",
+      "scraped_at": "2026-04-20T15:57:11.573479+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D2027": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2027",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_9860eade36.json",
+      "scraped_at": "2026-04-20T15:57:12.829842+00:00"
+    },
+    "https://2025.iccas.org/index.php?format=xml&rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F%3Fpage_id%3D2027": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2027",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_8fe63a643f.json",
+      "scraped_at": "2026-04-20T15:57:12.886562+00:00"
+    },
+    "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F2027": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2027",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_index_php_f040859898.json",
+      "scraped_at": "2026-04-20T15:57:11.573117+00:00"
+    },
+    "https://2025.iccas.org/?p=2027": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?page_id=2027",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_01d72bdf4d.json",
+      "scraped_at": "2026-04-20T15:57:12.509668+00:00"
+    },
+    "https://2025.iccas.org/?mod=list&page_id=962": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=4",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_2d198e1d5a.json",
+      "scraped_at": "2026-04-20T15:57:12.789360+00:00"
+    },
+    "https://2025.iccas.org/?kboard_content_redirect=3": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=3",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_b5fa779e4c.json",
+      "scraped_at": "2026-04-20T15:57:13.607998+00:00"
+    },
+    "https://2025.iccas.org/?kboard_content_redirect=2": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=2",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_40626dacab.json",
+      "scraped_at": "2026-04-20T15:57:13.608881+00:00"
+    },
+    "https://2025.iccas.org/?kboard_content_redirect=4": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=4",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_56650e8833.json",
+      "scraped_at": "2026-04-20T15:57:13.547675+00:00"
+    },
+    "https://2025.iccas.org/?kboard_content_redirect=1": {
+      "status": "ok",
+      "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=1",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/2025_iccas_org_d9ed2e9dd5.json",
+      "scraped_at": "2026-04-20T15:57:14.443417+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_stream_html_6680723d1e.json",
+      "scraped_at": "2026-04-20T15:57:16.709654+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_rules_html_8c8680f759.json",
+      "scraped_at": "2026-04-20T15:57:13.407411+00:00"
+    },
+    "https://cps2023-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://cps2023-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/cps2023-race_f1tenth_org_faq-physical_html_83f73fde12.json",
+      "scraped_at": "2026-04-20T15:57:13.670304+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/timeline.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/timeline.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_timeline_html_e49df3a14a.json",
+      "scraped_at": "2026-04-20T15:57:14.183255+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/program.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/program.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_program_html_ab6c70f391.json",
+      "scraped_at": "2026-04-20T15:57:14.124251+00:00"
+    },
+    "https://korea-race.f1tenth.org/agenda.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/program.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_agenda_html_a900c110ab.json",
+      "scraped_at": "2026-04-20T15:57:14.189679+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/stream.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_stream_html_fff52734e2.json",
+      "scraped_at": "2026-04-20T15:57:16.195348+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_rules_html_9221b2d78c.json",
+      "scraped_at": "2026-04-20T15:57:14.393954+00:00"
+    },
+    "https://icra2022-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://icra2022-race.f1tenth.org/race_ressources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/icra2022-race_f1tenth_org_faq-physical_html_0b57a4460d.json",
+      "scraped_at": "2026-04-20T15:57:14.727355+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/getting_started.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/getting_started.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_getting_started_html_203306fb42.json",
+      "scraped_at": "2026-04-20T15:57:14.744879+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/race_resources.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/ko/index.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_race_resources_html_1afa4e7993.json",
+      "scraped_at": "2026-04-20T15:57:16.444645+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/results.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/ko/index.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_results_html_42bda32cd8.json",
+      "scraped_at": "2026-04-20T15:57:16.785747+00:00"
+    },
+    "https://korea-race.f1tenth.org/rules.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/race_resources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_rules_html_b30d3696a2.json",
+      "scraped_at": "2026-04-20T15:57:15.423464+00:00"
+    },
+    "https://korea-race.f1tenth.org/faq-physical.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/race_resources.html",
+      "retries": 0,
+      "depth": 4,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_faq-physical_html_73dbcd2771.json",
+      "scraped_at": "2026-04-20T15:57:15.395514+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/rules.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/rules.html",
+      "retries": 0,
+      "depth": 5,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_rules_html_d233b7e995.json",
+      "scraped_at": "2026-04-20T15:57:15.699850+00:00"
+    },
+    "https://korea-race23.f1tenth.org/images/regulator_e.PNG": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/rules.html",
+      "retries": 0,
+      "depth": 5,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_images_regulator_e_PNG_56a6b356ba.json",
+      "scraped_at": "2026-04-20T15:57:16.375979+00:00"
+    },
+    "https://korea-race23.f1tenth.org/ko/faq-physical.html": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/faq-physical.html",
+      "retries": 0,
+      "depth": 5,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_ko_faq-physical_html_492db2499d.json",
+      "scraped_at": "2026-04-20T15:57:15.993525+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/agenda.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/agenda.html",
+      "retries": 0,
+      "depth": 5,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_agenda_html_fe5fca7cc9.json",
+      "scraped_at": "2026-04-20T15:57:16.327263+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/faq-physical.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/faq-physical.html",
+      "retries": 0,
+      "depth": 5,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_faq-physical_html_14d0fc32bc.json",
+      "scraped_at": "2026-04-20T15:57:16.578250+00:00"
+    },
+    "https://korea-race.f1tenth.org/ko/rules.html": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/rules.html",
+      "retries": 0,
+      "depth": 5,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_ko_rules_html_bd24c7ca86.json",
+      "scraped_at": "2026-04-20T15:57:16.921334+00:00"
+    },
+    "https://korea-race.f1tenth.org/www.ramadajeju.co.kr": {
+      "status": "ok",
+      "source": "https://korea-race.f1tenth.org/rules.html",
+      "retries": 0,
+      "depth": 5,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race_f1tenth_org_www_ramadajeju_co_kr_a19f33fd42.json",
+      "scraped_at": "2026-04-20T15:57:18.084126+00:00"
+    },
+    "https://korea-race23.f1tenth.org/images/regulator.PNG": {
+      "status": "ok",
+      "source": "https://korea-race23.f1tenth.org/ko/rules.html",
+      "retries": 0,
+      "depth": 6,
+      "error": null,
+      "output_file": "pages/20260420_115510/korea-race23_f1tenth_org_images_regulator_PNG_078a702d0f.json",
+      "scraped_at": "2026-04-20T15:57:17.094454+00:00"
+    }
+  },
+  "urls_to_process": []
+}

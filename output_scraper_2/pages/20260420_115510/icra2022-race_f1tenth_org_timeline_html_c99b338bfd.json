@@ -1,0 +1,35 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/timeline.html",
+  "source": "https://icra2022-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline 10th F1TENTH Autonomous Grand Prix\n\nDate | In-Person Competition | Virtual Competition  \n---|---|---  \nFebruary 4th | Registration opens   \nMarch 14th - 1 pm ET | Orientation 1  \nOnline, demonstrate expectations, provision of simulation environment, prospective participants can ask questions   \n[Meeting Slides](https://docs.google.com/presentation/d/1F8kW2i-iaECLBFn0SO_8qTWl_3BDUfukOEL28wrZ8Lc/edit?usp=sharing)  \nApril 18th - 12 pm ET | Registration closes   \nOrientation 2   \nOnline, Introduction of all teams, Race overview, Track release for virtual competition, Track overview for in-person competition [Meeting Slides](https://docs.google.com/presentation/d/1ksdJOyLnmvStYZs96sisFfnDUIYsuLFb8AH3p7o4O88/edit?usp=sharing)  \nApril 25th |  | Qualifying submission opens (12:00 EDT)  \nMay 2nd | - | Qualifying submission closes (12:00 EDT)  \nMay 9th | Video Submission: Demonstrate Driving  | Virtual GP submission opens (12:00 EDT)  \nMay 16th | - | Virtual GP submission closes (12:00 EDT)  \nMay 23rd | Team Training on their own   \n(No Spervisions) | -  \nMay 24th | Training and Qualifying | -  \nMay 25th | Race day (10:00 EDT)   \nAward Ceremony | Race day (16:30 EDT)   \nAward Ceremony   \n  \n  * © 2021 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH ICRA 2022 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2022-race.f1tenth.org/index.html",
+    "https://icra2022-race.f1tenth.org/timeline.html",
+    "https://icra2022-race.f1tenth.org/race_ressources.html",
+    "https://icra2022-race.f1tenth.org/f1tenth_ressources.html",
+    "https://icra2022-race.f1tenth.org/registration.html",
+    "https://icra2022-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://docs.google.com/presentation/d/1F8kW2i-iaECLBFn0SO_8qTWl_3BDUfukOEL28wrZ8Lc/edit?usp=sharing",
+    "https://docs.google.com/presentation/d/1ksdJOyLnmvStYZs96sisFfnDUIYsuLFb8AH3p7o4O88/edit?usp=sharing",
+    "https://html5up.net/",
+    "https://icra2022-race.f1tenth.org/assets/css/main.css",
+    "https://icra2022-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:18.739514+00:00"
+}

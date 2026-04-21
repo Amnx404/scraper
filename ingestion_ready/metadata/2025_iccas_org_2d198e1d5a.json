@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/?mod=list&page_id=962",
+  "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=4",
+  "title": "ICCAS News – ICCAS 2025",
+  "description": null,
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:57:12.788896+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_2d198e1d5a.json",
+  "markdown_file": "markdown/2025_iccas_org_2d198e1d5a.md",
+  "char_count": 1651,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_2d198e1d5a.md",
+  "fine_char_count": 1178,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://2026ifac-roboracer.com/en/registration.html",
+  "source": "https://roboracer.ai/race",
+  "title": "29th Roboracer Autonomous Racing Competition | Registration",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:18.287320+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2026ifac-roboracer_com_en_registration_html_ab29931c78.json",
+  "markdown_file": "markdown/2026ifac-roboracer_com_en_registration_html_ab29931c78.md",
+  "char_count": 2081,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2026ifac-roboracer_com_en_registration_html_ab29931c78.md",
+  "fine_char_count": 2242,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

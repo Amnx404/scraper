@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/index.php?rest_route=%2Foembed%2F1.0%2Fembed&url=https%3A%2F%2F2025.iccas.org%2F",
+  "source": "https://2025.iccas.org/",
+  "title": null,
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:16.999723+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_index_php_b34b8b0ec5.json",
+  "markdown_file": "markdown/2025_iccas_org_index_php_b34b8b0ec5.md",
+  "char_count": 2155,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_index_php_b34b8b0ec5.md",
+  "fine_char_count": 2128,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2025",
+  "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025",
+  "title": "Technical Guide - AutoDRIVE Ecosystem",
+  "description": "AutoDRIVE is envisioned to be an open, comprehensive, flexible, and integrated digital twin ecosystem for enhancing autonomous driving research and education.",
+  "language": "en",
+  "scraped_at": "2026-04-20T15:56:24.833838+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2025_01c83baf09.json",
+  "markdown_file": "markdown/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2025_01c83baf09.md",
+  "char_count": 47964,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2025_01c83baf09.md",
+  "fine_char_count": 24013,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

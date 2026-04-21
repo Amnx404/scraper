@@ -1,0 +1,15 @@
+{
+  "url": "https://korea-race.f1tenth.org/www.ramadajeju.co.kr",
+  "source": "https://korea-race.f1tenth.org/rules.html",
+  "title": "Page not found · GitHub Pages",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:57:18.083136+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/korea-race_f1tenth_org_www_ramadajeju_co_kr_a19f33fd42.json",
+  "markdown_file": "markdown/korea-race_f1tenth_org_www_ramadajeju_co_kr_a19f33fd42.md",
+  "char_count": 6950,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/korea-race_f1tenth_org_www_ramadajeju_co_kr_a19f33fd42.md",
+  "fine_char_count": 495,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

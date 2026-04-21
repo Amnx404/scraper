@@ -1,0 +1,15 @@
+{
+  "url": "https://korea-race23.f1tenth.org/ko/timeline.html",
+  "source": "https://korea-race23.f1tenth.org/timeline.html",
+  "title": "The 2nd F1Tenth Korea Championship | 일정",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:32.116502+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/korea-race23_f1tenth_org_ko_timeline_html_a9c1ec05ac.json",
+  "markdown_file": "markdown/korea-race23_f1tenth_org_ko_timeline_html_a9c1ec05ac.md",
+  "char_count": 592,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/korea-race23_f1tenth_org_ko_timeline_html_a9c1ec05ac.md",
+  "fine_char_count": 1026,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

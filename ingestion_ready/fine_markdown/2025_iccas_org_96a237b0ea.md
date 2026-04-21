@@ -1,0 +1,30 @@
+# ICCAS News
+
+## ICCAS 2025 Session Program is now available.
+
+**Date:** 2025-09-15 07:04
+**Views:** 1432
+
+Dear Authors,
+
+The session program of ICCAS 2025 is now available.
+
+Please verify your session and presentation type from Session Timetable & Paper List in the website: <https://2025.iccas.org/?page_id=972>
+
+*   Oral Session Guideline: <https://2025.iccas.org/?page_id=992>
+*   Interactive Poster Session Guideline: <https://2025.iccas.org/?page_id=994>
+
+Only the final version of your accepted paper will be included in the conference proceedings. Your paper is assigned to either an oral lecture session or poster session. The information will be used for the publication of the program & digest (abstract) book and e-proceedings. (No additional submission and modification can be possible.)
+
+Thank you for joining ICCAS 2025.
+
+---
+
+**ICCAS 2025 (2025 25th International Conference on Control, Automation and Systems)**
+ICROS (Institute of Control, Robotics and Systems)
+Suseo Hyundai-Ventureville 723, Bamgogae-ro 1-gil 10, Gangnam-gu, Seoul 06349, Korea
+
+**Contact (Secretariat)**
+Tel. +82-2-6949-5801 (ext.3) | Fax. +82-2-6949-5807 | E-mail: conference@icros.org
+
+ICCAS 2025, The 25th International Conference on Control, Automation and Systems © All rights reserved.

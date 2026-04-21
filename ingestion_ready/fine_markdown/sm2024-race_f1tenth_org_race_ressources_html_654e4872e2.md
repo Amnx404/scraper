@@ -1,0 +1,11 @@
+# F1TENTH SM 2024 Race Resources
+
+All necessary information about the race, including rules, scoring system, simulation environments, and track data, will be displayed here.
+
+*   [Rules](/rules.html)
+*   [Previous competition (IV 2023) - Orientation 1 Meeting Slides](/orientation_1.html)
+*   [Previous competition (IV 2023) - Orientation 2 Meeting Slides](/orientation_2.html)
+*   [In-Person Competition: Detailed Time Schedule]()
+*   [In-Person Competition: Track Layout Example]()
+*   Frequently Asked Questions
+    *   [In-person competition](/faq-physical.html)

@@ -1,0 +1,30 @@
+{"id":5104,"date":"2025-08-08T06:48:12","date_gmt":"2025-08-08T06:48:12","guid":{"rendered":"https:\/\/2025.iccas.org\/?page_id=5104"},"modified":"2025-09-25T00:34:01","modified_gmt":"2025-09-25T00:34:01","slug":"the-4th-f1tenth-korea-championship","status":"publish","type":"page","link":"https:\/\/2025.iccas.org\/?page_id=5104","title":{"rendered":"2025 The 4th<\/sup> F1Tenth Korea Championship"},"content":{"rendered":"
+
+2025 The 4th<\/sup> F1Tenth Korea Championship<\/div>\n
+
+\n
+
+\n
+
+\n
+
+\n
+
+\n
+
+\n
+
+## <\/h2>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n
+
+[![\\"\\"](\\"http:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/09\\/ICCAS-2025-F1tneth-Poster.png\\")<\/a><\/p>\n**2025 The 4 th <\/sup>F1tenth Korea Championship (now called as Roboracer)<\/strong><\/p>\nThe **F1Tenth Competition (now is renamed as Roboracer), <\/strong> is an international event that brings together researchers, engineers, and enthusiasts in the field of autonomous systems. With active use in over 89 universities worldwide, Roboracer serves as a platform for cutting-edge research, education, and real-world testing of autonomous vehicle technologies.
+\nThe**2025 The 4 th <\/sup>F1tenth Korea Championship<\/strong> will take place as a fully **in-person, hardware-based competition <\/strong>. Participating teams will design and build a **1:10 scale autonomous race car <\/strong> following a provided reference specification. Each team will develop autonomous driving software that must fulfill three primary objectives: Don\u2019t crash, minimize lap time and overtake all opponents.
+\nThis competition focuses on challenging real-world racing scenarios involving multiple autonomous vehicles operating simultaneously. It is designed to access the current state-of-the-art in perception, planning, and control algorithms across a broad range of approaches\u2014from classical model-based methods to modern learning-based systems.<\/p>\n**Organizers <\/strong>
+\n**\u2022 Rahul Mangharam (U Penn.)
+\n<\/strong>\u2022 **Cheolhyeon Kwon (UNIST) <\/strong>
+\n\u2022**Dongsung Pae (Sangmyung Univ.) <\/strong><\/p>\n**
+\nSchedule <\/strong>
+\n\u2022 **2025 August 1 ~ 2025 Oct 30 <\/strong>: On-line team registration and orientation
+\n\u2022**2025 Nov 4 (Tuesday) <\/strong>: On-site team reception and regulated practice sessions
+\n\u2022 **2025 Nov 5 (Wednesday) <\/strong>: Open practice sessions and qualification time trials
+\n\u2022**2025 Nov 6 (Thursday) <\/strong>: Head-to-head tournament and award ceremony<\/p>\n**Official Site Link <\/strong>
+\n[**http:\/\/f1tenthkorea.com\/ <\/strong><\/a><\/p>\n**\u00a0 <\/strong><\/p>\n","protected":false},"excerpt":{"rendered":"2025 The 4th F1Tenth Korea Championship 2025 The 4th F1tenth Korea Championship (now called as Roboracer) The F1Tenth Competition (now is renamed as Roboracer), is an international event that brings together researchers, engineers, and enthusiasts in the field of autonomous systems. With active use in over 89 universities worldwide, Roboracer serves as a platform for ... [Read more<\/a><\/p>\n","protected":false},"author":2,"featured_media":0,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"footnotes":""},"class_list":["post-5104","page","type-page","status-publish"],"_links":{"self":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages\/5104","targetHints":{"allow":["GET"]}}],"collection":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/users\/2"}],"replies":[{"embeddable":true,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=%2Fwp%2Fv2%2Fcomments&post=5104"}],"version-history":[{"count":5,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages\/5104\/revisions"}],"predecessor-version":[{"id":5174,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages\/5104\/revisions\/5174"}],"wp:attachment":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=%2Fwp%2Fv2%2Fmedia&parent=5104"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}](\\"https:\\/\\/2025.iccas.org\\/?page_id=5104\\" "\\"2025")****](\\"http:\\/\\/f1tenthkorea.com\\/\\")******************************](\\"http:\\/\\/f1tenthkorea.com\\/\\")

@@ -1,0 +1,15 @@
+{
+  "url": "https://iros2023-madgames.f1tenth.org/program.html",
+  "source": "https://iros2023-madgames.f1tenth.org/",
+  "title": "MADGames-IROS 2023 | Program",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:03.419865+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iros2023-madgames_f1tenth_org_program_html_71bbb988cc.json",
+  "markdown_file": "markdown/iros2023-madgames_f1tenth_org_program_html_71bbb988cc.md",
+  "char_count": 1356,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iros2023-madgames_f1tenth_org_program_html_71bbb988cc.md",
+  "fine_char_count": 1389,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

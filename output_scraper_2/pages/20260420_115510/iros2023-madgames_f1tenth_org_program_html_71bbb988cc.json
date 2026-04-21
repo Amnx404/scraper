@@ -1,0 +1,26 @@
+{
+  "url": "https://iros2023-madgames.f1tenth.org/program.html",
+  "source": "https://iros2023-madgames.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Program](index.html)\n\n##  Workshop Schedule\n\nTime (EDT) | Speaker | Title  \n---|---|---  \n08:30 - 08:40 |  Organizers  | Opening Remarks  \n08:40 - 09:05 | Manxi Wu | Multi-Agent Reinforcement Learning in Markov Potential Games and Beyond  \n09:05 - 09:30 | Jana Tumova | Safety in HRI via Assume-guarantee Formal Synthesis  \n09:30 - 09:55 | Abolfazl Hashemi | No-Regret Learning in Dynamic Stackelberg Games  \n09:55 - 10:20 | Roberto Valenti | Mathematical Models for Cooperation and Safety in Multi-agent Transportation  \n10:20 - 11:00 |  **Poster Session 1 and Coffee Break**  \n11:00 - 12:00 |  **Contributed Session 1 (6 x 10min), Q &A after each talk**  \n12:00 - 13:20 |  **Lunch Break**  \n13:20 - 13:45 | Roya Firoozi | Interactive Autonomy in Complex Environments  \n13:45 - 14:10 | Eric Mazumdar | Provably Convergent Independent Learning with Function Approximation in Competitive RL  \n14:10 - 14:35 | Panagiotis Tsiotras | A Result on Zero-Sum Games Between Large-Population Teams  \n14:35 - 15:00 | Peter Stone | DM2: Decentralized Multi-Agent Reinforcement Learning via Distribution Matching  \n15:00 - 15:25 | Gioele Zardini | Strategic Interactions across Scales: from Autonomy to Mobility Systems  \n15:25 - 16:00 |  **Poster Session 2 and Coffee Break**  \n16:00 - 17:10 |  **Contributed Session 2 (7 x 10min), Q &A after each talk**  \n17:10 - 17:20 | Organizers | Closing Remarks",
+  "metadata": {
+    "title": "MADGames-IROS 2023 | Program",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iros2023-madgames.f1tenth.org/index.html",
+    "https://iros2023-madgames.f1tenth.org/speakers.html",
+    "https://iros2023-madgames.f1tenth.org/program.html",
+    "https://iros2023-madgames.f1tenth.org/cfp.html",
+    "https://iros2023-madgames.f1tenth.org/proceedings.html",
+    "https://iros2023-madgames.f1tenth.org/assets/css/main.css",
+    "https://iros2023-madgames.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:03.419865+00:00"
+}

@@ -1,0 +1,38 @@
+{
+  "url": "https://korea-race.f1tenth.org/ko/race_resources.html",
+  "source": "https://korea-race.f1tenth.org/ko/index.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[대회 규정 및 안내 사항](../index.html)\n\n## 대회 규정 및 안내 사항\n\n경주에 대한 정보(규칙, 점수 산출 방법, 시뮬레이션 환경, 트랙 데이터)는 여기에서 확인 할 수 있습니다\n\n  * [오리엔테이션 슬라이드 (Nov 17 19:00 KST)](/static_data/KSTME2022_Orientation.pdf)\n  * [대회 규정](/ko/rules.html)\n\n  * 자주 하는 질문 \n    * [대면 경쟁](/ko/faq-physical.html)\n\n\n\n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "The 1st F1TENTH Korea Championship | 대회 규정 및 안내 사항",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race.f1tenth.org/index.html",
+    "https://korea-race.f1tenth.org/static_data/KSTME2022_Orientation.pdf",
+    "https://korea-race.f1tenth.org/ko/rules.html",
+    "https://korea-race.f1tenth.org/ko/faq-physical.html",
+    "https://html5up.net/",
+    "https://korea-race.f1tenth.org/ko/race_resources.html",
+    "https://korea-race.f1tenth.org/ko/index.html",
+    "https://korea-race.f1tenth.org/ko/timeline.html",
+    "https://korea-race.f1tenth.org/ko/program.html",
+    "https://korea-race.f1tenth.org/ko/getting_started.html",
+    "https://korea-race.f1tenth.org/ko/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race.f1tenth.org/race_resources.html",
+    "https://korea-race.f1tenth.org/assets/css/main.css",
+    "https://korea-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:57:16.444303+00:00"
+}

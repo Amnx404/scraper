@@ -1,0 +1,38 @@
+{
+  "url": "https://korea-race23.f1tenth.org/registration.html",
+  "source": "https://korea-race23.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Registration](../index.html)\n\n## Registration\n\nThis competition is open for everyone of all levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed. Teams that take part in the in-person competition need to provide and build an F1TENTH car by themselves.\n\n**Google Site Registration**\n\nA form for race participants\n\nFor race registration and more information, sign up to participate in orientation and information session. (Note: One of the team members must register with [ICCAS2023](https://2023.iccas.org/) to participate.)\n\n[Registration for a race](https://docs.google.com/forms/d/1ycNog7lz3oYiwzHIJfmzt0CW0E1GGCBMy1FUQ7ij1AI/viewform?edit_requested=true)\n\nA form for race observers\n\nIf you want to observe without participating in the game, please registration through this link.\n\n[Registration for a observation](https://docs.google.com/forms/d/1A6zPXR0jw3rSxlnkt_N6jV9zW4JCAKfkoEUlPsglXUU/viewform?edit_requested=true)\n\n* * *\n\n### Participants\n\nIf you have registered for participation but the list below is not updated, please contact us at f1tenth.korea@gmail.com.\n\nTEAM NAME | AFFILIATION | TEAM MEMBERS  \n---|---|---  \nBlack Crane | Inje University | Seongjun Kim, Hojae Lee, Sunyong Jeong  \nTayo Eagles | Chungbuk National University | GeonWoo Kim, TaekLim Kim, Dohyeon Kwon  \nKMUTT | King Mongkut’s University of Technology Thonburi | Benjamas Panomruttanarug, Jirat Lapsittiwong  \nICHTHUS | Soongsil University | JinSeob Jung, Seryun Kang, Hyunkyu Lim  \nICHTHUS2 | Soongsil University | Min Kim, ByungJi Kim, MinHyuk Jeon  \nHMCar | UNIST | Kwangrok Kim, Kyungtae Kang, Jeongsang Ryu, Yoonho Lee  \nTigerOx | Kyungpook National University | Suyong Park, Yundo Choi, Sebin Jung, Hyeonjeong Kim, ChanHyuk Lee  \nGudakdary | Chung-Ang University | Kwankyun Byeon, Jiwon Seo, Hojin Lee, Eunji Lee, jonggeon Lim  \nINHARobo | Inha University | Dongmin Jang, Seungjun Song, Mingyo Kang  \nAART | Kumoh National Institute of Technology | Saugat Shahi, Insik Jang, Louise Tan, Yujin Kwon, Heoncheol Lee  \nSAI | Kangwon National University | Youngwoo lee, Kangho Ko, Taehoon Yoon, Sua Kim  \nCML | Korea University | Sangryul Baek, Woojoong Kim, Jiwon Kim, Hyeongrae Cho, Jihwan Mo  \nAGA-CML | Korea University | Hyunah Kim, Garam Nam, Subin Shin, Soorin Cho, Mintaek Oh  \nBTS | Soongsil University | Younghoon Kwon, Sungyoon Kim, Soomin Kim  \nSSUWOONG | Soongsil University | Junyoung Park, Ban Sehyun, Minwoo Lee, Junho Lee  \nATP | Inje University | Jihong Ryu, Heechul Kim, Jiwoo Seo, Seokwon Seo  \nMOVE | Inje University | Keonmin Cha, Park Sehun, Kim Seongwoo, Kim Minjoon  \nQueenCar | GyeongSang National University | Jo Mina, Lee Juho, Lee Hoyun, Jo Sumin, Ryonghak Kim, Seongjin Son  \nBreath | Handong Global University | Wonbin Lee, Sechan Park, Sunhwan Lee  \nIDEA_LAB | Gyeongsang National University | Myungjun Kim, Younghoon Kim, Jihong Park, Sunwoong Moon  \nENERNET | National Taipei University of Technology | Shangyen Lee, Shangtse Lee  \nGROMIT | Sookmyung Women’s University | Boin Jung, Kyungeun Kim, Yeonji Ryu, Sungbin Lee, Youngseo Cho  \nDSPlay | Sangmyun University | HeeWon Kim, WooJin Lee, JiHoon Park, KyoungMin Mok  \nCIRL | Seoul National University | Abdul Aris Umar, Fikih Muhammad, Anak Agung Krisna Ananda Kusuma, KwanWoo Park, Jungsoo Kim  \nDDRX | Zhejiang University | Lei Xie, Cheng Hu, Wangjia Weng, Zhouheng Li, Haoyang He, Hongxu Chen  \nDrunken Driving | Incheon University | Daeyong Ahn, CheolMin Jung, Hwasoo Lee, KyungHyun Kim  \nParagon | Incheon University | Moongyu Bae, Taeheon Kim, SeungMin Lee, GyuCheol Park  \n끝나고족발 | Dong-a University | Bojung Park, SeungHwan Kim, SeoYong Moon, JaeYoung Jung  \n모멘텀 | Dong-a University | Donghoon Park, Heecheol Jeong, Jongwoo Kim, Youngjun Park  \nYonam_Mobility | Yonam insitute of Technology | Seungwook Lee, Jisub Shin, Youngjin Sim, Junhyuk Lee, Jaehyun Ki  \nYonam | Yonam insitute of Technology | Junseo Kwon, Hyunjun Kim, Hyungdo Na, Seungwon Park, Chawon Lee  \n  \n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "The 2nd F1Tenth Korea Championship | Registration",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race23.f1tenth.org/index.html",
+    "https://korea-race23.f1tenth.org/timeline.html",
+    "https://korea-race23.f1tenth.org/race_resources.html",
+    "https://korea-race23.f1tenth.org/getting_started.html",
+    "https://korea-race23.f1tenth.org/registration.html",
+    "https://korea-race23.f1tenth.org/results.html",
+    "https://korea-race23.f1tenth.org/bootcamp.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race23.f1tenth.org/ko/registration.html",
+    "https://2023.iccas.org/",
+    "https://docs.google.com/forms/d/1ycNog7lz3oYiwzHIJfmzt0CW0E1GGCBMy1FUQ7ij1AI/viewform?edit_requested=true",
+    "https://docs.google.com/forms/d/1A6zPXR0jw3rSxlnkt_N6jV9zW4JCAKfkoEUlPsglXUU/viewform?edit_requested=true",
+    "https://html5up.net/",
+    "https://korea-race23.f1tenth.org/assets/css/main.css",
+    "https://korea-race23.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:04.089520+00:00"
+}

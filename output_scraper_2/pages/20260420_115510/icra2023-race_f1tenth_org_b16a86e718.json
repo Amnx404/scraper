@@ -1,0 +1,39 @@
+{
+  "url": "https://icra2023-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# 11th F1TENTH Autonomous Grand Prix\n\nIEEE International Conference on Robotics and Automation (ICRA) 2023  \nCalender May 29th - June 1st 2023   \nLocation Excel London, UK \n\n  * Continue\n\n\n\n[F1TENTH ICRA 2023](index.html)\n\n## 11th F1TENTH Autonomous Grand Prix\n\nF1TENTH Autonomous Racing is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in 11th F1TENTH Grand Prix at ICRA 2023 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nAt ICRA 2023 will host an In-person competition: The main focus of the 11th F1TENTH Autonomous Grand Prix is an in-person competition with physical cars. Each team will bring their own F1TENTH car and write the software for their car. The teams have access to a detailed build manual and can use open-source software that helps them to get started with the car. The organizers provide the race setup (rules, submissions, guidelines), the track, and related infrastructure and organize the race itself. For the competitions, teams first take part in a qualification in order to determine seeding. The teams need to demonstrate that they are able to compete in a time trial on the map without any obstacles as well as finish the laps without collision on the same map with obstacles that are unknown prior to run time. Afterward, the teams compete in a knockout phase in head-to-head racing in an intense battle with their autonomous driving algorithms. Since vehicles and hardware are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track and new competitors. The Grand Prix phase pits competitors against each other on the same track. \n\n[![](images/ICRA_2023_Logo.png)](https://www.icra2023.org/)\n\n## Organizers:\n\n![](images/organizer/person_2.jpeg)\n\n![](images/organizer/person_3.png)\n\n![](images/organizer/person_4.jpeg)\n\n![](images/organizer/person_5.jpeg)\n\n![](images/organizer/venkat.jpg)\n\n**[Johannes Betz](https://joebetz.science/)**\n\nAssistant Professor \n\nDepartment of Mobilty Systems Engineering\n\nTechnical University of Munich\n\n**[Hongrui Zheng](https://hongruizheng.com/)**\n\nPhD Candidate \n\nDepartment of Electrical and Systems Engineering\n\nUniversity of Pennsylvania\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\nAssociate Professor \n\nDepartment of Electrical and Systems Engineering\n\nUniversity of Pennsylvania \n\n**[Nicola Paoletti](https://nicolapaoletti.com/)**\n\nAssociate Professor \n\nDepartment of Informatics\n\nKings College London \n\n**[Venkat Krovi](https://nicolapaoletti.com/)**\n\nMichelin Endowed Chair Professor of Vehicle Automation \n\nDepartment of Automotive Engineering\n\nClemson University \n\n## Sponsors:\n\nPartial support provided by NSF Grant CNS 1925500 & 1925587   \nCCRI: MEDIUM: Collaborative Research: F1/10 RACECAR: Community Platforms for Safe, Secure and Coordinated Autonomy\n\n[Contact](mailto:contact@f1tenth.org)\n\n  * © 2023 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH ICRA 2023",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2023-race.f1tenth.org/",
+    "https://icra2023-race.f1tenth.org/index.html",
+    "https://icra2023-race.f1tenth.org/timeline.html",
+    "https://icra2023-race.f1tenth.org/race_ressources.html",
+    "https://icra2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://icra2023-race.f1tenth.org/registration.html",
+    "https://icra2023-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://www.icra2023.org/",
+    "https://joebetz.science/",
+    "https://hongruizheng.com/",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://nicolapaoletti.com/",
+    "https://html5up.net/",
+    "https://icra2023-race.f1tenth.org/assets/css/main.css",
+    "https://icra2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:21.169196+00:00"
+}

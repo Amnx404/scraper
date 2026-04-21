@@ -1,0 +1,15 @@
+{
+  "url": "https://sm2024-race.f1tenth.org/stream.html",
+  "source": "https://sm2024-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH SM 2024 | Live Stream",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:31.694017+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/sm2024-race_f1tenth_org_stream_html_e4cac36497.json",
+  "markdown_file": "markdown/sm2024-race_f1tenth_org_stream_html_e4cac36497.md",
+  "char_count": 215,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/sm2024-race_f1tenth_org_stream_html_e4cac36497.md",
+  "fine_char_count": 87,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

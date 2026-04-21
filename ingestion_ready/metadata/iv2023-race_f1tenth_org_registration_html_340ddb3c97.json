@@ -1,0 +1,15 @@
+{
+  "url": "https://iv2023-race.f1tenth.org/registration.html",
+  "source": "https://iv2023-race.f1tenth.org/",
+  "title": "F1TENTH IV 2023 | Registration",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:22.640183+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iv2023-race_f1tenth_org_registration_html_340ddb3c97.json",
+  "markdown_file": "markdown/iv2023-race_f1tenth_org_registration_html_340ddb3c97.md",
+  "char_count": 378,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iv2023-race_f1tenth_org_registration_html_340ddb3c97.md",
+  "fine_char_count": 256,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

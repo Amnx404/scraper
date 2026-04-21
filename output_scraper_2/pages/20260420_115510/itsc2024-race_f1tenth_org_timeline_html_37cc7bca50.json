@@ -1,0 +1,35 @@
+{
+  "url": "https://itsc2024-race.f1tenth.org/timeline.html",
+  "source": "https://itsc2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline 20TH F1TENTH AUTONOMOUS GRAND Prix\n\n##### Timeline is subject to change. Please follow announcements in our slack channel for the latest updates.\n\nDATE | IN-PERSON COMPETITION  \n---|---  \nJune 6th |  Registration Opens  \nJuly 23rd | [F1tenth Orientation 1 ( Competition Rules overview )](https://stanford.zoom.us/j/4680204802?pwd=SFQzV1Vzc1NBci9pNDJLRHJLcGZxQT09)  \n[Slide](https://drive.google.com/file/d/10ppWPOif0lmOj4xoRRCkcsY-sDGpdhf6/view?usp=drive_link) [Video](https://drive.google.com/file/d/1cmmRzmfXXLmSbnrdTn0hcjWu2bpM3C46/view?usp=sharing)  \nAugust 18th | Registration Closes  \nAugust 20th | F1tenth Orientation 2 ( Track set up, Track overview for in-person competition, Teams Training )  \nSeptember 24th | Track Setup  \nSeptember 25th | Open Training  \nSeptember 26th | Qualification Session  \nSeptember 27th | Knockout Races & Award Ceremony  \n  \n* * *\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH ITSC 2024 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://itsc2024-race.f1tenth.org/index.html",
+    "https://itsc2024-race.f1tenth.org/timeline.html",
+    "https://itsc2024-race.f1tenth.org/race_ressources.html",
+    "https://itsc2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://itsc2024-race.f1tenth.org/registration.html",
+    "https://itsc2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://stanford.zoom.us/j/4680204802?pwd=SFQzV1Vzc1NBci9pNDJLRHJLcGZxQT09",
+    "https://drive.google.com/file/d/10ppWPOif0lmOj4xoRRCkcsY-sDGpdhf6/view?usp=drive_link",
+    "https://drive.google.com/file/d/1cmmRzmfXXLmSbnrdTn0hcjWu2bpM3C46/view?usp=sharing",
+    "https://html5up.net/",
+    "https://itsc2024-race.f1tenth.org/assets/css/main.css",
+    "https://itsc2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:58.664138+00:00"
+}

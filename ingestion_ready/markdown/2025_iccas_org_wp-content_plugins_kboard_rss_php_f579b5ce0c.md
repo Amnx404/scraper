@@ -1,0 +1,213 @@
+ICCAS 2025 https://2025.iccas.org 2025 The 25th International Conference on Control, Automation and Systems (ICCAS 2025) Mon, 15 Sep 2025 07:04:27 +0000 Mon, 15 Sep 2025 05:02:59 +0000 Tue, 21 Jan 2025 00:32:29 +0000 Thu, 09 Jan 2025 02:18:37 +0000
+
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+
+<rss version="2.0">
+
+<channel>
+
+<title>ICCAS 2025</title>
+
+<link>https://2025.iccas.org</link>
+
+<description>2025 The 25th International Conference on Control, Automation and Systems (ICCAS 2025)</description>
+
+<item>
+
+<title>
+
+<![CDATA[ ICCAS 2025 Session Program is now available. ]]>
+
+...
+
+</title>
+
+<link>
+
+<![CDATA[ https://2025.iccas.org/?kboard_content_redirect=4 ]]>
+
+...
+
+</link>
+
+<description>
+
+<![CDATA[ Dear Authors, The session program of ICCAS 2025 is now available. Please verify your session and presentation type from Session Timetable &amp; Paper List in the website: <a href="https://2025.iccas.org/?page_id=972" target="_blank" rel="noopener">https://2025.iccas.org/?page_id=972</a> Oral Session Guideline: <a href="https://2025.iccas.org/?page_id=992" target="_blank" rel="noopener">https://2025.iccas.org/?page_id=992</a> Interactive Poster Session Guideline:<a href="https://2025.iccas.org/?page_id=994" target="_blank" rel="noopener">https://2025.iccas.org/?page_id=994</a> Only the final version of your accepted paper will be included in the conference proceedings. Your paper is assigned to either an oral lecture session or poster session. The information will be used for the publication of the program &amp; digest(abstract) book and e-proceedings. (No additional submission and modification can be possible.) Thank you for joining ICCAS 2025. ]]>
+
+...
+
+</description>
+
+<author>
+
+<![CDATA[ iccas_admin ]]>
+
+...
+
+</author>
+
+<pubDate>Mon, 15 Sep 2025 07:04:27 +0000</pubDate>
+
+<category domain="https://2025.iccas.org/?kboard_redirect=1">
+
+<![CDATA[ News & Notice ]]>
+
+...
+
+</category>
+
+...
+
+</item>
+
+<item>
+
+<title>
+
+<![CDATA[ (for Korean) BK21 국제학술대회 기준 통계안내 ]]>
+
+...
+
+</title>
+
+<link>
+
+<![CDATA[ https://2025.iccas.org/?kboard_content_redirect=3 ]]>
+
+...
+
+</link>
+
+<description>
+
+<![CDATA[ 국내 저자분들의 BK21 관련 ICCAS 2025 국제학술대회 기준에 대한 문의가 있어 아래와 같이 안내드립니다. (BK21 기준에 따른 국제학술대회임을 안내드립니다.) ※ICCAS 2025 최종논문 접수 통계 -총 31개국 483편 접수 구두발표논문 317편 (국내175편, 국외 142편) \- 구두발표논문 중 외국논문 비율: 약 44.79%(3분의 1이상으로 충족) *국내에서 개최되는 국제학술대회 기준 1)참가국 4개국 이상 2)구두발표논문 20건 이상 3)구두발표 논문 발표자 중 외국인 3분의 1이상 ]]>
+
+...
+
+</description>
+
+<author>
+
+<![CDATA[ iccas_admin ]]>
+
+...
+
+</author>
+
+<pubDate>Mon, 15 Sep 2025 05:02:59 +0000</pubDate>
+
+<category domain="https://2025.iccas.org/?kboard_redirect=1">
+
+<![CDATA[ News & Notice ]]>
+
+...
+
+</category>
+
+...
+
+</item>
+
+<item>
+
+<title>
+
+<![CDATA[ ICCAS with IJCAS option: ]]>
+
+...
+
+</title>
+
+<link>
+
+<![CDATA[ https://2025.iccas.org/?kboard_content_redirect=2 ]]>
+
+...
+
+</link>
+
+<description>
+
+<![CDATA[ The International Conference on Control, Automation, and Systems (ICCAS) aims to bring together researchers and engineers in the fields of control, automation, robotics, and systems engineering. The scope of the conference is well aligned with the scope of the International Journal of Control, Automation, and Systems (IJCAS). The purpose of the ICCAS with IJCAS option is to provide a possibility to publish a paper in the Journal, but present it at ICCAS. <strong>The authors can submit an extended abstract (1 or 2 pages) to ICCAS, and simultaneously submit a journal version (at least 6 pages) to IJCAS.</strong> Note that the submission deadline for such joint contributions is May 31, 2025. Authors of conference papers submitted at ICCAS 2025 (<a href="https://2025.iccas.org/" target="_blank" rel="noopener">https://2025.iccas.org</a>) are encouraged to submit extended versions (at least 6 pages) to the Special Issue of ICCAS 2025 of the International Journal of Control, Automation, and Systems (IJCAS). The manuscript submitted to the special issue should be an extended version from the conference version. Submitted manuscripts to the special issue should neither have been published nor be under review elsewhere. They will undergo peer-review following the IJCAS author guidelines. Accepted papers are tentatively scheduled for publication in the <u>2025 issue of IJCAS</u>. <strong>What is the ICCAS with IJCAS option?</strong> A manuscript submitted to ICCAS with IJCAS option may be accepted both by ICCAS and IJCAS, by one of them, or by neither. If the paper is accepted only by IJCAS it will appear on Web of Science as a journal paper. If it is accepted only by ICCAS, it will be considered as a normal ICCAS paper. <strong>How to submit the papers to ICCAS and IJCAS?</strong> The authors should submit an extended abstract (1 or 2 pages) to ICCAS, and simultaneously submit a journal version (at least 6 pages) to IJCAS. 1) At ICCAS (<a href="https://2025.iccas.org/" target="_blank" rel="noopener">https://2025.iccas.org</a>), please check the “Yes” option as: I like to submit the extended version of this paper to IJCAS. <strong><u>Yes</u></strong> No (If IJCAS accepts your extended paper, the conference paper will not be indexed in IEEE Xplore. You should also present the paper at ICCAS 2025.) 2) At IJCAS (<a href="https://ijcas.org/" target="_blank" rel="noopener">https://ijcas.org</a>), the authors should select the “Special Issue: ICCAS 2025” category. 3) After completing the submission to ICCAS and IJCAS, please inform us of your ICCAS paper number to IJCAS Secretariat at <a href="mailto:journal@ijcas.com">journal@ijcas.com</a>. *The corresponding author needs to review at least 2 papers in IJCAS. <strong>How to submit the final papers to ICCAS?</strong> When submitting a paper under the ICCAS + IJCAS option, you must upload the ICCAS final paper (for short papers, a 2~3 page extended abstract) by the ICCAS deadline (August 31). If your IJCAS manuscript is ultimately accepted, the finalized ICCAS paper will appear only in the ICCAS proceedings and will not be posted on IEEE Xplore, regardless of whether you initially selected that option. If the IJCAS manuscript is rejected, however, the finalized ICAS paper will be published in the ICCAS proceedings, and inclusion in IEEE Xplore will then depend on whether you chose to have your ICCAS paper posted there. <strong><u>Important Dates for IJCAS</u></strong><strong><u> </u></strong>Submission of Manuscripts: May 31, 2025 - Korean Standard Time (UTC +9 hours); No extension for ICCAS with IJCAS Option Notification of Acceptance: <del>August 31, 2025</del> <strong>September 30, 2025 (Extended)</strong> Submission of Final Papers: October 31, 2025 Publication: January 2026 (Tentative) Thank you very much. ICCAS 2025 Organizing Committee ]]>
+
+...
+
+</description>
+
+<author>
+
+<![CDATA[ iccas_admin ]]>
+
+...
+
+</author>
+
+<pubDate>Tue, 21 Jan 2025 00:32:29 +0000</pubDate>
+
+<category domain="https://2025.iccas.org/?kboard_redirect=1">
+
+<![CDATA[ News & Notice ]]>
+
+...
+
+</category>
+
+...
+
+</item>
+
+<item>
+
+<title>
+
+<![CDATA[ ICCAS 2025 will be held on November 4(Tue)-7(Fri), 2025 ]]>
+
+...
+
+</title>
+
+<link>
+
+<![CDATA[ https://2025.iccas.org/?kboard_content_redirect=1 ]]>
+
+...
+
+</link>
+
+<description>
+
+<![CDATA[ We would be honored to invite you to the “The 25th International Conference on Control, Automation, and Systems (ICCAS 2025)” on November 4~7, 2025, at Songdo ConvensiA in Incheon, Korea. ICCAS 2025 is an annual international conference hosted for the last 25 years by the Institute of Control, Robotics, and Systems. We aim to provide a challenging forum for researchers and industry practitioners to share their original research results and practical development experiences on new challenges and emerging issues in control, automation, robotics, and systems. Accepted papers will be published in the ICCAS 2025 Proceedings, and papers of 3~6 pages will be indexed in IEEE Xplore, SCOPUS and EI compendex, and will be submitted for indexing in Clarivate Analytics Conference Proceedings Citation Index (Web of Science). ]]>
+
+...
+
+</description>
+
+<author>
+
+<![CDATA[ iccas_admin ]]>
+
+...
+
+</author>
+
+<pubDate>Thu, 09 Jan 2025 02:18:37 +0000</pubDate>
+
+<category domain="https://2025.iccas.org/?kboard_redirect=1">
+
+<![CDATA[ News & Notice ]]>
+
+...
+
+</category>
+
+...
+
+</item>
+
+...
+
+</channel>
+
+...
+
+</rss>

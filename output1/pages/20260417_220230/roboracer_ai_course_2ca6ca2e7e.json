@@ -1,7 +1,0 @@
-{
-  "url": "https://roboracer.ai/course",
-  "source": "https://roboracer.ai/",
-  "retries": 1,
-  "error": "404 Client Error: Not Found for url: https://roboracer.ai/course",
-  "scraped_at": "2026-04-18T02:02:43.123824+00:00"
-}

@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/wp-content/plugins/kboard/rss.php",
+  "source": "https://2025.iccas.org/",
+  "title": "ICCAS 2025",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:18.284680+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_wp-content_plugins_kboard_rss_php_f579b5ce0c.json",
+  "markdown_file": "markdown/2025_iccas_org_wp-content_plugins_kboard_rss_php_f579b5ce0c.md",
+  "char_count": 8333,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_wp-content_plugins_kboard_rss_php_f579b5ce0c.md",
+  "fine_char_count": 6019,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

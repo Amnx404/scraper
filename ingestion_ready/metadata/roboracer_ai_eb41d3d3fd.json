@@ -1,0 +1,15 @@
+{
+  "url": "https://roboracer.ai/",
+  "source": "seed",
+  "title": "RoboRacer",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:15.418286+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/roboracer_ai_eb41d3d3fd.json",
+  "markdown_file": "markdown/roboracer_ai_eb41d3d3fd.md",
+  "char_count": 5618,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/roboracer_ai_eb41d3d3fd.md",
+  "fine_char_count": 5086,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

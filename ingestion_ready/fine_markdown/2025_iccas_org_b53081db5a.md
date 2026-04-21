@@ -1,0 +1,30 @@
+# 2025 The 4th F1Tenth Korea Championship
+
+The **F1Tenth Competition (now renamed Roboracer)** is an international event for researchers, engineers, and enthusiasts in autonomous systems. Used in over 89 universities worldwide, Roboracer facilitates cutting-edge research, education, and real-world testing of autonomous vehicle technologies.
+
+The **2025 The 4th F1Tenth Korea Championship** will be a fully **in-person, hardware-based competition**. Teams will design and build a **1:10 scale autonomous race car** based on a provided reference specification. The autonomous driving software must achieve three objectives: avoid crashing, minimize lap time, and overtake opponents.
+
+This competition challenges participants with real-world racing scenarios involving multiple autonomous vehicles operating simultaneously. It aims to assess the state-of-the-art in perception, planning, and control algorithms, encompassing both classical model-based and modern learning-based systems.
+
+**Organizers**
+*   Rahul Mangharam (U Penn.)
+*   Cheolhyeon Kwon (UNIST)
+*   Dongsung Pae (Sangmyung Univ.)
+
+**Schedule**
+*   **August 1, 2025 - October 30, 2025**: Online team registration and orientation
+*   **November 4, 2025 (Tuesday)**: On-site team reception and regulated practice sessions
+*   **November 5, 2025 (Wednesday)**: Open practice sessions and qualification time trials
+*   **November 6, 2025 (Thursday)**: Head-to-head tournament and award ceremony
+
+**Official Site Link**
+[http://f1tenthkorea.com/](http://f1tenthkorea.com/)
+
+---
+
+**ICCAS 2025 (25th International Conference on Control, Automation and Systems)**
+ICROS (Institute of Control, Robotics and Systems)
+Suseo Hyundai-Ventureville 723, Bamgogae-ro 1-gil 10, Gangnam-gu, Seoul 06349, Korea
+
+**Contact (Secretariat)**
+Tel. +82-2-6949-5801 (ext.3) | Fax. +82-2-6949-5807 | E-mail: conference@icros.org

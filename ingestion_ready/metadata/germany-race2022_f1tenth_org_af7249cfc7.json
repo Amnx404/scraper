@@ -1,0 +1,15 @@
+{
+  "url": "https://germany-race2022.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "title": "Site not found · GitHub Pages",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:23.553355+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/germany-race2022_f1tenth_org_af7249cfc7.json",
+  "markdown_file": "markdown/germany-race2022_f1tenth_org_af7249cfc7.md",
+  "char_count": 6786,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/germany-race2022_f1tenth_org_af7249cfc7.md",
+  "fine_char_count": 331,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

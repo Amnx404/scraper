@@ -1,0 +1,15 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/rules.html",
+  "source": "https://icra2022-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH IROS 2021 | F1TENTH Rules",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:57:14.393550+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/icra2022-race_f1tenth_org_rules_html_9221b2d78c.json",
+  "markdown_file": "markdown/icra2022-race_f1tenth_org_rules_html_9221b2d78c.md",
+  "char_count": 19454,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/icra2022-race_f1tenth_org_rules_html_9221b2d78c.md",
+  "fine_char_count": 19273,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

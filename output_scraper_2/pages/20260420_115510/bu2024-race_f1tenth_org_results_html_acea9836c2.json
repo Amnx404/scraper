@@ -1,0 +1,32 @@
+{
+  "url": "https://bu2024-race.f1tenth.org/results.html",
+  "source": "https://bu2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[In-Person Competition - Results](index.html)\n\n##  RESULTS \n\n  \n\n\n### TIME TRIAL\n\n  \n  \n\n\n### HEAD-TO-HEAD RACE\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "F1TENTH BU 2024| Results",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://bu2024-race.f1tenth.org/index.html",
+    "https://html5up.net/",
+    "https://bu2024-race.f1tenth.org/results.html",
+    "https://bu2024-race.f1tenth.org/timeline.html",
+    "https://bu2024-race.f1tenth.org/race_ressources.html",
+    "https://bu2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://bu2024-race.f1tenth.org/registration.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://bu2024-race.f1tenth.org/assets/css/main.css",
+    "https://bu2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:59.733998+00:00"
+}

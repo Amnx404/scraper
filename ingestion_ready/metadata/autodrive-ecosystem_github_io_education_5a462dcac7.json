@@ -1,0 +1,15 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/education",
+  "source": "https://autodrive-ecosystem.github.io/",
+  "title": "Index - AutoDRIVE Ecosystem",
+  "description": "AutoDRIVE is envisioned to be an open, comprehensive, flexible, and integrated digital twin ecosystem for enhancing autonomous driving research and education.",
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:24.877702+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/autodrive-ecosystem_github_io_education_5a462dcac7.json",
+  "markdown_file": "markdown/autodrive-ecosystem_github_io_education_5a462dcac7.md",
+  "char_count": 1094,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/autodrive-ecosystem_github_io_education_5a462dcac7.md",
+  "fine_char_count": 469,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

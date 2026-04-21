@@ -1,0 +1,9 @@
+{
+  "url": "https://icra2024-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "retries": 2,
+  "error": "HTTPSConnectionPool(host='icra2024-race.f1tenth.org', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='icra2024-race.f1tenth.org', port=443): Failed to resolve 'icra2024-race.f1tenth.org' ([Errno 8] nodename nor servname provided, or not known)\"))",
+  "scraped_at": "2026-04-20T15:56:30.738348+00:00"
+}

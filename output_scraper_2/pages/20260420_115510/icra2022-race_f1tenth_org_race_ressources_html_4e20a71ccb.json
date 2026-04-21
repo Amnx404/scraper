@@ -1,0 +1,41 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/race_ressources.html",
+  "source": "https://icra2022-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Race Resources](index.html)\n\n## F1TENTH IROS 2021 Race Resources\n\nAll necessary information about the race e.g. rules, scoring system, simulation environments and track data will be displayed here.\n\n  * [Rules](/rules.html)\n  * [ICRA 2022 - Orientation 1 Meeting Slides](https://docs.google.com/presentation/d/1F8kW2i-iaECLBFn0SO_8qTWl_3BDUfukOEL28wrZ8Lc/edit?usp=sharing)\n  * [ICRA 2022 - Orientation 2 Meeting Slides](https://docs.google.com/presentation/d/1ksdJOyLnmvStYZs96sisFfnDUIYsuLFb8AH3p7o4O88/edit?usp=sharing)\n  * Virtual Competition \n    * [Virtual Competition: Riders.Ai Quickstart Guide](https://gitlab.com/acrome-colab/riders-poc/f1tenth-riders-quickstart)\n    * [Virtual Competition: Track Data](https://drive.google.com/file/d/18v25Wv89Df0KO_ezKCQmgTHfMq2KyhHY/view?usp=sharing)\n  * In-Person competition \n    * [In-Person Competition: Detailed Time Schedule](https://docs.google.com/spreadsheets/d/1FZNhOPzzQoiKvCxFw6jW2Sn_vpc3bjHV_t7vn8e65lw/edit?usp=sharing)\n    * [In-Person Competition: Track Layout Example](https://drive.google.com/file/d/1__Ufp6QeHafH-d2tDYSq4ALd9eiQQTkb/view?usp=sharing)\n  * Frequently Asked Questions \n    * [In-person competition](/faq-physical.html)\n\n\n\n  * © 2021 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH IROS 2021 | Race Resources",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2022-race.f1tenth.org/index.html",
+    "https://icra2022-race.f1tenth.org/timeline.html",
+    "https://icra2022-race.f1tenth.org/race_ressources.html",
+    "https://icra2022-race.f1tenth.org/f1tenth_ressources.html",
+    "https://icra2022-race.f1tenth.org/registration.html",
+    "https://icra2022-race.f1tenth.org/stream.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://icra2022-race.f1tenth.org/rules.html",
+    "https://docs.google.com/presentation/d/1F8kW2i-iaECLBFn0SO_8qTWl_3BDUfukOEL28wrZ8Lc/edit?usp=sharing",
+    "https://docs.google.com/presentation/d/1ksdJOyLnmvStYZs96sisFfnDUIYsuLFb8AH3p7o4O88/edit?usp=sharing",
+    "https://gitlab.com/acrome-colab/riders-poc/f1tenth-riders-quickstart",
+    "https://drive.google.com/file/d/18v25Wv89Df0KO_ezKCQmgTHfMq2KyhHY/view?usp=sharing",
+    "https://docs.google.com/spreadsheets/d/1FZNhOPzzQoiKvCxFw6jW2Sn_vpc3bjHV_t7vn8e65lw/edit?usp=sharing",
+    "https://drive.google.com/file/d/1__Ufp6QeHafH-d2tDYSq4ALd9eiQQTkb/view?usp=sharing",
+    "https://icra2022-race.f1tenth.org/faq-physical.html",
+    "https://html5up.net/",
+    "https://icra2022-race.f1tenth.org/assets/css/main.css",
+    "https://icra2022-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:19.211765+00:00"
+}

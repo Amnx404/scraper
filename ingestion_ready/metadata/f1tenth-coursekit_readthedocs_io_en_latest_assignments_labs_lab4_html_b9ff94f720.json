@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab4.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Lab 4 - Follow the Gap — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:48.998556+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab4_html_b9ff94f720.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab4_html_b9ff94f720.md",
+  "char_count": 916,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_assignments_labs_lab4_html_b9ff94f720.md",
+  "fine_char_count": 864,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

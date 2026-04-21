@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/?page_id=958",
+  "source": "https://2025.iccas.org/",
+  "title": "Call for Papers – ICCAS 2025",
+  "description": null,
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:56:08.362599+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_848c4adc49.json",
+  "markdown_file": "markdown/2025_iccas_org_848c4adc49.md",
+  "char_count": 851,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_848c4adc49.md",
+  "fine_char_count": 514,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

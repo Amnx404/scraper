@@ -1,0 +1,34 @@
+{
+  "url": "https://itsc2024-race.f1tenth.org/race_ressources.html",
+  "source": "https://itsc2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Race Resources](index.html)\n\n## F1TENTH IV 2024 Race Resources\n\nAll necessary information about the race e.g. rules, scoring system, simulation environments and track data will be displayed here.\n\n  * [Rules](/rules.html)\n  * Frequently Asked Questions \n    * [In-person competition](/faq-physical.html)\n\n\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "F1TENTH ITSC 2024 | Race Resources",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://itsc2024-race.f1tenth.org/index.html",
+    "https://itsc2024-race.f1tenth.org/rules.html",
+    "https://itsc2024-race.f1tenth.org/faq-physical.html",
+    "https://html5up.net/",
+    "https://itsc2024-race.f1tenth.org/race_ressources.html",
+    "https://itsc2024-race.f1tenth.org/timeline.html",
+    "https://itsc2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://itsc2024-race.f1tenth.org/registration.html",
+    "https://itsc2024-race.f1tenth.org/stream.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://itsc2024-race.f1tenth.org/assets/css/main.css",
+    "https://itsc2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:01.243866+00:00"
+}

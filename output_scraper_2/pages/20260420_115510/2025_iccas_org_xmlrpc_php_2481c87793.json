@@ -1,0 +1,18 @@
+{
+  "url": "https://2025.iccas.org/xmlrpc.php?rsd=",
+  "source": "https://2025.iccas.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# Forbidden\n\nYou don't have permission to access /xmlrpc.php on this server.",
+  "metadata": {
+    "title": "403 Forbidden",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 403,
+    "content_type": "text/html; charset=iso-8859-1"
+  },
+  "links": [],
+  "scraped_at": "2026-04-20T15:56:17.931126+00:00"
+}

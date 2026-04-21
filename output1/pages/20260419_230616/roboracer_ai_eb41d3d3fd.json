@@ -1,0 +1,32 @@
+{
+  "url": "https://roboracer.ai/",
+  "source": "seed",
+  "engine": "cloudflare_markdown",
+  "engine_label": "Cloudflare Browser Rendering API (POST …/browser-rendering/markdown)",
+  "markdown": "[![RoboRacer](https://roboracer.ai/logos/logo-black-gradient.png)](/)\n\n[About](https://roboracer.ai/about)[Build](https://roboracer.ai/build)[Learn](https://roboracer.ai/learn)[Race](https://roboracer.ai/race)[Course](https://roboracer.ai/course)[Research](https://roboracer.ai/research)[News](https://roboracer.ai/news)[Simulator](https://autodrive-ecosystem.github.io/)[Join Community](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\n# The Leading Platform for Autonomous Racing Education and Research\n\nOpen-source hardware, global competitions, and comprehensive learning resources powering the next generation of robotics innovators.\n\n[![](https://roboracer.ai/logos/slack-logo.svg)Join Our Community](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\n90+\n\nUniversities\n\n20+\n\nCountries\n\n60+\n\nPublications\n\n## What We Do\n\nWe advance robotics and autonomous vehicle education through the following initiatives\n\n📚\n\n### Educational Materials Development\n\nWe create teaching and training materials for university and K-12 courses covering robot perception, computer vision, localization, mapping, motion planning, and safe control. Over 90 universities, including the University of Pennsylvania, UC San Diego, Clemson University, and more, use these resources.\n\n[Learn more→](https://roboracer.ai/learn)\n\n🎓\n\n### Educational Events\n\nWe host workshops, tutorials, seminars, and panels on safe autonomous vehicle development at IEEE and ACM accredited conferences.\n\n🏁\n\n### Community Events\n\nWe organize international autonomous racing competitions, hosting over 24 events in locations such as New York, Pittsburgh, Portugal, South Korea, Italy, and Canada.\n\n[See details→](https://roboracer.ai/race)\n\n🔧\n\n### Open-Source Contributions\n\nWe develop and share open-source software and hardware designs to help anyone build autonomous robotic platforms.\n\n[Explore resources→](https://roboracer.ai/build)\n\n## Join Our Global Community\n\nConnect with researchers, students, and autonomous racing enthusiasts from around the world. Get support, share insights, and collaborate on cutting-edge robotics projects.\n\n[![](https://roboracer.ai/logos/slack-logo.svg)Join on Slack](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\n![RoboRacer Community](https://roboracer.ai/landing/car-inside.png)\n\n## What Our Community Says\n\n# From Our Community\n\n![RoboRacer](https://roboracer.ai/logos/logo-white-gradient.svg)\n\nAdvancing autonomous racing through innovation, education, and competition.\n\n[contact@roboracer.ai](mailto:contact@roboracer.ai)\n\n### Quick Links\n\n* [About](https://roboracer.ai/about)\n* [Race](https://roboracer.ai/race)\n* [News](https://roboracer.ai/news)\n* [Research](https://roboracer.ai/research)\n\n### Resources\n\n* [Learn](https://roboracer.ai/learn)\n* [Build](https://roboracer.ai/build)\n* [Course](https://roboracer.ai/course)\n* [Simulator](https://autodrive-ecosystem.github.io/)\n\n### Community\n\n[![Slack](https://roboracer.ai/logos/slack-logo.svg)Join Slack](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\nConnect with our community to get started and ask questions.\n\n© 2026 RoboRacer Foundation. All rights reserved.\n\nCreative Commons License",
+  "metadata": {
+    "title": "The Leading Platform for Autonomous Racing Education and Research",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/markdown"
+  },
+  "links": [
+    "https://roboracer.ai/logos/logo-black-gradient.png",
+    "https://roboracer.ai/about",
+    "https://roboracer.ai/build",
+    "https://roboracer.ai/learn",
+    "https://roboracer.ai/race",
+    "https://roboracer.ai/course",
+    "https://roboracer.ai/research",
+    "https://roboracer.ai/news",
+    "https://autodrive-ecosystem.github.io/",
+    "https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg",
+    "https://roboracer.ai/logos/slack-logo.svg",
+    "https://roboracer.ai/landing/car-inside.png",
+    "https://roboracer.ai/logos/logo-white-gradient.svg"
+  ],
+  "scraped_at": "2026-04-20T03:06:18.928452+00:00"
+}

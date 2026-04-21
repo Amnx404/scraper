@@ -1,0 +1,34 @@
+{
+  "url": "https://iros2023-race.f1tenth.org/results.html",
+  "source": "https://iros2023-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Results](index.html)\n\n##  Stream\n\n##  Qualification Results\n\nSeed | Team Name | Best Lap Count | Best Lap Time (s)  \n---|---|---|---  \n1 | VAUL | 24 | 11.82  \n2 | Autoware Rocket | 23 | 12.64  \n3 | Autoware Aces | 20 | 13.87  \n4 | HUMDA-SZE 1 | 18 | 16.02  \n5 | HUMDA-SZE 2 | 9 | 14.09  \n6 | Audubon Bisons | 1 | 16.65  \n7 | Technion | 4 | 53.83  \n8 | Audubon Bulls | 1 | 18.76  \n9 | Speed Cardinals | 0 | N/A  \n  \n##  Final Results\n\n  * © 2023 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH ICRA 2023| Results",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iros2023-race.f1tenth.org/index.html",
+    "https://iros2023-race.f1tenth.org/timeline.html",
+    "https://iros2023-race.f1tenth.org/race_ressources.html",
+    "https://iros2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iros2023-race.f1tenth.org/registration.html",
+    "https://iros2023-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://html5up.net/",
+    "https://challonge.com/w6qar708/module",
+    "https://iros2023-race.f1tenth.org/assets/css/main.css",
+    "https://iros2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:04.037293+00:00"
+}

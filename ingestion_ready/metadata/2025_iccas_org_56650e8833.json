@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/?mod=document&page_id=962&uid=4",
+  "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=4",
+  "title": "ICCAS 2025 Session Program is now available. – ICCAS 2025",
+  "description": "Dear Authors, The session program of ICCAS 2025 is now available. Please verify your session and presentation type from Session Timetable & Paper List in the website: https://2025.iccas.org/?page_id=972 Oral Session Guideline: https://2025.iccas.org/?page_id=992 Interactive Poster Session Guideline:https://2025.iccas.org/?page_id=994 Only the final version of your accepted paper will be included in the conference proceedings. Your paper is assigned to either an oral lecture session or poster session. The information will be used for the publication of the program & digest(abstract) book and e-proceedings. (No additional submission and modification can be possible.) Thank you for joining ICCAS 2025.",
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:57:13.547244+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_56650e8833.json",
+  "markdown_file": "markdown/2025_iccas_org_56650e8833.md",
+  "char_count": 1804,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_56650e8833.md",
+  "fine_char_count": 1268,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

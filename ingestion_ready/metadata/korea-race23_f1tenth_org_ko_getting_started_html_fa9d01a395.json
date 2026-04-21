@@ -1,0 +1,15 @@
+{
+  "url": "https://korea-race23.f1tenth.org/ko/getting_started.html",
+  "source": "https://korea-race23.f1tenth.org/getting_started.html",
+  "title": "The 2nd F1Tenth Korea Championship | 시작하기",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:33.178906+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/korea-race23_f1tenth_org_ko_getting_started_html_fa9d01a395.json",
+  "markdown_file": "markdown/korea-race23_f1tenth_org_ko_getting_started_html_fa9d01a395.md",
+  "char_count": 1420,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/korea-race23_f1tenth_org_ko_getting_started_html_fa9d01a395.md",
+  "fine_char_count": 1302,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

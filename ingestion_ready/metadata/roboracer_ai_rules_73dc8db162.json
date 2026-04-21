@@ -1,0 +1,15 @@
+{
+  "url": "https://roboracer.ai/rules",
+  "source": "https://roboracer.ai/about",
+  "title": "RoboRacer",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:21.098715+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/roboracer_ai_rules_73dc8db162.json",
+  "markdown_file": "markdown/roboracer_ai_rules_73dc8db162.md",
+  "char_count": 21931,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/roboracer_ai_rules_73dc8db162.md",
+  "fine_char_count": 21844,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

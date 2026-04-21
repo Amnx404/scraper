@@ -1,0 +1,9 @@
+{
+  "url": "https://korea-race24f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "retries": 2,
+  "error": "HTTPSConnectionPool(host='korea-race24f1tenth.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:1028)')))",
+  "scraped_at": "2026-04-20T15:56:25.495276+00:00"
+}

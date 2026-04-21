@@ -3,3 +3,5 @@ __pycache__/
 output/
 .scrapy/
 .env
+scrape_firecrawl.env
+app_runs/

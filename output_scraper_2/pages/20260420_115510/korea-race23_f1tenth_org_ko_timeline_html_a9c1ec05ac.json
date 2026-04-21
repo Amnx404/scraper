@@ -1,0 +1,38 @@
+{
+  "url": "https://korea-race23.f1tenth.org/ko/timeline.html",
+  "source": "https://korea-race23.f1tenth.org/timeline.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[일정](../index.html)\n\n## 일정\n\n  \n\n\nDATE | IN-PERSON COMPETITION  \n---|---  \nMay 25th | [참가자 등록 시작](https://docs.google.com/forms/d/1ycNog7lz3oYiwzHIJfmzt0CW0E1GGCBMy1FUQ7ij1AI/viewform?edit_requested=true)  \nAug 7th - 9th | F1Tenth 부트 캠프  \nSep 8th   \n19:00 KST | 오리엔테이션 (온라인 미팅)   \n[미팅 링크](https://unist-kr.zoom.us/j/87812180691)   \n대회 소개 및 QnA  \nSep 16th | 기술교류회  \nSep 17th   \n23:59 KST | 등록 마감  \nOct 17th | 트랙 설정 & 팀 연습   \n모든 팀은 오후 3시 이후에 경주장을 이용할 수 있습니다.  \nOct 18th | 팀 연습   \n자격 여부 확인 (14:00 KST)  \nOct 19th | 경주 대회 (10:00 KST)   \n시상식 및 인터뷰  \n  \n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "The 2nd F1Tenth Korea Championship | 일정",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race23.f1tenth.org/index.html",
+    "https://korea-race23.f1tenth.org/ko/index.html",
+    "https://korea-race23.f1tenth.org/ko/timeline.html",
+    "https://korea-race23.f1tenth.org/ko/race_resources.html",
+    "https://korea-race23.f1tenth.org/ko/getting_started.html",
+    "https://korea-race23.f1tenth.org/ko/registration.html",
+    "https://korea-race23.f1tenth.org/ko/results.html",
+    "https://korea-race23.f1tenth.org/ko/bootcamp.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race23.f1tenth.org/timeline.html",
+    "https://docs.google.com/forms/d/1ycNog7lz3oYiwzHIJfmzt0CW0E1GGCBMy1FUQ7ij1AI/viewform?edit_requested=true",
+    "https://unist-kr.zoom.us/j/87812180691",
+    "https://html5up.net/",
+    "https://korea-race23.f1tenth.org/assets/css/main.css",
+    "https://korea-race23.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:32.116502+00:00"
+}

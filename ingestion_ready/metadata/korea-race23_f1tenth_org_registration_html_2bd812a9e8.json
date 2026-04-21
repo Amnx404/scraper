@@ -1,0 +1,15 @@
+{
+  "url": "https://korea-race23.f1tenth.org/registration.html",
+  "source": "https://korea-race23.f1tenth.org/",
+  "title": "The 2nd F1Tenth Korea Championship | Registration",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:04.089520+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/korea-race23_f1tenth_org_registration_html_2bd812a9e8.json",
+  "markdown_file": "markdown/korea-race23_f1tenth_org_registration_html_2bd812a9e8.md",
+  "char_count": 4069,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/korea-race23_f1tenth_org_registration_html_2bd812a9e8.md",
+  "fine_char_count": 3946,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

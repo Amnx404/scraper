@@ -1,0 +1,15 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2026",
+  "source": "https://icra2026-race.roboracer.ai/registration.html",
+  "title": "ROBORACER @ ICRA 2026 - AutoDRIVE Ecosystem",
+  "description": "AutoDRIVE is envisioned to be an open, comprehensive, flexible, and integrated digital twin ecosystem for enhancing autonomous driving research and education.",
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:24.409731+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-icra-2026_7c2d53ca86.json",
+  "markdown_file": "markdown/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-icra-2026_7c2d53ca86.md",
+  "char_count": 19731,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-icra-2026_7c2d53ca86.md",
+  "fine_char_count": 953846,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

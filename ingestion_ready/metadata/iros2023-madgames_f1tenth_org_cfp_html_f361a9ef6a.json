@@ -1,0 +1,15 @@
+{
+  "url": "https://iros2023-madgames.f1tenth.org/cfp.html",
+  "source": "https://iros2023-madgames.f1tenth.org/",
+  "title": "MADGames-IROS 2023 | Call for Paper",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:03.578369+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iros2023-madgames_f1tenth_org_cfp_html_f361a9ef6a.json",
+  "markdown_file": "markdown/iros2023-madgames_f1tenth_org_cfp_html_f361a9ef6a.md",
+  "char_count": 2051,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iros2023-madgames_f1tenth_org_cfp_html_f361a9ef6a.md",
+  "fine_char_count": 2067,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

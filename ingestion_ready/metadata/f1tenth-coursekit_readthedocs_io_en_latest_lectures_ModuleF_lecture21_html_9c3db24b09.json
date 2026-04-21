@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/lecture21.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Lecture 21 - Model Predictive Control — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:39.020544+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture21_html_9c3db24b09.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture21_html_9c3db24b09.md",
+  "char_count": 604,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleF_lecture21_html_9c3db24b09.md",
+  "fine_char_count": 623,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://korea-race23.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "title": "The 2nd F1Tenth Korea Championship",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:21.136839+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/korea-race23_f1tenth_org_a55632f5fa.json",
+  "markdown_file": "markdown/korea-race23_f1tenth_org_a55632f5fa.md",
+  "char_count": 4036,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/korea-race23_f1tenth_org_a55632f5fa.md",
+  "fine_char_count": 3199,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

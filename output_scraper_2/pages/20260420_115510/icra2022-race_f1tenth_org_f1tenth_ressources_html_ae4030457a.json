@@ -1,0 +1,38 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/f1tenth_ressources.html",
+  "source": "https://icra2022-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[F1TENTH Resources](index.html)\n\n## F1TENTH Resources\n\n### Build\n\n![](images/F1TENTH/f1tenth_NX.png)We designed and maintain the F1TENTH Autonomous Vehicle System, a powerful and versatile open-source platform for autonomous systems research and education on a 1:10 scale. This vehicle defines the baseline for the in-person competition and provides both sensors as well as enough computation power to run autonomous driving algorithms. If you want to take part in the in-person competition you have to bring your own F1TENTH racecar. A detailed description on how to build the vehicle including videos and a step by step instruction can be found here: [F1TENTH Build Instructions ](https://f1tenth.org/build.html)\n\n### Simulation\n\n![](images/F1TENTH/basic_sim_f1tenth.gif)Autonomous Driving needs heavy development in simulation to provide a good evaluation for the developed algorithms before we bring them on the car. We provide different simulation environments that can help you in your development. For the virtual competitation we will use the [F1TENTH Gym](https://github.com/f1tenth/f1tenth_gym) which provides an asynchronous, 2D simulator built in Python. This simulation runs faster than real-time execution (30x realtime), provides a realistic vehicle simulation and collision, runs multiple vehicle instances and publishes laser scan and odometry data. When it comes to a more close vehicle development we provide the [F1TENTH ROS Simulator](https://github.com/f1tenth/f1tenth_simulator) which is providing the ROS messages from the F1TENTH car in and simulation environment.\n\n### Autonomous Racing\n\n![](images/F1TENTH/Lecture_1_Thumbnail.png)If you are new to the field of autonomous racing then we can provide some useful learning ressources for you. The complete material from our F1TENTH Penn course can be found online at [F1TENTH Learn ](https://f1tenth.org/learn.html) . This course provides lectures about autonomous driving foundations, includes tutorials about the F1TENTH car and provides you with some insights in autonomous racing techniques e.g. raceline finding. In addition all lectures were recorded and can be foun at the [F1TENTH Autonomous Racing Course ](https://youtu.be/zENhppcxwzY) on Youtube. \n\n* * *\n\n  * © 2021 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH IROS 2021 | F1TENTH Ressources",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2022-race.f1tenth.org/index.html",
+    "https://icra2022-race.f1tenth.org/timeline.html",
+    "https://icra2022-race.f1tenth.org/race_ressources.html",
+    "https://icra2022-race.f1tenth.org/f1tenth_ressources.html",
+    "https://icra2022-race.f1tenth.org/registration.html",
+    "https://icra2022-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://f1tenth.org/build.html",
+    "https://github.com/f1tenth/f1tenth_gym",
+    "https://github.com/f1tenth/f1tenth_simulator",
+    "https://f1tenth.org/learn.html",
+    "https://youtu.be/zENhppcxwzY",
+    "https://html5up.net/",
+    "https://icra2022-race.f1tenth.org/assets/css/main.css",
+    "https://icra2022-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:19.384714+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://cpsweek2024-race.f1tenth.org/index.html",
+  "source": "https://roboracer.ai/race",
+  "title": "F1TENTH CPS-IoT Week 2024",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:20.037704+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cpsweek2024-race_f1tenth_org_index_html_ad36a4ade5.json",
+  "markdown_file": "markdown/cpsweek2024-race_f1tenth_org_index_html_ad36a4ade5.md",
+  "char_count": 3345,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cpsweek2024-race_f1tenth_org_index_html_ad36a4ade5.md",
+  "fine_char_count": 2365,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

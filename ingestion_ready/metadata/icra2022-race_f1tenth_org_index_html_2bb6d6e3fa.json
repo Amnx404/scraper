@@ -1,0 +1,15 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/index.html",
+  "source": "https://icra2022-race.f1tenth.org/",
+  "title": "F1TENTH ICRA 2022",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:18.102045+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/icra2022-race_f1tenth_org_index_html_2bb6d6e3fa.json",
+  "markdown_file": "markdown/icra2022-race_f1tenth_org_index_html_2bb6d6e3fa.md",
+  "char_count": 2780,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/icra2022-race_f1tenth_org_index_html_2bb6d6e3fa.md",
+  "fine_char_count": 2321,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

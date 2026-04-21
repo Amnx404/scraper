@@ -1,0 +1,108 @@
+# VISA Information
+
+ICCAS 2025 will provide official letters of invitation to authors who have **fully registered** for the conference and for which payment has been received. Only registered and paid authors may receive an invitation letter.
+
+[Download Form for Invitation Letter](https://2025.iccas.org/wp-content/uploads/2025/01/Form_for_Visa_ICCAS2025.docx)
+
+Please fill out the form and send it via email to [conference@icros.org](mailto:conference@icros.org).
+
+## e-Visa Application via the Visa Portal
+
+1.  **Application Process:** Select “Application” >> [“E-Visa(Individual)” on the Visa Portal (www.visa.go.kr)](https://www.visa.go.kr/openPage.do?MENU_ID=10105#this)
+2.  **Applicant:** Application must be submitted by a foreigner or a sponsor on their behalf.
+3.  **Applicable Status of Stay (as of Dec. 8, 2014):**
+    *   Professor (E-1), Researcher (E-3), Technical Instructor/Technician (E-4), and Professional (E-5) Visa for the applicant and Dependent Family (F-3) Visa for accompanying family members.
+    *   Foreign National of Special Ability (E-7) Visa for the applicant and Dependent Family (F-3) Visa for accompanying family members.
+        *   Qualification: The applicant must be an expert in advanced science and technology and have an official employment recommendation letter (GOLD CARD).
+    *   Short-term General (C-3-1) Visa for a prospective investor invited by a promotion agency of the Immigrant Investor Scheme for Public Business and their accompanying family members.
+    *   Short-term Group Tourist (C-3-2) Visa for Chinese group tourists applying through a designated travel agency.
+    *   Short-term Medical Tourist (C-3-3) or Recuperation & Treatment (G-1-10) Visa for foreign patients and their caregivers invited by an ‘outstanding medical facilitator’ designated as an e-Visa agency.
+    *   Business Visitor (General) (C-3-4) visa for an invitee of a domestic company.
+        *   Qualifications: A foreigner who has entered Korea 3 or more times with a Short-term (C-3) Visa since January 1, 2012, and has no history of illegal stay or criminal cases.
+4.  **Required Documents:**
+    *   Visa Application Form (electronic form on the Visa Portal)
+    *   Scanned image files of passport pages
+    *   Digital Photograph (natural color, size: 3.5cm x 4.5cm)
+    *   Fee (credit card for e-Payment)
+    *   Required documents for the respective status of stay (soft copy)
+5.  **Procedure:**
+    *   Application by the applicant
+    *   Application by the sponsor (inviter)
+
+## Confirmation of Visa Issuance Application via the Visa Portal
+
+1.  **Application Process:** Select “Application” >> [“Confirmation of Visa Issuance” on Visa Portal (www.visa.go.kr)](https://www.visa.go.kr/openPage.do?MENU_ID=10201)
+2.  **Applicant:** Application must be filed by the inviter (sponsor).
+3.  **Applicable Status of Stay (as of Dec. 8, 2014):**
+    *   Professor (E-1), Foreign Language Instructor (E-2), Researcher (E-3), Technical Instructor/Technician (E-4), Professional (E-5) for the applicant and Dependent Family (F-3) Visa for accompanying family members.
+    *   Foreign National of Special Ability (E-7) Visa for the applicant and Dependent Family (F-3) Visa for accompanying family members.
+        *   Qualification: The applicant must have an occupation under category 1 (executives) or 2 (professionals or related) of the Standard Classification of Occupation.
+    *   Short-term Medical Tourist (C-3-3) or Recuperation & Treatment (G-1-10) Visa for foreign patients and their caregivers invited by an ‘outstanding medical facilitator’.
+    *   Business Visitor (C-3-6) visa for an invitee of a VIP corporation.
+    *   Student (D-2) and Korean Language Trainee (D-4-1) visa.
+    *   Non-professional (E-9) and Maritime Crew (E-10) visa.
+4.  **Required Documents:**
+    *   Application form for Confirmation of Visa Issuance (electronic form on the Visa Portal)
+    *   Scanned image files of passport pages
+    *   Digital Photograph (natural color, size: 3.5cm x 4.5cm)
+    *   Fee (credit card for e-Payment)
+    *   Required documents for the respective status of stay (soft copy)
+5.  **Procedure:**
+6.  **Check the Result:** Check application results via “Application Status” on the Visa Portal, ARS (02-2650-6363), text message, or email.
+7.  **Visa Application:**
+    *   The sponsor (inviter) must download the Visa application form for the applicant from “Application Status” on the Visa Portal and send it via email, or inform the applicant of the confirmation number and expiry date.
+    *   The applicant must receive the Visa application form or its number (expiry date) from the sponsor in Korea to apply for their visa at the Korean Embassy or Consulate General.
+
+Confirmation of Visa Issuance is valid for 3 months and effective for a single visa issuance. For inquiries, contact the Immigration Contact center (+1345 or +82+1345 from abroad).
+
+## Visa Application via Korean Diplomatic Missions Abroad
+
+1.  **Location of Application:** Korean Embassy or Consulate in the applicant’s country (or area) of residence.
+2.  **Applicant:** Application must be submitted by a foreigner or a visa agency on their behalf.
+3.  **Applicable Status of Stay (as of Dec. 8, 2014):**
+    *   Single-entry or multiple-entry visa for eligible applicants of Diplomat (A-1), Government Official (A-2) Visa.
+    *   Single-entry visa (90 days or less duration of stay) for eligible applicants of Short-term News Coverage (C-1), Short-term General (C-3), and Short-term Employee (C-4).
+    *   Multiple-entry visa (90 days or less duration of stay) for eligible applicants of Short-term News Coverage (C-1) and Short-term General (C-3) Visa who are citizens of countries with multiple-entry visa agreements with Korea.
+    *   Visas issued at the discretion of the head of a Korean diplomatic mission abroad, such as a single-entry visa (90 days or less duration of stay) for eligible applicants of Korean Arts and Culture (D-1) Visa who plan to engage in cultural arts activities upon invitation of the Korea Foundation or from the Korean Culture and Arts Committee.
+4.  **Required Documents:**
+    *   Visa Application Form (application form No. 17, or electronic form on the Visa Portal)
+    *   Passport
+    *   Photo (natural color, 3.5cm x 4.5cm)
+    *   Fee (in U.S. dollars) - Payment in local currency may be permitted with approval from the head of the Korean diplomatic mission.
+    *   Required documents for the corresponding status of stay.
+
+    *Note: The required documents on the Visa Navigator are minimum requirements. The head of the diplomatic mission may request or exempt additional documents. Follow the instructions of the respective diplomatic mission if they differ from the Visa Navigator.*
+5.  **Procedure:**
+6.  **Inquiries:** Contact the consular affairs Korean diplomatic missions in your country of residence.
+
+## Confirmation of Visa Issuance Application via Korean Immigration Offices
+
+1.  **Location of Application:** Korean Immigration Office with jurisdiction over the inviter’s residence area.
+2.  **Applicants:** Application must be submitted by a foreigner or the sponsor/agency (E-9, E-10) on behalf of the foreigner.
+3.  **Applicable Status of Stay (as of Dec. 8, 2014):**
+    *   Long-term Visas: Korean Arts and Culture (D-1), Student (D-2), Industrial trainee (D-3), General trainee (D-4), Long-term News Coverage (D-5), Religious Worker (D-6), Intra-company Transferee (D-7), Corporate/Foreign investor (D-8), International Trade (D-9), Professor (E-1), Foreign Language Instructor (E-2), Researcher (E-3), Technical Instructor/Technician (E-4), Professional (E-5), Artists/Athlete (E-6), Foreign National of Special Ability (E-7), Non-professional (E-9), Maritime Crew (E-10), Family Visitor (F-1), Dependent Family (F-3), Miscellaneous (G-1), and Work and Visit (H-2) Visa for eligible applicants.
+    *   Long-term Visa for citizens of countries without formal diplomatic relations with Korea, or specific countries designated by the Korean government (e.g., Cuba, Syria, Macedonia).
+    *   Other individuals recognized by the Minister of Justice as necessary.
+4.  **Required Documents:**
+    *   Confirmation of Visa Issuance Application Form (Form No. 21)
+    *   Photocopy of passport pages
+    *   Photograph (natural color, size: 3.5cm x 4.5cm)
+    *   Required documents for the corresponding status of stay.
+
+    *Note: The required documents on the Visa Navigator are minimum requirements. The head of the immigration office may request or exempt additional documents. If a representative applies on behalf of the applicant, an employment certificate, a copy of the representative’s ID, and a letter of attorney are required (representative applications may be restricted if further evaluation is needed).*
+5.  **Procedures:**
+6.  **Notification of Evaluation Results:** Check application results via “Application Status” on the Visa Portal, ARS (02-2650-6363), text message, or email.
+7.  **Visa Issuance:**
+    *   The sponsor (inviter) must download the Visa application form for the applicant from “Application Status” on the Visa Portal and send it via email, or inform the applicant of the confirmation number and expiry date.
+    *   The applicant must receive the Visa application form or its number (expiry date) from the sponsor in Korea to apply for their visa at the Korean Embassy or Consulate General.
+
+Confirmation of Visa Issuance is valid for 3 months and effective for a single visa issuance. For inquiries, contact the Immigration Contact center (+1345 or +82+1345 from abroad).
+
+**ICCAS 2025 (2025 25th International Conference on Control, Automation and Systems)**
+ICROS (Institute of Control, Robotics and Systems)
+Suseo Hyundai-Ventureville 723, Bamgogae-ro 1-gil 10, Gangnam-gu, Seoul 06349, Korea
+
+**Contact (Secretariat)**
+Tel. +82-2-6949-5801 (ext. 3) | Fax. +82-2-6949-5807 | E-mail: conference@icros.org
+
+ICCAS 2025, The 25th International Conference on Control, Automation and Systems © All rights reserved.

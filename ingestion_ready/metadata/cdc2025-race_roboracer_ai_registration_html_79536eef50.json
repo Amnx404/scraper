@@ -1,0 +1,15 @@
+{
+  "url": "https://cdc2025-race.roboracer.ai/registration.html",
+  "source": "https://cdc2025-race.roboracer.ai/",
+  "title": "Roboracer CDC 2025 | Registration",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:54.663621+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cdc2025-race_roboracer_ai_registration_html_79536eef50.json",
+  "markdown_file": "markdown/cdc2025-race_roboracer_ai_registration_html_79536eef50.md",
+  "char_count": 948,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cdc2025-race_roboracer_ai_registration_html_79536eef50.md",
+  "fine_char_count": 831,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

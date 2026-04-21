@@ -1,0 +1,36 @@
+{
+  "url": "https://korea-race.f1tenth.org/ko/agenda.html",
+  "source": "https://korea-race.f1tenth.org/agenda.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[아젠다](../index.html)\n\n## 아젠다\n\n**목 차**\n\n  * Towards Bridging the Sim-to-Real Gap - F1TENTH Gym Environment for Learning-based Control Policies in Autonomous Racing\n\n\n\n* * *\n\n### Towards Bridging the Sim-to-Real Gap - F1TENTH Gym Environment for Learning-based Control Policies in Autonomous Racing\n\nSpeaker: Kukjin Jang\n\nAbstract: The F1TENTH autonomous racing platform provides an effective approach for developing perception, planning, and control algorithms for autonomous driving. The F1TENTH-GYM simulation environment further enables the rapid experimentation of learning-based control policies. This talk presents an overview of the environment and a case study using reinforcement learning and imitation learning to learn control policies for the F1TENTH race car. Experimental results of applying the policies both in simulation and on scaled real-world experiments are presented as well as future research directions for bridging the sim-to-real gap.\n\n* * *\n\n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "The 1st F1TENTH Korea Championship | 아젠다",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race.f1tenth.org/index.html",
+    "https://korea-race.f1tenth.org/ko/index.html",
+    "https://korea-race.f1tenth.org/ko/timeline.html",
+    "https://korea-race.f1tenth.org/ko/program.html",
+    "https://korea-race.f1tenth.org/ko/race_resources.html",
+    "https://korea-race.f1tenth.org/ko/getting_started.html",
+    "https://korea-race.f1tenth.org/ko/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race.f1tenth.org/agenda.html",
+    "https://korea-race.f1tenth.org/ko/agenda.html",
+    "https://html5up.net/",
+    "https://korea-race.f1tenth.org/assets/css/main.css",
+    "https://korea-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:57:16.290307+00:00"
+}

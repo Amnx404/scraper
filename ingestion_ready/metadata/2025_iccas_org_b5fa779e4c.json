@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/?mod=document&page_id=962&uid=3",
+  "source": "https://2025.iccas.org/?mod=document&page_id=962&uid=3",
+  "title": "(for Korean) BK21 국제학술대회 기준 통계안내 – ICCAS 2025",
+  "description": "국내 저자분들의 BK21 관련 ICCAS 2025 국제학술대회 기준에 대한 문의가 있어 아래와 같이 안내드립니다. (BK21 기준에 따른 국제학술대회임을 안내드립니다.) ※ICCAS 2025 최종논문 접수 통계 -총 31개국 483편 접수  구두발표논문 317편 (국내175편, 국외 142편) - 구두발표논문 중 외국논문 비율:  약 44.79%(3분의 1이상으로 충족) *국내에서 개최되는 국제학술대회 기준 1)참가국 4개국 이상 2)구두발표논문 20건 이상 3)구두발표 논문 발표자 중 외국인 3분의 1이상",
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:57:13.581156+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_b5fa779e4c.json",
+  "markdown_file": "markdown/2025_iccas_org_b5fa779e4c.md",
+  "char_count": 1478,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_b5fa779e4c.md",
+  "fine_char_count": 1497,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

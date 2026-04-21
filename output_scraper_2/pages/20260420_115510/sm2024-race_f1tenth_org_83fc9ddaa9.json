@@ -1,0 +1,40 @@
+{
+  "url": "https://sm2024-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# 19TH F1TENTH AUTONOMOUS GRAND Prix\n\n2024 IEEE International Conference on Smart Mobility(SM 2024)  \nCalender September 16th - 18th 2024   \nLocation Niagara Falls, Ontario, Canada \n\n  * Continue\n\n\n\n[F1TENTH SM 2024](index.html)\n\n## 19TH F1TENTH AUTONOMOUS GRAND Prix\n\nF1TENTH Autonomous Racing is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in 19th F1TENTH Grand Prix at SM 2024 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nSM 2024 will host an In-person competition: The main focus of the 19th F1TENTH Autonomous Grand Prix is an in-person competition with physical cars. Each team will bring their own F1TENTH car and write the software for their car. The teams have access to a detailed build manual and can use open-source software that helps them get started with the car. The organizers provide the race setup (rules, submissions, guidelines), the track, and related infrastructure and organize the race itself. For the competition, teams first take part in a qualification session in order to determine seeding. In the qualification session, teams compete in a time trial where they need to demonstrate that they are able to finish laps without colliding with the track bounds and without colliding with randomly placed obstacles that are unkown at run time. Afterwards, teams compete in a knockout phase in head-to-head racing in an intense battle with their autonomous driving algorithms. Since vehicles and hardware are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track and new competitors. The Grand Prix phase pits competitors against each other on the same track. \n\n[![](https://ieeesm.org/wp-content/uploads/2024/02/SMC_Logo-01-e1643127404923-1.png)](https://ieeesm.org/)\n\n## Organizers:\n\n![](images/organizer/khalid.jpg)\n\n**[Khalid ElGazzar](https://iotresearchlab.ca/)**\n\n###### Canada Research Chair in Internet of Things\n\n###### Department of Electrical and Computer Engineering\n\n###### Ontario Tech University\n\n![](images/organizer/zeinab.jpg)\n\n**[Zeinab El-Sayegh](https://engineering.ontariotechu.ca/people/ame/zeinab-el-sayegh.php)**\n\n###### Assistant Professor\n\n###### Department of Automotive and Mechatronics Engineering\n\n###### Ontario Tech University\n\n![](images/organizer/francois.jpg)\n\n**[François Pomerleau](https://norlab.ulaval.ca/)**\n\n###### Director, Boreal Robotics Laboratory (Norlab)\n\n###### Department of Electrical and Computer Engineering\n\n###### Université Laval\n\n![](images/organizer/rahul.jpeg)\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\n###### Associate Professor\n\n###### Department of Electrical and Systems Engineering\n\n###### University of Pennsylvania\n\n![](images/organizer/ammar.jpeg)\n\n**[Ammar Elmoghazy](https://9elmo6.github.io)**\n\n###### Master student\n\n######  Department of Electrical and Computer Engineering\n\n###### Ontario Tech University\n\n![](images/organizer/Ahmad.jpg)\n\n**[Ahmad Amine](https://ahmadamine998.github.io/)**\n\n###### Ph.D. Candidate\n\n###### Department of Electrical and Systems Engineering\n\n###### University of Pennsylvania\n\n## Sponsors:\n\nPartial support provided by NSF Grant CNS 1925500 & 1925587   \nCCRI: MEDIUM: Collaborative Research: F1/10 RACECAR: Community Platforms for Safe, Secure and Coordinated Autonomy \n\n[Contact](mailto:contact@f1tenth.org)\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH SM 2024",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://sm2024-race.f1tenth.org/",
+    "https://sm2024-race.f1tenth.org/index.html",
+    "https://sm2024-race.f1tenth.org/timeline.html",
+    "https://sm2024-race.f1tenth.org/race_ressources.html",
+    "https://sm2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://sm2024-race.f1tenth.org/registration.html",
+    "https://sm2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://ieeesm.org/",
+    "https://iotresearchlab.ca/",
+    "https://engineering.ontariotechu.ca/people/ame/zeinab-el-sayegh.php",
+    "https://norlab.ulaval.ca/",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://9elmo6.github.io/",
+    "https://ahmadamine998.github.io/",
+    "https://html5up.net/",
+    "https://sm2024-race.f1tenth.org/assets/css/main.css",
+    "https://sm2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:20.074798+00:00"
+}

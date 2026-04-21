@@ -1,0 +1,15 @@
+{
+  "url": "https://iv2023-race.f1tenth.org/index.html",
+  "source": "https://iv2023-race.f1tenth.org/",
+  "title": "F1TENTH IV 2023",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:18.038737+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iv2023-race_f1tenth_org_index_html_521b69126f.json",
+  "markdown_file": "markdown/iv2023-race_f1tenth_org_index_html_521b69126f.md",
+  "char_count": 3006,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iv2023-race_f1tenth_org_index_html_521b69126f.md",
+  "fine_char_count": 2635,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

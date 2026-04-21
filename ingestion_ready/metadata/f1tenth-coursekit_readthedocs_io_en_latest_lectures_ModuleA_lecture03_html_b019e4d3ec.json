@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/lecture03.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Lecture 3 - Rigid Body Transformation — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:29.399203+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_lecture03_html_b019e4d3ec.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_lecture03_html_b019e4d3ec.md",
+  "char_count": 1171,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleA_lecture03_html_b019e4d3ec.md",
+  "fine_char_count": 1052,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

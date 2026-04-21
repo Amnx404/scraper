@@ -1,0 +1,15 @@
+{
+  "url": "https://bu2024-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "title": "F1TENTH BU 2024",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:19.117106+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/bu2024-race_f1tenth_org_3c9c8bb04b.json",
+  "markdown_file": "markdown/bu2024-race_f1tenth_org_3c9c8bb04b.md",
+  "char_count": 3068,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/bu2024-race_f1tenth_org_3c9c8bb04b.md",
+  "fine_char_count": 2418,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

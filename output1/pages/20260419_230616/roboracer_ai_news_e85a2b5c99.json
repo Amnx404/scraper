@@ -1,0 +1,31 @@
+{
+  "url": "https://roboracer.ai/news",
+  "source": "https://roboracer.ai/",
+  "engine": "cloudflare_markdown",
+  "engine_label": "Cloudflare Browser Rendering API (POST …/browser-rendering/markdown)",
+  "markdown": "[![RoboRacer](https://roboracer.ai/news/logos/logo-black-gradient.png)](/)\n\n[About](https://roboracer.ai/news/about)[Build](https://roboracer.ai/news/build)[Learn](https://roboracer.ai/news/learn)[Race](https://roboracer.ai/news/race)[Course](https://roboracer.ai/news/course)[Research](https://roboracer.ai/news/research)[News](https://roboracer.ai/news/news)[Simulator](https://autodrive-ecosystem.github.io/)[Join Community](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\n# News\n\nLoading news...\n\n![RoboRacer](https://roboracer.ai/news/logos/logo-white-gradient.svg)\n\nAdvancing autonomous racing through innovation, education, and competition.\n\n[contact@roboracer.ai](mailto:contact@roboracer.ai)\n\n### Quick Links\n\n* [About](https://roboracer.ai/news/about)\n* [Race](https://roboracer.ai/news/race)\n* [News](https://roboracer.ai/news/news)\n* [Research](https://roboracer.ai/news/research)\n\n### Resources\n\n* [Learn](https://roboracer.ai/news/learn)\n* [Build](https://roboracer.ai/news/build)\n* [Course](https://roboracer.ai/news/course)\n* [Simulator](https://autodrive-ecosystem.github.io/)\n\n### Community\n\n[![Slack](https://roboracer.ai/news/logos/slack-logo.svg)Join Slack](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\nConnect with our community to get started and ask questions.\n\n© 2026 RoboRacer Foundation. All rights reserved.\n\nCreative Commons License",
+  "metadata": {
+    "title": "News",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/markdown"
+  },
+  "links": [
+    "https://roboracer.ai/news/logos/logo-black-gradient.png",
+    "https://roboracer.ai/news/about",
+    "https://roboracer.ai/news/build",
+    "https://roboracer.ai/news/learn",
+    "https://roboracer.ai/news/race",
+    "https://roboracer.ai/news/course",
+    "https://roboracer.ai/news/research",
+    "https://roboracer.ai/news/news",
+    "https://autodrive-ecosystem.github.io/",
+    "https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg",
+    "https://roboracer.ai/news/logos/logo-white-gradient.svg",
+    "https://roboracer.ai/news/logos/slack-logo.svg"
+  ],
+  "scraped_at": "2026-04-20T03:07:44.122983+00:00"
+}

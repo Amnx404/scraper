@@ -1,0 +1,33 @@
+{
+  "url": "https://sm2024-race.f1tenth.org/timeline.html",
+  "source": "https://sm2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline 19TH F1TENTH AUTONOMOUS GRAND Prix\n\n##### Timeline is subject to change. Please follow announcements in our slack channel for the latest updates.\n\nDATE | IN-PERSON COMPETITION  \n---|---  \nMay 1st |  [Registration Open](https://forms.gle/GcVn2K2THgxD7FRz5)  \nJune 13th  \n10 am EDT | Orientation 1 (Online Meeting)   \nDemonstrate expectations, prospective participants can ask questions  \nJuly 3rd   \n10am EDT | Orientation 2 (Online Meeting)   \nCompetition Rules overview, Track overview for in-person competition  \nAugust 24th  \n10 am EDT | Orientation 3 (Online Meeting)   \nRegistration closes  \nIntroduction of all teams, Race overview, Track release for virtual competition, Track overview for in-person competition  \nSeptember 3rd | Video Submission: Teams need to demonstrate driving with the F1TENTH vehicle before the competition  \nSeptember 16th | Teams Training  \nAll Teams can use the racetrack the whole day  \nSeptember 17th | Qualification Session  \nSeptember 18th | Race day  \nAward Ceremony  \n  \n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH SM 2024 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://sm2024-race.f1tenth.org/index.html",
+    "https://sm2024-race.f1tenth.org/timeline.html",
+    "https://sm2024-race.f1tenth.org/race_ressources.html",
+    "https://sm2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://sm2024-race.f1tenth.org/registration.html",
+    "https://sm2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://forms.gle/GcVn2K2THgxD7FRz5",
+    "https://html5up.net/",
+    "https://sm2024-race.f1tenth.org/assets/css/main.css",
+    "https://sm2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:58.617049+00:00"
+}

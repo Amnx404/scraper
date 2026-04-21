@@ -1,0 +1,15 @@
+{
+  "url": "https://itsc2024-race.f1tenth.org/rules.html",
+  "source": "https://itsc2024-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH ITSC 2024 | F1TENTH Rules",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:30.225424+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/itsc2024-race_f1tenth_org_rules_html_28d4f0b76e.json",
+  "markdown_file": "markdown/itsc2024-race_f1tenth_org_rules_html_28d4f0b76e.md",
+  "char_count": 16221,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/itsc2024-race_f1tenth_org_rules_html_28d4f0b76e.md",
+  "fine_char_count": 16107,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

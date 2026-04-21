@@ -1,0 +1,35 @@
+{
+  "url": "https://korea-race.f1tenth.org/ko/results.html",
+  "source": "https://korea-race.f1tenth.org/ko/index.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Result](../index.html)\n\n## Result\n\n### Time Trial\n\n  \n\n\n![Time Trial](../images/result_tt.png)\n\n  \n\n\n### Tournament Bracket\n\n  \n\n\n![Tournament Bracket](../images/result_bracket.png)\n\n  \n\n\n### Head to Head\n\n  \n\n\n![Head to Head](../images/result_hth.png)\n\n  \n\n\n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "The 1st F1TENTH Korea Championship | Result",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race.f1tenth.org/index.html",
+    "https://html5up.net/",
+    "https://korea-race.f1tenth.org/ko/results.html",
+    "https://korea-race.f1tenth.org/ko/index.html",
+    "https://korea-race.f1tenth.org/ko/timeline.html",
+    "https://korea-race.f1tenth.org/ko/program.html",
+    "https://korea-race.f1tenth.org/ko/race_resources.html",
+    "https://korea-race.f1tenth.org/ko/getting_started.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race.f1tenth.org/results.html",
+    "https://korea-race.f1tenth.org/assets/css/main.css",
+    "https://korea-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:57:16.785344+00:00"
+}

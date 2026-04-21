@@ -1,0 +1,9 @@
+{
+  "url": "https://roboracer.ai/research",
+  "source": "https://roboracer.ai/",
+  "engine": "cloudflare_markdown",
+  "engine_label": "Cloudflare Browser Rendering API (POST …/browser-rendering/markdown)",
+  "retries": 0,
+  "error": "Client error '422 Unprocessable Entity' for url 'https://api.cloudflare.com/client/v4/accounts/e7bb30f3d33da577d03c799c7183b68a/browser-rendering/markdown'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/422",
+  "scraped_at": "2026-04-20T03:07:32.547244+00:00"
+}

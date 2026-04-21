@@ -1,0 +1,15 @@
+{
+  "url": "https://bu2024-race.f1tenth.org/race_ressources.html",
+  "source": "https://bu2024-race.f1tenth.org/",
+  "title": "F1TENTH BU 2024 | Race Resources",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:57.094050+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/bu2024-race_f1tenth_org_race_ressources_html_f1649dd0e6.json",
+  "markdown_file": "markdown/bu2024-race_f1tenth_org_race_ressources_html_f1649dd0e6.md",
+  "char_count": 504,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/bu2024-race_f1tenth_org_race_ressources_html_f1649dd0e6.md",
+  "fine_char_count": 374,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

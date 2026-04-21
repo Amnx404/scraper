@@ -1,0 +1,15 @@
+{
+  "url": "https://iros2023-madgames.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "title": "MADGames-IROS 2023",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:21.123552+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iros2023-madgames_f1tenth_org_a4fca50c18.json",
+  "markdown_file": "markdown/iros2023-madgames_f1tenth_org_a4fca50c18.md",
+  "char_count": 3208,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iros2023-madgames_f1tenth_org_a4fca50c18.md",
+  "fine_char_count": 3072,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

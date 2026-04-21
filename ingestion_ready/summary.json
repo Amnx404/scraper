@@ -1,0 +1,12 @@
+{
+  "input_dir": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510",
+  "output_dir": "/Users/amnx/Documents/code/scraper/ingestion_ready",
+  "total_json": 437,
+  "written": 401,
+  "skipped": 36,
+  "min_chars": 80,
+  "skip_binary_default": true,
+  "finetune": true,
+  "generated_at": "2026-04-20T16:17:39.185958+00:00",
+  "skipped_total": 36
+}

@@ -1,0 +1,34 @@
+{
+  "url": "https://iv2023-race.f1tenth.org/timeline.html",
+  "source": "https://iv2023-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline F1Tenth IV2023 Championship\n\nDate | In-Person Competition  \n---|---  \nFebruary 13th, 2023 | Registration opens   \nMarch 15th, 2023 - 2 pm ET | Orienation 1   \nOnline, demonstrate expectations, provision of simulation environment, prospective participants can ask questions   \nZoom Recording - passcode:T?FUL7D^ [**[Link]**](https://us02web.zoom.us/rec/share/IEFoiNrP-fT_K2INoQrF1NR12qUCSJ0Hxgya2GZQOPE6pDTiMWQ24pHQs9EuiYTr.Fvf3PGe-pKeDG35F)  \nSlides [**[Link]**](https://docs.google.com/presentation/d/15mmov4TOA5Aq1lstCnM12JTShhdBq1eT/edit?usp=share_link&ouid=105243517624931202774&rtpof=true&sd=trueZoom)  \nMay 12th, 2023 - 2 pm ET | Registration closes   \nMay 15th, 2023 | Video Submission: Demonstrate Driving [Please upload video to a service (e.g Youtube, Google Driver...) and share with Team via f1tenth@2023.ieee-iv.org]  \nMay 16th, 2023 at 2 pm ET |  Orientation 2: Online, Introduction of all teams, Race overview, Track overview for in-person competition  \n[**[Slides Link]**](https://docs.google.com/presentation/d/1xg3Kou9-OXGNZRT183-xUGmPUfcvZnMu/edit#slide=id.g224134fb374_0_30)  \n  \n  \n  * © 2023 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH IV 2023 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iv2023-race.f1tenth.org/index.html",
+    "https://iv2023-race.f1tenth.org/participants.html",
+    "https://iv2023-race.f1tenth.org/timeline.html",
+    "https://iv2023-race.f1tenth.org/race_resources.html",
+    "https://iv2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iv2023-race.f1tenth.org/registration.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://github.com/f1tenth",
+    "https://us02web.zoom.us/rec/share/IEFoiNrP-fT_K2INoQrF1NR12qUCSJ0Hxgya2GZQOPE6pDTiMWQ24pHQs9EuiYTr.Fvf3PGe-pKeDG35F",
+    "https://docs.google.com/presentation/d/15mmov4TOA5Aq1lstCnM12JTShhdBq1eT/edit?ouid=105243517624931202774&rtpof=true&sd=trueZoom&usp=share_link",
+    "https://docs.google.com/presentation/d/1xg3Kou9-OXGNZRT183-xUGmPUfcvZnMu/edit",
+    "https://html5up.net/",
+    "https://iv2023-race.f1tenth.org/assets/css/main.css",
+    "https://iv2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:19.004381+00:00"
+}

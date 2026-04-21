@@ -1,0 +1,35 @@
+{
+  "url": "https://iros2023-madgames.f1tenth.org/speakers.html",
+  "source": "https://iros2023-madgames.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Speakers](index.html)\n\n## Invited Speakers\n\n![](images/speaker/tsiotras.png)\n\n![](images/speaker/tumova.jpg)\n\n![](images/speaker/zardini.png)\n\n![](images/speaker/hashemi.jpg)\n\n**[Panagiotis Tsiotras](https://ae.gatech.edu/directory/person/panagiotis-tsiotras)**\n\n###### David & Andrew Lewis Chair Professor \n\n###### Georgia Tech\n\n**[Jana Tumova](https://sites.google.com/view/janatumova/home)**\n\n###### Associate Professor\n\n###### KTH Royal Institute of Technology\n\n**[Gioele Zardini](https://gioele.science/)**\n\n###### Incoming Assistant Professor (2024)\n\n###### MIT\n\n**[Abolfazl Hashemi](https://abolfazlh.github.io/)**\n\n###### Assistant Professor\n\n###### Purdue\n\n![](images/speaker/mazumdar.png)\n\n![](images/speaker/wu.JPG)\n\n![](images/speaker/valenti.jpeg)\n\n![](images/speaker/firoozi.JPG)\n\n**[Eric Mazumdar](http://users.cms.caltech.edu/~mazumdar/)**\n\n###### Assistant Professor\n\n###### Caltech\n\n**[Manxi Wu](https://sites.google.com/view/manxi-wu/home)**\n\n###### Assistant Professor\n\n###### Cornell\n\n**[Roberto Valenti](https://robertogl.github.io/)**\n\n###### Senior Robotics Research Scientist\n\n###### MathWorks\n\n**[Roya Firoozi](https://sites.google.com/view/royafiroozi/home)**\n\n###### Postdoctoral Researcher\n\n###### Stanford University\n\n![](images/speaker/stone.png)\n\n**[Peter Stone](https://www.cs.utexas.edu/~pstone/)**\n\n###### Professor\n\n###### University of Texas at Austin",
+  "metadata": {
+    "title": "MADGames-IROS 2023 | Speakers",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iros2023-madgames.f1tenth.org/index.html",
+    "https://iros2023-madgames.f1tenth.org/speakers.html",
+    "https://iros2023-madgames.f1tenth.org/program.html",
+    "https://iros2023-madgames.f1tenth.org/cfp.html",
+    "https://iros2023-madgames.f1tenth.org/proceedings.html",
+    "https://ae.gatech.edu/directory/person/panagiotis-tsiotras",
+    "https://sites.google.com/view/janatumova/home",
+    "https://gioele.science/",
+    "https://abolfazlh.github.io/",
+    "http://users.cms.caltech.edu/~mazumdar",
+    "https://sites.google.com/view/manxi-wu/home",
+    "https://robertogl.github.io/",
+    "https://sites.google.com/view/royafiroozi/home",
+    "https://www.cs.utexas.edu/~pstone",
+    "https://iros2023-madgames.f1tenth.org/assets/css/main.css",
+    "https://iros2023-madgames.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:03.027394+00:00"
+}

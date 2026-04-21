@@ -1,0 +1,35 @@
+{
+  "url": "https://cdc2025-race.roboracer.ai/race_resources.html",
+  "source": "https://cdc2025-race.roboracer.ai/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Race Resources](index.html)\n\n## RoboRacer CDC 2025 Race Resources\n\nAll necessary information about the race e.g. rules, scoring system, simulation environments and track data will be displayed here.\n\n  * [Rules](/rules.html)\n  * [Orientation 1 Meeting Slides](https://docs.google.com/presentation/d/1fqDEF9Wm2T_CmqZldNDa6zi0F-mzaSHdRLuecw_-5Wo/edit?usp=sharing)\n  * [Orientation 1 Meeting Recording](https://drive.google.com/file/d/1TCIqjgrt0zaT3agDqDVQQw4dPxObn86a/view?usp=sharing)\n\n\n\n  * © Copyright 2026 ROBORACER Foundation\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "Roboracer CDC 2025 | Race Resources",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cdc2025-race.roboracer.ai/index.html",
+    "https://cdc2025-race.roboracer.ai/rules.html",
+    "https://docs.google.com/presentation/d/1fqDEF9Wm2T_CmqZldNDa6zi0F-mzaSHdRLuecw_-5Wo/edit?usp=sharing",
+    "https://drive.google.com/file/d/1TCIqjgrt0zaT3agDqDVQQw4dPxObn86a/view?usp=sharing",
+    "https://html5up.net/",
+    "https://cdc2025-race.roboracer.ai/race_resources.html",
+    "https://cdc2025-race.roboracer.ai/timeline.html",
+    "https://cdc2025-race.roboracer.ai/roboracer_resources.html",
+    "https://cdc2025-race.roboracer.ai/registration.html",
+    "https://cdc2025-race.roboracer.ai/stream.html",
+    "https://x.com/RoboRacerAi",
+    "https://roboracer.ai/",
+    "https://join.slack.com/t/robo-racer/shared_invite/zt-2sfu4qr7p-3oe27mCnH98muwRR9uEAbg",
+    "https://github.com/f1tenth",
+    "https://cdc2025-race.roboracer.ai/assets/css/main.css",
+    "https://cdc2025-race.roboracer.ai/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:56.137970+00:00"
+}

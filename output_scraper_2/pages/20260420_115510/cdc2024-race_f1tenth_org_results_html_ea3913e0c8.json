@@ -1,0 +1,34 @@
+{
+  "url": "https://cdc2024-race.f1tenth.org/results.html",
+  "source": "https://cdc2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Results](index.html)\n\n##  LIVE STREAM \n\n##  RESULTS \n\n  \n\n\n### TIME TRIAL\n\n[General timeline and group slots for the race](https://docs.google.com/spreadsheets/d/1Ug7G3GA0v-ciYr-bMG_gOk8rsgEL6p0Dtcv1kXUuFvQ/edit)   \n  \n\n\n### HEAD TO HEAD RACE BRACKET\n\nTOURNAMENT\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "F1TENTH CDC 2024| Results",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cdc2024-race.f1tenth.org/index.html",
+    "https://docs.google.com/spreadsheets/d/1Ug7G3GA0v-ciYr-bMG_gOk8rsgEL6p0Dtcv1kXUuFvQ/edit",
+    "https://html5up.net/",
+    "https://cdc2024-race.f1tenth.org/results.html",
+    "https://cdc2024-race.f1tenth.org/timeline.html",
+    "https://cdc2024-race.f1tenth.org/race_ressources.html",
+    "https://cdc2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://cdc2024-race.f1tenth.org/registration.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://player.twitch.tv/?channel=f1tenth&height=480&parent=cdc2024-race.f1tenth.org&parent=localhost&width=854",
+    "https://cdc2024-race.f1tenth.org/assets/css/main.css",
+    "https://cdc2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:00.750259+00:00"
+}

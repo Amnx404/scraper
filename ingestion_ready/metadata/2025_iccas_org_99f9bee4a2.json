@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/?page_id=964",
+  "source": "https://2025.iccas.org/",
+  "title": "Author’s Guideline for Paper Submission – ICCAS 2025",
+  "description": null,
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:56:08.802827+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_99f9bee4a2.json",
+  "markdown_file": "markdown/2025_iccas_org_99f9bee4a2.md",
+  "char_count": 6477,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_99f9bee4a2.md",
+  "fine_char_count": 5915,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

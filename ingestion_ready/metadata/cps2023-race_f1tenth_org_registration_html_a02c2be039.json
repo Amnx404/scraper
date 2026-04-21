@@ -1,0 +1,15 @@
+{
+  "url": "https://cps2023-race.f1tenth.org/registration.html",
+  "source": "https://cps2023-race.f1tenth.org/",
+  "title": "F1TENTH ICRA 2022 | Registration",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:19.364430+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cps2023-race_f1tenth_org_registration_html_a02c2be039.json",
+  "markdown_file": "markdown/cps2023-race_f1tenth_org_registration_html_a02c2be039.md",
+  "char_count": 405,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cps2023-race_f1tenth_org_registration_html_a02c2be039.md",
+  "fine_char_count": 286,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

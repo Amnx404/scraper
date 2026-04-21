@@ -1,0 +1,35 @@
+{
+  "url": "https://roboracer.ai/about",
+  "source": "https://roboracer.ai/",
+  "engine": "cloudflare_markdown",
+  "engine_label": "Cloudflare Browser Rendering API (POST …/browser-rendering/markdown)",
+  "markdown": "[![RoboRacer](https://roboracer.ai/about/logos/logo-black-gradient.png)](/)\n\n[About](https://roboracer.ai/about/about)[Build](https://roboracer.ai/about/build)[Learn](https://roboracer.ai/about/learn)[Race](https://roboracer.ai/about/race)[Course](https://roboracer.ai/about/course)[Research](https://roboracer.ai/about/research)[News](https://roboracer.ai/about/news)[Simulator](https://autodrive-ecosystem.github.io/)[Join Community](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\nRoboRacer is an international community of researchers, engineers, and autonomous systems enthusiasts. It was originally founded at the University of Pennsylvania in 2016 but has since spread to many other institutions worldwide. Our mission is to foster interest, excitement, and critical thinking about the increasingly ubiquitous field of autonomous systems.\n\n![Creative Piece Image 1](https://roboracer.ai/about/about/upenn-ppl-min.jpg)\n\n![Creative Piece Image 2](https://roboracer.ai/about/about/image-2.JPG)\n\n![Creative Piece Image 3](https://roboracer.ai/about/about/image-3.JPG)\n\n1. Build: We designed and maintain the RoboRacer Autonomous Vehicle System, a powerful and versatile open-source platform for autonomous systems research and education.\n2. Learn: We create courses that teach the foundations of autonomy but also emphasize the analytical skills to recognize and reason about situations with moral content in the design of autonomous.\n3. Race: We bring our international community together by holding a number of autonomous race car competitions each year where teams from all around the world gather to compete.\n4. Research: Our platform is powerful and versatile enough to be used for a variety of research that includes and is not limited to autonomous racing, reinforcement learning, robotics, communication systems, and much more.\n\n[Read the Competition Rules](https://roboracer.ai/about/rules)\n\n# Meet the Team\n\n#### Developers\n\n#### Alumni\n\n# Our Partners\n\n### Institutional Partners\n\n![RoboRacer](https://roboracer.ai/about/logos/logo-white-gradient.svg)\n\nAdvancing autonomous racing through innovation, education, and competition.\n\n[contact@roboracer.ai](mailto:contact@roboracer.ai)\n\n### Quick Links\n\n* [About](https://roboracer.ai/about/about)\n* [Race](https://roboracer.ai/about/race)\n* [News](https://roboracer.ai/about/news)\n* [Research](https://roboracer.ai/about/research)\n\n### Resources\n\n* [Learn](https://roboracer.ai/about/learn)\n* [Build](https://roboracer.ai/about/build)\n* [Course](https://roboracer.ai/about/course)\n* [Simulator](https://autodrive-ecosystem.github.io/)\n\n### Community\n\n[![Slack](https://roboracer.ai/about/logos/slack-logo.svg)Join Slack](https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg)\n\nConnect with our community to get started and ask questions.\n\n© 2026 RoboRacer Foundation. All rights reserved.\n\nCreative Commons License",
+  "metadata": {
+    "title": "Meet the Team",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/markdown"
+  },
+  "links": [
+    "https://roboracer.ai/about/logos/logo-black-gradient.png",
+    "https://roboracer.ai/about/about",
+    "https://roboracer.ai/about/build",
+    "https://roboracer.ai/about/learn",
+    "https://roboracer.ai/about/race",
+    "https://roboracer.ai/about/course",
+    "https://roboracer.ai/about/research",
+    "https://roboracer.ai/about/news",
+    "https://autodrive-ecosystem.github.io/",
+    "https://join.slack.com/t/robo-racer/shared%5Finvite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg",
+    "https://roboracer.ai/about/about/upenn-ppl-min.jpg",
+    "https://roboracer.ai/about/about/image-2.JPG",
+    "https://roboracer.ai/about/about/image-3.JPG",
+    "https://roboracer.ai/about/rules",
+    "https://roboracer.ai/about/logos/logo-white-gradient.svg",
+    "https://roboracer.ai/about/logos/slack-logo.svg"
+  ],
+  "scraped_at": "2026-04-20T03:06:30.527776+00:00"
+}

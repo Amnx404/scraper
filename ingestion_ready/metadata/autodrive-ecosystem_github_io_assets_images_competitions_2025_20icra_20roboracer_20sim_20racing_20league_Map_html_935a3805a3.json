@@ -1,0 +1,15 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/assets/images/competitions/2025%20icra%20roboracer%20sim%20racing%20league/Map.html",
+  "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025",
+  "title": "plotly-logomark",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:28.406758+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/autodrive-ecosystem_github_io_assets_images_competitions_2025_20icra_20roboracer_20sim_20racing_20league_Map_html_935a3805a3.json",
+  "markdown_file": "markdown/autodrive-ecosystem_github_io_assets_images_competitions_2025_20icra_20roboracer_20sim_20racing_20league_Map_html_935a3805a3.md",
+  "char_count": 144,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/autodrive-ecosystem_github_io_assets_images_competitions_2025_20icra_20roboracer_20sim_20racing_20league_Map_html_935a3805a3.md",
+  "fine_char_count": 104,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

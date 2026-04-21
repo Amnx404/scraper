@@ -1,0 +1,15 @@
+{
+  "url": "https://cdc2024-race.f1tenth.org/index.html",
+  "source": "https://cdc2024-race.f1tenth.org/",
+  "title": "F1TENTH CDC 2024",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:55.532587+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cdc2024-race_f1tenth_org_index_html_f0c1c2cff2.json",
+  "markdown_file": "markdown/cdc2024-race_f1tenth_org_index_html_f0c1c2cff2.md",
+  "char_count": 5870,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cdc2024-race_f1tenth_org_index_html_f0c1c2cff2.md",
+  "fine_char_count": 4399,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

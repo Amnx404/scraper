@@ -1,0 +1,15 @@
+{
+  "url": "https://iros2023-race.f1tenth.org/faq-physical.html",
+  "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH IROS 2021 | FAQ",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:32.890474+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iros2023-race_f1tenth_org_faq-physical_html_608a315e91.json",
+  "markdown_file": "markdown/iros2023-race_f1tenth_org_faq-physical_html_608a315e91.md",
+  "char_count": 2933,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iros2023-race_f1tenth_org_faq-physical_html_608a315e91.md",
+  "fine_char_count": 2664,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

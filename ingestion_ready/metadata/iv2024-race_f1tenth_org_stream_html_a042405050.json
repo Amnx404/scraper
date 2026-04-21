@@ -1,0 +1,15 @@
+{
+  "url": "https://iv2024-race.f1tenth.org/stream.html",
+  "source": "https://iv2024-race.f1tenth.org/race_ressources.html",
+  "title": "18th RoboRacer Autonomous Racing Competition IV 2024 | Live Stream",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:34.034090+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iv2024-race_f1tenth_org_stream_html_a042405050.json",
+  "markdown_file": "markdown/iv2024-race_f1tenth_org_stream_html_a042405050.md",
+  "char_count": 246,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iv2024-race_f1tenth_org_stream_html_a042405050.md",
+  "fine_char_count": 115,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/",
+  "source": "https://roboracer.ai/race",
+  "title": "ICCAS 2025 – 2025 The 25th International Conference on Control, Automation and Systems (ICCAS 2025)",
+  "description": null,
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:55:21.329002+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_252ace2a3d.json",
+  "markdown_file": "markdown/2025_iccas_org_252ace2a3d.md",
+  "char_count": 4193,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_252ace2a3d.md",
+  "fine_char_count": 2517,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

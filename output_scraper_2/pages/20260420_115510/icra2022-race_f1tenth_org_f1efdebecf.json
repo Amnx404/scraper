@@ -1,0 +1,40 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# 10th F1TENTH Autonomous Grand Prix\n\nIEEE International Conference on Robotics and Automation (ICRA) 2022  \nCalender May 23th - May 25th 2022   \nLocation Philadelphia, USA\n\n  * Continue\n\n\n\n[F1TENTH ICRA 2022](index.html)\n\n## 10th F1TENTH Autonomous Grand Prix\n\nF1TENTH Autonomous Racing is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in 10th F1TENTH Grand Prix at ICRA 2022 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nICRA 2022 will host two variants of the competition:\n\n1\\. In-person competition: This variant targets participants who will travel to Philadelphia. Each team will bring their own physical F1TENTH car with their software. The organizers provide the race setup (rules, submissions, guidelines), the track, related infrastructure and organize the race itself.\n\n2.Virtual competition: This will be a second option for people who could not travel to Philadelphia (perhaps due to COVID-related reasons). In the virtual competition a simulation environment is used to run virtual race cars. The teams will provide here only the software, the organizers provide the race setup (rules, submissions, guidelines), the virtual track, related virtual infrastructure (server) and organize the race itself.\n\n[![](images/ICRA_2022_Logo.png)](https://www.icra2022.org/)\n\n## Organizers:\n\n![](images/organizer/person_2.jpeg)\n\n![](images/organizer/person_3.png)\n\n![](images/organizer/person_4.jpeg)\n\n![](images/organizer/person_5.jpeg)\n\n![](images/organizer/person_6.jpeg)\n\n**[Johannes Betz](https://joebetz.science/)**\n\nPostdoctoral Researcher\n\nDepartment of Electrical and Systems Engineering\n\nUniversity of Pennsylvania\n\n**[Hongrui Zheng](https://hongruizheng.com/)**\n\nPhD Candidate\n\nDepartment of Electrical and Systems Engineering\n\nUniversity of Pennsylvania\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\nAssociate Professor\n\nDepartment of Electrical and Systems Engineering\n\nUniversity of Pennsylvania\n\n**[Rosa Zheng](https://engineering.lehigh.edu/faculty/yahong-rosa-zheng)**\n\nProfessor\n\nDepartment of Electrical & Computer Engineering\n\nLehigh University\n\n**[Jack Silberman](https://jacobsschool.ucsd.edu/cosmos/jack-silberman)**\n\nProfessor \n\nContextual Robotics Institute\n\nUC San Siegeo\n\nVirtual Competition powered by Riders.Ai   \n![](images/organizer/riderslogo.png)   \nSponsors   \n![](images/sponsor_locomotion.jpeg)   \n![](images/sponsor_sick.png) [Contact](mailto:contact@f1tenth.org)\n\n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH ICRA 2022",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2022-race.f1tenth.org/",
+    "https://icra2022-race.f1tenth.org/index.html",
+    "https://icra2022-race.f1tenth.org/timeline.html",
+    "https://icra2022-race.f1tenth.org/race_ressources.html",
+    "https://icra2022-race.f1tenth.org/f1tenth_ressources.html",
+    "https://icra2022-race.f1tenth.org/registration.html",
+    "https://icra2022-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://www.icra2022.org/",
+    "https://joebetz.science/",
+    "https://hongruizheng.com/",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://engineering.lehigh.edu/faculty/yahong-rosa-zheng",
+    "https://jacobsschool.ucsd.edu/cosmos/jack-silberman",
+    "https://html5up.net/",
+    "https://icra2022-race.f1tenth.org/assets/css/main.css",
+    "https://icra2022-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:22.182420+00:00"
+}

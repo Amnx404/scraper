@@ -1,0 +1,36 @@
+{
+  "url": "https://korea-race.f1tenth.org/ko/timeline.html",
+  "source": "https://korea-race.f1tenth.org/timeline.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[일정](../index.html)\n\n## 일정\n\n  \n\n\n_-참고: 향후 추진계획은 상황에 따라 변경될 수 있습니다._\n\n  \n\n\nDATE | IN-PERSON COMPETITION  \n---|---  \nOct 24th | 참가자 등록 시작  \n~~Nov 11th - 23:59 KST~~   \nNov 30th - 23:59 KST  \n(연장) | 참가자 등록 마감 **(11월 말일 까지 연장되었습니다.)**  \nNov 17th - 7pm KST | 온라인 미팅, 팀 소개, 경주 개요, 트랙 개요   \n[**[Orientation Slides]**](/static_data/KSTME2022_Orientation.pdf)  \nDec 12th | F1/10 챌린지에 대한 소개, 자율주행 자동차 기술 강연  \nDec 13th | 경주 (타임 트라이얼, 일대일 경주) , 시상식 및 인터뷰  \n  \n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "The 1st F1TENTH Korea Championship | 일정",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race.f1tenth.org/index.html",
+    "https://korea-race.f1tenth.org/ko/index.html",
+    "https://korea-race.f1tenth.org/ko/timeline.html",
+    "https://korea-race.f1tenth.org/ko/program.html",
+    "https://korea-race.f1tenth.org/ko/race_resources.html",
+    "https://korea-race.f1tenth.org/ko/getting_started.html",
+    "https://korea-race.f1tenth.org/ko/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race.f1tenth.org/timeline.html",
+    "https://korea-race.f1tenth.org/static_data/KSTME2022_Orientation.pdf",
+    "https://html5up.net/",
+    "https://korea-race.f1tenth.org/assets/css/main.css",
+    "https://korea-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:57:14.176293+00:00"
+}

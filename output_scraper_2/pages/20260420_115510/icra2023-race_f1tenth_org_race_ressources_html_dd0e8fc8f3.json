@@ -1,0 +1,37 @@
+{
+  "url": "https://icra2023-race.f1tenth.org/race_ressources.html",
+  "source": "https://icra2023-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Race Resources](index.html)\n\n## F1TENTH ICRA 2023 Race Resources\n\nAll necessary information about the race e.g. rules, scoring system, simulation environments and track data will be displayed here.\n\n  * [Rules](/rules.html)\n  * [ICRA 2023 - Orientation 1 Meeting Slides](/orientation_1.html)\n  * [ICRA 2023 - Orientation 2 Meeting Slides](/orientation_2.html)\n  * In-Person competition \n    * [In-Person Competition: Detailed Time Schedule]()\n    * [In-Person Competition: Track Layout Example]()\n  * Frequently Asked Questions \n    * [In-person competition](/faq-physical.html)\n\n\n\n  * © 2021 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH IROS 2021 | Race Resources",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2023-race.f1tenth.org/index.html",
+    "https://icra2023-race.f1tenth.org/timeline.html",
+    "https://icra2023-race.f1tenth.org/race_ressources.html",
+    "https://icra2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://icra2023-race.f1tenth.org/registration.html",
+    "https://icra2023-race.f1tenth.org/stream.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://icra2023-race.f1tenth.org/rules.html",
+    "https://icra2023-race.f1tenth.org/orientation_1.html",
+    "https://icra2023-race.f1tenth.org/orientation_2.html",
+    "https://icra2023-race.f1tenth.org/faq-physical.html",
+    "https://html5up.net/",
+    "https://icra2023-race.f1tenth.org/assets/css/main.css",
+    "https://icra2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:05.166221+00:00"
+}

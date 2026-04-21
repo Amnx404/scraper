@@ -1,0 +1,15 @@
+{
+  "url": "https://bu2024-race.f1tenth.org/rules.html",
+  "source": "https://bu2024-race.f1tenth.org/race_ressources.html",
+  "title": "F1TENTH BU 2024 | F1TENTH Rules",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:26.240146+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/bu2024-race_f1tenth_org_rules_html_5fd530eba6.json",
+  "markdown_file": "markdown/bu2024-race_f1tenth_org_rules_html_5fd530eba6.md",
+  "char_count": 15665,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/bu2024-race_f1tenth_org_rules_html_5fd530eba6.md",
+  "fine_char_count": 15530,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

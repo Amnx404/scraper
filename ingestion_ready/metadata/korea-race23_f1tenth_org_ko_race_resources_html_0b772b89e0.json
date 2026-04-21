@@ -1,0 +1,15 @@
+{
+  "url": "https://korea-race23.f1tenth.org/ko/race_resources.html",
+  "source": "https://korea-race23.f1tenth.org/ko/index.html",
+  "title": "The 2nd F1Tenth Korea Championship | 대회 규정 및 안내 사항",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:35.462674+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/korea-race23_f1tenth_org_ko_race_resources_html_0b772b89e0.json",
+  "markdown_file": "markdown/korea-race23_f1tenth_org_ko_race_resources_html_0b772b89e0.md",
+  "char_count": 362,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/korea-race23_f1tenth_org_ko_race_resources_html_0b772b89e0.md",
+  "fine_char_count": 229,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

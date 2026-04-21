@@ -1,0 +1,35 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/results.html",
+  "source": "https://icra2022-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Results](index.html)\n\n##  In-Person Competition – Race Results\n\n  \n\n\n##  Virtual Competition – Race Results\n\n  \n  \n  \n\n\n##  Virtual Competition – Qualifcation Results\n\n![](images/VirtualComp_ResultsQualification.png)\n\nMenu",
+  "metadata": {
+    "title": "F1TENTH ICRA 2022| Results",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2022-race.f1tenth.org/index.html",
+    "https://icra2022-race.f1tenth.org/results.html",
+    "https://icra2022-race.f1tenth.org/timeline.html",
+    "https://icra2022-race.f1tenth.org/race_ressources.html",
+    "https://icra2022-race.f1tenth.org/f1tenth_ressources.html",
+    "https://icra2022-race.f1tenth.org/registration.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://challonge.com/jf88sqbk/module",
+    "https://challonge.com/i52dzqqr/module",
+    "https://docs.google.com/presentation/d/e/2PACX-1vSI0QzfK94oNhmYR8O3YCHYKwMU1_7HB5ZLVCa_XXgcMAciMIeeDTVa4DOPzyIl_wofGTxfA8OWMaQt/embed?delayms=3000&loop=false&start=false",
+    "https://icra2022-race.f1tenth.org/assets/css/main.css",
+    "https://icra2022-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:22.427339+00:00"
+}

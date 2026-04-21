@@ -1,0 +1,36 @@
+{
+  "url": "https://icra2024-madgames.f1tenth.org/speakers.html",
+  "source": "https://icra2024-madgames.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Speakers](index.html)\n\n## Invited Speakers\n\n![](images/speaker/hauert.png)\n\n![](images/speaker/manocha.jpg)\n\n![](images/speaker/mora.jpg)\n\n![](images/speaker/vasile.jpg)\n\n**[Sabine Hauert](https://hauertlab.com/)**\n\n###### Associate Professor (Reader) \n\n###### University of Bristol\n\n**[Dinesh Manocha](https://www.cs.umd.edu/people/dmanocha)**\n\n###### Professor\n\n###### University of Maryland\n\n**[Javier Alonso-Mora](https://autonomousrobots.nl/)**\n\n###### Associate Professor\n\n###### Delft University of Technology\n\n**[Cristian-Ioan Vasile](https://cristianvasile.com/)**\n\n###### Assistant Professor\n\n###### Lehigh University\n\n![](images/speaker/caesar.jpg)\n\n![](images/speaker/vinitsky.jpg)\n\n![](images/speaker/tajbakhsh.png)\n\n![](images/speaker/zhu.jpg)\n\n**[Holger Caesar](https://sites.google.com/it-caesar.de/homepage/)**\n\n###### Assistant Professor\n\n###### Delft University of Technology\n\n**[Eugene Vinitsky](https://www.eugenevinitsky.com/)**\n\n###### Assistant Professor\n\n###### New York University\n\n**[Ardalan Tajbakhsh](https://scholar.google.com/citations?user=Hp4uuhUAAAAJ&hl=en) **\n\n###### Ph.D. Candidate\n\n###### Carnegie Mellon University\n\n**[Quanyan Zhu](https://wp.nyu.edu/quanyan/)**\n\n###### Associate Professor\n\n###### New York University\n\n![](images/speaker/lahijanian.jpg)\n\n![](images/speaker/fainekos.webp)\n\n**[Morteza Lahijanian](https://www.colorado.edu/aerospace/morteza-lahijanian)**\n\n###### Assistant Professor \n\n###### University of Colorado Boulder\n\n**[Georgios Fainekos](https://www.fainekos.net/)**\n\n###### Senior Principal Scientist\n\n###### Toyota Motor North America R&D",
+  "metadata": {
+    "title": "MADGames-ICRA 2024 | Speakers",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2024-madgames.f1tenth.org/index.html",
+    "https://icra2024-madgames.f1tenth.org/speakers.html",
+    "https://icra2024-madgames.f1tenth.org/program.html",
+    "https://icra2024-madgames.f1tenth.org/cfp.html",
+    "https://icra2024-madgames.f1tenth.org/proceedings.html",
+    "https://hauertlab.com/",
+    "https://www.cs.umd.edu/people/dmanocha",
+    "https://autonomousrobots.nl/",
+    "https://cristianvasile.com/",
+    "https://sites.google.com/it-caesar.de/homepage",
+    "https://www.eugenevinitsky.com/",
+    "https://scholar.google.com/citations?hl=en&user=Hp4uuhUAAAAJ",
+    "https://wp.nyu.edu/quanyan",
+    "https://www.colorado.edu/aerospace/morteza-lahijanian",
+    "https://www.fainekos.net/",
+    "https://icra2024-madgames.f1tenth.org/assets/css/main.css",
+    "https://icra2024-madgames.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:01.949173+00:00"
+}

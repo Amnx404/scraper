@@ -1,0 +1,32 @@
+{
+  "url": "https://cps2023-race.f1tenth.org/registration.html",
+  "source": "https://cps2023-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Participants](index.html)\n\n##  Participants\n\nThis competition is open for everyone of all levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed. Teams that take part in the in-person competition need to provide and build an F1TENTH car by themselves\n\n  \nTeam Name  | Affiliation | Team members  \n---|---|---  \n  \nMenu",
+  "metadata": {
+    "title": "F1TENTH ICRA 2022 | Registration",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cps2023-race.f1tenth.org/index.html",
+    "https://cps2023-race.f1tenth.org/registration.html",
+    "https://cps2023-race.f1tenth.org/timeline.html",
+    "https://cps2023-race.f1tenth.org/race_ressources.html",
+    "https://cps2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://cps2023-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://cps2023-race.f1tenth.org/assets/css/main.css",
+    "https://cps2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:19.364430+00:00"
+}

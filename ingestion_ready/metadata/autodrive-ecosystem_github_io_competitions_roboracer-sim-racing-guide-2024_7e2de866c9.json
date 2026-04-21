@@ -1,0 +1,15 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-guide-2024",
+  "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024",
+  "title": "Technical Guide - AutoDRIVE Ecosystem",
+  "description": "AutoDRIVE is envisioned to be an open, comprehensive, flexible, and integrated digital twin ecosystem for enhancing autonomous driving research and education.",
+  "language": "en",
+  "scraped_at": "2026-04-20T15:56:23.604146+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2024_7e2de866c9.json",
+  "markdown_file": "markdown/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2024_7e2de866c9.md",
+  "char_count": 47316,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/autodrive-ecosystem_github_io_competitions_roboracer-sim-racing-guide-2024_7e2de866c9.md",
+  "fine_char_count": 17547,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

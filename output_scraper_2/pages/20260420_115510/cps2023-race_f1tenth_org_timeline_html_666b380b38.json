@@ -1,0 +1,35 @@
+{
+  "url": "https://cps2023-race.f1tenth.org/timeline.html",
+  "source": "https://cps2023-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline - 12th F1TENTH Autonomous Grand Prix\n\nDate (2023) | Race Event  \n---|---  \nJanuary 6th | Registration opens   \nJanuary 27th | [Orientation 1](https://docs.google.com/presentation/d/1pYDJuXBUWZAg79w1Fh-e_Y9XEZvGJdTlVhz2ZNg4qoQ/edit?usp=sharing) (Discuss expectations, prospective participants can ask questions)  \nApril 14th | Registration closes, [Orientation 2](https://docs.google.com/presentation/d/1HwaTHaAuJc8zB1IyGuREzA_-j3Ltm6HqBr27rQFAizw/edit?usp=sharing) (Introduction of all teams, Race overview, Track overview)  \nApril 30th | Video Submission: Teams need to demonstrate driving with the F1TENTH vehicle before the competition  \nMay 7th | Setup Day: Track Construction and Testing  \nMay 8th | Competition Day 1: Qualification  \nMay 9th | Competition Day 2: Tournament Races, Award ceremony, Presentations  \n  \n  * © 2021 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH ICRA 2022 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cps2023-race.f1tenth.org/index.html",
+    "https://cps2023-race.f1tenth.org/timeline.html",
+    "https://cps2023-race.f1tenth.org/race_ressources.html",
+    "https://cps2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://cps2023-race.f1tenth.org/registration.html",
+    "https://cps2023-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://docs.google.com/presentation/d/1pYDJuXBUWZAg79w1Fh-e_Y9XEZvGJdTlVhz2ZNg4qoQ/edit?usp=sharing",
+    "https://docs.google.com/presentation/d/1HwaTHaAuJc8zB1IyGuREzA_-j3Ltm6HqBr27rQFAizw/edit?usp=sharing",
+    "https://html5up.net/",
+    "https://cps2023-race.f1tenth.org/assets/css/main.css",
+    "https://cps2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:16.724528+00:00"
+}

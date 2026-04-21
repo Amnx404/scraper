@@ -1,0 +1,34 @@
+{
+  "url": "https://iv2023-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# F1Tenth IV2023 Championship \n\nThe IEEE INTELLIGENT VEHICLES SYMPOSIUM (IV 2023)   \nCalender June 04 - June 07 2023   \nLocation Anchorage Alaska, USA\n\n  * Continue\n\n\n\n[F1TENTH IV 2023](index.html)\n\n## F1Tenth IV2023 Championship\n\nF1TENTH Autonomous Racing is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in the F1Tenth IV2023 Championship will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nThe main focus of F1TENTH IV2023 CHAMPIONSHIP is an in-person competition with physical cars. Each team will bring their own F1TENTH car and write the software for their car. The teams have access to a detailed build manual and can use open-source software that helps them to get started with the car. The organizers provide the race setup (rules, submissions, guidelines), the track, and related infrastructure and organize the race itself. For the competitions, teams first take part in a qualification in order to determine seeding. The teams need to demonstrate that they are able to compete in a time trial on the map without any obstacles as well as finish the laps without collision on the same map with obstacles that are unknown prior to run time. Afterward, the teams compete in a knockout phase in head-to-head racing in an intense battle with their autonomous driving algorithms. Since vehicles and hardware are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track and new competitors. The Championship phase pits competitors against each other on the same track. \n\n## Organizers:\n\n![](images/organizer/rahul.jpeg)\n\n![](images/organizer/george.png)\n\n![](images/organizer/ignacio.jpg)\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\nAssociate Professor, University of Pennsylvania\n\nDirector of xLab for Safe Autonomous Systems, Director of Autoware Foundation Center of Excellence\n\n**[Zhijie (George) Qiao](mailto:zhijie.qiao@autoware.org)**\n\nResearch engineer the Autoware Foundation Center of Excellence \n\n**[Ignacio Alvarez](mailto:ignacio.j.alvarez@intel.com)**\n\nIntel Labs, CoChair IV2023 Challenge Track\n\n![](images/organizer/rony.png)\n\n![](images/organizer/Billy.png)\n\n![](images/organizer/pat2.png)\n\n**[Rony Ferzli](mailto:rony.ferzli@intel.com)**\n\nIntel Automotive, CoChair IV2023 Challenge Track\n\n**[Hongrui (Billy) Zheng](mailto:hongruiz@seas.upnn.edu)**\n\nPhD student at the University of Pennsylvania \n\n**[Pat Pragman](mailto:papragman@alaska.edu)**\n\nGraduate student at the University of Alaska Anchorage \n\n[![](images/IV2023/iv23-logo/iv23-logo_color.png)](https://2023.ieee-iv.org/) [Contact](mailto:f1tenth@2023.ieee-iv.org)\n\n  * © 2023 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH IV 2023",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iv2023-race.f1tenth.org/",
+    "https://iv2023-race.f1tenth.org/index.html",
+    "https://iv2023-race.f1tenth.org/participants.html",
+    "https://iv2023-race.f1tenth.org/timeline.html",
+    "https://iv2023-race.f1tenth.org/race_resources.html",
+    "https://iv2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iv2023-race.f1tenth.org/registration.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://github.com/f1tenth",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://2023.ieee-iv.org/",
+    "https://html5up.net/",
+    "https://iv2023-race.f1tenth.org/assets/css/main.css",
+    "https://iv2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:22.180101+00:00"
+}

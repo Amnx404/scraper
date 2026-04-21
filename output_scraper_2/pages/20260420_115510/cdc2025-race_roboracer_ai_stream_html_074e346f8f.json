@@ -1,0 +1,32 @@
+{
+  "url": "https://cdc2025-race.roboracer.ai/stream.html",
+  "source": "https://cdc2025-race.roboracer.ai/race_resources.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Live Stream](index.html)\n\n## Roboracer CDC 2025 Live Stream\n\nLive stream from December 9th, 2025 will appear here later.\n\n  * © Copyright 2026 ROBORACER Foundation\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "Roboracer CDC 2025 | Live Stream",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cdc2025-race.roboracer.ai/index.html",
+    "https://html5up.net/",
+    "https://cdc2025-race.roboracer.ai/stream.html",
+    "https://cdc2025-race.roboracer.ai/timeline.html",
+    "https://cdc2025-race.roboracer.ai/race_resources.html",
+    "https://cdc2025-race.roboracer.ai/roboracer_resources.html",
+    "https://cdc2025-race.roboracer.ai/registration.html",
+    "https://x.com/RoboRacerAi",
+    "https://roboracer.ai/",
+    "https://join.slack.com/t/robo-racer/shared_invite/zt-2sfu4qr7p-3oe27mCnH98muwRR9uEAbg",
+    "https://github.com/f1tenth",
+    "https://cdc2025-race.roboracer.ai/assets/css/main.css",
+    "https://cdc2025-race.roboracer.ai/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:27.322743+00:00"
+}

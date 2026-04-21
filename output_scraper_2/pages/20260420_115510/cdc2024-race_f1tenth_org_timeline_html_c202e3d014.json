@@ -1,0 +1,39 @@
+{
+  "url": "https://cdc2024-race.f1tenth.org/timeline.html",
+  "source": "https://cdc2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline 22ND F1TENTH AUTONOMOUS GRAND Prix\n\n##### Timeline is subject to change. Please follow announcements in our slack channel for the latest updates.\n\nDATE | IN-PERSON COMPETITION  \n---|---  \nAugust 28th |  Registration Opens  \nOctober 22nd, 2:00PM - 3:00PM ET | [F1tenth Orientation 1 ( Competition Rules overview )](https://upenn.zoom.us/j/97846939432?pwd=DL0CnZyuKgVOYtSkX0dOlaDofV50Gd.1)  \n[Slide](https://docs.google.com/presentation/d/1iHjzz5GMxUab5_8fyOn7EN2QVqvQTK_ukDevzE8uzEQ/edit?usp=sharing) [Video](https://drive.google.com/file/d/14VQsveXd5WL5oBqDwS_585yY0fr8Jpen/view?usp=drive_link)  \nNovember 9th | Registration Closes, Video Demonstration Due  \n**~~November 11th~~  \n** November 18th - 10AM ET | [F1tenth Orientation 2 ( Track set up, Track overview for in-person competition, Teams Training )](https://upenn.zoom.us/j/99209769219?pwd=Qj2tBuOiIl3GdoAn4qb2H3lWBGcnnz.1)  \n[Slide](https://docs.google.com/presentation/d/1Oj3q6oLuLeIQ0PUSu1ceEv2eX7iVvW0hn6CKWzVAwQs/edit?usp=sharing) [Video](https://drive.google.com/file/d/1-Rjy8rSARPeSB213DdpMI6X_kQGLUtlI/view?usp=drive_link)  \nDecember 15th | Track Setup (Track closed and testing not permitted)  \nDecember 16th | Teams on-site registration and regulated training sessions  \nDecember 17th | Open Training  \nDecember 18th | Time Trials  \nDecember 19th | Head-to-Head Tournament & Award Ceremony  \n  \nFor a detailed timeline of the virtual competition, please refer to the [virtual competition website](https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-cdc-2024/#timeline). \n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH CDC 2024 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cdc2024-race.f1tenth.org/index.html",
+    "https://cdc2024-race.f1tenth.org/timeline.html",
+    "https://cdc2024-race.f1tenth.org/race_ressources.html",
+    "https://cdc2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://cdc2024-race.f1tenth.org/registration.html",
+    "https://cdc2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://upenn.zoom.us/j/97846939432?pwd=DL0CnZyuKgVOYtSkX0dOlaDofV50Gd.1",
+    "https://docs.google.com/presentation/d/1iHjzz5GMxUab5_8fyOn7EN2QVqvQTK_ukDevzE8uzEQ/edit?usp=sharing",
+    "https://drive.google.com/file/d/14VQsveXd5WL5oBqDwS_585yY0fr8Jpen/view?usp=drive_link",
+    "https://upenn.zoom.us/j/99209769219?pwd=Qj2tBuOiIl3GdoAn4qb2H3lWBGcnnz.1",
+    "https://docs.google.com/presentation/d/1Oj3q6oLuLeIQ0PUSu1ceEv2eX7iVvW0hn6CKWzVAwQs/edit?usp=sharing",
+    "https://drive.google.com/file/d/1-Rjy8rSARPeSB213DdpMI6X_kQGLUtlI/view?usp=drive_link",
+    "https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-cdc-2024",
+    "https://html5up.net/",
+    "https://cdc2024-race.f1tenth.org/assets/css/main.css",
+    "https://cdc2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:55.731327+00:00"
+}

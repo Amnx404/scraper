@@ -1,0 +1,15 @@
+{
+  "url": "https://iv2026-race.roboracer.ai/registration.html",
+  "source": "https://roboracer.ai/race",
+  "title": "Roboracer ICRA 2026 | Registration",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:18.243098+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/iv2026-race_roboracer_ai_registration_html_eb6b97002f.json",
+  "markdown_file": "markdown/iv2026-race_roboracer_ai_registration_html_eb6b97002f.md",
+  "char_count": 1264,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/iv2026-race_roboracer_ai_registration_html_eb6b97002f.md",
+  "fine_char_count": 1092,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

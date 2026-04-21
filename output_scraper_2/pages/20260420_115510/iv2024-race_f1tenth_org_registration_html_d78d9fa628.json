@@ -1,0 +1,33 @@
+{
+  "url": "https://iv2024-race.f1tenth.org/registration.html",
+  "source": "https://iv2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Registration](index.html)\n\n##  Registration\n\nThis competition is open for everyone of all levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed. Teams that take part in the in-person competition need to provide and build an RoboRacer vehicle by themselves.  \nThe following Google form is only for preliminary registration and for orientation and information sessions. Registration to IV 2024 is expected for all competitors. \n\n[Registration Open](https://forms.gle/2JyDSVsBf25vDnWbA)\n\n* * *\n\n### Participants\n\nIf you have registered for participation but the list below is not updated, please contact us at [iv2024jeju@gmail.com](mailto:iv2024jeju@gmail.com)   \nRegister the modified information under the same team name, and we will update it accordingly. \n\nTEAM NAME | AFFILIATION | TEAM MEMBERS  \n---|---|---  \nUNITA | Incheon National University | GunTae Kim, YoungKeun Kim, TaeHun Kim, HyeonWook Song  \nBlue Rabbit | California State University of Long Beach (CSULB) | Andy Shahbazian  \nF1T_Lab | Inje University | HoJae Lee*, ChangHwa Lee, SunYong Jeong, DoYoon Oh, SeongJun Kim  \n338 | Inje University | YoungRok Kim*, SeHoon Park, JoonHyung Im, SeongWoo Kim, DongBeen Jeon  \nBREATH | Handong Global University | WonBin Lee*, SeChan Park, SunHwan Lee  \nDDRX | Zhejiang University | Zhouheng Li*, Cheng Hu, Bei Zhou, Yonghao Fu, Guoqiang Wu, Yangyang Xie  \nTayo Eagles | Chungbuk National University | MinSeong Kim*, GiHwan Jo, NaYoung Lim, ChanHo Hwang, DoHyun Kwon, EunSeok Park, YeonJoo Yeon, JeonHyeok Lee  \nGROMIT | Sookmyung Women's University | JiNa Lee, DaIn Choi, YeiNa Lee, JiYoung Kim, JiWon Park  \n빠른놈들(Fast guys) | Kangwon National University | Suhwan Park*, Seunghyeon Song, MinAh Lee, RaeWon Kim, SeongWoong Kim  \nBuffalo Wheel | Korea Maritime & Ocean University (KMOU) | HyunHo An, JiHyeon Kim  \nCIRL | Seoul National University of Science and Technology | Anak Agung Krisna Ananda Kusuma, JungSu Kim, Abdul Aris Umar, Fikih Muhamad, Hanif Edma Fauz  \nCSLab | Gyeongsang National University | JuHo Lee*, MinA Jo, RyongHak Kim, SeongJin Son  \nDrunken Driving | Incheon National University | CheolMin Jeong, KyeongHyeon Kim, BoHyung Lee, YiHyeong Park  \nIDEA_LAB | Gyeongsang National University | MyeongJun Kim*, YoungHun Kim, JuYoung Kim, SunWooong Moon, JiHong Park  \nKGX | KGiSL Institute of technology | Hareesh RP, Navaneeth Malingan, Bhuvaneshwari Kanagaraj, Ramesh Patel, RajaRajan K, Marudhu Pandiyan K, Elakiya S  \nSAI | Kangwon National University | TaeHun Yun*, ChungI Min, GyeongTae Park, YoungWoo Lee, GaEun Kim  \nVILAB | Kookmin University | HoJun Kim*, JunHan Kim, HyeEun Yoon, SeungJin Jung  \n역대급 에이스(Legendary Ace) | Yonam Institute of Technology | Jun Kwon, Minhwan Seok, HyunSung Bang, HaeHwan Park, KyungJin Lee  \n머스탱(Mustang) | Yonam Institute of Technology | SungMin Kim, SeungMin Park, SangWon Lee, MinJae Park, MinChul Shin, HyoChan Ahn  \nSuccess-aMAP | Halla University | HyeonSeok Lee, SeongJae Kim, JeongSoo Moon  \ndeepSpeed NTU | Nanyang Technological University | Benjamin Teh Jhen Hing, Satvik Gupta, Luke Toh Thien Luk, Michael Yuhas  \n  \n\n\n  * © 2024 RoboRacer Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "18th RoboRacer Autonomous Racing Competition IV 2024 | Registration",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iv2024-race.f1tenth.org/index.html",
+    "https://iv2024-race.f1tenth.org/timeline.html",
+    "https://iv2024-race.f1tenth.org/race_ressources.html",
+    "https://iv2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iv2024-race.f1tenth.org/registration.html",
+    "https://iv2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://forms.gle/2JyDSVsBf25vDnWbA",
+    "https://html5up.net/",
+    "https://iv2024-race.f1tenth.org/assets/css/main.css",
+    "https://iv2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:00.429998+00:00"
+}

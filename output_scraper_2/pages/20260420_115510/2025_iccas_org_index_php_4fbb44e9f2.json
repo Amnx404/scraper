@@ -1,0 +1,18 @@
+{
+  "url": "https://2025.iccas.org/index.php?rest_route=%2Fwp%2Fv2%2Fpages%2F958",
+  "source": "https://2025.iccas.org/?page_id=958",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "{\"id\":958,\"date\":\"2020-12-03T11:01:59\",\"date_gmt\":\"2020-12-03T02:01:59\",\"guid\":{\"rendered\":\"http:\\/\\/iccas2021.onpcs.gethompy.com\\/?page_id=958\"},\"modified\":\"2025-03-28T04:06:12\",\"modified_gmt\":\"2025-03-28T04:06:12\",\"slug\":\"call-for-papers\",\"status\":\"publish\",\"type\":\"page\",\"link\":\"https:\\/\\/2025.iccas.org\\/?page_id=958\",\"title\":{\"rendered\":\"Call for Papers\"},\"content\":{\"rendered\":\"<div class=\\\"sub_title\\\">Call for Papers<\\/div>\\n<p><a href=\\\"https:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS.pdf\\\" target=\\\"_blank\\\" rel=\\\"noopener\\\"><img fetchpriority=\\\"high\\\" decoding=\\\"async\\\" class=\\\"alignnone wp-image-4974 size-full\\\" src=\\\"http:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS-scaled.jpg\\\" alt=\\\"\\\" width=\\\"1969\\\" height=\\\"2560\\\" srcset=\\\"https:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS-scaled.jpg 1969w, https:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS-231x300.jpg 231w, https:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS-788x1024.jpg 788w, https:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS-768x998.jpg 768w, https:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS-1182x1536.jpg 1182w, https:\\/\\/2025.iccas.org\\/wp-content\\/uploads\\/2025\\/03\\/PDF-ICCAS-1576x2048.jpg 1576w\\\" sizes=\\\"(max-width: 1969px) 100vw, 1969px\\\" \\/><\\/a><\\/p>\\n\",\"protected\":false},\"excerpt\":{\"rendered\":\"<p>Call for Papers<\\/p>\\n\",\"protected\":false},\"author\":2,\"featured_media\":0,\"parent\":0,\"menu_order\":0,\"comment_status\":\"closed\",\"ping_status\":\"closed\",\"template\":\"\",\"meta\":{\"footnotes\":\"\"},\"class_list\":[\"post-958\",\"page\",\"type-page\",\"status-publish\"],\"_links\":{\"self\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\\/958\",\"targetHints\":{\"allow\":[\"GET\"]}}],\"collection\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\"}],\"about\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/types\\/page\"}],\"author\":[{\"embeddable\":true,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/users\\/2\"}],\"replies\":[{\"embeddable\":true,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=%2Fwp%2Fv2%2Fcomments&post=958\"}],\"version-history\":[{\"count\":12,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\\/958\\/revisions\"}],\"predecessor-version\":[{\"id\":4978,\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=\\/wp\\/v2\\/pages\\/958\\/revisions\\/4978\"}],\"wp:attachment\":[{\"href\":\"https:\\/\\/2025.iccas.org\\/index.php?rest_route=%2Fwp%2Fv2%2Fmedia&parent=958\"}],\"curies\":[{\"name\":\"wp\",\"href\":\"https:\\/\\/api.w.org\\/{rel}\",\"templated\":true}]}}",
+  "metadata": {
+    "title": null,
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "application/json; charset=UTF-8"
+  },
+  "links": [],
+  "scraped_at": "2026-04-20T15:56:42.126589+00:00"
+}

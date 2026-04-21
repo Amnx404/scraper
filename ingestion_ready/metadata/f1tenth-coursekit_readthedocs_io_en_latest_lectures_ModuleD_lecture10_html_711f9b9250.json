@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleD/lecture10.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Lecture 10 - Pure Pursuit — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:39.296729+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleD_lecture10_html_711f9b9250.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleD_lecture10_html_711f9b9250.md",
+  "char_count": 256,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleD_lecture10_html_711f9b9250.md",
+  "fine_char_count": 238,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

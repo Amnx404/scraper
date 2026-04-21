@@ -1,0 +1,20 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/assets/images/competitions/2025%20icra%20roboracer%20sim%20racing%20league/Map.html",
+  "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2025",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "2468101214Teams🌍 Global Participation Map150 Participants | 58 Teams | 32 Organizations | 25 Countries\n\n[ plotly-logomark ](https://plotly.com/)",
+  "metadata": {
+    "title": "plotly-logomark",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://plotly.com/"
+  ],
+  "scraped_at": "2026-04-20T15:56:28.406758+00:00"
+}

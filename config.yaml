@@ -1,24 +1,68 @@
 # Crawl entry points (where to start)
 seed_urls:
   - https://roboracer.ai/
+  - https://course.roboracer.ai/
 
 # Allowed URL scopes (used only when respect_allowed_prefixes=true)
 allowed_prefixes:
+# core websites
   - https://f1tenth-coursekit.readthedocs.io/
   - https://roboracer.ai/
   - https://ahmadamine998.github.io/ESE6150-Website/
 
+# conferences and races
+  - https://autodrive-ecosystem.github.io/
+  - https://join.slack.com/t/robo-racer/shared_invite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg
+  - https://icra2026-race.roboracer.ai/registration.html
+  - https://iv2026-race.roboracer.ai/registration.html
+  - https://2026ifac-roboracer.com/en/registration.html
+  - https://events.vtsociety.org/vtc2026-fall/
+  - https://2025.iccas.org/
+  - https://cdc2025-race.roboracer.ai/
+  - https://techfest.org/competitions/Roboracer
+  - https://cdc2024-race.f1tenth.org/
+  - https://bu2024-race.f1tenth.org/
+  - https://korea-race24f1tenth.org/
+  - https://iros2024-race.f1tenth.org/
+  - https://itsc2024-race.f1tenth.org/
+  - https://sm2024-race.f1tenth.org/
+  - https://iv2024-race.f1tenth.org/
+  - https://cpsweek2024-race.f1tenth.org/index.html
+  - https://icra2024-race.f1tenth.org/
+  - https://icra2024-madgames.f1tenth.org/
+  - https://iros2023-race.f1tenth.org/
+  - https://iros2023-madgames.f1tenth.org/
+  - https://korea-race23.f1tenth.org/
+  - https://icra2023-race.f1tenth.org/
+  - https://cps2023-race.f1tenth.org/
+  - https://iv2023-race.f1tenth.org/
+  - https://korea-race.f1tenth.org/
+  - https://germany-race2022.f1tenth.org/
+  - https://icra2022-race.f1tenth.org/
+  - https://www.iros2021.org/
+  - https://linklab-uva.github.io/icra-autonomous-racing/
+  
+
 respect_allowed_prefixes: true  # false = crawl every discovered link
 
-output_dir: output1
+output_dir: output_scraper_2
 page_output_subdir: pages
-global_status_filename: crawl_status.jsonl
-max_pages: 500
-delay: 2          # seconds between requests
+# Single JSON state file: urls { url: record }, urls_to_process (queue snapshot, live-updated).
+global_status_filename: crawl_status.json
+# If true, load crawl_status file and re-queue non-ok URLs; seeds are always re-scraped.
+resume: false
+max_pages: 5000
+# BFS depth from seeds: null = unlimited; 0 = seeds only; 1 = seeds + direct links; etc.
+max_depth: 7
+delay: 0.5          # seconds after each page
 user_agent: roboracer-self-scraper/1.0
 
+# Page fetch: requests (static HTML) or selenium (headless Chrome fallback for thin pages).
+# Cloudflare Browser Rendering /markdown only: use cloudflare_scraper_markdown.py
+page_fetcher: selenium
+
 use_selenium: true
-selenium_page_load_timeout: 20
+selenium_page_load_timeout: 5
 selenium_render_wait: 1
 parallel_workers: 0
 retry_limit: 2

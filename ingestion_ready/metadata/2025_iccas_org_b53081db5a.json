@@ -1,0 +1,15 @@
+{
+  "url": "https://2025.iccas.org/?page_id=5104",
+  "source": "https://2025.iccas.org/?page_id=5104",
+  "title": "2025 The 4th F1Tenth Korea Championship – ICCAS 2025",
+  "description": null,
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:56:56.770963+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/2025_iccas_org_b53081db5a.json",
+  "markdown_file": "markdown/2025_iccas_org_b53081db5a.md",
+  "char_count": 2576,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/2025_iccas_org_b53081db5a.md",
+  "fine_char_count": 1865,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

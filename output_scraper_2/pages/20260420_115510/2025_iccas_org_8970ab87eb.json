@@ -1,0 +1,18 @@
+{
+  "url": "https://2025.iccas.org/?feed=rss2",
+  "source": "https://2025.iccas.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n    \txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n    \txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n    \txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n    \txmlns:atom=\"http://www.w3.org/2005/Atom\"\n    \txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n    \txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n    \t>\n    \n    <channel>\n    \t<title>ICCAS 2025</title>\n    \t<atom:link href=\"https://2025.iccas.org/?feed=rss2\" rel=\"self\" type=\"application/rss+xml\" />\n    \t<link>https://2025.iccas.org</link>\n    \t<description>2025 The 25th International Conference on Control, Automation and Systems (ICCAS 2025)</description>\n    \t<lastBuildDate>Sun, 30 Nov 2025 23:54:11 +0000</lastBuildDate>\n    \t<language>en-US</language>\n    \t<sy:updatePeriod>\n    \thourly\t</sy:updatePeriod>\n    \t<sy:updateFrequency>\n    \t1\t</sy:updateFrequency>\n    \t<generator>https://wordpress.org/?v=6.9.4</generator>\n    </channel>\n    </rss>",
+  "metadata": {
+    "title": null,
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "application/rss+xml; charset=UTF-8"
+  },
+  "links": [],
+  "scraped_at": "2026-04-20T15:56:17.405864+00:00"
+}

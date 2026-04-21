@@ -1,0 +1,15 @@
+{
+  "url": "https://itsc2024-race.f1tenth.org/timeline.html",
+  "source": "https://itsc2024-race.f1tenth.org/",
+  "title": "F1TENTH ITSC 2024 | Timeline",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:58.664138+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/itsc2024-race_f1tenth_org_timeline_html_37cc7bca50.json",
+  "markdown_file": "markdown/itsc2024-race_f1tenth_org_timeline_html_37cc7bca50.md",
+  "char_count": 975,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/itsc2024-race_f1tenth_org_timeline_html_37cc7bca50.md",
+  "fine_char_count": 1694,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

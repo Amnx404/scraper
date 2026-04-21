@@ -1,0 +1,36 @@
+{
+  "url": "https://iros2023-race.f1tenth.org/orientation_1.html",
+  "source": "https://iros2023-race.f1tenth.org/race_ressources.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Race Resources](index.html)\n\n##  F1TENTH ICRA 2023 Orientation 1 Material\n\n###  Orientation 1 Slides \n\n###  Orientation 1 Video Recording\n\n  * © 2021 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "F1TENTH ICRA 2023 | Race Resources",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iros2023-race.f1tenth.org/index.html",
+    "https://html5up.net/",
+    "https://iros2023-race.f1tenth.org/orientation_1.html",
+    "https://iros2023-race.f1tenth.org/timeline.html",
+    "https://iros2023-race.f1tenth.org/race_ressources.html",
+    "https://iros2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iros2023-race.f1tenth.org/registration.html",
+    "https://iros2023-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://docs.google.com/presentation/d/e/2PACX-1vQCfFhTJ4W2jp9F8rBFzBUNDinRxHXegiPXQOn6vaHnU6DUu5ooNHSosJ0a7ztq0EWsDVNF3QrCK508/embed?delayms=60000&loop=false&start=false",
+    "https://drive.google.com/file/d/1f4ZwI6zARyGcfafjSq9g10LKBwGrTSjN/preview",
+    "https://iros2023-race.f1tenth.org/assets/css/main.css",
+    "https://iros2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:34.710131+00:00"
+}

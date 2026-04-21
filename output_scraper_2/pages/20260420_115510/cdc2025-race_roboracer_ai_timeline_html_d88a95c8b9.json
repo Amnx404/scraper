@@ -1,0 +1,36 @@
+{
+  "url": "https://cdc2025-race.roboracer.ai/timeline.html",
+  "source": "https://cdc2025-race.roboracer.ai/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline 25TH Roboracer AUTONOMOUS Racing Competition\n\n##### Timeline is subject to change. Please follow announcements in our slack channel for the latest updates.\n\nDATE | IN-PERSON COMPETITION  \n---|---  \nOctober 13th |  Registration Opens  \nOctober 29th, 10:00AM - 11:00AM ET | [Roboracer Orientation 1 ( Competition Rules overview )](https://upenn.zoom.us/j/95234024137?pwd=m0idq4IRdbn2Ck0l8PXyoqcSP6aLFg.1)  \n[Slide](https://docs.google.com/presentation/d/1fqDEF9Wm2T_CmqZldNDa6zi0F-mzaSHdRLuecw_-5Wo/edit?usp=sharing) [Video](https://drive.google.com/file/d/1TCIqjgrt0zaT3agDqDVQQw4dPxObn86a/view?usp=sharing)  \nNovember 5th | Video Demonstration Due  \nNovember 5th, 10:00AM - 11:00AM ET | [Roboracer Orientation 2 ( Track set up, Track overview for in-person competition, Teams Training )](https://upenn.zoom.us/j/98425120819?pwd=27x7uzaI8QJtDs1Os4pZu9TH57RMWz.1)  \n  \nDecember 9th | Teams on-site registration and regulated practice sessions  \nDecember 10th | Qualification Time Trials  \nDecember 11th | Head-to-Head Tournament & Award Ceremony  \n  \n  * © \n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "Roboracer CDC 2025 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cdc2025-race.roboracer.ai/index.html",
+    "https://cdc2025-race.roboracer.ai/timeline.html",
+    "https://cdc2025-race.roboracer.ai/race_resources.html",
+    "https://cdc2025-race.roboracer.ai/roboracer_resources.html",
+    "https://cdc2025-race.roboracer.ai/registration.html",
+    "https://cdc2025-race.roboracer.ai/results.html",
+    "https://x.com/RoboRacerAi",
+    "https://roboracer.ai/",
+    "https://join.slack.com/t/robo-racer/shared_invite/zt-2sfu4qr7p-3oe27mCnH98muwRR9uEAbg",
+    "https://github.com/f1tenth",
+    "https://upenn.zoom.us/j/95234024137?pwd=m0idq4IRdbn2Ck0l8PXyoqcSP6aLFg.1",
+    "https://docs.google.com/presentation/d/1fqDEF9Wm2T_CmqZldNDa6zi0F-mzaSHdRLuecw_-5Wo/edit?usp=sharing",
+    "https://drive.google.com/file/d/1TCIqjgrt0zaT3agDqDVQQw4dPxObn86a/view?usp=sharing",
+    "https://upenn.zoom.us/j/98425120819?pwd=27x7uzaI8QJtDs1Os4pZu9TH57RMWz.1",
+    "https://html5up.net/",
+    "https://cdc2025-race.roboracer.ai/assets/css/main.css",
+    "https://cdc2025-race.roboracer.ai/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:53.939993+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://cdc2025-race.roboracer.ai/timeline.html",
+  "source": "https://cdc2025-race.roboracer.ai/",
+  "title": "Roboracer CDC 2025 | Timeline",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:53.939993+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cdc2025-race_roboracer_ai_timeline_html_d88a95c8b9.json",
+  "markdown_file": "markdown/cdc2025-race_roboracer_ai_timeline_html_d88a95c8b9.md",
+  "char_count": 1110,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cdc2025-race_roboracer_ai_timeline_html_d88a95c8b9.md",
+  "fine_char_count": 1077,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

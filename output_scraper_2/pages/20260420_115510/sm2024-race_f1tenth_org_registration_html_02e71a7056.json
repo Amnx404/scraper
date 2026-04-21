@@ -1,0 +1,34 @@
+{
+  "url": "https://sm2024-race.f1tenth.org/registration.html",
+  "source": "https://sm2024-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Registration](index.html)\n\n##  Registration\n\nThe following Google form is only for preliminary registration and for orientation and information sessions. A 70 CAD regestration fee is required per team, which needs to be [pay here.](https://ieeesm.org/f1-tenth/)\n\n[Register Here](https://forms.gle/GcVn2K2THgxD7FRz5)   \n\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)\n\n\n\nMenu",
+  "metadata": {
+    "title": "F1TENTH SM 2024 | Registration",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://sm2024-race.f1tenth.org/index.html",
+    "https://ieeesm.org/f1-tenth",
+    "https://forms.gle/GcVn2K2THgxD7FRz5",
+    "https://html5up.net/",
+    "https://sm2024-race.f1tenth.org/registration.html",
+    "https://sm2024-race.f1tenth.org/timeline.html",
+    "https://sm2024-race.f1tenth.org/race_ressources.html",
+    "https://sm2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://sm2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://sm2024-race.f1tenth.org/assets/css/main.css",
+    "https://sm2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:02.467005+00:00"
+}

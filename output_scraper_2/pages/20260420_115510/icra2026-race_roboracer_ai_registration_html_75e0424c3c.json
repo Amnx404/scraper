@@ -1,0 +1,38 @@
+{
+  "url": "https://icra2026-race.roboracer.ai/registration.html",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[ Registration ](/)\n\n## Registration\n\nThis competition is open for everyone of all levels, everyone is welcome to participate in this competition. A team can consist of multiple teammates. Teams with only one person are also allowed. Teams that take part in the in-person competition need to provide and build an Roboracer car by themselves. To register in the 5th Roboracer Sim Racing League, please refer to the [ Sim Racing Registration page ](https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2026/#registration).   \n\n\n[Register Your Team](https://selapp.lanthan.at/?selection=icra2026)\n\n  \n  \n\n\nIf you have any question regarding your participation, please contact us at [roboracer2026icra@tuwien.ac.at](mailto:roboracer2026icra@tuwien.ac.at).\n\n* * *\n\n### Accomodation\n\nRegistration of accommodation needs to be organized and paid for individually by the participants. However, we are listing here a selection of options that you might consider interesting. Disclosure: The organizers are not affiliated with any of these accommodations and do not get any benefits from them. \n\n  * **Vienna Brigittenau - Youth Hostel**  \nWebpage: <https://www.oejhv.at/en/youth-hostels/vienna/1200-vienna/>  \nAddress: Adalbert Stifter Straße 73, A-1200 Wien, AUSTRIA  \nPublic transport connections: Direct bus connection (line 11A) between the hostel and the conference location, which takes approximately 25 minutes.  \nBreakfast included  \nBooking happens per team directly with the hostel. For room rates, please check the webpage. \n  * Potentially further suggestions to come. \n  * **Official ICRA Conference Hotels**  \nWebpage: <https://2026.ieee-icra.org/attend/housing-information/>  \nDepending on your available budget, you might also consider the official ICRA conference hotels. \n\n\n\n* * *\n\n### Participants\n\nNote: Only teams that submitted all the required materials are listed below. This table is updated manually, for an automatically updated table see [this page](registration_auto_table.html). \n\nIf you have registered for participation but the list below is not updated, please contact us at [roboracer2026icra@tuwien.ac.at](mailto:roboracer2026icra@tuwien.ac.at).   \nRegister the modified information under the same team name, and we will update it accordingly. \n\nTEAM NAME | AFFILIATION| COUNTRY  \n---|---|---  \nArcus | Université de Sherbrooke  | Canada  \nDeepSpeed | Nanyang Technological University | Singapore  \nDzik | Independent  | Poland  \nForzaETH | ETH Zürich | Switzerland  \nIngenuity Labs Racing | Queen's University - Ingenuity Labs | Canada  \nLAMARRacing | University of Bonn | Germany  \nNOVA | BITS Pilani, Wilp | India  \nScuderia Segfault | TU Wien | Austria  \nUBM-Atlas | University of Bologna | Italy  \nUBM-Tom | University of Bologna | Italy  \nUNICORN_Racing | Ulsan National Institute of Science and Technology | South Korea  \nUPenn Autonomous Racing | University of Pennsylvania | United States  \nVAUL 1 | Université Laval | Canada  \nVAUL 2 | Université Laval | Canada  \n  \n  * © \n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "Roboracer ICRA 2026 | Registration",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2026-race.roboracer.ai/",
+    "https://icra2026-race.roboracer.ai/timeline.html",
+    "https://icra2026-race.roboracer.ai/race_resources.html",
+    "https://icra2026-race.roboracer.ai/roboracer_resources.html",
+    "https://icra2026-race.roboracer.ai/registration.html",
+    "https://icra2026-race.roboracer.ai/faq.html",
+    "https://x.com/RoboRacerAi",
+    "https://roboracer.ai/",
+    "https://join.slack.com/t/robo-racer/shared_invite/zt-2sfu4qr7p-3oe27mCnH98muwRR9uEAbg",
+    "https://github.com/f1tenth",
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2026",
+    "https://selapp.lanthan.at/?selection=icra2026",
+    "https://www.oejhv.at/en/youth-hostels/vienna/1200-vienna",
+    "https://2026.ieee-icra.org/attend/housing-information",
+    "https://icra2026-race.roboracer.ai/registration_auto_table.html",
+    "https://html5up.net/",
+    "https://icra2026-race.roboracer.ai/assets/css/main.css",
+    "https://icra2026-race.roboracer.ai/assets/css/noscript.css",
+    "https://cdn.jsdelivr.net/npm/svgmap%40v2.19.3/dist/svg-map.min.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:18.049681+00:00"
+}

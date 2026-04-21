@@ -1,0 +1,15 @@
+{
+  "url": "https://itsc2024-race.f1tenth.org/results.html",
+  "source": "https://itsc2024-race.f1tenth.org/",
+  "title": "F1TENTH ITSC 2024| Results",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:02.853324+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/itsc2024-race_f1tenth_org_results_html_4874b8401b.json",
+  "markdown_file": "markdown/itsc2024-race_f1tenth_org_results_html_4874b8401b.md",
+  "char_count": 227,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/itsc2024-race_f1tenth_org_results_html_4874b8401b.md",
+  "fine_char_count": 102,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

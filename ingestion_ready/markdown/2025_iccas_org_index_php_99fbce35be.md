@@ -1,0 +1,76 @@
+{"id":16,"date":"2019-08-12T09:50:52","date_gmt":"2019-08-12T00:50:52","guid":{"rendered":"http:\/\/ajcpp2020.org\/?page_id=16"},"modified":"2025-11-19T06:27:16","modified_gmt":"2025-11-19T06:27:16","slug":"main","status":"publish","type":"page","link":"https:\/\/2025.iccas.org\/","title":{"rendered":"main"},"content":{"rendered":"\t\t
+
+\n\t\t\t\t
+
+\n\t\t\t\t\t
+
+\n\t\t
+
+\n\t\t\t\t
+
+\n\t\t\t\t
+
+\n\t\t\t[**Technical Program <\/strong><\/a>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t[**Program Book & Proceedings<\/strong><\/a>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t[**Conference Photos <\/strong><\/a>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t**The 25th International Conference on Control, Automation, and Systems (ICCAS 2025) <\/strong> will be held on November 4 – 7, 2025 at Incheon, Korea. The aim of ICCAS 2025 is to bring together professors, researchers, engineers, and students from worldwide to present their recent works and discuss the state-of-the-art technologies related to control, automation, robotics and systems.<\/div>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\tImportant **Dates <\/strong><\/div>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n\r\n![](\\"\\/wp-content\\/uploads\\/2020\\/11\\/imfo_icon03.png\\")
+\r\n~~May 31 June 15 <\/del>
+\r\n**July 04, 2025 <\/strong>
+\r\nSubmission of organized session proposals<\/td>\r\n<\/tr>\r\n<\/table>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n\r\n| ![](\\"\\/wp-content\\/uploads\\/2019\\/08\\/imfo_icon01.png\\")
+\r\n~~May 31 June 15 <\/del>
+\r\n**\r\nJuly 04, 2025 <\/strong>
+\r\nSubmission of full papers
+
+<\/td>\r\n<\/tr>\r\n<\/table>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n\r\n| ![](\\"\\/wp-content\\/uploads\\/2019\\/08\\/imfo_icon02.png\\")
+\r\n**July 31, 2025 <\/strong>
+\r\n23:59:59 Pacific Time <\/span>
+\r\nNotification of Acceptance
+
+<\/td>\r\n<\/tr>\r\n<\/table>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n\r\n| ![](\\"\\/wp-content\\/uploads\\/2019\\/10\\/imfo_icon04.png\\")
+\r\n**August 31, 2025 <\/strong>
+\r\nSubmission of Final Camera-ready Papers<\/td>\r\n<\/tr>\r\n<\/table>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\t\t* All dates are based on Pacific Time.<\/p>\t\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\n\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\tPlenary **speakers <\/b><\/span><\/div>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n\r\n\r\n![](\\"\\/wp-content\\/uploads\\/2025\\/03\\/key01.gif\\")
+\r\n**Tryphon T. Georgiou <\/strong>
+\r\nUniversity of California, Irvine
+\r\nUSA\r\n<\/div>\r\n\r\n![](\\"\\/wp-content\\/uploads\\/2025\\/03\\/key05.gif\\")
+\r\n**Rahul Mangharam <\/strong>
+\r\nUniversity of Pennsylvania
+\r\nUSA\r\n<\/div>\r\n\r\n![](\\"\\/wp-content\\/uploads\\/2025\\/03\\/key04-1.gif\\")
+\r\n**Kouhei Ohnishi <\/strong>
+\r\nKeio University
+\r\nJapan\r\n<\/div>\r\n\r\n![](\\"\\/wp-content\\/uploads\\/2025\\/03\\/key03.gif\\")
+\r\n**Claudio De Persis <\/strong>
+\r\nUniversity of Groningen
+\r\nNetherlands\r\n<\/div>\r\n\r\n![](\\"\\/wp-content\\/uploads\\/2025\\/03\\/key02.gif\\")
+\r\n**Giorgio Rizzoni <\/strong>
+\r\nThe Ohio State University
+\r\nUSA\r\n<\/div>\r\n\r\n![](\\"\\/wp-content\\/uploads\\/2025\\/03\\/key06.gif\\")
+\r\n**Sangok Seok <\/strong>
+\r\nNAVER LABS
+\r\nKorea\r\n<\/div>\r\n<\/center>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n**NEWS & NOTICE<\/strong> ![](\\"\\/wp-content\\/uploads\\/2019\\/12\\/borad_more.png\\")<\/h3>\r\n\r\n\r\n\r\n| ![](\\"\\/wp-content\\/uploads\\/2019\\/12\\/borad_icon.png\\")<\/td>\r\n| \r\n\n\t\n\t\t\n\t\t\t\n\t\t\t\t| Title<\/th>\n\t\t\t\t| Date<\/th>\n\t\t\t<\/tr>\n\t\t<\/thead>\n\t\t\n\t\t\t\t\t\t\n\t\t\t\t| \n\t\t\t\t\t[\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tICCAS 2025 Session Program is now available.\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/div>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/td>\n\t\t\t\t| 2025-09-15<\/td>\n\t\t\t<\/tr>\n\t\t\t\t\t\t\n\t\t\t\t| \n\t\t\t\t\t[\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t(for Korean) BK21 \uad6d\uc81c\ud559\uc220\ub300\ud68c \uae30\uc900 \ud1b5\uacc4\uc548\ub0b4\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/div>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/td>\n\t\t\t\t| 2025-09-15<\/td>\n\t\t\t<\/tr>\n\t\t\t\t\t\t\n\t\t\t\t| \n\t\t\t\t\t[\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tICCAS with IJCAS option:\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/div>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/td>\n\t\t\t\t| 2025-01-21<\/td>\n\t\t\t<\/tr>\n\t\t\t\t\t\t\n\t\t\t\t| \n\t\t\t\t\t[\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tICCAS 2025 will be held on November 4(Tue)-7(Fri), 2025\t\t\t\t\t\t\t<\/span>\n\t\t\t\t\t\t<\/div>\n\t\t\t\t\t<\/a>\n\t\t\t\t<\/td>\n\t\t\t\t| 2025-01-09<\/td>\n\t\t\t<\/tr>\n\t\t\t\t\t<\/tbody>\n\t<\/table>\n<\/div>\r\n<\/td>\r\n<\/tr>\r\n<\/tbody>\r\n<\/table>\r\n<\/div>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\tQuick **Link <\/strong><\/div>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t[\r\n![](\\"\\/wp-content\\/uploads\\/2024\\/11\\/quick03.png\\")
+\r\nPaper
+Submission\r\n<\/div><\/a>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t[\r\n![](\\"\\/wp-content\\/uploads\\/2024\\/11\\/quick02.png\\")
+\r\nGuidelines \r\nfor
+Submission \r\n<\/div><\/a>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t[\r\n![](\\"\\/wp-content\\/uploads\\/2024\\/11\\/quick01.png\\")
+\r\nGuidelines \r\nfor
+Registration \r\n<\/div><\/a>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t[\r\n![](\\"\\/wp-content\\/uploads\\/2024\\/11\\/quick04.png\\")
+\r\nHotel
+\r\nInformation\r\n<\/div><\/a>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\tOrganized by<\/div>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n
+
+\r\n\t\t
+  * ![](\\"\\/wp-content\\/uploads\\/2023\\/01\\/Organized-by.png\\")<\/li>\r\n\t\t
+  * ![](\\"\\/wp-content\\/uploads\\/2025\\/10\\/Organized02.png\\")<\/li>\r\n\t<\/ul>\r\n <\/div>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\tTechnically Co-Sponsored by \r\r<\/div>\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\n\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\n\t\t\t\r\n\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-IEEE.png\\")<\/li>\r\n
+    * [![](\\"\\/wp-content\\/uploads\\/2024\\/07\\/spon03.png\\")<\/a><\/li>\r\n
+    * [![](\\"\\/wp-content\\/uploads\\/2024\\/07\\/spon02.png\\")<\/a><\/li>\r\n
+    * [![](\\"\\/wp-content\\/uploads\\/2024\\/07\\/spon01.png\\")<\/a><\/li>\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-SICE.png\\")<\/li>\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-CAA.png\\")<\/li>\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-CAC.png\\")<\/li>\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-ACA.png\\")<\/li>\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-ECTI.png\\")<\/li>\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-ISA.png\\")<\/li>\r\n
+    * ![](\\"\\/wp-content\\/uploads\\/2023\\/02\\/\\ub85c\\uace0-AAI.png\\")<\/li>\r\n<\/ul>\r\n<\/div>\r\n\t\t<\/div>\n\t\t\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t\t<\/div>\n\t\t<\/div>\n\t\t\t\t\t<\/div>\n\t\t<\/section>\n\t\t\t\t<\/div>\n\t\t","protected":false},"excerpt":{"rendered":"Technical Program Program Book & Proceedings Conference Photos The 25th International Conference on Control, Automation, and Systems (ICCAS 2025) will be held on November 4 – 7, 2025 at Incheon, Korea. The aim of ICCAS 2025 is to bring together professors, researchers, engineers, and students from worldwide to present their recent works and discuss the ... [Read more<\/a><\/p>\n","protected":false},"author":2,"featured_media":4780,"parent":0,"menu_order":0,"comment_status":"closed","ping_status":"closed","template":"","meta":{"footnotes":""},"class_list":["post-16","page","type-page","status-publish","has-post-thumbnail"],"_links":{"self":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages\/16","targetHints":{"allow":["GET"]}}],"collection":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages"}],"about":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/types\/page"}],"author":[{"embeddable":true,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/users\/2"}],"replies":[{"embeddable":true,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=%2Fwp%2Fv2%2Fcomments&post=16"}],"version-history":[{"count":67,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages\/16\/revisions"}],"predecessor-version":[{"id":5283,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/pages\/16\/revisions\/5283"}],"wp:featuredmedia":[{"embeddable":true,"href":"https:\/\/2025.iccas.org\/index.php?rest_route=\/wp\/v2\/media\/4780"}],"wp:attachment":[{"href":"https:\/\/2025.iccas.org\/index.php?rest_route=%2Fwp%2Fv2%2Fmedia&parent=16"}],"curies":[{"name":"wp","href":"https:\/\/api.w.org\/{rel}","templated":true}]}}](\\"https:\\/\\/2025.iccas.org\\/\\" "\\"main\\"")](\\"https:\\/\\/www.ieee-ies.org\\/\\")](\\"https:\\/\\/www.ieee-ras.org\\/\\")](\\"http:\\/\\/www.ieeecss.org\\/on\\")
+
+](\\"\\/?page_id=1003\\")](\\"\\/?page_id=984\\")](\\"\\/?page_id=964\\")](\\"https:\\/\\/ras.papercept.net\\/conferences\\/scripts\\/start.pl\\")**](\\"\\/?page_id=962&rest_route=%2Fwp%2Fv2%2Fpages%2F16&uid=1&mod=document\\")
+---|---](\\"\\/?page_id=962&rest_route=%2Fwp%2Fv2%2Fpages%2F16&uid=2&mod=document\\")](\\"\\/?page_id=962&rest_route=%2Fwp%2Fv2%2Fpages%2F16&uid=3&mod=document\\")](\\"\\/?page_id=962&rest_route=%2Fwp%2Fv2%2Fpages%2F16&uid=4&mod=document\\")
+**
+**~~
+**~~
+******](\\"\\/?page_id=2027\\")**](\\"https:\\/\\/sigongji.2025.iccas.org\\/Proceedings\\")**](\\"https:\\/\\/ras.papercept.net\\/conferences\\/conferences\\/ICCAS25\\/program\\/ICCAS25_ProgramAtAGlanceWeb.html\\")

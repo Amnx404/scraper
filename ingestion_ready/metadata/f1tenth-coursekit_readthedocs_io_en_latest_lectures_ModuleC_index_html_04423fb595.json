@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/index.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Module C: Mapping & Localization — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:34.999404+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_index_html_04423fb595.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_index_html_04423fb595.md",
+  "char_count": 340,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleC_index_html_04423fb595.md",
+  "fine_char_count": 339,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

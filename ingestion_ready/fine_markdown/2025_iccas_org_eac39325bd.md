@@ -1,0 +1,178 @@
+# Special Sessions
+
+## Frontiers Session 1
+
+November 5(Wed), 14:20-15:50, Premier Ballroom, 2F
+
+| | Dr. Seunghyeok Back
+Korea Institute of Machinery & Materials (KIMM), Korea
+---|---
+
+## **Robotic Manipulation of Unseen Objects: From Perception Models to Foundation Models**
+
+**Abstract:** Recent advances in deep learning and foundation models have opened new possibilities for generalized robotic capabilities. However, in practice, most existing robotic manipulation methods still face significant challenges in handling unseen objects in cluttered environments—where objects not encountered during training are partially occluded. In this talk, I will discuss my research trajectory on developing deep learning models for segmenting, grasping, and placing unseen objects in cluttered environments by learning general knowledge from large-scale simulation and structured priors such as amodal segmentation and error-estimation. Additionally, I will share recent research progress on test-time adaptation approaches and the application of vision foundation models for robotic grasping to improve the generalizability of robotic manipulation in diverse scenarios.
+
+**Biography:**
+*   Jan. 2025 – Current, Senior Researcher, Korea Institute of Machinery & Materials (KIMM), Korea
+*   Sep. 2024 – Dec. 2024, Postdoctoral Researcher, GIST, Korea
+*   Sep. 2023 – Mar. 2024, Applied Scientist Intern, Amazon Robotics, Germany
+
+**Education:**
+*   Mar. 2018 – Aug. 2024, Ph.D., Integrated Technology, Robotics Program, GIST, Korea (Advisor: Prof. Kyoobin Lee)
+*   Mar. 2014 – Feb. 2018, B.S., Mechanical Engineering, Connective Minor in History-Sociology, GIST, Korea
+
+| | Prof. Sesun You
+Keimyung University, Korea
+---|---
+
+## **Robust Control and State Estimation for ABS and EPS: A Step Towards Integrated Chassis Controls**
+
+**Abstract:** This talk introduces robust control and state estimation methods developed for the Anti-lock Braking System (ABS) and Electric Power Steering (EPS). For ABS, slip control without direct slip measurement was achieved to improve braking efficiency under varying road conditions, while robust assist control was designed for EPS to enhance steering stability. Central to these approaches is accurate state estimation of unmeasured variables such as tire–road friction and steering dynamics. Building on these results, I will discuss how ABS and EPS can be extended toward an integrated chassis control framework for next-generation mobility systems.
+
+**Biography:** Sesun You received the B.S. and Ph.D. degrees from the School of Energy Systems Engineering, ChungAng University, Seoul, South Korea, in 2020 and 2024, respectively. He is currently an Assistant Professor with the Department of Electrical Engineering, Keimyung University, Daegu, South Korea. His research interests include nonlinear control, adaptive control, intelligent control for nonlinear systems, and their industrial applications.
+
+| | Prof. Joon-Hyuk Park
+Daegu Gyeongbuk Institute of Science and Technology (DGIST), Korea
+---|---
+
+## **Wearables and Assistive Robots for Aging Populations**
+
+**Abstract:** The aging population worldwide presents increasing challenges in maintaining independence, mobility, and quality of life. Wearable devices and assistive robots have become transformative solutions to support healthy aging, enhance rehabilitation, and help older adults stay active and socially connected. In this talk, Dr. Park will share some of his recent work on wearables and assistive robots to promote healthy aging and mobility independence, and discuss future directions to reduce caregiver burden, improve healthcare outcomes, and foster autonomy for older adults.
+
+**Biography:** Dr. Joon-Hyuk Park is an assistant professor in the Robotics and Mechatronics Engineering department at Daegu Institute of Science and Technology (DGIST), Korea. His research focuses on developing innovative tools and methods for assistive and rehabilitation technology, with an emphasis on wearable interfaces, mechanisms, and human-in-the-loop controllers to improve usability and practicality. He earned his PhD in Mechanical Engineering from Columbia University in 2016 and spent three years (2016-2019) as a National Academy of Science Research Associate at the US Army Research Lab in Aberdeen, MD. He then worked as an assistant professor at the University of Central Florida from 2019 to 2024 before joining DGIST in 2025.
+
+## Frontiers Session 2
+
+November 6(Thu), 09:00-10:30, Premier Ballroom, 2F
+
+| | Prof. Jiyeon Kang
+GIST, Korea
+---|---
+
+## **Intelligent Machines that Moves with Us and Learn from Us**
+
+**Abstract:** The development of wearable robots to assist and rehabilitate patients with neurological movement disorders and elderly individuals in performing activities of daily living has become an area of growing importance. Rather than merely executing pre-defined motions, next-generation robots must be capable of understanding human movement patterns and underlying pathologies, and translating this knowledge into data-driven, human-centered control strategies. This talk will present recent advances in the design of such intelligent control frameworks and cable-driven robotic systems tailored for rehabilitation and assistance. In addition, complementary research on mobile robotic platforms, prosthetic emulators, and parallel robotic mechanisms will be discussed, highlighting their potential to enhance functional independence and improve quality of life for users. Finally, the talk will outline future directions toward developing neural interfaces that augment motor function across diverse patient populations and designing next-generation prosthetic controllers powered by advanced AI models.
+
+**Biography:** Jiyeon Kang has been serving as an Associate Professor at the Gwangju Institute of Science and Technology (GIST) since 2023. Before joining GIST, she held a faculty appointment as an Assistant Professor in the Department of Mechanical and Aerospace Engineering at the State University of New York at Buffalo for four years. Her prior research experience includes a Postdoctoral Fellowship at the University of Michigan and a research appointment at the Korea Institute of Science and Technology (KIST). She received her Ph.D. in Mechanical Engineering from Columbia University and earned both her B.S. and M.S. degrees in Mechanical Engineering from Seoul National University. She is currently an Associate Editor for the IEEE Transactions on Neural Systems and Rehabilitation Engineering (TNSRE) and has served on the organizing committees of multiple international robotics conferences, including IEEE BioRob and ICNR. Her academic and professional work focuses on advancing wearable robotics, neuro-rehabilitation, and human-centered AI technologies, with the ultimate goal of improving functional independence and quality of life.
+
+| | Prof. Yoonseon Oh
+Hanyang University, Korea
+---|---
+
+## **Making Robots Smarter at Home: From Task Detection to Execution**
+
+**Abstract:** Personal home-service robots need to recognize what tasks to perform and carry them out in domestic environments. While many researchers continue to explore semantic mapping to help robots understand their surroundings, research on identifying which types of information are actually meaningful for robots is still in its early stages. In this talk, I introduce a task-aware semantic map that automatically records detected household tasks. Using this map, the robot can identify its own subgoals expressed in natural language. Following that, I will present our GNN-Transformer-based task planner, which interprets natural language commands and generates appropriate task plans.
+
+**Biography:** Yoonseon Oh received the Ph.D. degree in the Department of Electrical and Computer Engineering from Seoul National University, Seoul, Korea in 2018. She received the B.S. degree in the Department of Electrical and Electronics Engineering from Seoul National University in 2011. She is currently an assistant professor, in the department of Electronic Engineering, Hanyang University. From 2019 to 2021, she was a Senior Researcher and Researcher at the Center for Robotics Research, in Korea Institute of Science and Technology. From 2018 to 2019, She was a Postdoctoral Researcher in the Department of Computer Science at Brown University, advised by Stefanie Tellex. She previously received the Ph.D. degree, advised by Songhwai Oh in Robot Learning Laboratory. Her research interests include robotic intelligence, task learning, and semantic mapping.
+
+| | Prof. Alex Junho Lee
+Sookmyung Women’s University, Korea
+---|---
+
+## **Maps as a Database: Practical Map Quality Evaluation for Field Robotics**
+
+**Abstract:** Maps can be viewed as a database that robots read and write over time. The focus here is on routine practices that keep mapping usable across sites with modest sensing and computation. From a recognition perspective, repeated operation informs route design and constraint choices that stabilize localization and updates. When external ground truth is not available, map quality is summarized as data using simple, deployable checks: cross-run consistency, loop-closure residuals, and coverage summaries. Examples draw from outdoor runs in agriculture and related field settings. The aim is to share working procedures, reporting templates, and lessons from current systems, and to outline near-term steps for scaling deployments while keeping evaluation transparent and reproducible.
+
+**Biography:** Alex Junho Lee has served as an Assistant Professor at Sookmyung Women’s University since 2025. Prior to joining Sookmyung Women’s University, he worked for two years as a SLAM engineer in the Robotics Lab at Hyundai Motor Company. He received his Ph.D. from the Robotics Program in the Department of Civil and Environmental Engineering at the Korea Advanced Institute of Science and Technology (KAIST) and earned a B.S. in Mechanical Engineering from KAIST. He is currently a Guest Editor for the Springer journal International Journal of Control, Automation and Systems (IJCAS). His academic and professional work focuses on sensor-based perception, mobile robotics, 3D reconstruction, and physical AI, with the goal of deploying autonomous robots in everyday human environments.
+
+## Frontiers Session 3
+
+November 7(Fri), 09:00-10:30, Premier Ballroom, 2F
+
+| | Prof. Hongje Seong
+University of Seoul, Korea
+---|---
+
+## **Computer Vision for Autonomous Driving**
+
+**Abstract:** To realize autonomous driving in the real world, a wide range of technological elements—from fundamental perception to vehicle control—must be integrated. In this talk, I will introduce advanced computer vision techniques for autonomous vehicles that enable the understanding of surrounding environments through visual sensors. Specifically, I will present a concise overview of several key computer vision approaches, including video segmentation for environmental perception, corner case detection for accident prevention, and domain adaptation and generalization strategies for driving in novel environments. Furthermore, I will share my research directions and future challenges, emphasizing the importance of interdisciplinary collaboration and innovation to drive the next generation of autonomous driving technologies.
+
+**Biography:**
+*   **Education:**
+    *   Mar. 2018 – Feb. 2023, Ph.D., Department of Electrical and Electronics Engineering, Yonsei University
+    *   Mar. 2012 – Feb. 2018, B.S., School of Electrical and Electronics Engineering, Yonsei University
+*   **Work Experience:**
+    *   Mar. 2025 – Present, Assistant Professor, School of Electrical and Computer Engineering, University of Seoul
+    *   Dec. 2024 – Feb. 2025, Staff Researcher, AI Center, Samsung Electronics
+    *   Mar. 2023 – Dec. 2024, Staff Researcher, Samsung Advanced Institute of Technology
+    *   Mar. 2021 – Dec. 2021, Research Intern, Adobe Research
+
+| | Prof. Myoung Hoon Lee
+Incheon National University, Korea
+---|---
+
+## **Structured Reinforcement Learning for Real-World Control: Multi-Goal and Multi-Objective Perspectives**
+
+**Abstract:** Recent advances in reinforcement learning (RL) have demonstrated its potential in solving diverse control problems. However, its effectiveness in real-world applications remains limited due to challenges related to generalization, scalability, and multi-dimensional complexity. To address these limitations, we present two complementary lines of research that extend RL for practical control system deployment. The first focuses on multi-goal reinforcement learning, which enables a single agent to learn and generalize across a wide variety of goal configurations within a unified objective. This approach is particularly well suited for manipulation and navigation tasks that require flexible adaptation to changing targets. The second addresses multi-objective reinforcement learning, where agents must balance multiple, often conflicting objectives such as speed versus energy efficiency or safety versus performance by learning trade-off-aware control policies. In this talk, we present the core concepts of goal- and objective-structured reinforcement learning frameworks and demonstrate their effectiveness in addressing complex real-world control problems.
+
+**Biography:** Myoung Hoon Lee received the B.S. degree in electrical engineering from Kyungpook National University, Daegu, South Korea, in 2016, and the Ph.D. degree in electrical engineering from the Ulsan National Institute of Science and Technology (UNIST), Ulsan, South Korea, in 2021. From 2021 to 2023, he was a Postdoctoral Research Fellow with the Research Institute of Electrical and Computer Engineering, Hanyang University, Seoul, South Korea. He is currently an Assistant Professor with the Department of Electrical Engineering, Incheon National University, Incheon, South Korea. His research interests include decentralized optimal control, mean field games, deep reinforcement learning, and their applications.
+
+| | Prof. Joowon Park
+University of Ulsan, Korea
+---|---
+
+## **Magnetic Steering Soft Continuum Robots for Minimally Invasive Surgery**
+
+**Abstract:** Minimally invasive surgery (MIS) requires robotic systems that can navigate complex and constrained anatomical environments while ensuring safety and precision. This work presents the development of magnetic steering soft continuum robots designed to address these challenges. By integrating programmable magnetic actuation with compliant continuum structures, the proposed system enables precise steering, enhanced workspace coverage, and variable stiffness for safe tissue interaction. Theoretical modeling, FEM simulation, and experimental validation are employed to demonstrate the robot’s capability in achieving controlled bending and navigation along curved surgical paths. The results highlight the potential of magnetically actuated soft continuum robots as a promising platform for next-generation MIS applications.
+
+**Biography:** Dr. Joowon Park received the B.S. degree in Mechanical Engineering from KAIST and the Ph.D. degree in Robotics and Mechatronics Engineering from DGIST, South Korea. From 2024 to 2025, he was a Postdoctoral Research Fellow at DGIST. He is currently an Assistant Professor with the Department of Electrical Engineering, University of Ulsan. His research focuses on soft continuum robots, magnetic actuation systems, and magnetic robot skin.
+
+## Recent Advances in Disturbance Observer
+
+November 6(Thu), 09:00-10:30, Room 9
+
+**Talk 1] Enhancing disturbance rejection performance by embedding internal model**
+– Speaker: Prof. Youngjun Joo, Sookmyung Women’s University
+– Abstract: This talk is about how to embed the internal model of the disturbance into the disturbance observer structure for enhancing the disturbance rejection performance. In particular, by focusing on the distinct role of each Q-filter, we discuss an approach to separately designing two Q-filters.
+
+**Talk 2] Stability Analysis and Design of a Filter-Embedded Disturbance Observer (FDOB)**
+– Speaker: Prof. Chanhwa Lee, Sejong University
+– Abstract: This work introduces the filter-embedded disturbance observer (FDOB) and presents a rigorous robust stability condition. We show that the FDOB can be designed by simply integrating a stable filter with unity high-frequency gain into a conventional DOB, while preserving robust stability and simplifying implementation.
+
+**Talk 3] Disturbance Observer Design for Force Control in Robotics**
+– Speaker: Prof. Sehoon Oh, DGIST
+– Abstract: In the era of Physical AI, interest in robotic force control is increasing. However, force control remains challenging due to difficulties in measurement, actuator limitations, and inherent stability issues, often leading practitioners to rely on approximate position control as a substitute. This work revisits the fundamental challenges of force control and introduces disturbance observer (DOB)-based approaches proposed to overcome them. Specialized DOB schemes are presented for force sensing, force estimation, and series elastic actuators (SEAs), along with a discussion of their implementations and performance outcomes.
+
+**Talk 4] Robust QP-Based Control for Euler-Lagrange Systems with Guaranteed Task Space Stability: Equivalence to Disturbance Observer and Mathematical Analysis**
+– Speaker: Prof. Gyunghoon Park, University of Seoul
+– Abstract: In this talk, we address the robust control problem for uncertain Euler-Lagrange systems that have higher degree-of-freedoms than required for task achievement. While a usual approach in the literature is to compute the control input that minimizes a task-related cost function by solving a quadratic programming (QP), relatively little research efforts have been paid to rigorously prove its robustness of these QP-based controllers against model uncertainty and disturbance. In this talk, we will show that with a slight modification of the controller structure, the QP-based control can be understood as a disturbance observer (DOB)-based control with an extra control command added for null-space stabilization. From this perspective, the stability analysis for the QP-based controller can be conducted in a similar way in the DOB-related works, especially by employing the singular perturbation theory.
+
+**Talk 5] Disturbance observer–based robust controller for magnetically actuated small-scale robots**
+– Speaker: Prof. Han-Sol Lee, Pukyong National University
+– Abstract: Magnetic actuation enables wireless control of small-scale robots, but actuator disturbances and modeling uncertainties degrade motion performance. We propose a disturbance observer-based robust controller for multiple-electromagnet actuators that estimates and compensates for disturbances in real time. Validated on a multi-coil platform, the controller improves robot motion performance over conventional methods and demonstrates the practical feasibility of DOB-based control for small-scale robotic systems.
+
+**Talk 6] Robust Locomotion Policy for Quadrupedal Robot using a Deep Disturbance Observer**
+– Speaker: Prof. Jung-Su Kim, SeoulTech
+– Abstract: The talk presents a novel control framework for a quadrupedal robot. The main components are a locomotion policy, a deep disturbance observer (DOB), and a deep state estimator. The core idea is to improve the robot’s locomotion robustness against uncertainties by using a deep DOB to estimate and compensate for disturbances.
+
+## Recent Progress in Mean-field Game Theory and Applications
+
+November 7(Fri), 09:00-10:30, Room 9
+
+**09:00-09:25] Cooperation, Competition, and Common Pool Resources in Mean Field Games**
+– Speaker: Prof. Mathieu Laurière (NYU-ECNU Institute of Mathematical Sciences, New York University at Shanghai)
+– Abstract: Mean field games (MFGs) have been introduced to study Nash equilibria in very large population of self-interested agents. However, when applied to common pool resource (CPR) games, MFG equilibria lead to the so-called tragedy of the commons (TOTC). Empirical studies have shown that in many situations, TOTC does not materialize which hints at the fact that standard MFG models cannot explain the behavior of agents in CPR games. In this work, we study two models which incorporate a mix of cooperative and non-cooperative behaviors, either at the individual level or the population level. After defining these models, we study optimality conditions in the form of forward-backward stochastic differential equations and we prove that the mean field models provide approximate equilibria controls for corresponding finite-agent games. We then show an application to a model of fish stock management, for which the solution can be computed by solving systems of ordinary differential equations, which we prove to have a unique solution. Numerical results illustrate the impact of the level of cooperation at the individual and the population levels on the CPR. Joint work with Gokce Dayanikli.
+
+**09:25-09:50] Risk-Sensitive Optimal Control and Games for Mean-Field Type Stochastic Systems**
+– Speaker: Prof. Jun Moon (Hanyang University, Korea)
+– Abstract: In this talk, we study risk-sensitive optimal control and games for mean-field type stochastic systems. The mean-field system includes the expectation value of state and control. The objective functional is exponential of a quadratic functional in state, control, and their expectations. We obtain the explicit optimal solution as well as the optimal cost. The corresponding optimal solution is linear in state and its expectation, which is characterized by the Riccati differential equations. The results are obtained by showing that after applying the completion of squares method, the remaining exponentiated stochastic integral and additional RDE terms can be eliminated together by taking expectation since they constitute the associated Radon-Nikodym derivative.
+
+**09:50-10:05] Dynamic Optimization Problems for Mean-Field Stochastic Large-Population Systems**
+– Speaker: Prof. Na Li (School of Mathematics, Dalian University of Technology, China)
+– Abstract: This work considers dynamic optimization problems for a class of control average mean- field stochastic large-population systems. For each agent, the state system is governed by a linear mean-field stochastic differential equation with individual noise and common noise, and the weight coefficients in the corresponding cost functional can be indefinite. The decentralized optimal strategies are characterized by stochastic Hamiltonian system, which turns out to be an algebra equation and a mean-field forward-backward stochastic differential equation. Applying the decoupling method, the feedback representation of decentralized optimal strategies is further obtained through two Riccati equations. The solvability of stochastic Hamiltonian system and Riccati equations under indefinite condition is also derived. The explicit structure of the control average limit and the related mean-field Nash certainty equivalence equation systems are discussed by some separation techniques. Moreover, the decentralized optimal strategies are proved to satisfy the approximate Nash equilibrium property. The good performance of the proposed theoretical results is illustrated by a practical example from the engineering field.
+
+**10:05-10:20] Dynamic Optimization Problems for Mean-Field Stochastic Large-Population Systems**
+– Speaker: Prof. Yuhu Wu (School of Control Sciences and Engineering, Dalian University of Technology, China)
+– Abstract: Cooperation is pivotal for social prosperity and survival, but frequently conflicts with rational strategy. Traditional exogenous approaches employ incentive mechanisms (reward, punishment, or their combination) to promote cooperation among rational players, but face prohibitive costs borne by a third-party institution. To address this cost dependency, a deduction-financed incentive is proposed where the deductions imposed on all players directly fund rewards for cooperators, thus eliminating reliance on external funding. Using the prisonerʼs dilemma, evolutionary game dynamics is formulated via the mean field approximation, where each player interacts with the strategy distribution of the population. A third-party institution commits a time-varying deduction, and players update strategies through pairwise comparison rule to respond the deduction. The strategy dynamics are governed by the Fokker-Planck equation, while the optimal incentive for the third-party institution is derived from the Hamilton-Jacobi-Bellman equation to minimize implementation loss.
+
+**10:20-10:30] Practical Case Studies for Application of Mean-field Game**
+– Speaker: Prof. Tielong Shen (School of Control Sciences and Engineering, Dalian University of Technology, China)
+– Abstract: Three practical application examples will be introduced in this short presentation. In the first example, a mean-field-based average speed prediction of traffic flow is used for optimization of energy consumption of a large-scale population of vehicles. The second example addresses the decentralized charging control problem for EVs, and the last example is motivated by decentralized decision problem for a large-scale of air conditioning system by applying Stackelberg Mean Field Game framework.
+
+**ICCAS 2025 (2025 25 th International Conference on Control, Automation and Systems)**
+ICROS (Institute of Control, Robotics and Systems)
+Suseo Hyundai-Ventureville 723, Bamgogae-ro 1-gil 10, Gangnam-gu, Seoul 06349, Korea
+
+**Contact (Secretariat)**
+Tel. +82-2-6949-5801 (ext.3) | Fax. +82-2-6949-5807 | E-mail: conference@icros.org
+ICCAS 2025, The 25th International Conference on Control, Automation and Systems © All rights reserved.

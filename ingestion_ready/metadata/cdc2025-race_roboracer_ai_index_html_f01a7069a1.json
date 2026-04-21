@@ -1,0 +1,15 @@
+{
+  "url": "https://cdc2025-race.roboracer.ai/index.html",
+  "source": "https://cdc2025-race.roboracer.ai/",
+  "title": "RoboRacer CDC 2025",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:55:53.988435+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cdc2025-race_roboracer_ai_index_html_f01a7069a1.json",
+  "markdown_file": "markdown/cdc2025-race_roboracer_ai_index_html_f01a7069a1.md",
+  "char_count": 4320,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cdc2025-race_roboracer_ai_index_html_f01a7069a1.md",
+  "fine_char_count": 2507,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

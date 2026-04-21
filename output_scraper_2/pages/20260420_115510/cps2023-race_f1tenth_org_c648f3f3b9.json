@@ -1,0 +1,42 @@
+{
+  "url": "https://cps2023-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# 12th F1TENTH Autonomous Grand Prix\n\nCyber-Physical Systems and Internet-of-Things Week (CPS-IoT) 2023  \nCalender May 8th - 9th 2023   \nLocation San Antonio, Texas USA\n\n  * Continue\n\n\n\n[F1TENTH CPS-IoT 2023](index.html)\n\n## 12th F1TENTH Autonomous Grand Prix\n\nF1TENTH Autonomous Racing is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in 12th F1TENTH Grand Prix at CPS-IoT 2023 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nAt CPS-IoT 2023 will host an In-person competition with physical cars. Each team will bring their own F1TENTH car and write the software for their car. The teams have access to a detailed build manual and can use open-source software that helps them to get started with the car. The organizers provide the race setup (rules, submissions, guidelines), the track, and related infrastructure and organize the race itself. \n\nA new twist for the CPS-IoT 2023 competition is that the track will feature branching paths with different traction properties - teams will have to empower their autonomous cars with the ability to choose between high-traction low-risk but longer paths vs. low-traction high-risk but shorter paths. \n\n[Register Here!](https://forms.gle/6sMqUZLcqFXUg2x77)\n\nFor the competitions, teams first take part in a qualification in order to determine seeding. Qualifying evaluation consists of two tasks. The same vehicle needs to be able to compete in a time trial on a track without any obstacles and finish the laps without collision on the same track with obstacles that are unknown prior to run time and can move during run time. a multi-car tournament seeded by the time trial leaderboard from Qualifying. The final tournament will consist of a sequence of races with multiple cars, where the best placing cars advance to subsequent rounds. The ordering of cars to races will be decided based on the qualifying lap times. \n\n[Orientation 1 Slides](https://docs.google.com/presentation/d/1pYDJuXBUWZAg79w1Fh-e_Y9XEZvGJdTlVhz2ZNg4qoQ/edit?usp=sharing) [![](images/CPS_IoT_2023_Logo.png)](https://cps-iot-week2023.cs.utsa.edu/)\n\n## Organizers:\n\n![](images/organizer/joydeep.jpeg)\n\n![](images/organizer/xuesu.jpeg)\n\n![](images/organizer/rahulmangharam.jpeg)\n\n**[Joydeep Biswas](https://www.joydeepb.com/)**\n\nAssistant Professor \n\nDepartment of Computer Science\n\nThe University of Texas at Austin\n\n**[Xuesu Xiao](https://cs.gmu.edu/~xiao/)**\n\nAssistant Professor\n\nDepartment of Computer Science\n\nGeorge Mason University\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\nAssociate Professor\n\nDepartment of Electrical and Systems Engineering\n\nUniversity of Pennsylvania\n\n![](images/organizer/arnav.jpeg)\n\n![](images/organizer/rahulmenon.jpeg)\n\n![](images/organizer/pranav.jpeg)\n\n![](images/organizer/shakeel.jpeg)\n\n**[Arnav Iyer](https://iyerarnav.io)**\n\nUndergraduate Student\n\nDepartment of Computer Science\n\nThe University of Texas at Austin\n\n**[Rahul Menon]()**\n\nUndergraduate Student\n\nDepartment of Computer Science\n\nThe University of Texas at Austin\n\n**[Pranav Atreya](https://pranavatreya.github.io)**\n\nUndergraduate Student\n\nDepartment of Computer Science\n\nThe University of Texas at Austin\n\n**[Shakeel Samsudeen](https://cs.utexas.edu/~shakeel)**\n\nUndergraduate Student\n\nDepartment of Computer Science\n\nThe University of Texas at Austin\n\n[Contact](mailto:contact@f1tenth.org)\n\n  * © 2023 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH CPS-IoT 2023",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cps2023-race.f1tenth.org/",
+    "https://cps2023-race.f1tenth.org/index.html",
+    "https://cps2023-race.f1tenth.org/timeline.html",
+    "https://cps2023-race.f1tenth.org/race_ressources.html",
+    "https://cps2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://cps2023-race.f1tenth.org/registration.html",
+    "https://cps2023-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://forms.gle/6sMqUZLcqFXUg2x77",
+    "https://docs.google.com/presentation/d/1pYDJuXBUWZAg79w1Fh-e_Y9XEZvGJdTlVhz2ZNg4qoQ/edit?usp=sharing",
+    "https://cps-iot-week2023.cs.utsa.edu/",
+    "https://www.joydeepb.com/",
+    "https://cs.gmu.edu/~xiao",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://iyerarnav.io/",
+    "https://pranavatreya.github.io/",
+    "https://cs.utexas.edu/~shakeel",
+    "https://html5up.net/",
+    "https://cps2023-race.f1tenth.org/assets/css/main.css",
+    "https://cps2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:21.783240+00:00"
+}

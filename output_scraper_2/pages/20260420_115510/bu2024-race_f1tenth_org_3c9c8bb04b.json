@@ -1,0 +1,39 @@
+{
+  "url": "https://bu2024-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# BU F1TENTH AUTONOMOUS GRAND Prix\n\n2024 BU Grand Prix  \nCalender November 22nd, 2024   \nLocation Boston University, Boston, USA \n\n  * Continue\n\n\n\n[F1TENTH BU 2024](index.html)\n\n## BU F1TENTH AUTONOMOUS GRAND Prix\n\nF1TENTH Autonomous Racing is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The BU F1TENTH Grand Prix is organized by faculties and students at Boston University. It is part of the [**Learning to Trust Autonomy Workshop**](https://sites.bu.edu/learningautonomy/). Participating teams of the BU F1TENTH Grand Prix will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nBoston University (BU) will host an **in-person** competition with physical cars in the form of the BU F1tenth Autonomous Grand Prix. Each team will bring their own F1TENTH car and write the software for their car. The teams have access to a detailed build manual and can use open-source software that helps them get started with the car. The organizers provide the race setup (rules, submissions, guidelines), the track, and related infrastructure and organize the race itself. For the competition, teams first take part in a qualification session in order to determine seeding. In the qualification session, teams compete in a time trial where they need to demonstrate that they are able to finish laps without colliding with the track bounds at run time. Afterwards, teams compete in a knockout phase in head-to-head racing in an intense battle with their autonomous driving algorithms. Since vehicles and hardware are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track and new competitors. The Grand Prix phase pits competitors against each other on the same track. \n\n[![](images/ITSC_BLACK.png)](https://ieee-itsc.org/2024/)\n\n## Organizers:\n\n![](images/organizer/roberto_tron.png)\n\n![](images/organizer/wenchao_li.png)\n\n![](images/organizer/renato_mancuso.jpg)\n\n![](images/organizer/rahul.jpeg)\n\n![](images/organizer/Ahmad.jpg)\n\n**[Roberto Tron](https://www.bu.edu/eng/profile/roberto-tron/)**\n\n###### Robotics and Autonomous Systems Director; Associate Professor\n\n###### Department of Mechanical Engineering\n\n###### Boston University\n\n**[Wenchao Li](https://www.bu.edu/eng/profile/wenchao-li-ph-d/)**\n\n###### Associate Professor\n\n###### Department of Electrical and Computer Engineering\n\n###### Boston University\n\n**[Renato Mancuso](https://www.bu.edu/cs/profiles/renato-mancuso/)**\n\n###### Associate Professor\n\n###### Computer Science Department\n\n###### Boston University\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\n###### Associate Professor\n\n###### Department of Electrical and Systems Engineering\n\n###### University of Pennsylvania\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH BU 2024",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://bu2024-race.f1tenth.org/",
+    "https://bu2024-race.f1tenth.org/index.html",
+    "https://bu2024-race.f1tenth.org/timeline.html",
+    "https://bu2024-race.f1tenth.org/race_ressources.html",
+    "https://bu2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://bu2024-race.f1tenth.org/registration.html",
+    "https://bu2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://sites.bu.edu/learningautonomy",
+    "https://ieee-itsc.org/2024",
+    "https://www.bu.edu/eng/profile/roberto-tron",
+    "https://www.bu.edu/eng/profile/wenchao-li-ph-d",
+    "https://www.bu.edu/cs/profiles/renato-mancuso",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://html5up.net/",
+    "https://bu2024-race.f1tenth.org/assets/css/main.css",
+    "https://bu2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:19.117106+00:00"
+}

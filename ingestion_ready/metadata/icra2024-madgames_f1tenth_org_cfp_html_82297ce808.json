@@ -1,0 +1,15 @@
+{
+  "url": "https://icra2024-madgames.f1tenth.org/cfp.html",
+  "source": "https://icra2024-madgames.f1tenth.org/",
+  "title": "MADGames-ICRA 2024 | Call for Paper",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:02.009986+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/icra2024-madgames_f1tenth_org_cfp_html_82297ce808.json",
+  "markdown_file": "markdown/icra2024-madgames_f1tenth_org_cfp_html_82297ce808.md",
+  "char_count": 2023,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/icra2024-madgames_f1tenth_org_cfp_html_82297ce808.md",
+  "fine_char_count": 1983,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

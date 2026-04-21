@@ -1,0 +1,15 @@
+{
+  "url": "https://icra2024-madgames.f1tenth.org/speakers.html",
+  "source": "https://icra2024-madgames.f1tenth.org/",
+  "title": "MADGames-ICRA 2024 | Speakers",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:01.949173+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/icra2024-madgames_f1tenth_org_speakers_html_bc0bcc08ef.json",
+  "markdown_file": "markdown/icra2024-madgames_f1tenth_org_speakers_html_bc0bcc08ef.md",
+  "char_count": 1602,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/icra2024-madgames_f1tenth_org_speakers_html_bc0bcc08ef.md",
+  "fine_char_count": 1457,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

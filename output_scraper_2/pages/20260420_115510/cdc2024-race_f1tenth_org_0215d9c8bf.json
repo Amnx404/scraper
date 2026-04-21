@@ -1,0 +1,38 @@
+{
+  "url": "https://cdc2024-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# 22ND F1TENTH AUTONOMOUS GRAND Prix\n\n2024 IEEE Conference on Decision and Control(CDC 2024)  \nCalender December 16th - 19th 2024   \nLocation Allianz MiCo, Milan Convention Centre, Italy \n\n  * Continue\n\n\n\n[F1TENTH CDC 2024](index.html)\n\n## 22ND F1TENTH AUTONOMOUS GRAND Prix\n\nF1TENTH Autonomous Racing is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in 22nd F1TENTH Grand Prix at CDC 2024 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nCDC 2024 will host an in-person competition in the form of the 22nd F1tenth Autonomous Grand Prix as well as a virtual benchmark competition in the form of the 2nd F1tenth Sim Racing League. The main focus of the 22nd F1TENTH Autonomous Grand Prix is an in-person competition with physical cars. Each team will bring their own F1TENTH car and write the software for their car. The teams have access to a detailed build manual and can use open-source software that helps them get started with the car. The organizers provide the race setup (rules, submissions, guidelines), the track, and related infrastructure and organize the race itself. For the competition, teams first take part in a qualification session in order to determine seeding. In the qualification session, teams compete in a time trial where they need to demonstrate that they are able to finish laps without colliding with the track bounds at run time. Afterwards, teams compete in a knockout phase in head-to-head racing in an intense battle with their autonomous driving algorithms. Since vehicles and hardware are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track and new competitors. The Grand Prix phase pits competitors against each other on the same track. \n\nThe 2nd F1TENTH Sim Racing League is a virtual benchmark competition where teams can participate remotely. The teams will be provided with a simulator environment and a standardized car model. The teams will have to write software for their car to fulfill the objectives for the competition: Don't crash and minimize laptime. The teams will submit their software to the organizers, who will run the software on the simulator and evaluate the performance of the software. The teams will be ranked based on their performance in the simulator. The Sim Racing League is a great opportunity for teams to participate in the competition without the need to build a physical car and travel to the competition. For more information on the 2nd F1TENTH Sim Racing League, please visit the [2nd Sim Racing League website](https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-cdc-2024/). \n\n[![](images/CDC2024.png)](https://cdc2024.ieeecss.org/)\n\n## Organizers:\n\n![](images/organizer/rahul.jpeg)\n\n![](images/organizer/venkat.jpeg)\n\n![](images/organizer/JoeBetz.jpg)\n\n![](images/organizer/Paolo.png)\n\n![](images/organizer/Maria.jpg)\n\n![](images/organizer/Martina.jpeg)\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\n###### Associate Professor\n\n###### Department of Electrical and Systems Engineering\n\n###### University of Pennsylvania\n\n**[Venkat Krovi](https://www.clemson.edu/cecas/departments/automotive-engineering/people/Venkat%20Krovi.html)**\n\n###### Michelin Chair Professor\n\n###### Department of Automotive Engineering\n\n###### Clemson University\n\n**[Johannes Betz](mailto:johannes.betz@tum.de)**\n\n###### Assistant Professor\n\n###### Department of Mobility Systems Engineering\n\n###### Technical University of Munich\n\n**[Paolo Burgio](mailto:paolo.burgio@unimore.it)**\n\n###### Research Fellow\n\n###### HiPeRT Lab\n\n###### Università di Modena and Reggio Emillia\n\n**[Maria Prandini](mailto:maria.prandini@polimi.it)**\n\n###### Full Professor, Chair of the Automation and Control Engineering Program\n\n###### Dipartimento di Elettronica Informazione e Bioingegneria\n\n###### Politecnico di Milano\n\n**[Martina Maggio](mailto:maggio@cs.uni-saarland.de)**\n\n###### Professor\n\n###### Department of Computer Science\n\n###### Saarland University\n\n![](images/organizer/Ahmad.jpg)\n\n![](images/organizer/ALESSIO.png)\n\n![](images/organizer/Filippo.png)\n\n![](images/organizer/Federico.png)\n\n![](images/organizer/Francesco.png)\n\n![](images/organizer/Enrico.jpeg)\n\n**[Ahmad Amine](https://ahmadamine998.github.io/)**\n\n###### Ph.D. Candidate\n\n###### Department of Electrical and Systems Engineering\n\n###### University of Pennsylvania\n\n**[Alessio Masola](mailto:alessio.masola@unimore.it)**\n\n###### Postdoctoral Researcher\n\n###### HiPeRT Lab\n\n###### Università di Modena and Reggio Emillia\n\n**[Filippo Muzzini](mailto:filippo.muzzini@unimore.it)**\n\n###### Postdoctoral Researcher\n\n###### HiPeRT Lab\n\n###### Università di Modena and Reggio Emillia\n\n**[Federico Gavioli](mailto:federico.gavioli@unimore.it)**\n\n###### Ph.D. Candidate\n\n###### HiPeRT Lab\n\n###### Università di Modena and Reggio Emillia\n\n**[Francesco Moretti](mailto:francesco.moretti31@unibo.it)**\n\n###### Ph.D. Candidate\n\n###### HiPeRT Lab\n\n###### Università di Modena and Reggio Emillia\n\n**[Enrico Mannocci](mailto:enrico.mannocci3@unibo.it)**\n\n###### Ph.D. Candidate\n\n###### Università di Bologna\n\n![](images/organizer/Chinmay_Samak.jpg)\n\n![](images/organizer/Tanmay_Samak.jpg)\n\n**[Chinmay Samak](mailto:csamak@clemson.edu)**\n\n###### Ph.D. Candidate\n\n###### Department of Automotive Engineering\n\n###### Clemson University - ICAR\n\n**[Tanmay Samak](mailto:tsamak@clemson.edu)**\n\n###### Ph.D. Candidate\n\n###### Department of Automotive Engineering\n\n###### Clemson University - ICAR\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH CDC 2024",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://cdc2024-race.f1tenth.org/",
+    "https://cdc2024-race.f1tenth.org/index.html",
+    "https://cdc2024-race.f1tenth.org/timeline.html",
+    "https://cdc2024-race.f1tenth.org/race_ressources.html",
+    "https://cdc2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://cdc2024-race.f1tenth.org/registration.html",
+    "https://cdc2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://autodrive-ecosystem.github.io/competitions/f1tenth-sim-racing-cdc-2024",
+    "https://cdc2024.ieeecss.org/",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://www.clemson.edu/cecas/departments/automotive-engineering/people/Venkat%20Krovi.html",
+    "https://ahmadamine998.github.io/",
+    "https://html5up.net/",
+    "https://cdc2024-race.f1tenth.org/assets/css/main.css",
+    "https://cdc2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:19.085891+00:00"
+}

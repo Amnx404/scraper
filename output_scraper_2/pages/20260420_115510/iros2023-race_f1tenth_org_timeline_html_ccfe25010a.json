@@ -1,0 +1,37 @@
+{
+  "url": "https://iros2023-race.f1tenth.org/timeline.html",
+  "source": "https://iros2023-race.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Timeline](index.html)\n\n## Timeline 14th F1TENTH Autonomous Grand Prix\n\n##### Timeline is subject to change. Please follow announcements in our slack channel for the latest updates.\n\nDATE | IN-PERSON COMPETITION  \n---|---  \nJune 14th |  [Registration Opens](https://forms.gle/1o5BYoRSWh1MtbSy5)  \nAug 18th   \n10 am EDT | Orientation 1 (Online Meeting)   \n[Meeting Recording ](https://drive.google.com/file/d/10EVy9yqg2SSA-zs2HKXWD88WU-HgUl5w/view?usp=sharing)   \nDemonstrate expectations, prospective participants can ask questions  \n[Meeting Slides](https://docs.google.com/presentation/d/10jcAWR64iQhtSIJIH2qQv4T0rDpPqSHLgNWOFFO9zb4/edit?usp=sharing)  \nSep 8th   \n10 m EDT | Orientation 2 (Online Meeting)   \n[Meeting Recording ](https://drive.google.com/file/d/1934BNM2QItRUvgmMxXkavVzCzuAniONi/view?usp=drive_link)   \nCompetition Rules overview, Track overview for in-person competition  \n[Meeting Slides](https://docs.google.com/presentation/d/10jcAWR64iQhtSIJIH2qQv4T0rDpPqSHLgNWOFFO9zb4/edit?usp=sharing)  \nSep 22nd | Registration closes  \nVideo Submission: Demonstrate Driving with F1TENTH car  \nOct 1st | Track Setup  \nOct 2nd | Teams Training  \nAll Teams can use the racetrack the whole day  \nOct 3rd |  Qualification Session  \nOct 4th | Race day  \nAward Ceremony  \n  \n  * © 2021 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "F1TENTH IROS 2023 | Timeline",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iros2023-race.f1tenth.org/index.html",
+    "https://iros2023-race.f1tenth.org/timeline.html",
+    "https://iros2023-race.f1tenth.org/race_ressources.html",
+    "https://iros2023-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iros2023-race.f1tenth.org/registration.html",
+    "https://iros2023-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://forms.gle/1o5BYoRSWh1MtbSy5",
+    "https://drive.google.com/file/d/10EVy9yqg2SSA-zs2HKXWD88WU-HgUl5w/view?usp=sharing",
+    "https://docs.google.com/presentation/d/10jcAWR64iQhtSIJIH2qQv4T0rDpPqSHLgNWOFFO9zb4/edit?usp=sharing",
+    "https://drive.google.com/file/d/1934BNM2QItRUvgmMxXkavVzCzuAniONi/view?usp=drive_link",
+    "https://html5up.net/",
+    "https://iros2023-race.f1tenth.org/assets/css/main.css",
+    "https://iros2023-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:03.059149+00:00"
+}

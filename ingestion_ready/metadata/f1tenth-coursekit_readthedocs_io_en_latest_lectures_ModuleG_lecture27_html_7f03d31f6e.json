@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleG/lecture27.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Just a moment...",
+  "description": null,
+  "language": "en-US",
+  "scraped_at": "2026-04-20T15:55:49.044999+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleG_lecture27_html_7f03d31f6e.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleG_lecture27_html_7f03d31f6e.md",
+  "char_count": 527,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_lectures_ModuleG_lecture27_html_7f03d31f6e.md",
+  "fine_char_count": 409,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

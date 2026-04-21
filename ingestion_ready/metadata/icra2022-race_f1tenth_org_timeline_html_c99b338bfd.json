@@ -1,0 +1,15 @@
+{
+  "url": "https://icra2022-race.f1tenth.org/timeline.html",
+  "source": "https://icra2022-race.f1tenth.org/",
+  "title": "F1TENTH ICRA 2022 | Timeline",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:18.739514+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/icra2022-race_f1tenth_org_timeline_html_c99b338bfd.json",
+  "markdown_file": "markdown/icra2022-race_f1tenth_org_timeline_html_c99b338bfd.md",
+  "char_count": 1281,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/icra2022-race_f1tenth_org_timeline_html_c99b338bfd.md",
+  "fine_char_count": 1241,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

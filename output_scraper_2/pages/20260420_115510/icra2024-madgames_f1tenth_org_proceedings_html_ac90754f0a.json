@@ -1,0 +1,29 @@
+{
+  "url": "https://icra2024-madgames.f1tenth.org/proceedings.html",
+  "source": "https://icra2024-madgames.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Accepted Papers](index.html)\n\nTitle | Authors  \n---|---  \n[Multi-Agent Transfer Learning via Temporal Contrastive Learning](papers/zeng.pdf) | Weihao Zeng, Joseph Campbell, Simon Stepputtis, Katia Sycara  \n[RallySim : Simulated Environment with Continuous Control for Turn-based Multi-agent Reinforcement Learning](papers/yoshikawa.pdf) | Shun Yoshikawa, Yusuke Mukuta, Takayuki Osa, Tatsuya Harada  \n[ROS2MLAgents: A Framework for Enabling Seamless Transfer of Multi-Robot Decision-Making from Simulation to Reality](papers/rogers.pdf) | John Rogers, Sriram Siva, and Maggie Wigness  \nJerk-minimized Autonomous Driving Strategy with Deep Reinforcement Learning | Jaehwi Lee, Chanin Eom, Dongsu Lee, Minhae Kwon",
+  "metadata": {
+    "title": "MADGames-ICRA 2024 | Accepted Papers",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://icra2024-madgames.f1tenth.org/index.html",
+    "https://icra2024-madgames.f1tenth.org/speakers.html",
+    "https://icra2024-madgames.f1tenth.org/program.html",
+    "https://icra2024-madgames.f1tenth.org/cfp.html",
+    "https://icra2024-madgames.f1tenth.org/proceedings.html",
+    "https://icra2024-madgames.f1tenth.org/papers/zeng.pdf",
+    "https://icra2024-madgames.f1tenth.org/papers/yoshikawa.pdf",
+    "https://icra2024-madgames.f1tenth.org/papers/rogers.pdf",
+    "https://icra2024-madgames.f1tenth.org/assets/css/main.css",
+    "https://icra2024-madgames.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:02.404204+00:00"
+}

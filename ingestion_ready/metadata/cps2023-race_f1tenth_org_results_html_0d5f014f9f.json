@@ -1,0 +1,15 @@
+{
+  "url": "https://cps2023-race.f1tenth.org/results.html",
+  "source": "https://cps2023-race.f1tenth.org/",
+  "title": "F1TENTH ICRA 2022| Results",
+  "description": null,
+  "language": null,
+  "scraped_at": "2026-04-20T15:56:19.709091+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/cps2023-race_f1tenth_org_results_html_0d5f014f9f.json",
+  "markdown_file": "markdown/cps2023-race_f1tenth_org_results_html_0d5f014f9f.md",
+  "char_count": 122,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/cps2023-race_f1tenth_org_results_html_0d5f014f9f.md",
+  "fine_char_count": 92,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/races/race1.html",
+  "source": "https://f1tenth-coursekit.readthedocs.io/en/latest",
+  "title": "Race 1 — RoboRacer - Learn latest documentation",
+  "description": null,
+  "language": "en",
+  "scraped_at": "2026-04-20T15:55:51.280884+00:00",
+  "source_json": "/Users/amnx/Documents/code/scraper/output_scraper_2/pages/20260420_115510/f1tenth-coursekit_readthedocs_io_en_latest_assignments_races_race1_html_ee16fa559b.json",
+  "markdown_file": "markdown/f1tenth-coursekit_readthedocs_io_en_latest_assignments_races_race1_html_ee16fa559b.md",
+  "char_count": 1018,
+  "warnings": [],
+  "fine_markdown_file": "fine_markdown/f1tenth-coursekit_readthedocs_io_en_latest_assignments_races_race1_html_ee16fa559b.md",
+  "fine_char_count": 735,
+  "finetune_model": "google/gemini-2.5-flash-lite"
+}

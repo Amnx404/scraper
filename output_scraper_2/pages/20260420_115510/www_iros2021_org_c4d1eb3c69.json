@@ -1,0 +1,9 @@
+{
+  "url": "https://www.iros2021.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "retries": 2,
+  "error": "HTTPSConnectionPool(host='www.iros2021.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.iros2021.org'. (_ssl.c:1028)\")))",
+  "scraped_at": "2026-04-20T15:57:15.102392+00:00"
+}

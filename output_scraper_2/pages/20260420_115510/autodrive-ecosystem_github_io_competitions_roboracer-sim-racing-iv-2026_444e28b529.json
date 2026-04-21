@@ -1,0 +1,43 @@
+{
+  "url": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iv-2026",
+  "source": "https://iv2026-race.roboracer.ai/registration.html",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# 404 - Not found\n\nBack to top",
+  "metadata": {
+    "title": "AutoDRIVE Ecosystem",
+    "description": "AutoDRIVE is envisioned to be an open, comprehensive, flexible, and integrated digital twin ecosystem for enhancing autonomous driving research and education.",
+    "og_title": null,
+    "og_image": null,
+    "language": "en",
+    "status_code": 404,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-icra-2026",
+    "https://forms.gle/RBcH2k4LU49FiGth7",
+    "https://autodrive-ecosystem.github.io/",
+    "https://github.com/Tinker-Twins/AutoDRIVE",
+    "https://autodrive-ecosystem.github.io/about",
+    "https://autodrive-ecosystem.github.io/research",
+    "https://autodrive-ecosystem.github.io/education",
+    "https://autodrive-ecosystem.github.io/competitions",
+    "https://tinker-twins.github.io/",
+    "https://doi.org/10.3390/robotics12030077",
+    "https://github.com/autodrive-ecosystem",
+    "https://hub.docker.com/u/autodriveecosystem",
+    "https://www.youtube.com/%40autodrive-ecosystem",
+    "https://join.slack.com/t/autodrive-ecosystem/shared_invite/zt-2oeg2hce8-0JvasvnBM1M_wUdDTWRuKw",
+    "https://www.linkedin.com/company/autodrive-ecosystem",
+    "https://x.com/autodrive_ai",
+    "https://www.facebook.com/autodriveecosystem",
+    "https://www.instagram.com/autodrive_ai",
+    "https://autodrive-ecosystem.github.io/assets/favicon.png",
+    "https://autodrive-ecosystem.github.io/assets/stylesheets/main.76a95c52.min.css",
+    "https://autodrive-ecosystem.github.io/assets/stylesheets/palette.06af60db.min.css",
+    "https://fonts.gstatic.com/",
+    "https://fonts.googleapis.com/css?display=fallback&family=Roboto%3A300%2C300i%2C400%2C400i%2C700%2C700i%7CRoboto+Mono%3A400%2C400i%2C700%2C700i",
+    "https://autodrive-ecosystem.github.io/assets/stylesheets/extra.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:30.963332+00:00"
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://korea-race23.f1tenth.org/results.html",
+  "source": "https://korea-race23.f1tenth.org/",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "[Result](../index.html)\n\n## Result\n\n### Podium Ceremony\n\nRanking | Award | Team | Prize  \n---|---|---|---  \nGrand Pize | KATECH | HMcar | 5,000,000 KRW  \n1st Place Prize | UNIST Future Mobility Center | Paragon | 3,000,000 KRW  \n2nd Place Prize | ICCAS | DSplay | 1,000,000 KRW  \n3rd Place Prize | KEMCTI | QueenCar | 1,000,000 KRW  \n4th | Sonnet | Move | F1Tenth autonomous vehicle   \n(Worth 4,000,000 KRW)  \n5th | GM | DDRX | GM Goods  \n  \n### Time Trial\n\n  \n\n\n[Mapping Schedule, Qualification](https://docs.google.com/spreadsheets/d/1eQpSkZx9a3RhTlKw-gK5Nj0ywJBRo5ARTXl-dxON8jY/edit?usp=sharing)\n\n  \n\n\n### Tournament Bracket\n\n  \n\n\n[Tournament](https://challonge.com/ko/odah4c7x)\n\n  \n\n\n  * © 2022 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "The 2nd F1Tenth Korea Championship | Result",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://korea-race23.f1tenth.org/index.html",
+    "https://korea-race23.f1tenth.org/timeline.html",
+    "https://korea-race23.f1tenth.org/race_resources.html",
+    "https://korea-race23.f1tenth.org/getting_started.html",
+    "https://korea-race23.f1tenth.org/registration.html",
+    "https://korea-race23.f1tenth.org/results.html",
+    "https://korea-race23.f1tenth.org/bootcamp.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth.discourse.group/t/iros-2021-f1tenth-competition/36",
+    "https://join.slack.com/t/f1tenthxkorea/shared_invite/zt-1ibqf5yjq-CkG_z1XRhsZgBsCoSy7JiA",
+    "https://github.com/f1tenth",
+    "https://korea-race23.f1tenth.org/ko/results.html",
+    "https://docs.google.com/spreadsheets/d/1eQpSkZx9a3RhTlKw-gK5Nj0ywJBRo5ARTXl-dxON8jY/edit?usp=sharing",
+    "https://challonge.com/ko/odah4c7x",
+    "https://html5up.net/",
+    "https://korea-race23.f1tenth.org/assets/css/main.css",
+    "https://korea-race23.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:56:04.231000+00:00"
+}

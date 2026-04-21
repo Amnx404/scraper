@@ -1,0 +1,37 @@
+{
+  "url": "https://iv2024-race.f1tenth.org/",
+  "source": "https://roboracer.ai/race",
+  "engine": "selenium",
+  "engine_label": "Selenium headless Chrome (requests first, then browser if thin/error)",
+  "markdown": "# 18TH RoboRacer Autonomous Racing Competition\n\n2024 IEEE Intelligent Vehicles Symposium(IV 2024)  \nCalender June 3rd - 5th 2024   \nLocation Jeju Shinhwa World, Jeju Island, Korea \n\n  * Continue\n\n\n\n[RoboRacer Autonomous Racing Competition IV 2024](index.html)\n\n## 18TH RoboRacer Autonomous Racing Competition\n\nRoboRacer Autonomous Racing Competition is a semi-regular competition organized by an international community of researchers, engineers, and autonomous systems enthusiasts. The teams participating in 18th RoboRacer Autonomous Racing Competition at IV 2024 will build a 1:10 scaled autonomous race car according to a given specification and write software for it to fulfill the objectives for the competition: Don’t crash and minimize laptime.\n\n![](images/F1TENTH/f1tenth_video.gif)\n\nIV 2024 will host an In-person competition: The main focus of the 18th RoboRacer Autonomous Racing Competition is an in-person competition with physical cars. Each team will bring their own RoboRacer vehicle and write the software for their car. The teams have access to a detailed build manual and can use open-source software that helps them get started with the car. The organizers provide the race setup (rules, submissions, guidelines), the track, and related infrastructure and organize the race itself. For the competition, teams first take part in a qualification session in order to determine seeding. In the qualification session, teams compete in a time trial where they need to demonstrate that they are able to finish laps without colliding with the track bounds at run time. Afterwards, teams compete in a knockout phase in head-to-head racing in an intense battle with their autonomous driving algorithms. Since vehicles and hardware are standardized, teams must develop robust perception, planning, and control algorithms that can deal with the uncertainties of a new track and new competitors. The RoboRacer Autonomous Racing Competition phase pits competitors against each other on the same track. \n\n[![](images/IEEE_IV_2024_logo_30p_0926.png)](https://ieee-iv.org/2024/)\n\n## Organizers:\n\n![](images/organizer/rahul.jpeg)\n\n![](images/organizer/joebetz.jpeg)\n\n![](images/organizer/Ahmad.jpg)\n\n![](images/organizer/Joongheon_kim.jpeg)\n\n![](images/organizer/Hyungchai_Park.jpg)\n\n![](images/organizer/DongSung_Pae.jpg)\n\n**[Rahul Mangharam](https://www.seas.upenn.edu/~rahulm/)**\n\n###### Associate Professor\n\n###### Department of Electrical and Systems Engineering\n\n###### University of Pennsylvania\n\n**[Johannes Betz](https://joebetz.science/)**\n\n###### Assistant Professor\n\n###### Department of Mobility Systems Engineering\n\n###### Technical University of Munich\n\n**[Ahmad Amine](https://ahmadamine998.github.io/)**\n\n###### Ph.D. Candidate\n\n###### Department of Electrical and Systems Engineering\n\n###### University of Pennsylvania\n\n**Joongheon Kim**\n\n###### Associate Professor\n\n###### Local Arrangement and Competition Chair\n\n###### Korea University, Korea\n\n**Hyungchai Park**\n\n###### Research Director of Mobility\n\n###### Local Arrangement and Competition Co-Chair\n\n###### Stanford Center at the Incheon Global Campus, Korea\n\n**DongSung Pae**\n\n###### Assistant Professor\n\n###### Local Arrangement and Competition Co-Chair\n\n###### Sangmyung University, Korea\n\n[Contact](mailto:iv2024jeju@gmail.com)\n\n  * © 2024 F1TENTH Foundation All rights reserved\n  * Design: [HTML5 UP](https://html5up.net)",
+  "metadata": {
+    "title": "RoboRacer Autonomous Racing Competition IV 2024",
+    "description": null,
+    "og_title": null,
+    "og_image": null,
+    "language": null,
+    "status_code": 200,
+    "content_type": "text/html; charset=utf-8"
+  },
+  "links": [
+    "https://iv2024-race.f1tenth.org/",
+    "https://iv2024-race.f1tenth.org/index.html",
+    "https://iv2024-race.f1tenth.org/timeline.html",
+    "https://iv2024-race.f1tenth.org/race_ressources.html",
+    "https://iv2024-race.f1tenth.org/f1tenth_ressources.html",
+    "https://iv2024-race.f1tenth.org/registration.html",
+    "https://iv2024-race.f1tenth.org/results.html",
+    "https://twitter.com/f1tenth",
+    "https://f1tenth.org/",
+    "https://f1tenth-teams.slack.com/join/shared_invite/enQtMzc3ODU2ODM1NzE3LTBjMmVkMzZjZTJiNWUzZDFhZTJiODgzMjg0MTA1MDAxZTUxMzkwMDRhNTM2NzdjNDc5MTk5YTc5YmNhNTdhMTU",
+    "https://github.com/f1tenth",
+    "https://ieee-iv.org/2024",
+    "https://www.seas.upenn.edu/~rahulm",
+    "https://joebetz.science/",
+    "https://ahmadamine998.github.io/",
+    "https://html5up.net/",
+    "https://iv2024-race.f1tenth.org/assets/css/main.css",
+    "https://iv2024-race.f1tenth.org/assets/css/noscript.css"
+  ],
+  "scraped_at": "2026-04-20T15:55:20.078830+00:00"
+}
