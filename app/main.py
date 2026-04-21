@@ -8,6 +8,7 @@ from pathlib import Path
 from fastapi import FastAPI, HTTPException
 
 from app.models import ApiStatus, PrepareRequest, ScrapeRequest, UploadRequest
+from app.pinecone_utils import compute_next_live_namespace
 from app.run_manager import (
     RUNS_ROOT,
     ensure_run_dirs,
@@ -239,6 +240,16 @@ def upload(req: UploadRequest) -> ApiStatus:
         raise HTTPException(status_code=400, detail="manifest.jsonl missing in ingestion_dir; run /prepare first.")
 
     staging_ns = pinecone_staging_namespace(req.live_prefix, req.staging_namespace)
+
+    # Compute next live namespace id (full name) up-front for API response.
+    # Uses Pinecone env vars (same ones required by upsert_pinecone.py).
+    api_key = (os.environ.get("PINECONE_API_KEY") or "").strip()
+    index_host = (os.environ.get("PINECONE_INDEX_HOST") or "").strip()
+    if not api_key:
+        raise HTTPException(status_code=400, detail="Missing PINECONE_API_KEY in environment (required for upload).")
+    if not index_host:
+        raise HTTPException(status_code=400, detail="Missing PINECONE_INDEX_HOST in environment (required for upload).")
+    live_info = compute_next_live_namespace(api_key=api_key, index_host=index_host, live_prefix=req.live_prefix.strip())
     update_state(
         p,
         {
@@ -248,6 +259,8 @@ def upload(req: UploadRequest) -> ApiStatus:
                 "ingestion_dir": str(ingestion_dir),
                 "live_prefix": req.live_prefix.strip(),
                 "staging_namespace": staging_ns,
+                "previous_live_namespace": live_info.previous_live_namespace,
+                "live_namespace": live_info.live_namespace,
             }
         },
     )
@@ -302,6 +315,8 @@ def upload(req: UploadRequest) -> ApiStatus:
                 "ingestion_dir": str(ingestion_dir),
                 "live_prefix": req.live_prefix.strip(),
                 "staging_namespace": staging_ns,
+                "previous_live_namespace": live_info.previous_live_namespace,
+                "live_namespace": live_info.live_namespace,
             }
         },
     )
@@ -318,6 +333,8 @@ def upload(req: UploadRequest) -> ApiStatus:
             "ingestion_dir": str(ingestion_dir),
             "live_prefix": req.live_prefix.strip(),
             "staging_namespace": staging_ns,
+            "previous_live_namespace": live_info.previous_live_namespace,
+            "live_namespace": live_info.live_namespace,
         },
         logs={"stdout": str(p.upload_log_path), "stderr": str(p.upload_err_path)},
     )

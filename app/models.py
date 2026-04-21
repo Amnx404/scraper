@@ -70,6 +70,11 @@ class PrepareRequest(BaseModel):
     finetune_concurrency: int = 4
     finetune_max_input_chars: int = 120_000
 
+    # Optional: compute the next Pinecone live namespace id during prepare.
+    # This does not upload anything; it only inspects existing namespaces.
+    live_prefix: str | None = None
+    staging_namespace: str | None = None
+
     # Single vendor key for LLM calls (prepare_ingestion uses OpenRouter-compatible API).
     # If omitted, OPENROUTER_API_KEY from the environment must be set when finetune is true.
     openrouter_api_key: str | None = None
