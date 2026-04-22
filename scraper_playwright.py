@@ -316,7 +316,22 @@ def scrape_page_playwright(
     render_wait_ms: int,
 ) -> dict:
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
+        # Container/headless Linux hardening:
+        # - --no-sandbox is commonly required on PaaS/container runtimes
+        # - --disable-dev-shm-usage avoids small /dev/shm crashes
+        # - --disable-gpu is harmless and avoids some driver issues
+        # - --single-process can improve reliability in constrained envs (optional but helpful)
+        browser = p.chromium.launch(
+            headless=True,
+            args=[
+                "--no-sandbox",
+                "--disable-setuid-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-gpu",
+                "--no-zygote",
+                "--single-process",
+            ],
+        )
         context = browser.new_context(
             user_agent=user_agent,
             viewport={"width": 1920, "height": 1080},
