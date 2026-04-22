@@ -10,17 +10,22 @@ buildCommand = "pip install -r requirements.txt && python -m playwright install 
 # (Install list is intentionally a bit broad to avoid runtime missing-lib crashes.)
 nixpacksPlan.providers = ["python"]
 nixpacksPlan.phases.setup.aptPkgs = [
+  "libglib2.0-0",
   "libnss3",
   "libatk-bridge2.0-0",
   "libatk1.0-0",
   "libdrm2",
   "libgbm1",
   "libasound2",
+  "libx11-6",
+  "libxext6",
   "libxkbcommon0",
   "libxcomposite1",
   "libxdamage1",
   "libxrandr2",
   "libxshmfence1",
+  "libpango-1.0-0",
+  "libcairo2",
   "libgtk-3-0",
   "ca-certificates",
   "fonts-liberation",

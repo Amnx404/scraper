@@ -704,6 +704,11 @@ def main() -> None:
 
     success_count = sum(1 for item in crawled.values() if item["status"] == "ok")
     print(f"Done. {success_count} pages scraped ({len(crawled)} URLs visited, {len(to_crawl)} still queued).")
+    # Treat "all failed" as a failing run for automation (e.g. streaming API / Railway health).
+    if success_count == 0 and crawled:
+        any_error = any(item.get("status") == "error" for item in crawled.values() if isinstance(item, dict))
+        if any_error:
+            raise SystemExit(2)
 
 
 if __name__ == "__main__":
