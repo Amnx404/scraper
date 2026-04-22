@@ -4,10 +4,12 @@ import json
 import os
 import re
 import sys
+import asyncio
 from datetime import datetime
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
+from fastapi.responses import StreamingResponse
 
 from app.models import ApiStatus, PrepareRequest, ScrapeRequest, UploadRequest
 from app.pinecone_utils import compute_next_live_namespace
@@ -61,6 +63,89 @@ def _prepare_subprocess_env(req: PrepareRequest, base: dict[str, str]) -> dict[s
 app = FastAPI(title="Scraper Pipeline API", version="0.1.0")
 
 
+def _sse(event: str, data: object) -> str:
+    payload = json.dumps(data, ensure_ascii=False)
+    # SSE format: event + data, separated by newlines, terminated by blank line.
+    return f"event: {event}\ndata: {payload}\n\n"
+
+
+async def _stream_subprocess_lines(
+    *,
+    argv: list[str],
+    cwd: Path,
+    env: dict[str, str],
+    stdout_path: Path,
+    stderr_path: Path,
+):
+    stdout_path.parent.mkdir(parents=True, exist_ok=True)
+    stderr_path.parent.mkdir(parents=True, exist_ok=True)
+
+    proc = await asyncio.create_subprocess_exec(
+        *argv,
+        cwd=str(cwd),
+        env=env,
+        stdout=asyncio.subprocess.PIPE,
+        stderr=asyncio.subprocess.PIPE,
+    )
+
+    assert proc.stdout is not None
+    assert proc.stderr is not None
+
+    # Tee stdout/stderr to files while streaming.
+    out_f = stdout_path.open("w", encoding="utf-8")
+    err_f = stderr_path.open("w", encoding="utf-8")
+
+    async def read_stream(stream, sink, event_name: str):
+        while True:
+            line = await stream.readline()
+            if not line:
+                break
+            text = line.decode("utf-8", errors="replace").rstrip("\n")
+            sink.write(text + "\n")
+            sink.flush()
+            yield _sse(event_name, {"line": text})
+
+    try:
+        # Interleave streams: prefer sending stderr as it appears.
+        stdout_iter = read_stream(proc.stdout, out_f, "stdout")
+        stderr_iter = read_stream(proc.stderr, err_f, "stderr")
+
+        stdout_task = asyncio.create_task(stdout_iter.__anext__())
+        stderr_task = asyncio.create_task(stderr_iter.__anext__())
+
+        while True:
+            done, _pending = await asyncio.wait(
+                {stdout_task, stderr_task}, return_when=asyncio.FIRST_COMPLETED
+            )
+            if stdout_task in done:
+                try:
+                    yield stdout_task.result()
+                    stdout_task = asyncio.create_task(stdout_iter.__anext__())
+                except StopAsyncIteration:
+                    stdout_task = None  # type: ignore[assignment]
+            if stderr_task in done:
+                try:
+                    yield stderr_task.result()
+                    stderr_task = asyncio.create_task(stderr_iter.__anext__())
+                except StopAsyncIteration:
+                    stderr_task = None  # type: ignore[assignment]
+
+            if stdout_task is None and stderr_task is None:  # type: ignore[truthy-bool]
+                break
+
+        exit_code = await proc.wait()
+        yield _sse("exit", {"exit_code": int(exit_code)})
+    finally:
+        try:
+            out_f.close()
+        except Exception:
+            pass
+        try:
+            err_f.close()
+        except Exception:
+            pass
+
+
 @app.get("/health")
 def health() -> dict:
     return {"ok": True, "runs_root": str(RUNS_ROOT)}
@@ -104,7 +189,8 @@ def scrape(req: ScrapeRequest) -> ApiStatus:
     cfg["resume"] = False
     write_scrape_config_yaml(p, cfg)
 
-    argv = [sys.executable, str(APP_ROOT / "scraper.py"), str(p.scrape_config_path)]
+    # Force Playwright-only scraping (no requests/Selenium).
+    argv = [sys.executable, str(APP_ROOT / "scraper_playwright.py"), str(p.scrape_config_path)]
     code = run_subprocess(
         argv=argv,
         cwd=APP_ROOT,
@@ -163,6 +249,135 @@ def scrape(req: ScrapeRequest) -> ApiStatus:
         },
         logs={"stdout": str(p.scrape_log_path), "stderr": str(p.scrape_err_path)},
     )
+
+
+@app.post("/scrape/stream")
+async def scrape_stream(req: ScrapeRequest):
+    """
+    Run a scrape and stream subprocess output as SSE.
+
+    Events:
+    - started: {run_id, ...}
+    - stdout: {line}
+    - stderr: {line}
+    - exit: {exit_code}
+    - done: final ApiStatus-like payload
+    """
+
+    run_id = new_run_id()
+    p = paths_for_run(run_id)
+    ensure_run_dirs(p)
+
+    started = utc_now()
+    update_state(
+        p,
+        {
+            "run_id": run_id,
+            "created_at": started.isoformat(),
+            "scrape": {"status": "started", "started_at": started.isoformat()},
+            "paths": {
+                "run_dir": str(p.run_dir),
+                "scrape_dir": str(p.scrape_dir),
+                "scrape_config": str(p.scrape_config_path),
+                "scrape_stdout": str(p.scrape_log_path),
+                "scrape_stderr": str(p.scrape_err_path),
+            },
+        },
+    )
+
+    cfg = req.model_dump()
+    cfg["output_dir"] = str(p.scrape_dir)
+    cfg["page_output_subdir"] = "pages"
+    cfg["global_status_filename"] = "crawl_status.json"
+    cfg["resume"] = False
+    # Force Playwright-only.
+    cfg["page_fetcher"] = "playwright"
+    write_scrape_config_yaml(p, cfg)
+
+    argv = [sys.executable, str(APP_ROOT / "scraper_playwright.py"), str(p.scrape_config_path)]
+
+    async def event_gen():
+        yield _sse(
+            "started",
+            {
+                "run_id": run_id,
+                "run_dir": str(p.run_dir),
+                "scrape_dir": str(p.scrape_dir),
+                "config": cfg,
+            },
+        )
+
+        exit_code = None
+        async for chunk in _stream_subprocess_lines(
+            argv=argv,
+            cwd=APP_ROOT,
+            env=os.environ.copy(),
+            stdout_path=p.scrape_log_path,
+            stderr_path=p.scrape_err_path,
+        ):
+            # Track exit_code event.
+            try:
+                obj = json.loads(chunk.split("data: ", 1)[1])
+                if chunk.startswith("event: exit") and isinstance(obj, dict):
+                    exit_code = obj.get("exit_code")
+            except Exception:
+                pass
+            yield chunk
+
+        pages_dir = guess_pages_dir_from_scrape_output(p.scrape_dir)
+        finished = utc_now()
+        ok = (exit_code == 0 or exit_code is None) and pages_dir is not None
+
+        crawl_status_path = p.scrape_dir / "crawl_status.json"
+        crawl_status: dict | None = None
+        if crawl_status_path.is_file():
+            try:
+                crawl_status = json.loads(crawl_status_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                crawl_status = None
+
+        scraped_total = None
+        scraped_ok = None
+        if isinstance(crawl_status, dict) and isinstance(crawl_status.get("urls"), dict):
+            urls = crawl_status["urls"]
+            scraped_total = len(urls)
+            scraped_ok = sum(1 for v in urls.values() if isinstance(v, dict) and v.get("status") == "ok")
+
+        update_state(
+            p,
+            {
+                "scrape": {
+                    "status": "ok" if ok else "error",
+                    "exit_code": exit_code,
+                    "started_at": started.isoformat(),
+                    "finished_at": finished.isoformat(),
+                    "pages_dir": str(pages_dir) if pages_dir else None,
+                    "scraped_total": scraped_total,
+                    "scraped_ok": scraped_ok,
+                }
+            },
+        )
+
+        final_payload = {
+            "ok": ok,
+            "step": "scrape",
+            "run_id": run_id,
+            "started_at": started.isoformat(),
+            "finished_at": finished.isoformat(),
+            "message": "scrape complete" if ok else "scrape failed",
+            "outputs": {
+                "run_dir": str(p.run_dir),
+                "scrape_dir": str(p.scrape_dir),
+                "pages_dir": str(pages_dir) if pages_dir else None,
+                "config": cfg,
+                "crawl_status": crawl_status,
+                "counts": {"total": scraped_total, "ok": scraped_ok},
+            },
+            "logs": {"stdout": str(p.scrape_log_path), "stderr": str(p.scrape_err_path)},
+        }
+        yield _sse("done", final_payload)
+
+    return StreamingResponse(event_gen(), media_type="text/event-stream")
 
 
 @app.post("/prepare", response_model=ApiStatus)
