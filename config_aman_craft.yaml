@@ -1,0 +1,50 @@
+# One-off crawl: https://aman.craft.me/siddhi_home
+seed_urls:
+  - https://aman.craft.me/siddhi_home
+
+allowed_prefixes:
+  - https://aman.craft.me/
+
+respect_allowed_prefixes: true
+
+output_dir: output_craft_aman
+page_output_subdir: pages
+global_status_filename: crawl_status.json
+resume: false
+max_pages: 80
+max_depth: 3
+delay: 1
+user_agent: roboracer-self-scraper/1.0
+
+# Used by scraper.py / scraper_playwright.py (ignored by scraper_browserless.py except for logging)
+page_fetcher: browserless
+
+parallel_workers: 1
+retry_limit: 2
+
+url_whitelist_patterns:
+  - "*"
+url_blacklist_patterns:
+  - "mailto:*"
+  - "tel:*"
+  - "javascript:*"
+  - "*.css*"
+  - "*.js*"
+  - "*.svg*"
+  - "*.png*"
+  - "*.jpg*"
+  - "*.jpeg*"
+  - "*.gif*"
+  - "*.webp*"
+  - "*.ico*"
+  - "*.pdf*"
+  - "*.zip*"
+  - "*.woff*"
+  - "*.woff2*"
+  - "*.ttf*"
+  - "*.eot*"
+
+# Browserless (optional override; otherwise set env BROWSERLESS_CONTENT_URL in .env)
+# browserless_content_url: "https://browserless-xxxx.up.railway.app/content?token=..."
+browserless_timeout_sec: 60
+
