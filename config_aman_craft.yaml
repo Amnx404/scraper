@@ -19,7 +19,7 @@ user_agent: roboracer-self-scraper/1.0
 # Used by scraper.py / scraper_playwright.py (ignored by scraper_browserless.py except for logging)
 page_fetcher: browserless
 
-parallel_workers: 1
+parallel_workers: 8
 retry_limit: 2
 
 url_whitelist_patterns:
