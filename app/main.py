@@ -189,8 +189,8 @@ def scrape(req: ScrapeRequest) -> ApiStatus:
     cfg["resume"] = False
     write_scrape_config_yaml(p, cfg)
 
-    # Force Playwright-only scraping (no requests/Selenium).
-    argv = [sys.executable, str(APP_ROOT / "scraper_playwright.py"), str(p.scrape_config_path)]
+    # Force Browserless-only scraping (no direct target-site requests).
+    argv = [sys.executable, str(APP_ROOT / "scraper_browserless.py"), str(p.scrape_config_path)]
     code = run_subprocess(
         argv=argv,
         cwd=APP_ROOT,
@@ -290,11 +290,11 @@ async def scrape_stream(req: ScrapeRequest):
     cfg["page_output_subdir"] = "pages"
     cfg["global_status_filename"] = "crawl_status.json"
     cfg["resume"] = False
-    # Force Playwright-only.
-    cfg["page_fetcher"] = "playwright"
+    # Force Browserless-only.
+    cfg["page_fetcher"] = "browserless"
     write_scrape_config_yaml(p, cfg)
 
-    argv = [sys.executable, str(APP_ROOT / "scraper_playwright.py"), str(p.scrape_config_path)]
+    argv = [sys.executable, str(APP_ROOT / "scraper_browserless.py"), str(p.scrape_config_path)]
 
     async def event_gen():
         yield _sse(
