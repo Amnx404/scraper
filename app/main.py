@@ -104,7 +104,8 @@ def scrape(req: ScrapeRequest) -> ApiStatus:
     cfg["resume"] = False
     write_scrape_config_yaml(p, cfg)
 
-    argv = [sys.executable, str(APP_ROOT / "scraper.py"), str(p.scrape_config_path)]
+    # Force Playwright-only scraping (no requests/Selenium).
+    argv = [sys.executable, str(APP_ROOT / "scraper_playwright.py"), str(p.scrape_config_path)]
     code = run_subprocess(
         argv=argv,
         cwd=APP_ROOT,
