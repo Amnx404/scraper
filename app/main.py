@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import json
 import os
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
@@ -24,6 +26,13 @@ from app.run_manager import (
 
 
 APP_ROOT = Path(__file__).resolve().parents[1]
+
+_UPSERT_COMPLETE_RE = re.compile(
+    r"Upsert complete:\\s+"
+    r"(?P<chunk_vectors>\\d+)\\s+chunk vectors across\\s+"
+    r"(?P<processed_urls>\\d+)\\s+URLs\\s+"
+    r"\\(skipped\\s+(?P<skipped_urls>\\d+)\\s+empty pages\\)\\."
+)
 
 
 def _prepare_subprocess_env(req: PrepareRequest, base: dict[str, str]) -> dict[str, str]:
@@ -107,6 +116,21 @@ def scrape(req: ScrapeRequest) -> ApiStatus:
     pages_dir = guess_pages_dir_from_scrape_output(p.scrape_dir)
     finished = utc_now()
     ok = code == 0 and pages_dir is not None
+
+    crawl_status_path = p.scrape_dir / "crawl_status.json"
+    crawl_status: dict | None = None
+    if crawl_status_path.is_file():
+        try:
+            crawl_status = json.loads(crawl_status_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            crawl_status = None
+
+    scraped_total = None
+    scraped_ok = None
+    if isinstance(crawl_status, dict) and isinstance(crawl_status.get("urls"), dict):
+        urls = crawl_status["urls"]
+        scraped_total = len(urls)
+        scraped_ok = sum(1 for v in urls.values() if isinstance(v, dict) and v.get("status") == "ok")
     update_state(
         p,
         {
@@ -116,6 +140,8 @@ def scrape(req: ScrapeRequest) -> ApiStatus:
                 "started_at": started.isoformat(),
                 "finished_at": finished.isoformat(),
                 "pages_dir": str(pages_dir) if pages_dir else None,
+                "scraped_total": scraped_total,
+                "scraped_ok": scraped_ok,
             }
         },
     )
@@ -131,8 +157,9 @@ def scrape(req: ScrapeRequest) -> ApiStatus:
             "run_dir": str(p.run_dir),
             "scrape_dir": str(p.scrape_dir),
             "pages_dir": str(pages_dir) if pages_dir else None,
-            "global_status_path": str(p.scrape_dir / "crawl_status.json"),
-            "config_path": str(p.scrape_config_path),
+            "config": cfg,
+            "crawl_status": crawl_status,
+            "counts": {"total": scraped_total, "ok": scraped_ok},
         },
         logs={"stdout": str(p.scrape_log_path), "stderr": str(p.scrape_err_path)},
     )
@@ -194,6 +221,34 @@ def prepare(req: PrepareRequest) -> ApiStatus:
     )
     finished = utc_now()
     ok = code == 0 and (out_dir / "manifest.jsonl").is_file()
+
+    summary: dict | None = None
+    summary_path = out_dir / "summary.json"
+    if summary_path.is_file():
+        try:
+            summary = json.loads(summary_path.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            summary = None
+
+    manifest_rows: list[dict] | None = None
+    manifest_path = out_dir / "manifest.jsonl"
+    if manifest_path.is_file():
+        rows: list[dict] = []
+        with manifest_path.open(encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    rows.append(json.loads(line))
+                except json.JSONDecodeError:
+                    continue
+        manifest_rows = rows
+
+    doc_count = len(manifest_rows) if isinstance(manifest_rows, list) else None
+    finetuned_count = None
+    if isinstance(manifest_rows, list):
+        finetuned_count = sum(1 for r in manifest_rows if isinstance(r, dict) and r.get("fine_markdown_path"))
     update_state(
         p,
         {
@@ -204,6 +259,8 @@ def prepare(req: PrepareRequest) -> ApiStatus:
                 "finished_at": finished.isoformat(),
                 "input_pages_dir": str(input_pages_dir),
                 "output_dir": str(out_dir),
+                "documents": doc_count,
+                "finetuned": finetuned_count,
             }
         },
     )
@@ -219,8 +276,9 @@ def prepare(req: PrepareRequest) -> ApiStatus:
             "run_dir": str(p.run_dir),
             "input_pages_dir": str(input_pages_dir),
             "ingestion_dir": str(out_dir),
-            "manifest_path": str(out_dir / "manifest.jsonl"),
-            "summary_path": str(out_dir / "summary.json"),
+            "summary": summary,
+            "manifest": manifest_rows,
+            "counts": {"documents": doc_count, "finetuned": finetuned_count},
         },
         logs={"stdout": str(p.prepare_log_path), "stderr": str(p.prepare_err_path)},
     )
@@ -304,6 +362,19 @@ def upload(req: UploadRequest) -> ApiStatus:
     )
     finished = utc_now()
     ok = code == 0
+
+    upload_metrics: dict | None = None
+    try:
+        stdout_text = p.upload_log_path.read_text(encoding="utf-8")
+    except OSError:
+        stdout_text = ""
+    m = _UPSERT_COMPLETE_RE.search(stdout_text)
+    if m:
+        upload_metrics = {
+            "chunk_vectors": int(m.group("chunk_vectors")),
+            "processed_urls": int(m.group("processed_urls")),
+            "skipped_urls": int(m.group("skipped_urls")),
+        }
     update_state(
         p,
         {
@@ -317,6 +388,7 @@ def upload(req: UploadRequest) -> ApiStatus:
                 "staging_namespace": staging_ns,
                 "previous_live_namespace": live_info.previous_live_namespace,
                 "live_namespace": live_info.live_namespace,
+                "metrics": upload_metrics,
             }
         },
     )
@@ -335,6 +407,19 @@ def upload(req: UploadRequest) -> ApiStatus:
             "staging_namespace": staging_ns,
             "previous_live_namespace": live_info.previous_live_namespace,
             "live_namespace": live_info.live_namespace,
+            "metrics": upload_metrics,
+            "request": {
+                "vector_dim": req.vector_dim,
+                "text_source": req.text_source,
+                "embed_model": req.embed_model,
+                "batch_size": req.batch_size,
+                "embed_batch_size": req.embed_batch_size,
+                "embed_workers": req.embed_workers,
+                "pool_threads": req.pool_threads,
+                "delete_previous_live": req.delete_previous_live,
+                "include_sidecar_metadata": req.include_sidecar_metadata,
+                "max_records": req.max_records,
+            },
         },
         logs={"stdout": str(p.upload_log_path), "stderr": str(p.upload_err_path)},
     )
