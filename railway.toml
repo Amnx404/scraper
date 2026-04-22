@@ -2,8 +2,30 @@
 # Deploy from this repository root so `app` is importable as the `app` package.
 
 [build]
-builder = "RAILPACK"
-buildCommand = "pip install -r requirements.txt"
+builder = "NIXPACKS"
+# Install Python deps + Playwright browser. Linux system deps are handled via apt packages below.
+buildCommand = "pip install -r requirements.txt && python -m playwright install chromium"
+
+# Nixpacks: ensure system libraries Chromium needs exist.
+# (Install list is intentionally a bit broad to avoid runtime missing-lib crashes.)
+nixpacksPlan.providers = ["python"]
+nixpacksPlan.phases.setup.aptPkgs = [
+  "libnss3",
+  "libatk-bridge2.0-0",
+  "libatk1.0-0",
+  "libdrm2",
+  "libgbm1",
+  "libasound2",
+  "libxkbcommon0",
+  "libxcomposite1",
+  "libxdamage1",
+  "libxrandr2",
+  "libxshmfence1",
+  "libgtk-3-0",
+  "ca-certificates",
+  "fonts-liberation",
+  "fontconfig",
+]
 
 [deploy]
 startCommand = "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
