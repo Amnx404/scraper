@@ -177,10 +177,8 @@ def pipeline_full(
                 "run_id": run_id,
                 "step": "pipeline",
                 "status": "succeeded",
-                "pinecone": {
-                    "live_namespace": live_namespace,
-                    "previous_live_namespace": previous_live_namespace,
-                },
+                "live_namespace": live_namespace,
+                "previous_live_namespace": previous_live_namespace,
             },
         )
     except exceptions.JobAborted:

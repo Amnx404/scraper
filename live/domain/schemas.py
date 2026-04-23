@@ -258,3 +258,13 @@ class RunsListResponse(BaseModel):
     runs_root: str
     count: int
     runs: list[RunListItem]
+
+
+class PipelineSucceededCallback(BaseModel):
+    """Callback payload sent when the full pipeline finishes successfully."""
+
+    run_id: str
+    step: Literal["pipeline"] = "pipeline"
+    status: Literal["succeeded"] = "succeeded"
+    live_namespace: str | None = Field(default=None, description="New live Pinecone namespace published by upload step.")
+    previous_live_namespace: str | None = Field(default=None, description="Previous live namespace (if any).")
