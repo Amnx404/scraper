@@ -12,7 +12,7 @@ buildCommand = "pip install -r requirements.txt"
 #
 # Single-service option (not recommended):
 # - Web+Worker: startCommand = "./scripts/railway/all-in-one.sh"
-startCommand = "./scripts/railway/all-in-one.sh"
+startCommand = "./scripts/railway/web.sh"
 healthcheckPath = "/health"
 healthcheckTimeout = 120
 restartPolicyType = "ON_FAILURE"
