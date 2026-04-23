@@ -6,3 +6,5 @@ output/
 .env
 scrape_firecrawl.env
 app_runs/
+*.json
+*.jsonl
