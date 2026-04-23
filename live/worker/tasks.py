@@ -132,7 +132,26 @@ def pipeline_full(
 
         merge_state_key(p, "pipeline", {"current_step": "upload"})
         r_upload = execute_upload(p, up_req)
-        _notify(callback_url, {"run_id": run_id, "step": "upload", "result": api_status_to_jsonable(r_upload)})
+        upload_result = api_status_to_jsonable(r_upload)
+        live_namespace = None
+        previous_live_namespace = None
+        if isinstance(upload_result, dict):
+            outputs = upload_result.get("outputs")
+            if isinstance(outputs, dict):
+                live_namespace = outputs.get("live_namespace")
+                previous_live_namespace = outputs.get("previous_live_namespace")
+        _notify(
+            callback_url,
+            {
+                "run_id": run_id,
+                "step": "upload",
+                "result": upload_result,
+                "pinecone": {
+                    "live_namespace": live_namespace,
+                    "previous_live_namespace": previous_live_namespace,
+                },
+            },
+        )
         if not r_upload.ok:
             merge_state_key(
                 p,
@@ -152,7 +171,18 @@ def pipeline_full(
             "pipeline",
             {"status": "succeeded", "finished_at": utc_now().isoformat(), "current_step": "done"},
         )
-        _notify(callback_url, {"run_id": run_id, "step": "pipeline", "status": "succeeded"})
+        _notify(
+            callback_url,
+            {
+                "run_id": run_id,
+                "step": "pipeline",
+                "status": "succeeded",
+                "pinecone": {
+                    "live_namespace": live_namespace,
+                    "previous_live_namespace": previous_live_namespace,
+                },
+            },
+        )
     except exceptions.JobAborted:
         merge_state_key(
             p,
