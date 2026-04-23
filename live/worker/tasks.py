@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+from urllib.parse import urlparse
 from typing import Any
 
 import httpx
@@ -16,13 +17,50 @@ from live.worker.app import procrastinate_app
 log = logging.getLogger(__name__)
 
 
+_REDACT_KEYS = {
+    "openrouter_api_key",
+    "api_key",
+    "authorization",
+    "Authorization",
+    "token",
+    "access_token",
+    "secret",
+}
+
+
+def _redact(obj: Any) -> Any:
+    if isinstance(obj, dict):
+        out: dict[str, Any] = {}
+        for k, v in obj.items():
+            if k in _REDACT_KEYS:
+                out[k] = "***"
+            else:
+                out[k] = _redact(v)
+        return out
+    if isinstance(obj, list):
+        return [_redact(v) for v in obj]
+    return obj
+
+
+def _is_clearly_localhost(url: str) -> bool:
+    try:
+        host = (urlparse(url).hostname or "").strip().lower()
+    except Exception:
+        return False
+    return host in {"localhost", "127.0.0.1", "::1"}
+
+
 def _notify(callback_url: str | None, payload: dict[str, Any]) -> None:
     if not callback_url:
         return
     try:
+        if _is_clearly_localhost(callback_url):
+            log.warning("Skipping callback to localhost url=%s payload=%s", callback_url, _redact(payload))
+            return
         httpx.post(callback_url, json=payload, timeout=60.0)
-    except Exception:
-        log.exception("pipeline callback failed url=%s", callback_url)
+    except Exception as e:
+        # Callback delivery should never fail the pipeline job; keep logs concise.
+        log.warning("pipeline callback failed url=%s error=%s payload=%s", callback_url, str(e), _redact(payload))
 
 
 @procrastinate_app.task(name="pipeline.full", pass_context=True)
