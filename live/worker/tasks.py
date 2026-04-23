@@ -8,6 +8,7 @@ from typing import Any
 
 import httpx
 from procrastinate import exceptions
+import os
 
 from live.domain.schemas import PrepareRequest, ScrapeRequest, UploadRequest
 from live.pipeline.steps import api_status_to_jsonable, cancel_requested, execute_prepare, execute_scrape, execute_upload
@@ -49,12 +50,21 @@ def _is_clearly_localhost(url: str) -> bool:
     return host in {"localhost", "127.0.0.1", "::1"}
 
 
+def _allow_localhost_callbacks() -> bool:
+    v = (os.environ.get("LIVE_ALLOW_LOCALHOST_CALLBACKS") or "").strip().lower()
+    return v in {"1", "true", "yes", "y", "on"}
+
+
 def _notify(callback_url: str | None, payload: dict[str, Any]) -> None:
     if not callback_url:
         return
     try:
-        if _is_clearly_localhost(callback_url):
-            log.warning("Skipping callback to localhost url=%s payload=%s", callback_url, _redact(payload))
+        if _is_clearly_localhost(callback_url) and not _allow_localhost_callbacks():
+            log.warning(
+                "Skipping callback to localhost url=%s (set LIVE_ALLOW_LOCALHOST_CALLBACKS=true to enable) payload=%s",
+                callback_url,
+                _redact(payload),
+            )
             return
         httpx.post(callback_url, json=payload, timeout=60.0)
     except Exception as e:
