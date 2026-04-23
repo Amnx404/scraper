@@ -44,10 +44,29 @@ def resolve_live_prefix(args: argparse.Namespace) -> str:
 
 
 def collect_namespace_names(index) -> list[str]:
+    """
+    Collect namespace names from Pinecone.
+
+    Pinecone's SDK return type has varied across versions:
+    - Some versions yield page objects with ``page.namespaces`` (list of namespace objects with ``.name``).
+    - Some versions yield ``NamespaceDescription`` objects directly with a top-level ``.name``.
+    """
     names: list[str] = []
-    for page in index.list_namespaces():
-        for ns in page.namespaces or []:
-            names.append(ns.name if ns.name is not None else "")
+    for item in index.list_namespaces():
+        # Newer SDKs may yield NamespaceDescription directly.
+        direct_name = getattr(item, "name", None)
+        if isinstance(direct_name, str):
+            names.append(direct_name)
+            continue
+
+        # Older SDKs yielded pages with a namespaces list.
+        page_namespaces = getattr(item, "namespaces", None)
+        if page_namespaces:
+            for ns in page_namespaces:
+                n = getattr(ns, "name", None)
+                if isinstance(n, str):
+                    names.append(n)
+            continue
     return names
 
 

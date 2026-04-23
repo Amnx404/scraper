@@ -44,7 +44,6 @@ from live.worker.tasks import pipeline_full
 
 
 _REDACT_KEYS = {
-    "openrouter_api_key",
     "api_key",
     "authorization",
     "Authorization",

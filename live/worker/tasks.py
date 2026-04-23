@@ -18,7 +18,6 @@ log = logging.getLogger(__name__)
 
 
 _REDACT_KEYS = {
-    "openrouter_api_key",
     "api_key",
     "authorization",
     "Authorization",

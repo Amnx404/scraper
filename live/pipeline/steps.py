@@ -77,13 +77,11 @@ def prepare_subprocess_env(req: PrepareRequest, base: dict[str, str]) -> dict[st
     env.pop("FINETUNE_API_KEY", None)
     env.pop("OPENAI_API_KEY", None)
     if req.finetune:
-        key = (req.openrouter_api_key or "").strip() or (env.get("OPENROUTER_API_KEY") or "").strip()
+        key = (env.get("OPENROUTER_API_KEY") or "").strip()
         if not key:
             raise ValueError(
-                "When finetune is true, set openrouter_api_key on the request or OPENROUTER_API_KEY in the environment."
+                "When finetune is true, set OPENROUTER_API_KEY in the environment."
             )
-    if (req.openrouter_api_key or "").strip():
-        env["OPENROUTER_API_KEY"] = req.openrouter_api_key.strip()
     if (req.finetune_model or "").strip():
         env["FINETUNE_MODEL"] = req.finetune_model.strip()
     if (req.openrouter_model or "").strip():

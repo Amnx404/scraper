@@ -73,7 +73,6 @@ class PrepareRequest(BaseModel):
     live_prefix: str | None = None
     staging_namespace: str | None = None
 
-    openrouter_api_key: str | None = None
     finetune_model: str | None = None
     openrouter_model: str | None = None
     finetune_prompt: str | None = None
