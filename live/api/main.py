@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
-from fastapi.responses import StreamingResponse
+from fastapi.responses import HTMLResponse, StreamingResponse
 
 from live.domain.schemas import (
     ApiStatus,
@@ -19,6 +19,8 @@ from live.domain.schemas import (
     PrepareRequest,
     ProcrastinateJobInfo,
     RunStatusResponse,
+    RunListItem,
+    RunsListResponse,
     ScrapeRequest,
     StopPipelineResponse,
     UploadRequest,
@@ -159,6 +161,194 @@ def health() -> HealthResponse:
         runs_root=str(get_settings().resolved_runs_root()),
         procrastinate_database=database_url_configured(),
     )
+
+
+@app.get("/ui", response_class=HTMLResponse, tags=["runs"])
+def runs_ui() -> HTMLResponse:
+    # No external build tooling; keep a single-file dashboard that calls GET /runs.
+    return HTMLResponse(
+        """
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Runs dashboard</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial; margin: 24px; }
+    .row { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+    .muted { opacity: 0.75; }
+    .pill { display: inline-block; padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(127,127,127,0.35); font-size: 12px; }
+    details { border: 1px solid rgba(127,127,127,0.25); border-radius: 10px; padding: 10px 12px; margin: 10px 0; }
+    summary { cursor: pointer; }
+    pre { white-space: pre-wrap; word-break: break-word; background: rgba(127,127,127,0.08); padding: 10px; border-radius: 10px; overflow: auto; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace; }
+    a { color: inherit; }
+    input, button { font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid rgba(127,127,127,0.35); background: transparent; }
+    button { cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div class="row">
+    <h2 style="margin: 0;">Runs dashboard</h2>
+    <span class="pill" id="runsRoot"></span>
+  </div>
+  <div class="row muted" style="margin: 10px 0 18px;">
+    <label>Limit <input id="limit" type="number" min="1" max="500" value="50" style="width: 100px;" /></label>
+    <label>Auto-refresh <input id="refresh" type="number" min="0" max="60" value="3" style="width: 100px;" />s (0 = off)</label>
+    <button id="reload">Reload</button>
+    <span id="status" class="muted"></span>
+  </div>
+
+  <div id="list"></div>
+
+  <script>
+    const elList = document.getElementById('list');
+    const elStatus = document.getElementById('status');
+    const elLimit = document.getElementById('limit');
+    const elRefresh = document.getElementById('refresh');
+    const elRunsRoot = document.getElementById('runsRoot');
+    const elReload = document.getElementById('reload');
+
+    function pill(text) {
+      const s = document.createElement('span');
+      s.className = 'pill';
+      s.textContent = text;
+      return s;
+    }
+
+    function safe(v) { return (v === null || v === undefined) ? '' : String(v); }
+
+    async function fetchJSON(url) {
+      const res = await fetch(url, { headers: { 'Accept': 'application/json' }});
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.json();
+    }
+
+    async function load() {
+      const limit = Math.max(1, Math.min(500, parseInt(elLimit.value || '50', 10)));
+      elStatus.textContent = 'Loading…';
+      try {
+        const data = await fetchJSON(`/runs?limit=${encodeURIComponent(limit)}`);
+        elRunsRoot.textContent = `runs_root: ${data.runs_root}`;
+        elList.innerHTML = '';
+        if (!data.runs.length) {
+          elList.textContent = 'No runs yet.';
+          elStatus.textContent = '';
+          return;
+        }
+        for (const r of data.runs) {
+          const d = document.createElement('details');
+          const s = document.createElement('summary');
+          s.appendChild(pill(r.pipeline_status || 'unknown'));
+          s.appendChild(document.createTextNode(` `));
+          s.appendChild(document.createElement('code')).textContent = r.run_id;
+          s.appendChild(document.createTextNode(` `));
+          s.appendChild(pill(`step: ${r.current_step || '-'}`));
+          s.appendChild(pill(`scrape: ${r.scrape_status || '-'}`));
+          s.appendChild(pill(`prepare: ${r.prepare_status || '-'}`));
+          s.appendChild(pill(`upload: ${r.upload_status || '-'}`));
+          if (r.live_namespace) s.appendChild(pill(`live: ${r.live_namespace}`));
+          if (r.updated_at) s.appendChild(pill(`updated: ${r.updated_at}`));
+          d.appendChild(s);
+
+          const inner = document.createElement('div');
+          inner.style.marginTop = '10px';
+
+          const p1 = document.createElement('div');
+          p1.className = 'row muted';
+          const a = document.createElement('a');
+          a.href = `/runs/${encodeURIComponent(r.run_id)}`;
+          a.textContent = 'JSON status';
+          a.target = '_blank';
+          p1.appendChild(a);
+          p1.appendChild(pill(`state: ${r.state_path}`));
+          inner.appendChild(p1);
+
+          const pre = document.createElement('pre');
+          pre.textContent = JSON.stringify(r, null, 2);
+          inner.appendChild(pre);
+
+          d.appendChild(inner);
+          elList.appendChild(d);
+        }
+        elStatus.textContent = `Loaded ${data.runs.length} runs.`;
+      } catch (e) {
+        elStatus.textContent = `Failed: ${e}`;
+      }
+    }
+
+    let timer = null;
+    function setTimer() {
+      if (timer) clearInterval(timer);
+      timer = null;
+      const sec = parseInt(elRefresh.value || '0', 10);
+      if (sec > 0) timer = setInterval(load, sec * 1000);
+    }
+
+    elReload.addEventListener('click', () => load());
+    elRefresh.addEventListener('change', () => setTimer());
+    load(); setTimer();
+  </script>
+</body>
+</html>
+""".strip()
+    )
+
+
+@app.get("/runs", response_model=RunsListResponse, tags=["runs"])
+def list_runs(limit: int = 50) -> RunsListResponse:
+    runs_root = get_settings().resolved_runs_root()
+    limit = max(1, min(500, int(limit)))
+    if not runs_root.exists():
+        return RunsListResponse(ok=True, runs_root=str(runs_root), count=0, runs=[])
+
+    items: list[RunListItem] = []
+    # Sort by state.json mtime when present; fall back to run_dir mtime.
+    candidates = [p for p in runs_root.iterdir() if p.is_dir()]
+    candidates.sort(key=lambda d: (d / "state.json").stat().st_mtime if (d / "state.json").exists() else d.stat().st_mtime, reverse=True)
+
+    for run_dir in candidates[:limit]:
+        run_id = run_dir.name
+        state_path = run_dir / "state.json"
+        state: dict | None = None
+        if state_path.exists():
+            try:
+                state = json.loads(state_path.read_text(encoding="utf-8"))
+            except Exception:
+                state = None
+        pipeline = (state or {}).get("pipeline") if isinstance(state, dict) else None
+        scrape = (state or {}).get("scrape") if isinstance(state, dict) else None
+        prepare = (state or {}).get("prepare") if isinstance(state, dict) else None
+        upload = (state or {}).get("upload") if isinstance(state, dict) else None
+
+        def _status(obj):
+            return obj.get("status") if isinstance(obj, dict) else None
+
+        updated_at = None
+        try:
+            ts = state_path.stat().st_mtime if state_path.exists() else run_dir.stat().st_mtime
+            updated_at = datetime.fromtimestamp(ts).astimezone().isoformat()
+        except Exception:
+            updated_at = None
+
+        items.append(
+            RunListItem(
+                run_id=run_id,
+                updated_at=updated_at,
+                state_path=str(state_path),
+                pipeline_status=pipeline.get("status") if isinstance(pipeline, dict) else None,
+                current_step=pipeline.get("current_step") if isinstance(pipeline, dict) else None,
+                scrape_status=_status(scrape),
+                prepare_status=_status(prepare),
+                upload_status=_status(upload),
+                live_namespace=upload.get("live_namespace") if isinstance(upload, dict) else None,
+                previous_live_namespace=upload.get("previous_live_namespace") if isinstance(upload, dict) else None,
+            )
+        )
+
+    return RunsListResponse(ok=True, runs_root=str(runs_root), count=len(items), runs=items)
 
 
 @app.get("/runs/{run_id}", response_model=RunStatusResponse, tags=["runs"])

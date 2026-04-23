@@ -236,3 +236,25 @@ class StopPipelineResponse(BaseModel):
         default=None,
         description="Procrastinate job id from state, if any (cancel/abort requested on this id).",
     )
+
+
+class RunListItem(BaseModel):
+    """Compact run overview for dashboards (GET /runs)."""
+
+    run_id: str
+    updated_at: str | None = Field(default=None, description="Filesystem mtime of `state.json` (ISO-8601 if available).")
+    state_path: str
+    pipeline_status: str | None = None
+    current_step: str | None = None
+    scrape_status: str | None = None
+    prepare_status: str | None = None
+    upload_status: str | None = None
+    live_namespace: str | None = None
+    previous_live_namespace: str | None = None
+
+
+class RunsListResponse(BaseModel):
+    ok: Literal[True] = True
+    runs_root: str
+    count: int
+    runs: list[RunListItem]
