@@ -244,6 +244,7 @@ class RunListItem(BaseModel):
     run_id: str
     updated_at: str | None = Field(default=None, description="Filesystem mtime of `state.json` (ISO-8601 if available).")
     state_path: str
+    request: dict[str, Any] | None = Field(default=None, description="Incoming `POST /runs` request (redacted).")
     pipeline_status: str | None = None
     current_step: str | None = None
     scrape_status: str | None = None

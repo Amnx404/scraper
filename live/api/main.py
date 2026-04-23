@@ -43,6 +43,31 @@ from live.worker.app import database_url_configured, procrastinate_app
 from live.worker.tasks import pipeline_full
 
 
+_REDACT_KEYS = {
+    "openrouter_api_key",
+    "api_key",
+    "authorization",
+    "Authorization",
+    "token",
+    "access_token",
+    "secret",
+}
+
+
+def _redact(obj: object) -> object:
+    if isinstance(obj, dict):
+        out: dict[str, object] = {}
+        for k, v in obj.items():
+            if k in _REDACT_KEYS:
+                out[k] = "***"
+            else:
+                out[k] = _redact(v)
+        return out
+    if isinstance(obj, list):
+        return [_redact(v) for v in obj]
+    return obj
+
+
 @asynccontextmanager
 async def _lifespan(_app: FastAPI):
     if database_url_configured():
@@ -266,6 +291,16 @@ def runs_ui() -> HTMLResponse:
           p1.appendChild(pill(`state: ${r.state_path}`));
           inner.appendChild(p1);
 
+          if (r.request) {
+            const h = document.createElement('div');
+            h.className = 'row muted';
+            h.appendChild(pill('incoming request'));
+            inner.appendChild(h);
+            const preReq = document.createElement('pre');
+            preReq.textContent = JSON.stringify(r.request, null, 2);
+            inner.appendChild(preReq);
+          }
+
           const pre = document.createElement('pre');
           pre.textContent = JSON.stringify(r, null, 2);
           inner.appendChild(pre);
@@ -322,6 +357,7 @@ def list_runs(limit: int = 50) -> RunsListResponse:
         scrape = (state or {}).get("scrape") if isinstance(state, dict) else None
         prepare = (state or {}).get("prepare") if isinstance(state, dict) else None
         upload = (state or {}).get("upload") if isinstance(state, dict) else None
+        request = (state or {}).get("request") if isinstance(state, dict) else None
 
         def _status(obj):
             return obj.get("status") if isinstance(obj, dict) else None
@@ -338,6 +374,7 @@ def list_runs(limit: int = 50) -> RunsListResponse:
                 run_id=run_id,
                 updated_at=updated_at,
                 state_path=str(state_path),
+                request=request if isinstance(request, dict) else None,
                 pipeline_status=pipeline.get("status") if isinstance(pipeline, dict) else None,
                 current_step=pipeline.get("current_step") if isinstance(pipeline, dict) else None,
                 scrape_status=_status(scrape),
@@ -423,7 +460,21 @@ async def enqueue_pipeline(req: PipelineRunRequest) -> PipelineEnqueueResponse:
     upl = req.upload.model_copy(update={"run_id": run_id})
     cb = str(req.callback_url) if req.callback_url is not None else None
     created = utc_now()
-    update_state(p, {"run_id": run_id, "created_at": created.isoformat()})
+    update_state(
+        p,
+        {
+            "run_id": run_id,
+            "created_at": created.isoformat(),
+            "request": _redact(
+                {
+                    "scrape": req.scrape.model_dump(mode="json"),
+                    "prepare": prep.model_dump(mode="json"),
+                    "upload": upl.model_dump(mode="json"),
+                    "callback_url": cb,
+                }
+            ),
+        },
+    )
     job_id = await pipeline_full.defer_async(
         run_id=run_id,
         scrape=req.scrape.model_dump(mode="json"),
