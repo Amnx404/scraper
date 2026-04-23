@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["app", "live"]
+
+[project]
+name = "scraper"
+version = "0.1.0"
+description = "Scraper + FastAPI pipeline"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+    "httpx>=0.27.0",
+    "beautifulsoup4>=4.12.0",
+    "html2text>=2024.2.26",
+    "pyyaml>=6.0",
+    "selenium>=4.30.0",
+    "fastapi>=0.115.0",
+    "uvicorn>=0.30.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.2.0",
+    "pinecone",
+    "python-dotenv",
+    "tqdm",
+    "procrastinate>=3.0.0",
+    "psycopg[binary]>=3.1.0",
+]

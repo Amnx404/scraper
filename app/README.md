@@ -1,10 +1,12 @@
-# `/app` — FastAPI pipeline
+# `/app` — compatibility shims
 
-This folder exposes the existing pipeline as HTTP APIs:
+The **canonical** service package is **`live/`** (settings, HTTP API, pipeline, engines, worker).
 
-- `POST /scrape` → runs `scraper.py` into a new per-run folder
-- `POST /prepare` → runs `prepare_ingestion.py` against that run’s pages
-- `POST /upload` → runs `upsert_pinecone.py` using the prepared `manifest.jsonl`
+This `app/` folder re-exports symbols so older imports (`app.main`, `app.procrastinate_jobs`, …) keep working.
+
+- `POST /scrape` → browserless crawl into a new per-run folder
+- `POST /prepare` → ingestion prep against that run’s pages
+- `POST /upload` → Pinecone upsert using the prepared `manifest.jsonl`
 
 Each step writes logs into `app_runs/<run_id>/` and returns JSON with output paths.
 
@@ -12,8 +14,24 @@ Each step writes logs into `app_runs/<run_id>/` and returns JSON with output pat
 
 ```bash
 python -m pip install -r requirements.txt
-uvicorn app.main:app --reload --port 8000
+# or, with uv (installs the `app` package so Procrastinate can import it):
+uv sync
+uv run uvicorn live.api.main:app --reload --port 8000
+# equivalent: uv run uvicorn app.main:app --reload --port 8000
 ```
+
+### Procrastinate (`POST /runs`)
+
+Use a **dotted** path to the `App` instance (not `module:object` like Celery):
+
+```bash
+uv sync
+export DATABASE_URL=postgresql://...
+procrastinate --app=live.worker.app.procrastinate_app schema --apply
+procrastinate --app=live.worker.app.procrastinate_app worker
+```
+
+Run `worker` in a second terminal while `uvicorn` is up.
 
 ## Example calls
 

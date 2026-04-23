@@ -1,23 +1,5 @@
-from __future__ import annotations
+"""Re-export Pinecone namespace helpers."""
 
-from dataclasses import dataclass
+from live.integrations.pinecone_namespaces import LiveNamespaceInfo, compute_next_live_namespace
 
-from pinecone import Pinecone
-
-# Reuse the exact namespace logic from the existing script.
-from upsert_pinecone import collect_namespace_names, previous_and_next_live_namespaces  # type: ignore
-
-
-@dataclass(frozen=True)
-class LiveNamespaceInfo:
-    previous_live_namespace: str | None
-    live_namespace: str
-
-
-def compute_next_live_namespace(*, api_key: str, index_host: str, live_prefix: str) -> LiveNamespaceInfo:
-    pc = Pinecone(api_key=api_key)
-    with pc.Index(host=index_host) as index:
-        all_ns = collect_namespace_names(index)
-    prev_ns, next_ns = previous_and_next_live_namespaces(all_ns, live_prefix)
-    return LiveNamespaceInfo(previous_live_namespace=prev_ns, live_namespace=next_ns)
-
+__all__ = ["LiveNamespaceInfo", "compute_next_live_namespace"]

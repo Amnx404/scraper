@@ -6,7 +6,13 @@ builder = "RAILPACK"
 buildCommand = "pip install -r requirements.txt"
 
 [deploy]
-startCommand = "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+# Recommended: create TWO Railway services from this repo:
+# - Web service:   startCommand = "./scripts/railway/web.sh"
+# - Worker service startCommand = "./scripts/railway/worker.sh"
+#
+# Single-service option (not recommended):
+# - Web+Worker: startCommand = "./scripts/railway/all-in-one.sh"
+startCommand = "./scripts/railway/web.sh"
 healthcheckPath = "/health"
 healthcheckTimeout = 120
 restartPolicyType = "ON_FAILURE"

@@ -7,6 +7,9 @@ selenium>=4.30.0
 fastapi>=0.115.0
 uvicorn>=0.30.0
 pydantic>=2.7.0
+pydantic-settings>=2.2.0
 pinecone
 python-dotenv
 tqdm
+procrastinate>=3.0.0
+psycopg[binary]>=3.1.0
