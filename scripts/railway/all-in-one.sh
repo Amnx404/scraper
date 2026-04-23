@@ -7,9 +7,9 @@ set -euo pipefail
 HOST="${HOST:-0.0.0.0}"
 PORT="${PORT:-8000}"
 
-procrastinate --app=live.worker.app.procrastinate_app schema --apply || true
+uv run procrastinate --app=live.worker.app.procrastinate_app schema --apply || true
 
-procrastinate --app=live.worker.app.procrastinate_app worker &
+uv run procrastinate --app=live.worker.app.procrastinate_app worker &
 WORKER_PID=$!
 
 cleanup() {
@@ -19,4 +19,4 @@ cleanup() {
 }
 trap cleanup EXIT INT TERM
 
-exec python -m uvicorn live.api.main:app --host "$HOST" --port "$PORT"
+exec uv run uvicorn live.api.main:app --host "$HOST" --port "$PORT"
