@@ -215,6 +215,7 @@ async def start_crawl(req: CrawlRequest) -> CrawlJob:
             summary = await run_crawl(
                 browser=browser,
                 seeds=req.seeds,
+                global_allowed_prefixes=req.global_allowed_prefixes,
                 max_pages=req.max_pages,
                 workers=req.workers,
                 delay=req.delay,

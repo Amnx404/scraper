@@ -42,6 +42,13 @@ class ScrapeResponse(BaseModel):
 
 class CrawlRequest(BaseModel):
     seeds: list[SeedConfig]
+
+    # Global URL prefix whitelist — any discovered link whose URL starts with
+    # one of these is followed, even if it belongs to a different domain than
+    # the originating seed.  Mirrors the original roboracer `allowed_prefixes`
+    # config.  When empty the per-seed url + allowed_pages rules apply instead.
+    global_allowed_prefixes: list[str] = Field(default_factory=list)
+
     max_pages: int = 500
     workers: int = 4                        # concurrent Playwright pages
     delay: float = 0.3                      # seconds between page fetches per worker

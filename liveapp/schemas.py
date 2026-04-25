@@ -30,9 +30,28 @@ class SeedConfig(BaseModel):
         return self
 
     def path_allowed(self, url: str) -> bool:
-        """Return True if the URL's path matches any allowed_pages pattern."""
+        """Return True if the URL's path matches any allowed_pages pattern.
+
+        Pattern rules:
+          *        match anything (wildcard shorthand for the whole path)
+          /docs/*  match direct children of /docs/ only
+          /docs/** match /docs/ and ALL subdirectories recursively
+          /docs/   prefix match — same as /docs/**
+        """
         path = urlparse(url).path
-        return any(fnmatch.fnmatch(path, pat) for pat in self.allowed_pages)
+        for pat in self.allowed_pages:
+            if pat in ("*", "**"):           # unrestricted
+                return True
+            if "**" in pat:                  # recursive glob
+                prefix = pat.split("**")[0]
+                if path.startswith(prefix):
+                    return True
+            elif pat.endswith("/"):          # bare prefix
+                if path.startswith(pat):
+                    return True
+            elif fnmatch.fnmatch(path, pat): # standard fnmatch (one level)
+                return True
+        return False
 
 
 class AppConfig(BaseModel):
