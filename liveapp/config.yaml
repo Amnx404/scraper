@@ -1,0 +1,43 @@
+# liveapp config
+# Each seed entry is a base URL with its own purpose label, crawl settings,
+# and page filters.  Only URLs that START with `url` AND match `allowed_pages`
+# are scraped.  `depth` controls how many hops from the seed are followed.
+#
+# purpose: the label/category stored with every page in the DB — lets you
+#   query "show me all documentation pages" vs "show me all blog pages".
+#   Use whatever names make sense for your data.
+
+seeds:
+  - url: https://example.com/docs/
+    purpose: documentation          # type of content at this URL
+    depth: 3                        # follow links up to 3 hops from seed
+    allowed_pages:                  # fnmatch patterns on URL path
+      - /docs/*
+    max_pages: 100                  # cap for this seed (optional)
+
+  - url: https://example.com/blog/
+    purpose: blog
+    depth: 2
+    allowed_pages:
+      - /blog/*
+      - /blog
+    max_pages: 50
+
+  - url: https://example.com/api/
+    purpose: api-reference
+    depth: 4
+    allowed_pages:
+      - /api/*
+
+# ── Global settings ──────────────────────────────────────────────────────────
+
+output_dir: liveapp_output          # markdown files: output_dir/<purpose>/<slug>.md
+db_path: liveapp.db                 # SQLite DB tracking every scraped URL
+
+max_pages: 500                      # hard global cap across all seeds
+delay: 0.5                          # seconds between requests per worker
+workers: 4                          # parallel fetch threads
+
+# true  → ignore DB, re-fetch and re-process every URL from scratch
+# false → send If-Modified-Since; skip pages the server says haven't changed
+force_rescrape: false
