@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS pages (
     status              TEXT NOT NULL,          -- scraped | not_modified | skipped | error
     title               TEXT,
     content_hash        TEXT,                   -- sha256[:16] of raw HTML
+    markdown            TEXT,                   -- full markdown body (cached for not_modified reuse)
     markdown_path       TEXT,                   -- absolute path to .md file
 
     last_scraped_at     TEXT NOT NULL,          -- ISO-8601 UTC; sent as If-Modified-Since
@@ -86,6 +87,14 @@ class PageDB:
             ).fetchone()
             return row["last_scraped_at"] if row else None
 
+    def get_cached_markdown(self, url: str) -> str | None:
+        """Return the stored markdown for a URL, used when the page is not_modified."""
+        with self._lock:
+            row = self._conn.execute(
+                "SELECT markdown FROM pages WHERE url = ?", (url,)
+            ).fetchone()
+            return row["markdown"] if row else None
+
     def upsert_page(self, result: PageResult, markdown_path: str | None = None) -> None:
         with self._lock:
             existing = self._conn.execute(
@@ -93,22 +102,27 @@ class PageDB:
             ).fetchone()
             count = (existing["scraped_count"] + 1) if existing else 1
 
+            # For not_modified results, keep the previously stored markdown
+            # (result.markdown will be None — we never re-fetched the body).
+            # The UPDATE clause below uses COALESCE so it only overwrites when
+            # a fresh value is actually present.
             self._conn.execute(
                 """
                 INSERT INTO pages
                     (url, seed_url, purpose, depth, status, title, content_hash,
-                     markdown_path, last_scraped_at, last_modified,
+                     markdown, markdown_path, last_scraped_at, last_modified,
                      scraped_count, links_found, error)
-                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)
+                VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)
                 ON CONFLICT(url) DO UPDATE SET
                     status          = excluded.status,
-                    title           = excluded.title,
-                    content_hash    = excluded.content_hash,
-                    markdown_path   = excluded.markdown_path,
+                    title           = COALESCE(excluded.title,        title),
+                    content_hash    = COALESCE(excluded.content_hash, content_hash),
+                    markdown        = COALESCE(excluded.markdown,     markdown),
+                    markdown_path   = COALESCE(excluded.markdown_path, markdown_path),
                     last_scraped_at = excluded.last_scraped_at,
-                    last_modified   = excluded.last_modified,
+                    last_modified   = COALESCE(excluded.last_modified, last_modified),
                     scraped_count   = excluded.scraped_count,
-                    links_found     = excluded.links_found,
+                    links_found     = COALESCE(excluded.links_found,  links_found),
                     error           = excluded.error
                 """,
                 (
@@ -119,6 +133,7 @@ class PageDB:
                     result.status,
                     result.title,
                     result.content_hash,
+                    result.markdown,
                     markdown_path,
                     result.scraped_at,
                     result.last_modified,

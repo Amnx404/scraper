@@ -168,6 +168,15 @@ def run_pipeline(cfg: AppConfig) -> SessionSummary:
                 result_queue.task_done()
                 break
 
+            # For not_modified pages the scraper didn't re-fetch the body,
+            # but the content is already in the DB.  Load it so we can still
+            # write it to the output folder — scraping was the expensive step,
+            # not saving.
+            if result.status == "not_modified" and result.markdown is None:
+                cached = db.get_cached_markdown(result.url)
+                if cached:
+                    result = result.model_copy(update={"markdown": cached})
+
             markdown_path: str | None = None
             if result.markdown:
                 purpose_dir = out_root / _safe_slug(result.purpose)
