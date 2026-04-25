@@ -1,0 +1,25 @@
+# Example crawl request body for POST /crawl
+# Send this as JSON to http://localhost:8000/crawl
+
+seeds:
+  - url: https://example.com/docs/
+    purpose: documentation
+    depth: 3
+    allowed_pages:
+      - /docs/*
+    max_pages: 100
+
+  - url: https://example.com/blog/
+    purpose: blog
+    depth: 2
+    allowed_pages:
+      - /blog/*
+
+max_pages: 500
+workers: 4           # concurrent Playwright pages (each with its own fingerprint)
+delay: 0.3
+force_rescrape: false
+stealth: true        # Obscura anti-detect mode
+wait_until: networkidle
+db_path: obscuraapp.db
+output_dir: obscura_output
