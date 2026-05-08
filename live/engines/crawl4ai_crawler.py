@@ -178,24 +178,82 @@ def extract_media(markdown: str, links: list[str], api_media: dict, page_url: st
 
 
 # ---------------------------------------------------------------------------
-# Batch fetch
+# Page result parsing (shared between sync /crawl and async /crawl/job)
 # ---------------------------------------------------------------------------
 
-def fetch_batch(
-    urls: list[str],
-    *,
-    base_url: str,
-    api_token: str,
-    timeout_sec: int,
-    js_enabled: bool = True,
-    word_threshold: int = 0,
-) -> list[dict]:
-    """Send a batch of URLs to crawl4ai POST /crawl, return list of normalised page dicts."""
-    headers = {
-        "Content-Type": "application/json",
-        "Authorization": f"Bearer {api_token}",
+def _parse_page_result(result: dict) -> dict:
+    """Normalise a single crawl4ai page result dict into our standard format."""
+    url = result.get("redirected_url") or result.get("url") or ""
+    final_url = canonicalize_url(url) or url
+
+    if not result.get("success"):
+        return {
+            "url": final_url,
+            "error": result.get("error_message") or "crawl4ai page error",
+            "success": False,
+        }
+
+    markdown_obj = result.get("markdown") or {}
+    if isinstance(markdown_obj, dict):
+        markdown = markdown_obj.get("fit_markdown") or markdown_obj.get("raw_markdown") or ""
+    else:
+        markdown = str(markdown_obj) if markdown_obj else ""
+
+    links_obj = result.get("links") or {}
+    raw_hrefs: list[str] = []
+    if isinstance(links_obj, dict):
+        for bucket in ("internal", "external"):
+            for entry in (links_obj.get(bucket) or []):
+                href = entry.get("href") if isinstance(entry, dict) else str(entry)
+                if href and isinstance(href, str):
+                    raw_hrefs.append(href)
+
+    canonical_links: list[str] = []
+    seen_links: set[str] = set()
+    for href in raw_hrefs:
+        c = canonicalize_url(urljoin(final_url, href))
+        if c and c not in seen_links:
+            seen_links.add(c)
+            canonical_links.append(c)
+
+    meta_obj = result.get("metadata") or {}
+    resp_headers = result.get("response_headers") or {}
+    metadata = {
+        "title": meta_obj.get("title") if isinstance(meta_obj, dict) else None,
+        "description": meta_obj.get("description") if isinstance(meta_obj, dict) else None,
+        "og_title": None,
+        "og_image": None,
+        "language": None,
+        "status_code": result.get("status_code"),
+        "content_type": resp_headers.get("content-type") or resp_headers.get("Content-Type"),
+        "last_modified": resp_headers.get("last-modified"),
     }
-    payload = {
+
+    stripped = markdown.strip()
+    media = extract_media(
+        markdown=stripped,
+        links=canonical_links,
+        api_media=result.get("media") or {},
+        page_url=final_url,
+        raw_html=result.get("html") or "",
+    )
+
+    return {
+        "url": final_url,
+        "markdown": stripped,
+        "metadata": metadata,
+        "links": canonical_links,
+        "media": media,
+        "success": True,
+    }
+
+
+# ---------------------------------------------------------------------------
+# Batch fetch — concurrent async jobs (/crawl/job) with /crawl fallback
+# ---------------------------------------------------------------------------
+
+def _build_crawl_payload(urls: list[str], *, js_enabled: bool, word_threshold: int, timeout_sec: int) -> dict:
+    return {
         "urls": urls,
         "browser_config": {
             "headless": True,
@@ -213,80 +271,113 @@ def fetch_batch(
             "remove_consent_popups": True,
         },
     }
-    resp = requests.post(f"{base_url}/crawl", headers=headers, json=payload, timeout=timeout_sec)
+
+
+def _submit_job(url: str, *, base_url: str, headers: dict, js_enabled: bool, word_threshold: int, timeout_sec: int) -> str:
+    """Submit one URL as an async /crawl/job and return its task_id."""
+    payload = _build_crawl_payload([url], js_enabled=js_enabled, word_threshold=word_threshold, timeout_sec=timeout_sec)
+    resp = requests.post(f"{base_url}/crawl/job", headers=headers, json=payload, timeout=30)
     resp.raise_for_status()
-    data = resp.json()
-    if not data.get("success"):
-        raise ValueError(f"Crawl4AI batch returned success=false: {data}")
+    task_id = resp.json().get("task_id")
+    if not task_id:
+        raise ValueError(f"No task_id in /crawl/job response: {resp.json()}")
+    return task_id
 
-    out = []
-    for result in (data.get("results") or []):
-        url = result.get("redirected_url") or result.get("url") or ""
-        final_url = canonicalize_url(url) or url
 
-        if not result.get("success"):
-            out.append({
-                "url": final_url,
-                "error": result.get("error_message") or "crawl4ai page error",
-                "success": False,
-            })
-            continue
+def _poll_job(task_id: str, *, base_url: str, headers: dict, timeout_sec: int, poll_interval: float = 2.0) -> dict:
+    """Poll GET /crawl/job/{task_id} until completed or failed, return page result dict."""
+    deadline = time.time() + timeout_sec
+    while time.time() < deadline:
+        resp = requests.get(f"{base_url}/crawl/job/{task_id}", headers=headers, timeout=30)
+        resp.raise_for_status()
+        data = resp.json()
+        status = data.get("status", "")
+        if status == "completed":
+            result_wrap = data.get("result") or {}
+            page_results = result_wrap.get("results") or []
+            if not page_results:
+                return {"url": "", "error": "job completed but no results", "success": False}
+            return _parse_page_result(page_results[0])
+        if status == "failed":
+            return {"url": "", "error": data.get("error") or "job failed", "success": False}
+        time.sleep(poll_interval)
+    return {"url": "", "error": f"job {task_id} timed out after {timeout_sec}s", "success": False}
 
-        markdown_obj = result.get("markdown") or {}
-        if isinstance(markdown_obj, dict):
-            markdown = markdown_obj.get("fit_markdown") or markdown_obj.get("raw_markdown") or ""
-        else:
-            markdown = str(markdown_obj) if markdown_obj else ""
 
-        links_obj = result.get("links") or {}
-        raw_hrefs: list[str] = []
-        if isinstance(links_obj, dict):
-            for bucket in ("internal", "external"):
-                for entry in (links_obj.get(bucket) or []):
-                    href = entry.get("href") if isinstance(entry, dict) else str(entry)
-                    if href and isinstance(href, str):
-                        raw_hrefs.append(href)
+def fetch_batch(
+    urls: list[str],
+    *,
+    base_url: str,
+    api_token: str,
+    timeout_sec: int,
+    js_enabled: bool = True,
+    word_threshold: int = 0,
+) -> list[dict]:
+    """Submit each URL as a concurrent /crawl/job, poll all in parallel, return normalised results.
 
-        canonical_links: list[str] = []
-        seen_links: set[str] = set()
-        for href in raw_hrefs:
-            c = canonicalize_url(urljoin(final_url, href))
-            if c and c not in seen_links:
-                seen_links.add(c)
-                canonical_links.append(c)
+    Falls back to synchronous POST /crawl if job submission fails for any URL.
+    parallel_workers (the caller's batch size) controls how many jobs fly simultaneously.
+    """
+    import threading
 
-        meta_obj = result.get("metadata") or {}
-        resp_headers = result.get("response_headers") or {}
-        metadata = {
-            "title": meta_obj.get("title") if isinstance(meta_obj, dict) else None,
-            "description": meta_obj.get("description") if isinstance(meta_obj, dict) else None,
-            "og_title": None,
-            "og_image": None,
-            "language": None,
-            "status_code": result.get("status_code"),
-            "content_type": resp_headers.get("content-type") or resp_headers.get("Content-Type"),
-            "last_modified": resp_headers.get("last-modified"),
-        }
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"Bearer {api_token}",
+    }
 
-        stripped = markdown.strip()
-        media = extract_media(
-            markdown=stripped,
-            links=canonical_links,
-            api_media=result.get("media") or {},
-            page_url=final_url,
-            raw_html=result.get("html") or "",
-        )
+    # Submit all jobs concurrently
+    task_ids: dict[str, str] = {}   # url → task_id
+    fallback_urls: list[str] = []
 
-        out.append({
-            "url": final_url,
-            "markdown": stripped,
-            "metadata": metadata,
-            "links": canonical_links,
-            "media": media,
-            "success": True,
-        })
+    def _submit(url: str) -> None:
+        try:
+            tid = _submit_job(url, base_url=base_url, headers=headers, js_enabled=js_enabled,
+                              word_threshold=word_threshold, timeout_sec=timeout_sec)
+            task_ids[url] = tid
+        except Exception as exc:
+            print(f"  /crawl/job submit failed for {url}: {exc} — will use /crawl fallback", flush=True)
+            fallback_urls.append(url)
 
-    return out
+    submit_threads = [threading.Thread(target=_submit, args=(u,), daemon=True) for u in urls]
+    for t in submit_threads:
+        t.start()
+    for t in submit_threads:
+        t.join()
+
+    # Poll all submitted jobs concurrently
+    results: dict[str, dict] = {}   # url → parsed result
+
+    def _poll(url: str, task_id: str) -> None:
+        results[url] = _poll_job(task_id, base_url=base_url, headers=headers,
+                                 timeout_sec=timeout_sec)
+        # Patch in the original url if result url is empty (timeout/error case)
+        if not results[url].get("url"):
+            results[url]["url"] = url
+
+    poll_threads = [threading.Thread(target=_poll, args=(u, tid), daemon=True)
+                    for u, tid in task_ids.items()]
+    for t in poll_threads:
+        t.start()
+    for t in poll_threads:
+        t.join()
+
+    # Fallback: sync /crawl for any URLs that failed job submission
+    if fallback_urls:
+        payload = _build_crawl_payload(fallback_urls, js_enabled=js_enabled,
+                                       word_threshold=word_threshold, timeout_sec=timeout_sec)
+        try:
+            resp = requests.post(f"{base_url}/crawl", headers=headers, json=payload, timeout=timeout_sec)
+            resp.raise_for_status()
+            data = resp.json()
+            for r in (data.get("results") or []):
+                parsed = _parse_page_result(r)
+                results[parsed["url"]] = parsed
+        except Exception as exc:
+            for u in fallback_urls:
+                results[u] = {"url": u, "error": str(exc), "success": False}
+
+    # Return in the same order as input
+    return [results.get(u, {"url": u, "error": "no result", "success": False}) for u in urls]
 
 
 # ---------------------------------------------------------------------------
