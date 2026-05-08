@@ -26,7 +26,7 @@ class ScrapeRequest(BaseModel):
     delay: float = 0.5
     user_agent: str = "roboracer-self-scraper/1.0"
 
-    page_fetcher: Literal["selenium", "requests"] | None = None
+    page_fetcher: Literal["selenium", "requests", "browserless", "crawl4ai"] | None = None
     use_selenium: bool = True
     selenium_page_load_timeout: int = 20
     selenium_render_wait: float = 1.0
