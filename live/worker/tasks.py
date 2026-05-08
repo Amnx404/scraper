@@ -12,6 +12,7 @@ import os
 
 from live.domain.schemas import PrepareRequest, ScrapeRequest, UploadRequest
 from live.pipeline.steps import api_status_to_jsonable, cancel_requested, execute_prepare, execute_scrape, execute_upload
+from live.storage import db_store
 from live.storage.runs import merge_state_key, paths_for_run, utc_now
 from live.worker.app import procrastinate_app
 
@@ -91,6 +92,13 @@ def pipeline_full(
             "started_at": started.isoformat(),
             "current_step": "scrape",
         },
+    )
+
+    db_store.apply_schema()
+    db_store.store_run_created(
+        run_id,
+        request={"scrape": scrape, "prepare": prepare, "upload": upload},
+        procrastinate_job_id=context.job.id if context and context.job else None,
     )
 
     def _aborting() -> bool:
@@ -197,6 +205,7 @@ def pipeline_full(
             "pipeline",
             {"status": "aborted", "finished_at": utc_now().isoformat(), "current_step": "aborted"},
         )
+        db_store.store_run_aborted(run_id)
         _notify(callback_url, {"run_id": run_id, "step": "pipeline", "status": "aborted"})
         raise
     except Exception as e:
@@ -211,5 +220,6 @@ def pipeline_full(
                 "current_step": "error",
             },
         )
+        db_store.store_run_failed(run_id, error=str(e), step="unknown")
         _notify(callback_url, {"run_id": run_id, "step": "pipeline", "status": "error", "error": str(e)})
         raise

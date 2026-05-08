@@ -12,6 +12,7 @@ from unittest.mock import patch
 from live.domain.schemas import ApiStatus, PrepareRequest, ScrapeRequest, UploadRequest
 from live.engines import browserless_crawler, crawl4ai_crawler, pinecone_upsert, prepare_ingestion
 from live.integrations.pinecone_namespaces import compute_next_live_namespace
+from live.storage import db_store
 from live.storage.runs import (
     RunPaths,
     guess_pages_dir_from_scrape_output,
@@ -120,6 +121,8 @@ def execute_scrape(p: RunPaths, req: ScrapeRequest) -> ApiStatus:
         cfg["page_fetcher"] = "crawl4ai"
     write_scrape_config_yaml(p, cfg)
 
+    db_store.store_scrape_started(run_id)
+
     try:
         with _capture_stdio(p.scrape_log_path, p.scrape_err_path):
             if cfg["page_fetcher"] == "crawl4ai":
@@ -149,6 +152,15 @@ def execute_scrape(p: RunPaths, req: ScrapeRequest) -> ApiStatus:
         urls = crawl_status["urls"]
         scraped_total = len(urls)
         scraped_ok = sum(1 for v in urls.values() if isinstance(v, dict) and v.get("status") == "ok")
+
+    db_store.store_scrape_finished(
+        run_id,
+        pages_dir=pages_dir,
+        scraped_total=scraped_total,
+        scraped_ok=scraped_ok,
+        ok=ok,
+    )
+
     update_state(
         p,
         {
@@ -257,6 +269,15 @@ def execute_prepare(p: RunPaths, req: PrepareRequest) -> ApiStatus:
     finetuned_count = None
     if isinstance(manifest_rows, list):
         finetuned_count = sum(1 for r in manifest_rows if isinstance(r, dict) and r.get("fine_markdown_path"))
+
+    db_store.store_prepare_finished(
+        req.run_id,
+        ingestion_dir=out_dir,
+        prepared_docs=doc_count,
+        finetuned_docs=finetuned_count,
+        ok=ok,
+    )
+
     update_state(
         p,
         {
@@ -375,6 +396,22 @@ def execute_upload(p: RunPaths, req: UploadRequest) -> ApiStatus:
             "processed_urls": int(m.group("processed_urls")),
             "skipped_urls": int(m.group("skipped_urls")),
         }
+
+    db_store.store_upload_finished(
+        req.run_id,
+        live_prefix=req.live_prefix.strip(),
+        staging_namespace=staging_ns,
+        live_namespace=live_info.live_namespace,
+        previous_live_namespace=live_info.previous_live_namespace,
+        vector_chunks=upload_metrics.get("chunk_vectors") if upload_metrics else None,
+        processed_urls=upload_metrics.get("processed_urls") if upload_metrics else None,
+        skipped_urls=upload_metrics.get("skipped_urls") if upload_metrics else None,
+        embed_model=req.embed_model,
+        vector_dim=req.vector_dim,
+        text_source=req.text_source,
+        ok=ok,
+    )
+
     update_state(
         p,
         {
