@@ -179,32 +179,31 @@ def _bulk_insert_pages(con, run_id: str, pages_dir: Path) -> None:
     if not rows:
         return
 
-    from psycopg.extras import execute_values  # type: ignore
-    execute_values(
-        con,
-        """
-        INSERT INTO scraper_pages (
-            run_id, url, source_url, engine, status,
-            status_code, content_type, title, description, language,
-            markdown, word_count, char_count, link_count, links,
-            media_images, media_videos, media_pdfs,
-            error, retries, depth, scraped_at
-        ) VALUES %s
-        ON CONFLICT (run_id, url) DO UPDATE SET
-            status       = EXCLUDED.status,
-            markdown     = EXCLUDED.markdown,
-            word_count   = EXCLUDED.word_count,
-            char_count   = EXCLUDED.char_count,
-            link_count   = EXCLUDED.link_count,
-            links        = EXCLUDED.links,
-            media_images = EXCLUDED.media_images,
-            media_videos = EXCLUDED.media_videos,
-            media_pdfs   = EXCLUDED.media_pdfs,
-            error        = EXCLUDED.error,
-            scraped_at   = EXCLUDED.scraped_at
-        """,
-        rows,
-    )
+    with con.cursor() as cur:
+        cur.executemany(
+            """
+            INSERT INTO scraper_pages (
+                run_id, url, source_url, engine, status,
+                status_code, content_type, title, description, language,
+                markdown, word_count, char_count, link_count, links,
+                media_images, media_videos, media_pdfs,
+                error, retries, depth, scraped_at
+            ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+            ON CONFLICT (run_id, url) DO UPDATE SET
+                status       = EXCLUDED.status,
+                markdown     = EXCLUDED.markdown,
+                word_count   = EXCLUDED.word_count,
+                char_count   = EXCLUDED.char_count,
+                link_count   = EXCLUDED.link_count,
+                links        = EXCLUDED.links,
+                media_images = EXCLUDED.media_images,
+                media_videos = EXCLUDED.media_videos,
+                media_pdfs   = EXCLUDED.media_pdfs,
+                error        = EXCLUDED.error,
+                scraped_at   = EXCLUDED.scraped_at
+            """,
+            rows,
+        )
     log.info("db_store: inserted/updated %d page rows for run %s", len(rows), run_id)
 
 
@@ -282,28 +281,27 @@ def _bulk_insert_prepared_docs(con, run_id: str, ingestion_dir: Path) -> None:
     if not rows:
         return
 
-    from psycopg.extras import execute_values  # type: ignore
-    execute_values(
-        con,
-        """
-        INSERT INTO scraper_prepared_docs (
-            run_id, doc_id, url, title,
-            markdown, fine_markdown,
-            char_count, fine_char_count,
-            skipped, skip_reason
-        ) VALUES %s
-        ON CONFLICT (run_id, url) DO UPDATE SET
-            doc_id         = EXCLUDED.doc_id,
-            title          = EXCLUDED.title,
-            markdown       = EXCLUDED.markdown,
-            fine_markdown  = EXCLUDED.fine_markdown,
-            char_count     = EXCLUDED.char_count,
-            fine_char_count = EXCLUDED.fine_char_count,
-            skipped        = EXCLUDED.skipped,
-            skip_reason    = EXCLUDED.skip_reason
-        """,
-        rows,
-    )
+    with con.cursor() as cur:
+        cur.executemany(
+            """
+            INSERT INTO scraper_prepared_docs (
+                run_id, doc_id, url, title,
+                markdown, fine_markdown,
+                char_count, fine_char_count,
+                skipped, skip_reason
+            ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+            ON CONFLICT (run_id, url) DO UPDATE SET
+                doc_id          = EXCLUDED.doc_id,
+                title           = EXCLUDED.title,
+                markdown        = EXCLUDED.markdown,
+                fine_markdown   = EXCLUDED.fine_markdown,
+                char_count      = EXCLUDED.char_count,
+                fine_char_count = EXCLUDED.fine_char_count,
+                skipped         = EXCLUDED.skipped,
+                skip_reason     = EXCLUDED.skip_reason
+            """,
+            rows,
+        )
     log.info("db_store: inserted %d prepared docs for run %s", len(rows), run_id)
 
 
@@ -328,22 +326,21 @@ def _bulk_insert_skipped_docs(con, run_id: str, ingestion_dir: Path) -> None:
     if not rows:
         return
 
-    from psycopg.extras import execute_values  # type: ignore
-    execute_values(
-        con,
-        """
-        INSERT INTO scraper_prepared_docs (
-            run_id, doc_id, url, title,
-            markdown, fine_markdown,
-            char_count, fine_char_count,
-            skipped, skip_reason
-        ) VALUES %s
-        ON CONFLICT (run_id, url) DO UPDATE SET
-            skipped     = EXCLUDED.skipped,
-            skip_reason = EXCLUDED.skip_reason
-        """,
-        rows,
-    )
+    with con.cursor() as cur:
+        cur.executemany(
+            """
+            INSERT INTO scraper_prepared_docs (
+                run_id, doc_id, url, title,
+                markdown, fine_markdown,
+                char_count, fine_char_count,
+                skipped, skip_reason
+            ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)
+            ON CONFLICT (run_id, url) DO UPDATE SET
+                skipped     = EXCLUDED.skipped,
+                skip_reason = EXCLUDED.skip_reason
+            """,
+            rows,
+        )
 
 
 def store_upload_finished(
