@@ -57,13 +57,12 @@ max_depth: 7
 delay: 0.5          # seconds after each page
 user_agent: roboracer-self-scraper/1.0
 
-# Page fetch: requests (static HTML) or selenium (headless Chrome fallback for thin pages).
-# Cloudflare Browser Rendering /markdown only: use cloudflare_scraper_markdown.py
-page_fetcher: selenium
-
-use_selenium: true
-selenium_page_load_timeout: 5
-selenium_render_wait: 1
+# Crawl engine (crawl4ai-only in this repository)
+page_fetcher: crawl4ai
+crawl4ai_timeout_sec: 120
+crawl4ai_js_enabled: true
+crawl4ai_word_threshold: 0
+crawl4ai_scrape_pdfs: true
 parallel_workers: 0
 retry_limit: 2
 

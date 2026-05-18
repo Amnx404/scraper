@@ -1,9 +1,9 @@
-# Web Scraper (Selenium + Markdown JSONL)
+# Crawl4AI Ingestion API
 
-A simple crawler that:
+A Crawl4AI-first ingestion service that:
 
 - starts from configured seed URLs,
-- renders pages with Selenium (for JS-heavy sites),
+- crawls pages through a Crawl4AI API deployment,
 - extracts page content as Markdown,
 - collects page metadata and discovered links (including `iframe` sources),
 - writes one JSON object per page to JSONL.
@@ -12,7 +12,7 @@ A simple crawler that:
 
 - Python 3.11+ (tested with 3.13)
 - `uv`
-- Google Chrome (or Chromium) available for Selenium headless mode
+- Crawl4AI base URL and API token
 
 ## Setup
 
@@ -28,7 +28,7 @@ python -m pip install -r requirements.txt
 Or run without activating:
 
 ```bash
-uv run python3 scraper.py
+uv run python3 scraper_crawl4ai.py
 ```
 
 ## Configuration
@@ -56,9 +56,9 @@ max_pages: 500
 delay: 0.5
 user_agent: python-domain-scraper/1.0
 
-use_selenium: true
-selenium_page_load_timeout: 20
-selenium_render_wait: 1.0
+page_fetcher: crawl4ai
+crawl4ai_base_url: https://crawl4ai-production-896f.up.railway.app
+crawl4ai_api_token: ${CRAWL4AI_API_TOKEN}
 parallel_workers: 4
 retry_limit: 2
 url_whitelist_patterns:
@@ -80,7 +80,7 @@ url_blacklist_patterns:
 - `global_status_filename`: global JSONL file with status for every processed URL.
 - `max_pages`: max visited URLs per seed crawl.
 - `delay`: sleep between requests/pages in seconds.
-- `selenium_render_wait`: extra wait after page load for JS-rendered content.
+- `page_fetcher`: keep as `crawl4ai` (the only supported scrape engine).
 - `parallel_workers`: number of concurrent crawler threads (`<= 0` means auto: `CPU cores - 1`, minimum `1`).
 - `retry_limit`: number of retries after an attempted scrape fails.
 - `url_whitelist_patterns`: wildcard allow list for queueing URLs.
@@ -92,13 +92,13 @@ url_blacklist_patterns:
 Run with default config:
 
 ```bash
-uv run python3 scraper.py
+uv run python3 scraper_crawl4ai.py
 ```
 
 Run with explicit config:
 
 ```bash
-uv run python3 scraper.py my_config.yaml
+uv run python3 scraper_crawl4ai.py my_config.yaml
 ```
 
 ## Upsert To Pinecone
@@ -183,7 +183,7 @@ Each line is a JSON status record for one processed URL:
 ## Common Issues
 
 - Empty markdown on SPA routes: page may be a wrapper around an iframe; iframe URLs are still collected in `links`.
-- Selenium startup failure: scraper falls back to requests-only mode.
+- Crawl4AI auth failure: verify `CRAWL4AI_API_TOKEN` and server URL.
 - No output: verify `seed_urls` is present and non-empty.
 - Asset URLs (css/gif/js/images) are discovered and stored in `links`, but can be blocked from crawl queue via wildcard blacklist.
 

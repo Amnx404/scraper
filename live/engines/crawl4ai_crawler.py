@@ -39,11 +39,10 @@ try:
 except Exception:
     load_dotenv = None  # type: ignore[assignment]
 
-from live.engines.browserless_crawler import (
+from live.engines.crawl_utils import (
     atomic_write_json,
     canonicalize_url,
     make_prefix,
-    slug,
     url_output_filename,
 )
 

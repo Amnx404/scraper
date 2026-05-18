@@ -2,7 +2,7 @@
 """
 Prepare scraper JSON output folders for RAG / embedding ingestion.
 
-Reads recursive **/*.json page records (from scraper.py), cleans markdown, and writes:
+Reads recursive **/*.json page records (from Crawl4AI crawl output), cleans markdown, and writes:
 
   OUTPUT/
     markdown/          # one .md per page (cleaned, ingestion-friendly)

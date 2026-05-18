@@ -27,7 +27,6 @@ from live.domain.schemas import (
     coerce_step_responses,
 )
 from live.integrations.job_status import fetch_procrastinate_job
-from live.engines import crawl4ai_crawler
 from live.pipeline.steps import cancel_flag_path, execute_prepare, execute_scrape, execute_upload
 from live.settings import get_settings
 from live.storage.runs import (
@@ -89,7 +88,7 @@ app = FastAPI(
     lifespan=_lifespan,
     openapi_tags=_OPENAPI_TAGS,
     description=(
-        "Scrape sites (Crawl4AI or Browserless), prepare `manifest.jsonl`, upsert to Pinecone. "
+        "Scrape sites via Crawl4AI, prepare `manifest.jsonl`, upsert to Pinecone. "
         "Use **pipeline** for single-step HTTP calls, or **runs** to enqueue the full chain on Postgres (Procrastinate) "
         "and poll `GET /runs/{run_id}` — response schemas are documented for each path."
     ),
@@ -576,13 +575,11 @@ async def scrape_stream(req: ScrapeRequest):
     cfg["resume"] = False
     if not cfg.get("page_fetcher"):
         cfg["page_fetcher"] = "crawl4ai"
+    elif cfg["page_fetcher"] != "crawl4ai":
+        raise HTTPException(status_code=400, detail="Only page_fetcher='crawl4ai' is supported.")
     write_scrape_config_yaml(p, cfg)
 
-    engine_module = (
-        "live.engines.crawl4ai_crawler"
-        if cfg["page_fetcher"] == "crawl4ai"
-        else "live.engines.browserless_crawler"
-    )
+    engine_module = "live.engines.crawl4ai_crawler"
     argv = [sys.executable, "-m", engine_module, str(p.scrape_config_path)]
 
     async def event_gen():

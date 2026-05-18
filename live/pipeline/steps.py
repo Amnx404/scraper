@@ -10,7 +10,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from live.domain.schemas import ApiStatus, PrepareRequest, ScrapeRequest, UploadRequest
-from live.engines import browserless_crawler, crawl4ai_crawler, pinecone_upsert, prepare_ingestion
+from live.engines import crawl4ai_crawler, pinecone_upsert, prepare_ingestion
 from live.integrations.pinecone_namespaces import compute_next_live_namespace
 from live.storage import db_store
 from live.storage.runs import (
@@ -116,19 +116,18 @@ def execute_scrape(p: RunPaths, req: ScrapeRequest) -> ApiStatus:
     cfg["page_output_subdir"] = "pages"
     cfg["global_status_filename"] = "crawl_status.json"
     cfg["resume"] = False
-    # Default to crawl4ai; fall back to browserless when explicitly requested.
+    # Scraper engine is crawl4ai-only.
     if not cfg.get("page_fetcher"):
         cfg["page_fetcher"] = "crawl4ai"
+    elif cfg["page_fetcher"] != "crawl4ai":
+        raise ValueError("Only page_fetcher='crawl4ai' is supported.")
     write_scrape_config_yaml(p, cfg)
 
     db_store.store_scrape_started(run_id)
 
     try:
         with _capture_stdio(p.scrape_log_path, p.scrape_err_path):
-            if cfg["page_fetcher"] == "crawl4ai":
-                code = crawl4ai_crawler.run_crawl4ai_crawl(cfg)
-            else:
-                code = browserless_crawler.run_browserless_crawl(cfg)
+            code = crawl4ai_crawler.run_crawl4ai_crawl(cfg)
     except Exception:
         with p.scrape_err_path.open("a", encoding="utf-8") as ef:
             ef.write(traceback.format_exc())

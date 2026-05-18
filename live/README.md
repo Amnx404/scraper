@@ -9,7 +9,6 @@ Self-contained package: **configuration**, **domain models**, **on-disk run stat
 | `LIVE_REPO_ROOT` | Repository root (default: parent of `live/`). Used as subprocess cwd for streaming scrape. |
 | `LIVE_RUNS_ROOT` | Per-run directories (default: `{repo_root}/app_runs`). |
 | `DATABASE_URL` | Postgres for Procrastinate (`POST /runs`). |
-| `BROWSERLESS_CONTENT_URL` | Browserless `/content` endpoint for crawls. |
 | `PINECONE_API_KEY`, `PINECONE_INDEX_HOST` | Upload step. |
 | `OPENROUTER_API_KEY`, … | Optional finetune during prepare. |
 
@@ -36,7 +35,7 @@ uv run procrastinate --app=live.worker.app.procrastinate_app worker
 - `live/domain/schemas.py` — request/response Pydantic models (OpenAPI).
 - `live/storage/runs.py` — `RunPaths`, atomic `state.json`, logs.
 - `live/pipeline/steps.py` — `execute_scrape` / `execute_prepare` / `execute_upload`.
-- `live/engines/` — browserless crawler, ingestion prep, Pinecone upsert (moved from repo-root scripts).
+- `live/engines/` — Crawl4AI crawler, ingestion prep, Pinecone upsert (moved from repo-root scripts).
 - `live/integrations/` — Postgres job row fetch, Pinecone namespace math.
 - `live/worker/` — Procrastinate `App` + `pipeline.full` task.
 - `live/api/main.py` — FastAPI routes (same HTTP contract as before).

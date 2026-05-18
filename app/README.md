@@ -4,7 +4,7 @@ The **canonical** service package is **`live/`** (settings, HTTP API, pipeline, 
 
 This `app/` folder re-exports symbols so older imports (`app.main`, `app.procrastinate_jobs`, …) keep working.
 
-- `POST /scrape` → browserless crawl into a new per-run folder
+- `POST /scrape` → Crawl4AI crawl into a new per-run folder
 - `POST /prepare` → ingestion prep against that run’s pages
 - `POST /upload` → Pinecone upsert using the prepared `manifest.jsonl`
 
@@ -46,7 +46,7 @@ curl -sS -X POST "http://127.0.0.1:8000/scrape" \
     "respect_allowed_prefixes": true,
     "max_pages": 50,
     "parallel_workers": 4,
-    "use_selenium": true
+    "page_fetcher": "crawl4ai"
   }'
 ```
 
